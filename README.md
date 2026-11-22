@@ -7,6 +7,20 @@
 | 第一次世界大戰 | 1871–1919 | 6 章、79 個事件。從塞拉耶佛暗殺開始，七月危機可逐步閱讀 22 個決策。 |
 | 從柏林圍牆到德國統一 | 1989–1990 | 2 章、3 個事件的模板實例。用同一閱讀器對照關卡開放、對外簽約與統一生效。 |
 
+## 線上閱讀與自動部署
+
+網站入口：**[時序地圖集](https://grapycalpis.github.io/historical-atlas/)**。從首頁選擇歷史時期，再進入互動地圖與時間軸；閱讀器上方的「時期目錄」可回到首頁。
+
+本專案透過 GitHub Actions 部署到 GitHub Pages：每次推送到 `main`，先執行 `npm test` 建置並檢查教材，再將 `site/` 產物發布。測試失敗時不會部署；其他分支與 pull request 只執行檢查。新增時期也會在建置時自動加入首頁。
+
+首次設定或複製此 repo 時：
+
+1. 在儲存庫 **Settings → Pages → Build and deployment → Source** 選擇 **GitHub Actions**。
+2. 推送到 `main`，或在 **Actions → 教材檢查與 GitHub Pages 部署 → Run workflow** 選擇 `main` 手動執行。
+3. 等待「建置與測試」及「發布 GitHub Pages」成功，從部署結果開啟網站。
+
+GitHub Free 可對公開 repo 使用 Pages；私有 repo 需要支援 Pages 的付費方案。複製到其他帳號或改名後，請同步修改本 README 的網站入口；頁面與資源使用相對路徑，可沿用 `https://OWNER.github.io/REPO/` 的專案網址。
+
 ## 直接開啟
 
 下載 ZIP 後請先**完整解壓縮**，雙擊 [site/index.html](site/index.html) 選擇時期。兩套教材與底圖可離線操作，點擊外部史料才需要連線。ZIP 另附可單獨攜帶的 `exports/world-war-i.html`。
@@ -28,7 +42,7 @@ git remote add origin https://github.com/OWNER/historical-atlas.git
 git push -u origin main
 ```
 
-`site/` 與 `exports/` 是可重建的產物，已列入 .gitignore。Git 追蹤教材、地圖資料、模板、測試與建置工具。每次 push 或 pull request 都會觸發 GitHub Actions 執行測試。
+`site/` 與 `exports/` 是可重建的產物，已列入 .gitignore。Git 追蹤教材、地圖資料、模板、測試與建置工具。每次 push 或 pull request 都會觸發 GitHub Actions 執行測試，推送到 `main` 時另會自動發布網站，不需要提交建置產物。
 
 ## 下一個時期
 

@@ -1,9 +1,13 @@
-name: 教材與地圖檢查
-on: [push, pull_request]
+name: 教材檢查與 GitHub Pages 部署
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
   test:
+    name: 建置與測試
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -11,3 +15,29 @@ jobs:
         with:
           node-version: '22'
       - run: npm test
+      - name: 上傳網站產物
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+  deploy:
+    name: 發布 GitHub Pages
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: test
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    concurrency:
+      group: github-pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 設定 GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: 部署網站
+        id: deployment
+        uses: actions/deploy-pages@v4
