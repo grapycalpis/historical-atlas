@@ -21,6 +21,8 @@
 
 GitHub Free 可對公開 repo 使用 Pages；私有 repo 需要支援 Pages 的付費方案。複製到其他帳號或改名後，請同步修改本 README 的網站入口；頁面與資源使用相對路徑，可沿用 `https://OWNER.github.io/REPO/` 的專案網址。
 
+首頁與教材已加入搜尋摘要、標準網址及社群分享卡片；[sitemap](https://grapycalpis.github.io/historical-atlas/sitemap.xml) 隨建置自動更新。正式網址及 Google 驗證標記統一放在 `app/site.json`；換帳號或 repo 名稱時請一起更新。[搜尋設定、分享封面與 Search Console 操作](docs/SEO.md)。
+
 ## 直接開啟
 
 下載 ZIP 後請先**完整解壓縮**，雙擊 [site/index.html](site/index.html) 選擇時期。兩套教材與底圖可離線操作，點擊外部史料才需要連線。ZIP 另附可單獨攜帶的 `exports/world-war-i.html`。
