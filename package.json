@@ -1,0 +1,15 @@
+{
+  "name": "historical-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "繁體中文互動歷史地圖與多時期教材模板",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "new-era": "node tools/new-era.mjs",
+    "test": "node tools/build.mjs && node eras/world-war-i/gis/check-geography.mjs && node tests/wwi-smoke.mjs && node --test tests/editions.test.mjs",
+    "export": "node tools/build.mjs && node tools/export.mjs"
+  }
+}

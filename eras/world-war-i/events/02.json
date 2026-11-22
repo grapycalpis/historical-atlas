@@ -1,0 +1,1150 @@
+[
+  {
+    "id": "j01",
+    "date": "1914-06-28",
+    "title": "塞拉耶佛暗殺",
+    "place": "塞拉耶佛，奧匈統治的波士尼亞",
+    "point": [
+      18.43,
+      43.86
+    ],
+    "actors": [
+      "AH",
+      "RS"
+    ],
+    "type": "tension",
+    "edges": [
+      [
+        "AH",
+        "RS",
+        "tension"
+      ]
+    ],
+    "causes": [
+      "p11",
+      "p13"
+    ],
+    "summary": "奧匈皇位繼承人斐迪南大公和妻子蘇菲訪問塞拉耶佛時遇刺身亡。行刺者普林西普是波士尼亞塞族青年，也是奧匈臣民。維也納把目光轉向邊境另一側的塞爾維亞，兩國此時仍未開戰。",
+    "background": "波士尼亞在 1878 年起由奧匈占領管理，1908 年正式併入帝國。部分南斯拉夫民族運動者希望當地脫離哈布斯堡統治，對未來國家的構想卻並不一致。",
+    "trigger": "大公到訪期間，普林西普與同伴實施刺殺。策劃者曾獲塞爾維亞境內人脈協助。",
+    "motives": "普林西普希望南斯拉夫人得到政治解放。奧匈領導人擔心跨境民族運動動搖帝國。塞爾維亞政府則面對軍方秘密網絡與政府權限脫節的難題。",
+    "impact": "一宗發生在奧匈境內的刺殺，變成維也納是否對鄰國採取行動的外交選擇。",
+    "debate": "有證據把協助者連到塞爾維亞軍方人士。政府是否預知、知道多少，以及何時得知，仍須分開判讀。",
+    "primary": "可將奧匈調查官維斯納 7 月 13 日對政府涉案證據的報告，與後來最後通牒中維也納的指控對讀。",
+    "counterfactual": "若維也納優先要求司法合作，危機可能走上另一條路。刺殺本身無法決定接下來五週各國的選擇。",
+    "mapNote": "先找奧匈境內的塞拉耶佛，再找塞爾維亞。兩國之間的線顯示政治緊張。",
+    "chapter": 2,
+    "sources": [
+      [
+        "1914–1918 Online｜七月危機研究綜述",
+        "https://encyclopedia.1914-1918-online.net/wp-content/uploads/2023/01/ams/959198/pdf/1914-1918-Online-july_crisis_1914-2017-01-06.pdf"
+      ],
+      [
+        "牛津大學出版社｜Gordon Martel 逐日年表",
+        "https://blog.oup.com/wp-content/uploads/2014/06/JULY-1914-timeline-V8.pdf"
+      ],
+      [
+        "巴黎和會責任委員會報告｜收錄維斯納 7 月 13 日電報節錄",
+        "https://diue.unimc.it/e-library/databases/ICJD/iv-independent-fact-finding-commission-commission-of-inquiry/Commission19191920.pdf"
+      ]
+    ]
+  },
+  {
+    "id": "j02",
+    "date": "1914-07-05",
+    "title": "柏林開出「空白支票」",
+    "place": "波茨坦與柏林，德國",
+    "point": [
+      13.02,
+      52.4
+    ],
+    "actors": [
+      "DE",
+      "AH",
+      "RU"
+    ],
+    "type": "support",
+    "edges": [
+      [
+        "DE",
+        "AH",
+        "support"
+      ]
+    ],
+    "causes": [
+      "j01"
+    ],
+    "summary": "奧匈先問德國，如果對付塞爾維亞引來俄國干預，柏林會怎麼做。7 月 5 日德皇表態支持，6 日德國首相再次確認。後人把這份沒有先定好行動上限的支持稱為「空白支票」。",
+    "background": "德奧早有同盟，但既有防禦條約不能直接回答「盟友主動對第三國施壓時怎麼辦」。這次接觸把抽象同盟變成針對一次危機的政治承諾。",
+    "trigger": "奧匈派霍約斯攜皇帝信函赴柏林。駐德大使向威廉二世探詢態度。",
+    "motives": "維也納要確定俄國干預時仍有大國相挺。柏林擔心唯一可靠的大國盟友日益衰弱，也有人估計俄國可能退讓。",
+    "impact": "奧匈強硬派更有條件推動對塞施壓。德國同時承擔了盟友升高衝突帶來的風險。",
+    "debate": "學界對柏林意圖的著重點不同。可辨認的動機包括希望戰爭局部化、願意冒歐洲戰爭風險，以及認為日後對俄作戰更不利。",
+    "primary": "奧匈駐德大使 7 月 5 日密電記錄德皇的談話。這是聽者給上級的報告，並非雙方簽署的空白文件。",
+    "counterfactual": "若柏林把支持限於先提交證據或接受調停，維也納評估風險時便會面對不同條件。",
+    "mapNote": "由德國指向奧匈的是外交支持。俄國是兩國所擔心的可能介入者。",
+    "chapter": 2,
+    "sources": [
+      [
+        "德國史文獻與圖像｜奧匈大使 7 月 5 日密電",
+        "https://germanhistorydocs.org/en/wilhelmine-germany-and-the-first-world-war-1890-1918/ghdi%3Adocument-800"
+      ],
+      [
+        "英國公開大學｜Annika Mombauer 七月危機年表",
+        "https://www.open.edu/openlearn/course/view.php?id=11312"
+      ],
+      [
+        "1914–1918 Online｜七月危機研究綜述",
+        "https://encyclopedia.1914-1918-online.net/wp-content/uploads/2023/01/ams/959198/pdf/1914-1918-Online-july_crisis_1914-2017-01-06.pdf"
+      ]
+    ]
+  },
+  {
+    "id": "j03",
+    "date": "1914-07-07",
+    "title": "維也納討論如何對付塞爾維亞",
+    "place": "維也納，奧匈帝國",
+    "point": [
+      16.37,
+      48.21
+    ],
+    "actors": [
+      "AH",
+      "RS"
+    ],
+    "type": "politics",
+    "edges": [
+      [
+        "AH",
+        "RS",
+        "tension"
+      ]
+    ],
+    "causes": [
+      "j02"
+    ],
+    "summary": "奧匈共同部長會議討論對塞行動。多數與會者要提出非常嚴厲的要求，匈牙利首相蒂薩反對無預警開戰。政府開始把軍事選擇包進一份尚未送出的外交照會。",
+    "background": "奧匈是由奧地利與匈牙利兩部分組成的雙元帝國。共同外交與軍事決策必須顧及兩邊的政治利益。",
+    "trigger": "奧匈使節從柏林帶回德國支持的訊息，內部得以討論具體做法。",
+    "motives": "外交大臣貝希托爾德希望壓制來自塞爾維亞的政治威脅。蒂薩擔心突襲使奧匈顯得理虧，也怕戰爭牽動其他鄰國。",
+    "impact": "維也納選擇先擬定要求。後來提交照會的日期與條件，成為各國尚能否協商的關鍵。",
+    "debate": "有人想挑起一場局部戰爭，有人接受在對方屈服時取得政治勝利。兩種期待可以同時出現在一場會議。",
+    "primary": "7 月 7 日會議紀錄保存蒂薩的異議，並註明部分機密軍事討論未寫入。紀錄有意留白的地方限制了我們能推論的細節。",
+    "counterfactual": "蒂薩的反對顯示外交途徑仍可選擇。若設定的要求較窄，塞國是否接受，仍取決於實際條文。",
+    "mapNote": "焦點回到維也納。對塞爾維亞的要求此時仍在擬議。",
+    "chapter": 2,
+    "sources": [
+      [
+        "奧匈共同部長會議｜7 月 7 日會議紀錄英譯",
+        "https://www2.firstworldwar.com/source/austriancouncilmeeting.htm"
+      ],
+      [
+        "1914–1918 Online｜七月危機研究綜述",
+        "https://encyclopedia.1914-1918-online.net/wp-content/uploads/2023/01/ams/959198/pdf/1914-1918-Online-july_crisis_1914-2017-01-06.pdf"
+      ],
+      [
+        "牛津大學出版社｜Gordon Martel 逐日年表",
+        "https://blog.oup.com/wp-content/uploads/2014/06/JULY-1914-timeline-V8.pdf"
+      ]
+    ]
+  },
+  {
+    "id": "j04",
+    "date": "1914-07-13",
+    "title": "調查能把責任追到哪裡？",
+    "place": "塞拉耶佛，波士尼亞",
+    "point": [
+      18.43,
+      43.86
+    ],
+    "actors": [
+      "AH",
+      "RS"
+    ],
+    "type": "politics",
+    "edges": [
+      [
+        "AH",
+        "RS",
+        "tension"
+      ]
+    ],
+    "causes": [
+      "j01",
+      "j03"
+    ],
+    "summary": "奧匈派出的調查官維斯納向維也納報告調查進度。他沒有找到足以證明塞爾維亞政府策劃暗殺的證據。嫌犯曾獲跨境援助與一國政府下令行刺，是需要不同證據的兩項主張。",
+    "background": "司法調查集中在個人、證詞與跨境聯繫。奧匈外交部同時考慮如何迫使塞國壓制宣傳與民族主義團體，範圍遠比個案更廣。",
+    "trigger": "維也納派人查核塞國是否與暗殺有關，調查官在 13 日回電。",
+    "motives": "調查官要界定證據能支持的結論。奧匈決策者在意整個跨境政治網絡是否威脅帝國。塞國政府將面臨無法控制所有軍方人士的質疑。",
+    "impact": "後來最後通牒主要要求塞國整頓政治與執法，並限制反奧活動，觸及塞國主權。",
+    "debate": "從「當時未有證據」不能推得所有人毫不知情。更不能把個別官員的協助直接歸為政府政策。",
+    "primary": "巴黎和會責任委員會報告轉錄了維斯納電報的一部分，可對照其日期及原文。它是戰後整理的引文，應留意選錄脈絡。",
+    "counterfactual": "若雙方先就特定涉案人員與證據交涉，爭點範圍可能縮小。帝國內部的民族問題仍會存在。",
+    "mapNote": "事件定位在調查官發報地。地圖保持原有國界與奧塞緊張關係。",
+    "chapter": 2,
+    "sources": [
+      [
+        "巴黎和會責任委員會報告｜收錄維斯納 7 月 13 日電報節錄",
+        "https://diue.unimc.it/e-library/databases/ICJD/iv-independent-fact-finding-commission-commission-of-inquiry/Commission19191920.pdf"
+      ],
+      [
+        "牛津大學出版社｜Gordon Martel 逐日年表",
+        "https://blog.oup.com/wp-content/uploads/2014/06/JULY-1914-timeline-V8.pdf"
+      ],
+      [
+        "1914–1918 Online｜七月危機研究綜述",
+        "https://encyclopedia.1914-1918-online.net/wp-content/uploads/2023/01/ams/959198/pdf/1914-1918-Online-july_crisis_1914-2017-01-06.pdf"
+      ]
+    ]
+  },
+  {
+    "id": "j05",
+    "date": "1914-07-20",
+    "title": "法國總統訪俄",
+    "place": "喀琅施塔得與聖彼得堡，俄國",
+    "point": [
+      29.77,
+      59.99
+    ],
+    "actors": [
+      "FR",
+      "RU",
+      "AH"
+    ],
+    "type": "alliance",
+    "edges": [
+      [
+        "FR",
+        "RU",
+        "alliance"
+      ]
+    ],
+    "causes": [
+      "j03"
+    ],
+    "summary": "法國總統龐加萊抵達俄國，與沙皇及官員會談。兩國早已有軍事同盟，這次訪問原已安排。奧匈計算送交最後通牒的時機，想避開法俄領袖面對面研商確切條件的機會。",
+    "background": "法國位在德國西側，俄國位在東側。兩國依靠彼此牽制德國，但都擔心對方在危機中退縮。",
+    "trigger": "既定國事訪問恰逢維也納秘密擬妥對塞要求。",
+    "motives": "龐加萊重視維繫法俄同盟。俄方要判斷危機若波及本國，有無法國支持。奧匈則想保留選擇交涉時間的主動權。",
+    "impact": "法國領導人返程時，維也納將最後通牒交給塞國。時間安排使巴黎與聖彼得堡無法再就已送達的條文當面商議。",
+    "debate": "會談留下的完整逐字紀錄不足。史家對龐加萊鼓勵俄國採強硬態度的程度評估不同。",
+    "primary": "把龐加萊事後的敘述與外交官筆記對讀，並對照奧匈對遞送時間的籌畫，可分開檢視兩方證據。",
+    "counterfactual": "若會談時已看到最後通牒全文，法俄可能更早協調回應；兩國也可能因風險評估不同出現爭論。",
+    "mapNote": "法俄之間顯示既有同盟。訪問日期沒有創造新的作戰義務。",
+    "chapter": 2,
+    "sources": [
+      [
+        "H-Diplo 學術評論｜法國在七月危機的外交政策",
+        "https://issforum.org/essays/3-french-foreign-policy-in-the-july-crisis-1914"
+      ],
+      [
+        "牛津大學出版社｜Gordon Martel 逐日年表",
+        "https://blog.oup.com/wp-content/uploads/2014/06/JULY-1914-timeline-V8.pdf"
+      ],
+      [
+        "1914–1918 Online｜七月危機研究綜述",
+        "https://encyclopedia.1914-1918-online.net/wp-content/uploads/2023/01/ams/959198/pdf/1914-1918-Online-july_crisis_1914-2017-01-06.pdf"
+      ]
+    ]
+  },
+  {
+    "id": "j06",
+    "date": "1914-07-23",
+    "title": "奧匈給塞爾維亞四十八小時",
+    "place": "貝爾格勒，塞爾維亞",
+    "point": [
+      20.46,
+      44.82
+    ],
+    "actors": [
+      "AH",
+      "RS"
+    ],
+    "type": "ultimatum",
+    "edges": [
+      [
+        "AH",
+        "RS",
+        "ultimatum"
+      ]
+    ],
+    "causes": [
+      "j02",
+      "j03",
+      "j04"
+    ],
+    "summary": "傍晚，奧匈駐塞使節送交十項要求，只給四十八小時答覆。條文要求取締反奧活動，也要求奧匈人員在塞國境內參與某些工作。塞國必須在避免戰爭與維護本國司法權之間作出選擇。",
+    "background": "最後通牒是一份附帶期限的要求。條文的範圍、對執行方式的解釋權，以及發件方是否願意談判，都決定收件方能有多少空間。",
+    "trigger": "奧匈決策者在 7 月中旬定稿後，選擇法國代表團訪俄行程將結束時交件。",
+    "motives": "奧匈要塞國壓制反奧網絡，並使接受要求本身成為一次政治挫敗。塞國希望俄國幫忙爭取時間，又得避免被視為包庇刺客。",
+    "impact": "倒數計時開始。原先秘密的奧匈計畫成為各國外交部都必須在兩天內回應的危機。",
+    "debate": "第 5 點涉及在塞境內合作壓制顛覆活動，第 6 點涉及奧方代表參與調查。兩條的文字、權限與塞方答覆應逐條理解。",
+    "primary": "讀取照會和 25 日逐條答覆時，可以直接比較雙方如何使用「合作」「調查」與「本國法律」等用語。",
+    "counterfactual": "若延長期限並說明外國人員的權限，爭議有可能轉到執行細節；是否願意接受妥協仍由維也納決定。",
+    "mapNote": "限時外交要求由奧匈指向塞爾維亞。當天沒有宣戰或跨境進攻。",
+    "chapter": 2,
+    "sources": [
+      [
+        "塞爾維亞政府外交文件集｜英文譯本",
+        "https://www.rastko.rs/istorija/diplomatija/sbb_e.html"
+      ],
+      [
+        "塞爾維亞檔案館／UNESCO｜奧匈宣戰電報及館藏說明",
+        "https://media.unesco.org/sites/default/files/webform/mow001/serbia_telegram_eng.pdf"
+      ],
+      [
+        "牛津大學出版社｜Gordon Martel 逐日年表",
+        "https://blog.oup.com/wp-content/uploads/2014/06/JULY-1914-timeline-V8.pdf"
+      ]
+    ]
+  },
+  {
+    "id": "j07",
+    "date": "1914-07-24",
+    "title": "俄國要求展延期限",
+    "place": "聖彼得堡，俄國",
+    "point": [
+      30.31,
+      59.94
+    ],
+    "actors": [
+      "RU",
+      "RS",
+      "AH"
+    ],
+    "type": "support",
+    "edges": [
+      [
+        "RU",
+        "RS",
+        "support"
+      ]
+    ],
+    "causes": [
+      "j06"
+    ],
+    "summary": "俄國部長會議討論奧匈的要求，決定爭取延長塞國答覆期限。官員也考慮情勢惡化時如何動員部分軍區。俄國對塞國的支持逐漸具體，但此刻尚未下達全國動員令。",
+    "background": "俄國自居為巴爾幹斯拉夫民族的保護者，也看重在該區的外交地位。對塞政策涉及聲望、地緣利益與國內輿論。",
+    "trigger": "奧匈限時條文公開，塞國向俄國求助。",
+    "motives": "俄國外長薩佐諾夫想阻止維也納壓服塞國，又希望保留調停可能。塞國要確認自己面對大國時是否有人支持。",
+    "impact": "俄國將巴爾幹危機帶進大國外交，同時預作軍事準備。後來的局部動員因此已有行政討論基礎。",
+    "debate": "支持塞國並非當場承諾出兵。俄方曾考慮建議塞國在無力抵抗時把命運交給列強裁決，反映其策略仍有多種可能。",
+    "primary": "7 月 24 日部長會議文件分列延長期限的建議與必要時請求沙皇同意動員等條款。俄國原件舊曆 7 月 11 日等於此處新曆 24 日。",
+    "counterfactual": "若奧匈同意展延，俄國在短期內採取軍事措施的壓力可能改變，但各國對塞國主權的分歧仍在。",
+    "mapNote": "從俄國連到塞爾維亞的線顯示外交支持；俄國與奧匈仍保持外交接觸。",
+    "chapter": 2,
+    "sources": [
+      [
+        "俄國部長會議｜7 月 24 日紀錄英譯",
+        "https://gwpda.org/1914/russmemo.html"
+      ],
+      [
+        "塞爾維亞政府外交文件集｜英文譯本",
+        "https://www.rastko.rs/istorija/diplomatija/sbb_e.html"
+      ],
+      [
+        "1914–1918 Online｜七月危機研究綜述",
+        "https://encyclopedia.1914-1918-online.net/wp-content/uploads/2023/01/ams/959198/pdf/1914-1918-Online-july_crisis_1914-2017-01-06.pdf"
+      ]
+    ]
+  },
+  {
+    "id": "j08",
+    "date": "1914-07-25",
+    "title": "塞國答覆，奧匈斷交",
+    "place": "貝爾格勒，塞爾維亞",
+    "point": [
+      20.46,
+      44.82
+    ],
+    "actors": [
+      "RS",
+      "AH"
+    ],
+    "type": "tension",
+    "edges": [
+      [
+        "AH",
+        "RS",
+        "tension"
+      ]
+    ],
+    "causes": [
+      "j06",
+      "j07"
+    ],
+    "summary": "塞國在期限內交回答覆，接受多項要求，對一些要求附上本國法律等條件。涉及奧匈人員參與本國司法調查的一點，塞國尤其難以接受。奧匈使節判定答覆不足並離開，兩國外交關係中斷。",
+    "background": "塞國公開表示願意追訴有證據的涉案者，也提出把未決爭議交付國際處理。這使其他政府看見談判空間。",
+    "trigger": "帕希奇政府在四十八小時期限屆滿前遞交逐條答覆。奧匈使節依先前指示作出反應。",
+    "motives": "塞國想保留統治權、爭取列強同情並防備進攻。維也納不願讓要求被改寫成一場曠日持久的談判。",
+    "impact": "雙方進行軍事準備。此時仍有三天才到奧匈正式宣戰，英國開始試圖安排列強調停。",
+    "debate": "把答覆概括成「接受九條、拒絕一條」會漏掉各條所加條件，以及雙方對外國官員權限的不同解讀。",
+    "primary": "塞爾維亞外交文件保存帕希奇與使節的交涉。比較奧方要求與塞方的完整措辭，比單看各自事後的外交宣傳更能看出歧見。",
+    "counterfactual": "若奧匈把答覆當談判基礎，部分要求已有交集；對司法主權的根本爭議仍需第三方或新的妥協。",
+    "mapNote": "奧塞轉為斷交與軍事準備。此步保留外交敵對符號，宣戰符號在 28 日才出現。",
+    "chapter": 2,
+    "sources": [
+      [
+        "塞爾維亞政府外交文件集｜英文譯本",
+        "https://www.rastko.rs/istorija/diplomatija/sbb_e.html"
+      ],
+      [
+        "塞爾維亞檔案館／UNESCO｜奧匈宣戰電報及館藏說明",
+        "https://media.unesco.org/sites/default/files/webform/mow001/serbia_telegram_eng.pdf"
+      ],
+      [
+        "牛津大學出版社｜Gordon Martel 逐日年表",
+        "https://blog.oup.com/wp-content/uploads/2014/06/JULY-1914-timeline-V8.pdf"
+      ]
+    ]
+  },
+  {
+    "id": "j09",
+    "date": "1914-07-26",
+    "title": "倫敦提出四國調停",
+    "place": "倫敦，英國",
+    "point": [
+      -0.13,
+      51.51
+    ],
+    "actors": [
+      "GB",
+      "DE",
+      "FR",
+      "IT",
+      "RU",
+      "AH"
+    ],
+    "type": "politics",
+    "edges": [],
+    "causes": [
+      "j07",
+      "j08"
+    ],
+    "summary": "英國外交大臣格雷邀德國、法國與義大利派代表，在倫敦同英國商量如何平息危機。他希望先讓各方暫緩軍事行動，再由四國牽線。這項會議提案未能及時成形。",
+    "background": "四國被設想為調停者，奧匈與俄國是兩個需要降溫的大國。過去列強處理巴爾幹爭端已有協商的先例。",
+    "trigger": "奧塞斷交後，各國獲得塞方答覆，開始討論還能透過何種程序避免戰爭。",
+    "motives": "格雷希望制止衝突擴大，也要顧及英國內閣對參與歐陸戰爭的分歧。柏林疑慮仲裁形式會迫使奧匈受其他列強的判斷。",
+    "impact": "外交方案與軍事措施並行。尚未就調停程序達成共識時，維也納便向塞國宣戰。",
+    "debate": "英國早些明確表態能否嚇阻德國，史家意見不同。當時內閣能否支持這樣的承諾，本身就是問題。",
+    "primary": "格雷 7 月 26 日致駐巴黎、柏林與羅馬大使的第 36 號電報，列出與會者、會址與希望暫緩軍事行動的安排。",
+    "counterfactual": "召開會議需要維也納、聖彼得堡等願意暫緩行動。即使代表坐下來，也不保證能談成共同條件。",
+    "mapNote": "標出發起調停的倫敦。可比較各國位置，這些受邀國之間沒有因此形成新同盟。",
+    "chapter": 2,
+    "sources": [
+      [
+        "加拿大政府出版品｜英國外交文件與格雷調停提案（第 36 號）",
+        "https://publications.gc.ca/collections/collection_2018/parl/x12-3/X12-3-S1-1914-eng.pdf"
+      ],
+      [
+        "1914–1918 Online｜七月危機研究綜述",
+        "https://encyclopedia.1914-1918-online.net/wp-content/uploads/2023/01/ams/959198/pdf/1914-1918-Online-july_crisis_1914-2017-01-06.pdf"
+      ],
+      [
+        "牛津大學出版社｜Gordon Martel 逐日年表",
+        "https://blog.oup.com/wp-content/uploads/2014/06/JULY-1914-timeline-V8.pdf"
+      ]
+    ]
+  },
+  {
+    "id": "j10",
+    "date": "1914-07-28",
+    "title": "奧匈向塞爾維亞宣戰",
+    "place": "尼什，塞爾維亞（收電地）",
+    "point": [
+      21.9,
+      43.32
+    ],
+    "actors": [
+      "AH",
+      "RS"
+    ],
+    "type": "declare",
+    "edges": [
+      [
+        "AH",
+        "RS",
+        "declare"
+      ]
+    ],
+    "causes": [
+      "j02",
+      "j08",
+      "j09"
+    ],
+    "summary": "奧匈以電報通知塞爾維亞，兩國已進入戰爭狀態。接到電報時，塞國政府已移往內陸城市尼什。這是一戰中第一組正式交戰的國家，德、俄、法、英當天尚未因此互相宣戰。",
+    "background": "宣戰是政府宣布與對方處於戰爭狀態。動員、斷交、開火與宣戰可以發生在不同時間。",
+    "trigger": "奧匈認定塞方的最後通牒答覆不足，在調停方案取得成果前決定動武。",
+    "motives": "維也納要取得主動權、迫使塞國屈服，也怕拖延讓列強干預。塞方則在保存政府運作的同時尋求外援。",
+    "impact": "外交危機已造成真實的國際戰爭。俄國接下來必須決定如何回應一個正在遭受攻擊的塞國。",
+    "debate": "這一天常作為一戰開戰日；各國進入戰爭的日期各異，戰爭的地理範圍在往後數週才持續擴大。",
+    "primary": "奧匈外長貝希托爾德以法文發出宣戰電報。塞爾維亞檔案館保存的電報及 UNESCO 說明均可檢視收發背景。",
+    "counterfactual": "若電報延後、讓調停先行，雙方仍可能開戰；可以確定的是，發報這個選擇縮短了和平交涉的時間。",
+    "mapNote": "第一條宣戰線從奧匈指向塞爾維亞。點位在收到電報的尼什，並非此刻的戰場。",
+    "chapter": 2,
+    "sources": [
+      [
+        "塞爾維亞檔案館／UNESCO｜奧匈宣戰電報及館藏說明",
+        "https://media.unesco.org/sites/default/files/webform/mow001/serbia_telegram_eng.pdf"
+      ],
+      [
+        "美國國會圖書館｜參戰與宣戰日期",
+        "https://guides.loc.gov/chronicling-america-wwi-declarations"
+      ],
+      [
+        "牛津大學出版社｜Gordon Martel 逐日年表",
+        "https://blog.oup.com/wp-content/uploads/2014/06/JULY-1914-timeline-V8.pdf"
+      ]
+    ]
+  },
+  {
+    "id": "j11",
+    "date": "1914-07-29",
+    "title": "貝爾格勒遭砲擊",
+    "place": "貝爾格勒，薩瓦河與多瑙河交會處",
+    "point": [
+      20.45,
+      44.83
+    ],
+    "actors": [
+      "AH",
+      "RS"
+    ],
+    "type": "attack",
+    "edges": [
+      [
+        "AH",
+        "RS",
+        "attack"
+      ]
+    ],
+    "causes": [
+      "j10"
+    ],
+    "summary": "7 月 28 日深夜到 29 日凌晨，貝爾格勒一帶出現交火和砲擊。這座塞國首都緊鄰奧匈邊境，並非藏在國土深處。市民很快就感受到宣戰帶來的直接後果。",
+    "background": "河流分隔兩岸的國境與交通通道。軍事控制權、民眾居住地與政治首都在這裡緊密相接。",
+    "trigger": "奧匈對塞宣戰後，兩國在邊境展開實際作戰。",
+    "motives": "奧匈要用武力向塞國施壓；塞國則力圖守住首都與邊境通道，政府已移至內陸繼續辦公。",
+    "impact": "俄國得知塞國首都遭攻擊，原本抽象的「保護塞國」成了如何面對已經發生的戰事。",
+    "debate": "部分年表將砲擊列在 28 日晚，另一些列為 29 日。這裡以跨午夜的交戰時段呈現；領土主權未隨初次砲擊改變。",
+    "primary": "將奧地利科學院研究的事件排序與牛津逐日年表對照，可看出以晚間或次日為分界所造成的日期差異。",
+    "counterfactual": "即使砲擊暫停，奧塞仍已處於戰爭狀態。軍事停火與撤銷宣戰是兩種不同的安排。",
+    "mapNote": "顯示奧匈對塞國的軍事行動與貝爾格勒的位置。方向線只指出交戰雙方。",
+    "chapter": 2,
+    "sources": [
+      [
+        "奧地利科學院｜宣戰、砲擊與動員的時間順序",
+        "https://austriaca.at/0xc1aa5572%200x003ecac4.pdf"
+      ],
+      [
+        "牛津大學出版社｜Gordon Martel 逐日年表",
+        "https://blog.oup.com/wp-content/uploads/2014/06/JULY-1914-timeline-V8.pdf"
+      ],
+      [
+        "塞爾維亞檔案館／UNESCO｜奧匈宣戰電報及館藏說明",
+        "https://media.unesco.org/sites/default/files/webform/mow001/serbia_telegram_eng.pdf"
+      ]
+    ]
+  },
+  {
+    "id": "j12",
+    "date": "1914-07-29",
+    "title": "俄國下令局部動員",
+    "place": "聖彼得堡，俄國",
+    "point": [
+      30.31,
+      59.94
+    ],
+    "actors": [
+      "RU",
+      "AH",
+      "RS",
+      "DE"
+    ],
+    "type": "mobilize",
+    "edges": [
+      [
+        "RU",
+        "AH",
+        "mobilize"
+      ]
+    ],
+    "causes": [
+      "j07",
+      "j10",
+      "j11"
+    ],
+    "summary": "俄國決定先動員部分軍區，針對奧匈方向作準備。動員意味著召集後備軍人、調度鐵路，讓平時的部隊進入戰備。俄方想對奧匈施壓，同時向德國表示仍有意控制衝突範圍。",
+    "background": "俄國先前已啟動預備措施。四個軍區的局部動員與全帝國動員，是在不同範圍、不同層級下達的命令。",
+    "trigger": "奧塞開戰使俄國先前討論的動員選項成為眼前的決定。",
+    "motives": "沙皇尼古拉二世希望保有威懾力又不立即刺激德國。軍方擔心先做部分調度，若德國介入，轉為全面集結會出現困難。",
+    "impact": "柏林開始用是否停止俄軍準備衡量談判能否繼續。俄國軍政領導人隨即又爭論是否擴大動員。",
+    "debate": "各種文件會把預備措施、批准、命令送達與徵召開始分別記錄。本步驟對應已決定針對奧匈的局部動員。",
+    "primary": "對讀 7 月 24 日部長會議授權與 29 日起德俄君主互電，可以看出俄方如何把早期準備與宣布動員區別開來。",
+    "counterfactual": "局部動員若維持更久，兩國可能多一些交涉時間；也可能使俄軍領導人更擔心自己落後。",
+    "mapNote": "俄國朝奧匈方向的動員線表示威脅評估與準備，部隊此刻沒有沿著這條線跨越國境。",
+    "chapter": 2,
+    "sources": [
+      [
+        "俄國部長會議｜7 月 24 日紀錄英譯",
+        "https://gwpda.org/1914/russmemo.html"
+      ],
+      [
+        "兩位君主互電｜1914 年 7 月 29 日至 8 月 1 日原文",
+        "https://hww.firstworldwar.com/source/willynicky.htm"
+      ],
+      [
+        "英國公開大學｜Annika Mombauer 七月危機年表",
+        "https://www.open.edu/openlearn/course/view.php?id=11312"
+      ],
+      [
+        "奧地利科學院｜宣戰、砲擊與動員的時間順序",
+        "https://austriaca.at/0xc1aa5572%200x003ecac4.pdf"
+      ]
+    ]
+  },
+  {
+    "id": "j13",
+    "date": "1914-07-30",
+    "title": "沙皇批准俄國總動員",
+    "place": "聖彼得堡，俄國",
+    "point": [
+      30.31,
+      59.94
+    ],
+    "actors": [
+      "RU",
+      "DE",
+      "AH"
+    ],
+    "type": "mobilize",
+    "edges": [
+      [
+        "RU",
+        "DE",
+        "mobilize"
+      ],
+      [
+        "RU",
+        "AH",
+        "mobilize"
+      ]
+    ],
+    "causes": [
+      "j12"
+    ],
+    "summary": "尼古拉二世批准全國總動員，命令以 7 月 31 日為動員首日。俄國現在也準備面對德國方向的危險。對柏林來說，等候外交結果的每一天，都像在讓對手先完成集結。",
+    "background": "俄國地域遼闊，部隊徵召與運輸需要時間。德國軍方的計畫則考慮東西兩面戰爭，因而特別警覺俄軍部署的速度。",
+    "trigger": "俄國軍方力陳局部動員可能干擾全面部署。沙皇在先前猶豫、與德皇互電後，終於批准擴大動員。",
+    "motives": "俄國要避免奧塞戰爭擴大時自己毫無準備。德國軍方從最壞情境解讀俄方行動，擔心失去先機。",
+    "impact": "柏林把俄國停止軍事準備列為最後要求。這一道命令改變決策者的時間感，也激化了誰先升高危機的爭論。",
+    "debate": "30 日是批准日，31 日是動員首日。史家爭論俄國決策對危機升高的份量，以及軍方所說「無法局部動員」究竟是技術限制還是戰略判斷。",
+    "primary": "美國駐俄使館的來電先後報告命令與全面動員。與君主往來電報對讀，可比對公開解釋、私人憂慮及軍令的時間差。",
+    "counterfactual": "延後總動員或能減輕德方壓迫感，卻意味俄國要自行承擔對手先行部署的風險。",
+    "mapNote": "動員範圍從只針對奧匈擴及德國。俄德之間尚無正式宣戰關係。",
+    "chapter": 2,
+    "sources": [
+      [
+        "英國公開大學｜Annika Mombauer 七月危機年表",
+        "https://www.open.edu/openlearn/course/view.php?id=11312"
+      ],
+      [
+        "美國外交文件｜駐俄使館來電索引",
+        "https://history.state.gov/historicaldocuments/frus1914Supp/toc-countries"
+      ],
+      [
+        "兩位君主互電｜1914 年 7 月 29 日至 8 月 1 日原文",
+        "https://hww.firstworldwar.com/source/willynicky.htm"
+      ],
+      [
+        "奧地利科學院｜宣戰、砲擊與動員的時間順序",
+        "https://austriaca.at/0xc1aa5572%200x003ecac4.pdf"
+      ]
+    ]
+  },
+  {
+    "id": "j14",
+    "date": "1914-07-31",
+    "title": "德國要求俄國停止動員",
+    "place": "柏林，德國",
+    "point": [
+      13.4,
+      52.52
+    ],
+    "actors": [
+      "DE",
+      "RU",
+      "FR",
+      "AH"
+    ],
+    "type": "ultimatum",
+    "edges": [
+      [
+        "DE",
+        "RU",
+        "ultimatum"
+      ],
+      [
+        "DE",
+        "FR",
+        "ultimatum"
+      ]
+    ],
+    "causes": [
+      "j13",
+      "j05"
+    ],
+    "summary": "德國限俄國在十二小時內停止針對德奧的軍事準備。同時，柏林限時向巴黎詢問，德俄開戰時法國是否保持中立。奧匈也在這天宣布總動員，大國的準備已相互牽動。",
+    "background": "柏林把法俄看成相互聯繫的威脅，擔心只顧東方可能讓西方邊境暴露。巴黎則不能輕易放棄長年依靠的俄國盟友。",
+    "trigger": "俄國總動員的消息到達柏林。德國先宣布戰爭危險狀態，隨後發出限時要求。",
+    "motives": "柏林要迫使俄國停止集結，也要試探法國是否離開同盟。俄國擔心單方面停止將失去保護，法國則保留選擇權。",
+    "impact": "等待回覆的時段以小時計。次日德國對俄宣戰，法國與德國也各自下達總動員命令。",
+    "debate": "兩封照會的內容不同。對俄提出停止軍事準備的要求，對法則是限時詢問中立立場；兩者都還不是宣戰。",
+    "primary": "美國大使傑拉德 7 月 31 日從柏林發報，認為戰爭似乎無法避免。維也納的美國大使同日另報奧匈皇帝已下令總動員。",
+    "counterfactual": "即使俄國願意暫停，如何核實各地徵召已停止、德奧是否對等克制，仍須各方協議。",
+    "mapNote": "兩條限時外交線分別通往俄國與法國。對俄的要求與對法的詢問，請配合文字分辨。",
+    "chapter": 2,
+    "sources": [
+      [
+        "牛津大學出版社｜Gordon Martel 逐日年表",
+        "https://blog.oup.com/wp-content/uploads/2014/06/JULY-1914-timeline-V8.pdf"
+      ],
+      [
+        "美國外交文件｜7 月 31 日美國駐德大使觀察",
+        "https://history.state.gov/historicaldocuments/frus1914Supp/d45"
+      ],
+      [
+        "美國外交文件｜7 月 31 日維也納總動員命令的報告",
+        "https://history.state.gov/historicaldocuments/frus1914Supp/d47"
+      ],
+      [
+        "1914–1918 Online｜七月危機研究綜述",
+        "https://encyclopedia.1914-1918-online.net/wp-content/uploads/2023/01/ams/959198/pdf/1914-1918-Online-july_crisis_1914-2017-01-06.pdf"
+      ]
+    ]
+  },
+  {
+    "id": "j15",
+    "date": "1914-08-01",
+    "title": "德國向俄國宣戰",
+    "place": "聖彼得堡，俄國（遞交宣戰書）",
+    "point": [
+      30.31,
+      59.94
+    ],
+    "actors": [
+      "DE",
+      "RU",
+      "FR"
+    ],
+    "type": "declare",
+    "edges": [
+      [
+        "DE",
+        "RU",
+        "declare"
+      ]
+    ],
+    "causes": [
+      "j13",
+      "j14"
+    ],
+    "summary": "俄國沒有依德國要求停止動員。德國駐俄大使在聖彼得堡向俄方遞交宣戰書。法國與德國同日分別下達總動員令，但德國和法國正式開戰還要再過兩天。",
+    "background": "七月下旬已交戰的是奧匈與塞爾維亞。此刻新加入的是德俄這一組大國，奧匈與俄國的正式宣戰還在後面。",
+    "trigger": "對俄最後通牒未取得柏林要求的結果。德國政府選擇將軍事危機轉入正式戰爭。",
+    "motives": "德國將俄國總動員視為威脅，也要將戰爭對國內外說成對俄方行動的回應。俄國政府不願在奧塞戰爭持續時解除準備。",
+    "impact": "德國現須執行針對法俄兩線風險所制訂的部署，迅速把西歐中立小國也拉入危機。",
+    "debate": "總動員加重戰爭風險，但宣戰仍是一項另外作出的政府決定。對俄宣戰並不等於德國同天已向俄國所有盟友宣戰。",
+    "primary": "對照 8 月 1 日美國駐俄外交來電與德俄君主最後幾封電報，可追蹤私人溝通如何與正式宣戰並存。",
+    "counterfactual": "若柏林只動員而延後宣戰，外交形式仍有改變空間，但軍隊部署、盟國期待與雙方疑懼均未消失。",
+    "mapNote": "德國指向俄國的線改為正式宣戰。法國此步處於動員階段。",
+    "chapter": 2,
+    "sources": [
+      [
+        "美國國會圖書館｜參戰與宣戰日期",
+        "https://guides.loc.gov/chronicling-america-wwi-declarations"
+      ],
+      [
+        "美國外交文件｜駐俄使館來電索引",
+        "https://history.state.gov/historicaldocuments/frus1914Supp/toc-countries"
+      ],
+      [
+        "兩位君主互電｜1914 年 7 月 29 日至 8 月 1 日原文",
+        "https://hww.firstworldwar.com/source/willynicky.htm"
+      ],
+      [
+        "牛津大學出版社｜Gordon Martel 逐日年表",
+        "https://blog.oup.com/wp-content/uploads/2014/06/JULY-1914-timeline-V8.pdf"
+      ]
+    ]
+  },
+  {
+    "id": "j16",
+    "date": "1914-08-02",
+    "title": "德軍進入盧森堡",
+    "place": "瓦瑟比利希，盧森堡東部",
+    "point": [
+      6.5,
+      49.71
+    ],
+    "actors": [
+      "DE",
+      "LU"
+    ],
+    "type": "attack",
+    "edges": [
+      [
+        "DE",
+        "LU",
+        "attack"
+      ]
+    ],
+    "causes": [
+      "j15"
+    ],
+    "summary": "德軍在 1 日已有小規模越境，2 日大舉進入中立的盧森堡，控制鐵路等設施。盧森堡政府抗議，並要求民眾保持冷靜。軍事占領改變當地的實際控制，盧森堡仍是獨立國家。",
+    "background": "盧森堡位在德國、法國與比利時之間，1867 年倫敦條約確認其中立地位。它的鐵路對德軍西線部署很重要。",
+    "trigger": "德國開始執行西部集結計畫，德軍由盧森堡東部越境。",
+    "motives": "德軍要控制調動所需的交通。盧森堡政府希望保住國家機構、減少平民傷亡，同時留下主權遭侵犯的正式抗議。",
+    "impact": "一個中立國首先遭受占領。當日晚些時候，德國又向另一個中立國比利時要求通行。",
+    "debate": "「2 日入侵」指大規模軍隊進入。盧森堡政府公告亦記錄 1 日在特魯瓦維耶日的小規模越境，兩個日期所指規模不同。",
+    "primary": "首相艾申等人 2 日的政府公告由盧森堡國家檔案館收藏，記錄入境地點、政府抗議與給居民的呼籲。",
+    "counterfactual": "若德國尊重盧森堡中立，西線部署須另行調整。其他中立國會如何回應，不能從這一例直接推定。",
+    "mapNote": "行動方向由德國指向盧森堡。占領沒有使盧森堡的國界消失。",
+    "chapter": 2,
+    "sources": [
+      [
+        "盧森堡國家檔案館｜1914 年 8 月 2 日政府公告",
+        "https://ww1.lu/collection/item/1198?lang=en"
+      ],
+      [
+        "盧森堡政府｜第一次世界大戰期間的占領",
+        "https://luxembourg.public.lu/en/society-and-culture/history/premire-guerre-mondiale.html"
+      ],
+      [
+        "牛津大學出版社｜Gordon Martel 逐日年表",
+        "https://blog.oup.com/wp-content/uploads/2014/06/JULY-1914-timeline-V8.pdf"
+      ]
+    ]
+  },
+  {
+    "id": "j17",
+    "date": "1914-08-02",
+    "title": "德國要求借道比利時",
+    "place": "布魯塞爾，比利時",
+    "point": [
+      4.35,
+      50.85
+    ],
+    "actors": [
+      "DE",
+      "BE",
+      "FR"
+    ],
+    "type": "ultimatum",
+    "edges": [
+      [
+        "DE",
+        "BE",
+        "ultimatum"
+      ]
+    ],
+    "causes": [
+      "j14",
+      "j15"
+    ],
+    "summary": "晚間，德國要求比利時准許德軍入境通行，留給它十二小時答覆。德方聲稱法國可能先從比利時進攻，並要求比方不要阻擋。比利時政府面前的選擇是准許外軍通過，或冒著被入侵的風險維持中立。",
+    "background": "比利時的永久中立受 1839 年條約保障。中立也意味比國要阻止任何交戰方把其領土當作通道。",
+    "trigger": "德國西線計畫需要經比利時迂迴向法國北部。柏林遂以外交照會爭取通行。",
+    "motives": "德軍希望保住部署速度並減少阻力。比利時擔心就算得到戰後恢復獨立的保證，當下仍會失去決定本國領土用途的權利。",
+    "impact": "布魯塞爾必須正式答覆。英國內閣也更難避開關於比利時中立的討論。",
+    "debate": "德方在照會中提出的法軍威脅是當事者的理由。這份照會能證明德國提出何種說法，不能單憑它證實法軍準備侵比。",
+    "primary": "在英國國會 3 日晚的會議中，格雷轉述收到的比方消息，包括遞達時間、十二小時期限及德方所作承諾。",
+    "counterfactual": "允許通過或能避免某些即刻破壞，也會嚴重損及比國維持中立與獨立行動的能力。",
+    "mapNote": "德國指向比利時的是限時通牒。本步驟尚未發生 4 日的主要越境進攻。",
+    "chapter": 2,
+    "sources": [
+      [
+        "英國國會議事錄｜8 月 3 日傳達德比照會",
+        "https://api.parliament.uk/historic-hansard/commons/1914/aug/03/germany-and-belgium"
+      ],
+      [
+        "牛津大學出版社｜Gordon Martel 逐日年表",
+        "https://blog.oup.com/wp-content/uploads/2014/06/JULY-1914-timeline-V8.pdf"
+      ],
+      [
+        "美國國會圖書館｜1914 年大事記",
+        "https://www.loc.gov/collections/world-war-i-rotogravures/articles-and-essays/timeline/1914/"
+      ]
+    ]
+  },
+  {
+    "id": "j18",
+    "date": "1914-08-03",
+    "title": "比利時拒絕德軍通行",
+    "place": "布魯塞爾，比利時",
+    "point": [
+      4.35,
+      50.85
+    ],
+    "actors": [
+      "BE",
+      "DE",
+      "GB"
+    ],
+    "type": "tension",
+    "edges": [
+      [
+        "BE",
+        "DE",
+        "tension"
+      ]
+    ],
+    "causes": [
+      "j17"
+    ],
+    "summary": "比利時政府答覆，允許德軍通過會破壞中立，因此拒絕德國要求。它準備抵抗外軍，並把情況通知其他政府。此刻比利時作出的是維護本國主權的選擇。",
+    "background": "即使德國承諾日後撤軍，比利時也得面對眼前的一方利用本國領土攻擊另一方的問題。",
+    "trigger": "德國設定的十二小時期限將至，比利時必須作出明確選擇。",
+    "motives": "國王阿爾貝一世及政府希望維持國家獨立與條約地位。英國外交大臣則需要向仍有分歧的國會解釋，此事與英國有何關係。",
+    "impact": "德國若堅持原有行軍方向，便要違反比國明確表達的意願。倫敦獲得了可向國會公開的外交根據。",
+    "debate": "比利時求援與保衛中立可以並存。理解小國自身的決策，能避免把它簡化成大國條約中的一塊空地。",
+    "primary": "英國國會 3 日晚的辯論同時留有格雷對比國答覆的報告，以及仍然反對英國介入戰事的議員發言。",
+    "counterfactual": "比國拒絕後，德國仍可以改變部署。此選項在軍事決策者眼中代價甚高，但跨境行動還得另下決心。",
+    "mapNote": "這一步由比利時向德國表達拒絕。跨境進攻在下一天呈現。",
+    "chapter": 2,
+    "sources": [
+      [
+        "英國國會議事錄｜8 月 3 日傳達德比照會",
+        "https://api.parliament.uk/historic-hansard/commons/1914/aug/03/germany-and-belgium"
+      ],
+      [
+        "英國國會議事錄｜外交大臣格雷的政策說明",
+        "https://api.parliament.uk/historic-hansard/commons/1914/aug/03/statement-by-sir-edward-grey"
+      ],
+      [
+        "牛津大學出版社｜Gordon Martel 逐日年表",
+        "https://blog.oup.com/wp-content/uploads/2014/06/JULY-1914-timeline-V8.pdf"
+      ]
+    ]
+  },
+  {
+    "id": "j19",
+    "date": "1914-08-03",
+    "title": "德國向法國宣戰",
+    "place": "巴黎，法國（遞交照會）",
+    "point": [
+      2.35,
+      48.86
+    ],
+    "actors": [
+      "DE",
+      "FR",
+      "RU"
+    ],
+    "type": "declare",
+    "edges": [
+      [
+        "DE",
+        "FR",
+        "declare"
+      ]
+    ],
+    "causes": [
+      "j05",
+      "j14",
+      "j15"
+    ],
+    "summary": "德國在巴黎向法國遞交宣戰照會。法俄雖然早就結盟，法德之間的正式宣戰仍有自己的時間與方向。現在德國西面與法國交戰，東面與俄國交戰。",
+    "background": "法國已動員，也沒有向德國保證在德俄戰爭中置身事外。德軍部署把對俄戰爭與在西部對法用兵連在一起。",
+    "trigger": "柏林決定啟動對法戰爭，照會用所稱的法方敵對行動為其辯護。",
+    "motives": "德軍希望趁俄軍尚未完成集結，先在西線取得優勢。法國既要保住俄國盟友，也希望在英國眼中保持遭受進攻的一方。",
+    "impact": "德方向法國北部推進的軍事部署牽涉比利時。英國國會當天辯論與法、比兩國的關係。",
+    "debate": "德國公文將法方塑造成進攻者。軍事部署的證據、實際越境的時間和外交公文中的指控，必須分別查核。",
+    "primary": "美國外交文獻收錄德方 8 月 3 日通知美國的電報。記錄上可分辨德方發報日期與美方次日收到的時間。",
+    "counterfactual": "若法國承諾中立，俄國與法國都要面對同盟失效的後果，而德國是否信任這種承諾仍是另一問題。",
+    "mapNote": "德國到法國出現正式宣戰線。這條線所代表的是國家間法律與外交狀態。",
+    "chapter": 2,
+    "sources": [
+      [
+        "美國外交文件｜德國使館 8 月 3 日通知美國",
+        "https://history.state.gov/historicaldocuments/frus1914Supp/d88"
+      ],
+      [
+        "美國國會圖書館｜參戰與宣戰日期",
+        "https://guides.loc.gov/chronicling-america-wwi-declarations"
+      ],
+      [
+        "美國國會圖書館｜1914 年大事記",
+        "https://www.loc.gov/collections/world-war-i-rotogravures/articles-and-essays/timeline/1914/"
+      ],
+      [
+        "英國國會議事錄｜外交大臣格雷的政策說明",
+        "https://api.parliament.uk/historic-hansard/commons/1914/aug/03/statement-by-sir-edward-grey"
+      ]
+    ]
+  },
+  {
+    "id": "j20",
+    "date": "1914-08-04",
+    "title": "德軍越過比利時國境",
+    "place": "格門尼希（Gemmenich），比利時東部",
+    "point": [
+      5.99,
+      50.75
+    ],
+    "actors": [
+      "DE",
+      "BE",
+      "FR"
+    ],
+    "type": "attack",
+    "edges": [
+      [
+        "DE",
+        "BE",
+        "attack"
+      ]
+    ],
+    "causes": [
+      "j17",
+      "j18",
+      "j19"
+    ],
+    "summary": "清晨德軍向比利時表示將採取行動，隨後從東部越境。比軍抵抗，通往法國的路線成為比利時自己的戰場。前兩天的通行要求與拒絕，此刻轉為軍事入侵。",
+    "background": "比利時東部毗鄰德國，列日一帶有防禦設施、鐵路與渡河通道。比國領土的地理位置具備直接軍事意義。",
+    "trigger": "比利時拒絕德國的通行要求，德軍仍依西部部署前進。",
+    "motives": "德軍希望快速取得西線通道。比軍要守土，並向其他列強表明本國中立遭到實際侵犯。",
+    "impact": "英國對德國發出最後要求。比國居民隨著戰線移動面臨戰鬥、逃難與占領。",
+    "debate": "這裡以 4 日比利時邊境遭主力越過為入侵日，區別於 2 日照會與 3 日拒絕。初次越境也不代表全國當日即被占領。",
+    "primary": "英國上議院 4 日的辯論和帝國戰爭博物館逐時紀錄，可以相互核對德方照會、比方通報與英國的回應。",
+    "counterfactual": "如果德軍改走法德直面邊境，英國內閣面對的立即問題會不同，但英國仍有海峽安全及法國處境等考量。",
+    "mapNote": "德國對比利時的關係改顯越境進攻，地點落在比利時東部。",
+    "chapter": 2,
+    "sources": [
+      [
+        "帝國戰爭博物館｜8 月 4 日逐時紀錄",
+        "https://www.iwm.org.uk/sites/default/files/press-release/4_August_1914_Factsheet.pdf"
+      ],
+      [
+        "英國國會議事錄｜8 月 4 日歐洲危機辯論",
+        "https://api.parliament.uk/historic-hansard/lords/1914/aug/04/the-european-crisis"
+      ],
+      [
+        "牛津大學出版社｜Gordon Martel 逐日年表",
+        "https://blog.oup.com/wp-content/uploads/2014/06/JULY-1914-timeline-V8.pdf"
+      ]
+    ]
+  },
+  {
+    "id": "j21",
+    "date": "1914-08-04",
+    "title": "英國對德國宣戰",
+    "place": "倫敦，英國",
+    "point": [
+      -0.13,
+      51.51
+    ],
+    "actors": [
+      "GB",
+      "DE",
+      "BE",
+      "FR"
+    ],
+    "type": "declare",
+    "edges": [
+      [
+        "GB",
+        "DE",
+        "declare"
+      ]
+    ],
+    "causes": [
+      "j18",
+      "j19",
+      "j20"
+    ],
+    "summary": "英國要求德國保證尊重比利時中立，期限屆滿仍未得到滿意答覆。倫敦時間晚上十一時，英德進入戰爭狀態。英國參戰把帝國、海軍與跨洋航線牽進戰爭，衝突的範圍進一步擴大。",
+    "background": "英國和法俄有協約與軍事協商，英國內閣仍須決定是否參戰。關於比利時的條約承諾、海峽對岸港口及法國安全，同時進入辯論。",
+    "trigger": "德軍實際進入比利時，英國對德最後要求到期。",
+    "motives": "格雷主張保障比利時與維持歐洲均勢可保護英國長期利益。部分內閣成員和議員原本反對參與歐陸戰爭，入侵改變了政治支持的基礎。",
+    "impact": "英德正式交戰。英帝國各地隨之捲入，但自治領自行決定有多少部隊與資源投入戰場。",
+    "debate": "比利時中立是直接觸發點。對海峽與海上安全的顧慮、支援法國的承諾及內閣政治，在不同研究中權重不同。",
+    "primary": "格雷 3 日國會演說說明他如何向議員陳述法國沿岸、比利時與英國利益。IWM 依當地時間列出翌日直至期限屆滿的過程。",
+    "counterfactual": "若比利時中立未受侵犯，英國決策可能拖得更久。這無法證明英國會在整場戰爭維持中立。",
+    "mapNote": "宣戰線從英國指向德國。它連接政府，沒有表示英軍已在當晚登陸歐陸。",
+    "chapter": 2,
+    "sources": [
+      [
+        "英國國會議事錄｜外交大臣格雷的政策說明",
+        "https://api.parliament.uk/historic-hansard/commons/1914/aug/03/statement-by-sir-edward-grey"
+      ],
+      [
+        "帝國戰爭博物館｜8 月 4 日逐時紀錄",
+        "https://www.iwm.org.uk/sites/default/files/press-release/4_August_1914_Factsheet.pdf"
+      ],
+      [
+        "美國國會圖書館｜1914 年大事記",
+        "https://www.loc.gov/collections/world-war-i-rotogravures/articles-and-essays/timeline/1914/"
+      ],
+      [
+        "美國國會圖書館｜參戰與宣戰日期",
+        "https://guides.loc.gov/chronicling-america-wwi-declarations"
+      ]
+    ]
+  },
+  {
+    "id": "j22",
+    "date": "1914-08-06",
+    "title": "奧匈向俄國宣戰",
+    "place": "聖彼得堡，俄國",
+    "point": [
+      30.31,
+      59.94
+    ],
+    "actors": [
+      "AH",
+      "RU",
+      "DE",
+      "RS"
+    ],
+    "type": "declare",
+    "edges": [
+      [
+        "AH",
+        "RU",
+        "declare"
+      ]
+    ],
+    "causes": [
+      "j10",
+      "j13",
+      "j15"
+    ],
+    "summary": "奧匈正式向俄國宣戰。德國已在五天前對俄宣戰，奧匈此時才和俄國進入正式戰爭狀態。沿著時間軸回看，同一陣營中的政府各自作了決定，交戰關係才陸續形成。",
+    "background": "俄國原先對奧匈採取軍事準備以回應塞國遭攻擊。德國對俄宣戰後，奧匈在巴爾幹與東歐兩個方向都面臨戰爭。",
+    "trigger": "隨俄國總動員與德俄正式交戰，奧匈政府向俄方通知進入戰爭狀態。",
+    "motives": "奧匈要應付俄軍並維持與德國的協同，又希望原先對塞爾維亞的戰爭取得成果。俄國則要準備在東普魯士與奧屬加利西亞等方向作戰。",
+    "impact": "奧塞、德俄、德法、英德、奧俄等交戰關係交疊。接下來可以分別追蹤比利時與法國的西線、以及俄國西境的東線。",
+    "debate": "用一個日期概括所有列強同時宣戰，會看不見七月危機的實際節奏。宣戰書的日期也不等於某一戰區第一場大會戰的日期。",
+    "primary": "美國外交文書的俄國與奧匈條目記錄使館撤離及交戰通報，可與美國國會圖書館的宣戰日期表交叉比對。",
+    "counterfactual": "若奧匈能把衝突維持在對塞一線，軍力部署壓力會不同；到了這一天，盟友對俄作戰與邊境軍事風險已大幅壓縮此選項。",
+    "mapNote": "新增奧匈指向俄國的宣戰關係。可對照 7 月 28 日，看見區域戰爭如何擴大。",
+    "chapter": 2,
+    "sources": [
+      [
+        "美國國會圖書館｜參戰與宣戰日期",
+        "https://guides.loc.gov/chronicling-america-wwi-declarations"
+      ],
+      [
+        "英國公開大學｜Annika Mombauer 七月危機年表",
+        "https://www.open.edu/openlearn/course/view.php?id=11312"
+      ],
+      [
+        "美國外交文件｜駐俄使館來電索引",
+        "https://history.state.gov/historicaldocuments/frus1914Supp/toc-countries"
+      ]
+    ]
+  }
+]

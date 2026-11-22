@@ -1,0 +1,64 @@
+{
+  "id": "german-reunification",
+  "title": "從柏林圍牆到德國統一",
+  "subject": "冷戰末期",
+  "years": "1989 — 1990",
+  "subtitle": "從開放關卡到國家統一",
+  "description": "三個事件的模板實例：柏林開放關卡、莫斯科外交協商，以及德國統一。",
+  "region": "中東歐",
+  "bounds": [
+    2,
+    44,
+    43,
+    61
+  ],
+  "chapters": [
+    [
+      "I",
+      "圍牆開放",
+      "1989"
+    ],
+    [
+      "II",
+      "統一的條件",
+      "1990"
+    ]
+  ],
+  "names": {
+    "GDR": "東德",
+    "FRG": "德意志聯邦共和國",
+    "USSR": "蘇聯",
+    "FR": "法國",
+    "GB": "英國",
+    "US": "美國"
+  },
+  "layers": {
+    "names": [
+      "參與方位置",
+      "地點供定位，點選查看當時身分"
+    ],
+    "places": [
+      "先前事件",
+      "空心圓為先前事件，紅圈為目前事件"
+    ]
+  },
+  "initial": "wall-open",
+  "baseline": "wall-open",
+  "compare": "unity",
+  "reset": "回到圍牆開放",
+  "guideTitle": "邊境開放後，還差哪些決定？",
+  "guideText": "在柏林先讀守衛打開關卡的經過，再前往莫斯科，觀察為何兩德以外還有四國參與。最後回到柏林，對照開放邊境與統一生效的時間。",
+  "mapEngine": "standard",
+  "credit": "Natural Earth · 地點示意",
+  "legend": "國家名稱標示政治參與方的位置",
+  "mapNote": "本短篇以現代概化陸地輪廓定位歷史事件，未繪兩德國界、柏林分區或圍牆走線。點位為地點近似位置；德國統一的法律生效涵蓋全國。",
+  "mapSources": [
+    [
+      "Natural Earth · Natural Earth 1:110m Land（公共領域）",
+      "https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-land/"
+    ]
+  ],
+  "eventFiles": [
+    "events.json"
+  ]
+}

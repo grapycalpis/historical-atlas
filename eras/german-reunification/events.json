@@ -1,0 +1,120 @@
+[
+  {
+    "id": "wall-open",
+    "chapter": 1,
+    "date": "1989-11-09",
+    "title": "柏林關卡開放",
+    "place": "波恩霍爾默大街關卡，柏林",
+    "point": [
+      13.398,
+      52.555
+    ],
+    "actors": [
+      "GDR"
+    ],
+    "type": "politics",
+    "causes": [],
+    "edges": [],
+    "sources": [
+      [
+        "柏林市政府｜圍牆開放經過",
+        "https://www.berlin.de/en/history/8482274-8619314-opening-and-fall-of-the-berlin-wall.en.html"
+      ],
+      [
+        "德國聯邦政府｜1989 年 11 月 9 日",
+        "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/die-mauer-ist-offen--403858"
+      ]
+    ],
+    "summary": "東德官員在記者會上說，新的旅行規定立即生效。消息傳開，人們趕到關卡要求放行。當晚守衛打開通道，柏林人得以跨越原先封閉的分界。",
+    "background": "東德已面對示威與持續外流的壓力，旅行限制成為民眾關注的焦點。",
+    "trigger": "記者會傳出的生效時間，與邊防人員手上的命令出現落差。",
+    "motives": "居民想立即行使通行權；現場守衛面對人群與上級指示的落差。",
+    "impact": "通行限制迅速瓦解，兩個德國的政治前途成為公開議題。",
+    "mapNote": "紅點是先放行的關卡之一。圖上未重建圍牆走線。",
+    "debate": "政治改革的長期壓力與當晚訊息失控，可以分別解釋制度為何鬆動、通道為何在那一晚打開。",
+    "primary": "對讀記者會發言與守衛放行的時序，可見口頭宣布到實際通行之間仍有一段時間。",
+    "counterfactual": "如果規定的生效時間說得更清楚，當晚的放行時間可能不同；它對後來統一時程的影響無法確定。"
+  },
+  {
+    "id": "two-plus-four",
+    "chapter": 2,
+    "date": "1990-09-12",
+    "title": "六國簽署最終解決條約",
+    "place": "莫斯科",
+    "point": [
+      37.62,
+      55.75
+    ],
+    "actors": [
+      "GDR",
+      "FRG",
+      "USSR",
+      "GB",
+      "FR",
+      "US"
+    ],
+    "type": "peace",
+    "causes": [
+      "wall-open"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "德國外交部｜二加四條約原文",
+        "https://www.auswaertiges-amt.de/resource/blob/248556/2851e102b97772a5772e9fdb8a978663/vertragstextoriginal-data.pdf"
+      ],
+      [
+        "德國聯邦政府｜莫斯科簽署條約",
+        "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/unterzeichnung-des-2-4-vertrags-432842"
+      ]
+    ],
+    "summary": "兩個德國與美、英、法、蘇四國在莫斯科簽約。六國處理統一德國的邊界、安全安排與對外地位。兩德內部仍有另一份條約，規定統一如何實施。",
+    "background": "二戰結束以來，四國對柏林與德國整體保有特殊權責。",
+    "trigger": "統一進程使各方必須處理這些權責與安全安排。",
+    "motives": "兩德要為統一取得外部安排，四國則關注疆界、安全與歐洲秩序。",
+    "impact": "統一的國際安排有了書面依據。簽署和批准生效分屬兩個階段。",
+    "mapNote": "紅點移至莫斯科。六個參與方共同簽約，單一方向的箭頭不足以表示這次協商。",
+    "debate": "「二加四」將兩德的內部統一安排與四國權責分開處理，閱讀時可對照兩份條約的締約方。",
+    "primary": "條約第一條處理疆域和邊界，第七條處理四國權責，日期應區分簽署與生效。",
+    "counterfactual": "若外部安全協商延宕，兩德即使取得內部共識，也可能面對不同的實施時程。"
+  },
+  {
+    "id": "unity",
+    "chapter": 2,
+    "date": "1990-10-03",
+    "title": "兩德統一生效",
+    "place": "柏林國會大廈一帶，統一慶典",
+    "point": [
+      13.376,
+      52.519
+    ],
+    "actors": [
+      "GDR",
+      "FRG"
+    ],
+    "type": "politics",
+    "causes": [
+      "two-plus-four"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "德國史文獻與圖像｜兩德統一條約",
+        "https://germanhistorydocs.org/en/a-new-germany-1990-2023/unification-treaty-august-31-1990.pdf"
+      ],
+      [
+        "德國外交部｜二加四條約原文",
+        "https://www.auswaertiges-amt.de/resource/blob/248556/2851e102b97772a5772e9fdb8a978663/vertragstextoriginal-data.pdf"
+      ]
+    ],
+    "summary": "兩德統一條約指定的日期到來。東德加入德意志聯邦共和國，柏林各區也組成一個邦。從關卡開放到國家統一，已經過近十一個月。",
+    "background": "兩個德國在 8 月 31 日簽署統一條約，安排法律及行政過渡。",
+    "trigger": "統一條約第一條規定加入於 10 月 3 日生效。",
+    "motives": "兩德政府需要讓行政、法律和政治代表制度在共同日期銜接。",
+    "impact": "東德結束獨立國家的地位，德國的對外安排則仍有後續批准程序。",
+    "mapNote": "回到柏林的慶典位置。地點代表紀念與慶祝；統一在兩德範圍生效。",
+    "debate": "條約能交代統一的法律時刻，仍須其他材料才能研究一般民眾如何經歷日常生活的轉型。",
+    "primary": "統一條約第一條載明日期與新邦。第二條將柏林定為首都，首都與政府遷移是兩件事。",
+    "counterfactual": "若過渡期較長，行政整合可能採取不同節奏，其實際影響須有更多地方史料佐證。"
+  }
+]

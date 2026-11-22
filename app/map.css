@@ -1,0 +1,16 @@
+.atlas-map-svg{width:100%;height:100%;display:block;touch-action:none;user-select:none;background:#bad0ce;cursor:grab;overflow:hidden}
+.map-dragging .atlas-map-svg,.map-dragging .map-country{cursor:grabbing}
+.atlas-map-svg .map-country,.atlas-map-svg .map-name,.atlas-map-svg .map-pin,.atlas-map-svg .map-battle{cursor:pointer;outline:none}
+.map-country:hover>path,.map-country:focus-visible>path,.map-country-picked>path{stroke:#193f38!important;stroke-width:1.9!important;filter:brightness(1.045)}
+.atlas-map-svg text{font-family:"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;user-select:none}
+.atlas-map-svg .map-nation{font-family:"Songti TC","Noto Serif TC","PMingLiU",serif;fill:#374c40;font-weight:700;letter-spacing:.08em;paint-order:stroke;stroke:#f7edcf;stroke-opacity:.42;stroke-width:1.65}
+.atlas-map-svg .map-nation.minor{font-weight:600;letter-spacing:.035em}
+.atlas-map-svg .map-name-latin{fill:#475d50;font:8.1px Georgia,"Times New Roman",serif;letter-spacing:1.2px}
+.atlas-map-svg .map-sea{font-family:"Songti TC","Noto Serif TC",serif;font-size:14px;font-style:italic;fill:#587973;letter-spacing:1px;pointer-events:none}
+.atlas-map-svg .map-city{font-size:10px;fill:#475445;paint-order:stroke;stroke:#ede6d3;stroke-width:2.5;stroke-opacity:.78;pointer-events:none}
+.atlas-map-svg .map-pin-title{font-family:"Songti TC","Noto Serif TC",serif;font-size:14px;font-weight:700;fill:#613f30}
+.atlas-map-svg .map-pin-date{font:9px Georgia,"Times New Roman",serif;letter-spacing:1.2px;fill:#86654e}
+.atlas-map-svg .map-pin:hover rect,.atlas-map-svg .map-pin:focus-visible rect,.atlas-map-svg .map-battle:focus-visible circle{stroke:#953b25;stroke-width:1.65}
+.atlas-map-svg .map-note{fill:#4c6355;font-size:10px;paint-order:stroke;stroke:#e9ecdb;stroke-width:2.4;stroke-opacity:.85;letter-spacing:.45px}
+.atlas-map-svg .map-north{font:bold 11px Georgia,"Times New Roman",serif;fill:#526857}
+.atlas-map-svg .map-theatre{font-size:10px;fill:#7f4c38;paint-order:stroke;stroke:#f6eed8;stroke-width:2.5}

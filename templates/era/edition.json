@@ -1,0 +1,57 @@
+{
+  "id": "new-period",
+  "title": "新時期",
+  "subject": "歷史專題",
+  "years": "編纂中",
+  "subtitle": "教材草稿",
+  "description": "尚待填入歷史事件。",
+  "region": "研究區域",
+  "bounds": [
+    -170,
+    -70,
+    170,
+    75
+  ],
+  "chapters": [
+    [
+      "I",
+      "第一章",
+      "待編"
+    ]
+  ],
+  "names": {},
+  "layers": {
+    "names": [
+      "參與方位置",
+      "地點供定位，點選查看當時身分"
+    ],
+    "places": [
+      "先前事件",
+      "空心圓為先前事件，紅圈為目前事件"
+    ],
+    "relations": [
+      "政治與外交關係",
+      "虛線連結本次有直接互動的參與方"
+    ]
+  },
+  "initial": null,
+  "baseline": null,
+  "compare": null,
+  "reset": "回到起始事件",
+  "guideTitle": "從第一個事件開始",
+  "guideText": "推進時間軸，觀察參與方與地點。",
+  "mapEngine": "standard",
+  "credit": "Natural Earth · 地點示意",
+  "legend": "事件位置與自然陸地輪廓",
+  "mapNote": "尚未加入經查核的歷史國界，地圖僅供地點定位。",
+  "mapSources": [
+    [
+      "Natural Earth · Natural Earth 1:110m Land（公共領域）",
+      "https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-land/"
+    ]
+  ],
+  "eventFiles": [
+    "events.json"
+  ],
+  "status": "draft"
+}
