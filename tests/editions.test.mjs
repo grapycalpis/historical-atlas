@@ -6,6 +6,36 @@ import {join} from 'node:path';
 import {execFileSync} from 'node:child_process';
 import {root,editions,validate} from '../tools/editions.mjs';
 
+test('Korean war distinguishes intervention, four Seoul changes, POW terms and military armistice',async()=>{
+  const {c,events,geo}=(await editions()).find(x=>x.c.id==='korean-war');
+  const event=id=>events.find(e=>e.id===id);
+  const state=(code,date)=>geo.actors[code].states.find(s=>s.from<=date&&(!s.until||date<s.until));
+  assert.equal(c.chapters.length,5);assert(events.length>=28&&events.length<=36);
+  assert.equal(c.initial,'d0625a-invasion');assert.equal(c.baseline,c.initial);assert.equal(c.compare,'d0727-armistice');
+  assert.equal(events[0].date,'1950-06-25');assert.equal(events.at(-1).date,'1953-07-27');
+  assert.equal(events[0].id,'d0625a-invasion');assert.equal(events[1].id,'d0625b-un82');
+  assert(event('d0625b-un82').causes.includes('d0625a-invasion'));
+  assert(!event('d1001-cross38').causes.includes('d1007-unga'));
+  for(const [id,date] of [['d0628-seoul-falls','1950-06-28'],['d0928-seoul-retaken','1950-09-28'],['d1019-china-crosses','1950-10-19'],['d1025-first-offensive','1950-10-25'],['d1121-yalu','1950-11-21'],['d1125-chongchon','1950-11-25'],['d1127-chosin','1950-11-27'],['d1224-hungnam','1950-12-24'],['d0104-seoul-again','1951-01-04'],['d0314-seoul-final','1951-03-14'],['d0710-kaesong','1951-07-10'],['d1025-panmunjom','1951-10-25'],['d0507-koje','1952-05-07'],['d0420-little-switch','1953-04-20'],['d0608-pow-agreement','1953-06-08'],['d0618-rhee-release','1953-06-18']])assert.equal(event(id).date,date);
+  assert.match(event('d0314-seoul-final').summary,/14 日夜至 15 日/);
+  assert.match(event('d0727-armistice').summary,/22 時/);
+  assert.match(event('d0727-armistice').summary,/南韓沒有簽署/);
+  assert.match(event('d0727-armistice').debate,/三八線.*戰線.*軍事分界線.*非軍事區.*和平條約/);
+  assert.match(event('d0727-armistice').impact,/72 小時/);
+  assert.match(event('d0608-pow-agreement').debate,/遣返委員會.*監察委員會/);
+  assert.match(event('d0726-no-gun-ri').debate,/分歧/);
+  for(let ch=1;ch<=5;ch++)assert.match(events.find(e=>e.chapter===ch).background,/本章核心問題/);
+  for(const e of events){assert.match(e.counterfactual,/假設/);assert.match(e.counterfactual,/限制/);}
+  assert.match(state('CN','1950-10-19').stance,/越江/);
+  assert.match(state('CN','1950-10-25').stance,/交戰/);
+  assert.match(state('UN','1952-05-12').stance,/克拉克/);
+  assert.match(state('KR','1953-07-27').stance,/未簽署/);
+  assert.equal(state('CIV','1950-07-26').showLabel,false);
+  for(const actor of Object.values(geo.actors))for(const s of actor.states)assert(s.sources?.length);
+  assert.equal(geo.boundaries.length,0);assert(events.every(e=>!e.overlays?.length));
+  assert((await readFile(join(root,'site/index.html'),'utf8')).includes('korean-war/index.html'));
+});
+
 test('published editions have independent maps and chronological sources',async()=>{
   const packs=await editions(),war=packs.find(x=>x.c.id==='world-war-i'),demo=packs.find(x=>x.c.id==='german-reunification');
   assert.ok(war.events.length>=79);assert.ok(war.events.filter(e=>e.chapter===2).length>=22);

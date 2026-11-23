@@ -1,0 +1,538 @@
+{
+  "actors": {
+    "KP": {
+      "point": [
+        125.75,
+        39.03
+      ],
+      "states": [
+        {
+          "from": "1950-06-25",
+          "until": "1950-09-28",
+          "stance": "朝鮮民主主義人民共和國；金日成領導，人民軍全面南侵",
+          "relations": "1948 年建立的北方政權，主張代表全朝鮮；獲蘇聯裝備及戰前支持，企圖以武力統一。",
+          "sources": [
+            "https://www.wilsoncenter.org/sites/default/files/media/documents/publication/Bulletin6-7_Korea.pdf",
+            "https://www.govinfo.gov/content/pkg/GOVPUB-D114-PURL-gpo111422/pdf/GOVPUB-D114-PURL-gpo111422.pdf"
+          ]
+        },
+        {
+          "from": "1950-09-28",
+          "until": "1950-10-19",
+          "stance": "北韓；南方攻勢失敗、主力撤退",
+          "relations": "首爾再由美韓控制，北方政權求援；不能把軍隊潰退當成政府已消失。",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/GOVPUB-D114-PURL-gpo126577/pdf/GOVPUB-D114-PURL-gpo126577.pdf"
+          ]
+        },
+        {
+          "from": "1950-10-19",
+          "until": "1951-07-10",
+          "stance": "北韓；平壤遭聯軍占領，中國部隊入朝",
+          "relations": "政府及軍隊撤向北部，與志願軍聯合作戰；平壤點保留為首都定位，不表示政府仍在城內。",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/GOVPUB-D114-PURL-gpo111375/pdf/GOVPUB-D114-PURL-gpo111375.pdf",
+            "https://artsandculture.google.com/story/the-korean-war-chronicles-of-trials-and-overcoming-war-memorial-of-korea/ZAXBgUq2g9izbQ?hl=en"
+          ]
+        },
+        {
+          "from": "1951-07-10",
+          "until": "1953-07-27",
+          "stance": "北韓；人民軍參與停戰談判",
+          "relations": "與志願軍組成中朝談判一方；保住政權與控制區，同時繼續作戰。",
+          "sources": [
+            "https://history.army.mil/portals/143/Images/Publications/catalog/19-5.pdf"
+          ]
+        },
+        {
+          "from": "1953-07-27",
+          "stance": "朝鮮人民軍；停戰協定一方的軍事簽署主體",
+          "relations": "金日成以人民軍最高司令身分簽署；與志願軍共同承擔北側責任，未與南韓締結全面和平條約。",
+          "sources": [
+            "https://www.archives.gov/milestone-documents/armistice-agreement-restoration-south-korean-state"
+          ]
+        }
+      ]
+    },
+    "KR": {
+      "point": [
+        126.98,
+        37.56
+      ],
+      "states": [
+        {
+          "from": "1950-06-25",
+          "until": "1950-06-28",
+          "stance": "大韓民國；李承晚政府受北韓進攻",
+          "relations": "1948 年建立的南方政府，亦主張全半島代表權，向美國與聯合國求援。",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/GOVPUB-D114-PURL-gpo111422/pdf/GOVPUB-D114-PURL-gpo111422.pdf",
+            "https://www.awm.gov.au/articles/atwar/korea"
+          ]
+        },
+        {
+          "from": "1950-06-28",
+          "until": "1950-09-28",
+          "stance": "南韓；首都失守、政府南撤",
+          "relations": "首爾點只是首都定位；政府先後移駐南方，部隊續戰，居民大量流離。",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/GOVPUB-D114-PURL-gpo111422/pdf/GOVPUB-D114-PURL-gpo111422.pdf",
+            "https://artsandculture.google.com/story/the-korean-war-chronicles-of-trials-and-overcoming-war-memorial-of-korea/ZAXBgUq2g9izbQ?hl=en"
+          ]
+        },
+        {
+          "from": "1950-09-28",
+          "until": "1951-01-04",
+          "stance": "南韓；首爾收復，主張向北統一",
+          "relations": "控制恢復不等於全國安全；李承晚要求越過三八線。",
+          "sources": [
+            "https://artsandculture.google.com/story/the-korean-war-chronicles-of-trials-and-overcoming-war-memorial-of-korea/ZAXBgUq2g9izbQ?hl=en",
+            "https://www.govinfo.gov/content/pkg/GOVPUB-D114-PURL-gpo126577/pdf/GOVPUB-D114-PURL-gpo126577.pdf"
+          ]
+        },
+        {
+          "from": "1951-01-04",
+          "until": "1951-03-14",
+          "stance": "南韓；首爾再次失守",
+          "relations": "政府與軍隊撤退，依靠聯軍防守，並未因首都失守而投降。",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/GOVPUB-D114-PURL-gpo111375/pdf/GOVPUB-D114-PURL-gpo111375.pdf"
+          ]
+        },
+        {
+          "from": "1951-03-14",
+          "until": "1951-07-10",
+          "stance": "南韓；首爾正於 14 日夜至 15 日恢復控制",
+          "relations": "跨夜過程無法用日級身分完全呈現；國家及政府延續，平民仍受破壞與離散。",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/GOVPUB-D114-PURL-gpo92564/pdf/GOVPUB-D114-PURL-gpo92564.pdf"
+          ]
+        },
+        {
+          "from": "1951-07-10",
+          "until": "1953-06-18",
+          "stance": "南韓；參戰盟友，政府反對固定分裂",
+          "relations": "停戰談判有南韓軍官參與聯合國軍代表團，但李承晚對分治及中國軍隊留朝不滿。",
+          "sources": [
+            "https://history.state.gov/historicaldocuments/frus1951v07p1/d423",
+            "https://history.state.gov/historicaldocuments/frus1951v07p1/d426",
+            "https://history.army.mil/portals/143/Images/Publications/catalog/19-5.pdf",
+            "https://www.nam.ac.uk/explore/korean-war"
+          ]
+        },
+        {
+          "from": "1953-06-18",
+          "until": "1953-07-27",
+          "stance": "南韓；單方面釋放拒返北韓的戰俘",
+          "relations": "李承晚向聯合國軍施壓，要求更強安全保障；盟友之間的停戰目標並不一致。",
+          "sources": [
+            "https://history.state.gov/historicaldocuments/frus1952-54v15p2/d607"
+          ]
+        },
+        {
+          "from": "1953-07-27",
+          "stance": "南韓；未簽署停戰協定",
+          "relations": "南韓沒有以政府或軍隊名義簽字；聯合國軍司令承諾約束其控制的部隊，停戰沒有統一半島。",
+          "sources": [
+            "https://www.archives.gov/milestone-documents/armistice-agreement-restoration-south-korean-state",
+            "https://history.state.gov/historicaldocuments/frus1952-54v15p2/d607"
+          ]
+        }
+      ]
+    },
+    "US": {
+      "point": [
+        -77.04,
+        38.9
+      ],
+      "states": [
+        {
+          "from": "1950-06-25",
+          "until": "1950-06-27",
+          "stance": "美國；杜魯門政府處理入侵消息",
+          "relations": "尚未成立聯合國軍統一司令部；駐日軍及基地提供後續介入能力。",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/GOVPUB-D114-PURL-gpo111422/pdf/GOVPUB-D114-PURL-gpo111422.pdf"
+          ]
+        },
+        {
+          "from": "1950-06-27",
+          "until": "1950-07-07",
+          "stance": "美國；公開投入海空作戰支援",
+          "relations": "總統聲明亦涉及臺灣與印支；6 月 30 日另批准地面部隊，不能合為同一次部署。",
+          "sources": [
+            "https://www.trumanlibrary.gov/library/public-papers/173/statement-president-situation-korea",
+            "https://www.govinfo.gov/content/pkg/GOVPUB-D114-PURL-gpo111422/pdf/GOVPUB-D114-PURL-gpo111422.pdf"
+          ]
+        },
+        {
+          "from": "1950-07-07",
+          "until": "1951-04-11",
+          "stance": "美國；獲建議領導統一指揮體系",
+          "relations": "由美國指定司令，主要提供兵力與補給；不是聯合國秘書處直接指揮。",
+          "sources": [
+            "https://digitallibrary.un.org/record/112027/files/S_RES_84%281950%29-EN.pdf?ln=en"
+          ]
+        },
+        {
+          "from": "1951-04-11",
+          "until": "1953-01-20",
+          "stance": "美國；撤換麥克阿瑟，維持有限戰爭政策",
+          "relations": "杜魯門要求軍事指揮服從政府政策，李奇微接掌遠東及聯合國軍。",
+          "sources": [
+            "https://www.trumanlibrary.gov/library/public-papers/77/statement-and-order-president-relieving-general-macarthur-his-commands"
+          ]
+        },
+        {
+          "from": "1953-01-20",
+          "until": "1953-07-27",
+          "stance": "美國；艾森豪政府時期",
+          "relations": "繼續談判及軍事施壓，戰俘條款與南韓安全要求仍須解決；此為就職生效日，非當天新增外交協議。",
+          "sources": [
+            "https://www.eisenhowerlibrary.gov/eisenhowers-presidential-years/inaugurations",
+            "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d581",
+            "https://history.state.gov/historicaldocuments/frus1952-54v15p2/d607"
+          ]
+        },
+        {
+          "from": "1953-07-27",
+          "stance": "美國；其軍官代表聯合國軍簽署軍事停戰",
+          "relations": "美國不是以單獨國家和平條約締約方名義簽字；克拉克以聯合國軍司令身分簽署。",
+          "sources": [
+            "https://www.archives.gov/milestone-documents/armistice-agreement-restoration-south-korean-state"
+          ]
+        }
+      ]
+    },
+    "UN": {
+      "point": [
+        -73.97,
+        40.75
+      ],
+      "states": [
+        {
+          "from": "1950-06-25",
+          "until": "1950-07-07",
+          "stance": "聯合國；安理會要求北韓撤退",
+          "relations": "第 82 號決議在入侵後通過；日級模型在同日兩事件共用身分，並非開戰前已通過。",
+          "sources": [
+            "https://digitallibrary.un.org/record/112025"
+          ]
+        },
+        {
+          "from": "1950-07-07",
+          "until": "1951-04-11",
+          "stance": "聯合國軍統一指揮架構獲安理會建議",
+          "relations": "由美國領導、各國派部隊或援助；標籤位置在紐約表示機構，不是戰場司令部。",
+          "sources": [
+            "https://digitallibrary.un.org/record/112027/files/S_RES_84%281950%29-EN.pdf?ln=en"
+          ]
+        },
+        {
+          "from": "1951-04-11",
+          "until": "1951-07-10",
+          "stance": "聯合國軍；李奇微接替麥克阿瑟",
+          "relations": "繼續有限反攻並準備談判；聯合國各會員國政策不必然一致。",
+          "sources": [
+            "https://www.trumanlibrary.gov/library/public-papers/77/statement-and-order-president-relieving-general-macarthur-his-commands"
+          ]
+        },
+        {
+          "from": "1951-07-10",
+          "until": "1952-05-12",
+          "stance": "聯合國軍；停戰談判一方",
+          "relations": "代表團與人民軍、志願軍代表談判，戰場未先停火。",
+          "sources": [
+            "https://history.state.gov/historicaldocuments/frus1951v07p1/d426",
+            "https://history.army.mil/portals/143/Images/Publications/catalog/19-5.pdf"
+          ]
+        },
+        {
+          "from": "1952-05-12",
+          "until": "1953-07-27",
+          "stance": "聯合國軍；克拉克接任司令",
+          "relations": "任內處理戰俘營危機與停戰僵局；軍事指揮身分與聯合國政治機構須分開。",
+          "sources": [
+            "https://history.army.mil/portals/143/Images/Publications/catalog/19-5.pdf",
+            "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d118"
+          ]
+        },
+        {
+          "from": "1953-07-27",
+          "stance": "聯合國軍；簽署停戰協定",
+          "relations": "哈里森為現場首席代表，克拉克為司令簽署；當日 22 時停火，非當日上午已全部停戰。",
+          "sources": [
+            "https://www.archives.gov/milestone-documents/armistice-agreement-restoration-south-korean-state"
+          ]
+        }
+      ]
+    },
+    "CN": {
+      "point": [
+        116.4,
+        39.9
+      ],
+      "states": [
+        {
+          "from": "1950-06-25",
+          "until": "1950-10-19",
+          "stance": "中華人民共和國；尚未以志願軍主力入朝",
+          "relations": "1949 年成立，聯合國中國席位仍由中華民國代表；與北韓協商，注意臺灣及東北安全。",
+          "sources": [
+            "https://www.wilsoncenter.org/sites/default/files/media/documents/publication/Bulletin6-7_Korea.pdf",
+            "https://www.trumanlibrary.gov/library/public-papers/173/statement-president-situation-korea"
+          ]
+        },
+        {
+          "from": "1950-10-19",
+          "until": "1950-10-25",
+          "stance": "中國；人民志願軍主力開始越江",
+          "relations": "彭德懷指揮，政府組織軍隊以志願軍名義參戰；並非個人自發行動，首次交戰尚在其後。",
+          "sources": [
+            "https://artsandculture.google.com/story/the-korean-war-chronicles-of-trials-and-overcoming-war-memorial-of-korea/ZAXBgUq2g9izbQ?hl=en",
+            "https://eng.chinamil.com.cn/2020special/2020-10/13/content_9917787.htm",
+            "https://www.wilsoncenter.org/sites/default/files/media/documents/publication/Bulletin6-7_Korea.pdf"
+          ]
+        },
+        {
+          "from": "1950-10-25",
+          "until": "1951-07-10",
+          "stance": "人民志願軍；已與南韓部隊交戰",
+          "relations": "隱蔽部署並打擊分散聯軍，11 月擴大攻勢；北京點不是朝鮮前線軍部。",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/GOVPUB-D114-PURL-gpo126577/pdf/GOVPUB-D114-PURL-gpo126577.pdf",
+            "https://www.govinfo.gov/content/pkg/GOVPUB-D114-PURL-gpo111375/pdf/GOVPUB-D114-PURL-gpo111375.pdf"
+          ]
+        },
+        {
+          "from": "1951-07-10",
+          "until": "1953-07-27",
+          "stance": "人民志願軍；中朝談判一方",
+          "relations": "仍在前線作戰，同時協商停火與戰俘遣返。",
+          "sources": [
+            "https://history.army.mil/portals/143/Images/Publications/catalog/19-5.pdf"
+          ]
+        },
+        {
+          "from": "1953-07-27",
+          "stance": "人民志願軍；軍事停戰簽署主體",
+          "relations": "彭德懷以司令身分簽署，和人民軍共同承擔條款責任；不是中美和平條約。",
+          "sources": [
+            "https://www.archives.gov/milestone-documents/armistice-agreement-restoration-south-korean-state"
+          ]
+        }
+      ]
+    },
+    "USSR": {
+      "point": [
+        37.62,
+        55.75
+      ],
+      "states": [
+        {
+          "from": "1950-06-25",
+          "until": "1950-10-19",
+          "stance": "蘇聯；史達林支持北韓、抵制安理會",
+          "relations": "提供裝備與顧問，事前支持北韓攻勢；安理會缺席與投棄權票不同。",
+          "sources": [
+            "https://www.wilsoncenter.org/sites/default/files/media/documents/publication/Bulletin6-7_Korea.pdf",
+            "https://www.awm.gov.au/articles/atwar/korea"
+          ]
+        },
+        {
+          "from": "1950-10-19",
+          "until": "1951-06-23",
+          "stance": "蘇聯；支援中朝但避免公開全面對美作戰",
+          "relations": "提供軍需、顧問及後續秘密空中作戰；不等於沒有軍事介入。",
+          "sources": [
+            "https://www.wilsoncenter.org/sites/default/files/media/documents/publication/Bulletin6-7_Korea.pdf"
+          ]
+        },
+        {
+          "from": "1951-06-23",
+          "until": "1953-03-05",
+          "stance": "蘇聯；公開提出停火談判訊號",
+          "relations": "馬立克發言與中蘇朝協調相連；並不是蘇聯已代表各方簽署停火。",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/GOVPUB-D114-PURL-gpo92564/pdf/GOVPUB-D114-PURL-gpo92564.pdf",
+            "https://www.wilsoncenter.org/sites/default/files/media/documents/publication/Bulletin6-7_Korea.pdf"
+          ]
+        },
+        {
+          "from": "1953-03-05",
+          "until": "1953-07-27",
+          "stance": "蘇聯；史達林去世後的領導轉換",
+          "relations": "新領導層與中朝的政策互動促進尋求停戰，但不能把領導人去世當成唯一原因。",
+          "sources": [
+            "https://www.wilsoncenter.org/sites/default/files/media/documents/publication/Bulletin6-7_Korea.pdf"
+          ]
+        },
+        {
+          "from": "1953-07-27",
+          "stance": "蘇聯；支持盟友，未列名為停戰軍事簽署方",
+          "relations": "影響力與正式簽署資格不同；原文列聯合國軍、人民軍及志願軍指揮官。",
+          "sources": [
+            "https://www.archives.gov/milestone-documents/armistice-agreement-restoration-south-korean-state"
+          ]
+        }
+      ]
+    },
+    "CIV": {
+      "point": [
+        126.98,
+        37.56
+      ],
+      "states": [
+        {
+          "from": "1950-06-25",
+          "until": "1950-07-26",
+          "stance": "南北平民與流離者；非單一組織",
+          "relations": "面對攻擊、徵用與逃難，立場與遭遇多樣，不能以國家領導人的目的代替居民意願。",
+          "sources": [
+            "https://artsandculture.google.com/story/the-korean-war-chronicles-of-trials-and-overcoming-war-memorial-of-korea/ZAXBgUq2g9izbQ?hl=en",
+            "https://www.nam.ac.uk/explore/korean-war"
+          ],
+          "showLabel": false
+        },
+        {
+          "from": "1950-07-26",
+          "until": "1950-12-24",
+          "stance": "戰區難民；軍事管制及射擊的受害者",
+          "relations": "老斤里顯示逃難者可能遭友軍懷疑與傷害；責任與人數仍須對讀調查及證言。",
+          "sources": [
+            "https://upload.wikimedia.org/wikipedia/commons/8/8f/US_Department_of_the_Army_No_Gun_Ri_Review.pdf",
+            "https://www.pulitzer.org/winners/sang-hun-choe-charles-j-hanley-and-martha-mendoza"
+          ],
+          "showLabel": false
+        },
+        {
+          "from": "1950-12-24",
+          "until": "1953-07-27",
+          "stance": "撤退與留守中的平民；家庭分離擴大",
+          "relations": "興南約九萬人撤離，未撤者的處境不能由登船者代表；首爾居民又面臨冬季流離。",
+          "sources": [
+            "https://www.history.navy.mil/content/history/nhhc/research/library/online-reading-room/title-list-alphabetically/h/the-hungnam-and-chinnampo-evacuations.html",
+            "https://www.nam.ac.uk/explore/korean-war"
+          ],
+          "showLabel": false
+        },
+        {
+          "from": "1953-07-27",
+          "stance": "停戰下的離散家庭與受災居民",
+          "relations": "停火減少戰鬥危險，但分界與管制阻擋自由往來；協定處理部分流離者，並未使所有人立即返家。",
+          "sources": [
+            "https://www.archives.gov/milestone-documents/armistice-agreement-restoration-south-korean-state"
+          ],
+          "showLabel": false
+        }
+      ]
+    },
+    "POW": {
+      "point": [
+        128.63,
+        34.88
+      ],
+      "states": [
+        {
+          "from": "1950-06-25",
+          "until": "1951-07-10",
+          "stance": "戰爭中的被俘人員；非國家、非單一立場",
+          "relations": "軍人隨戰鬥被俘，受拘禁與訊問；各營區經驗不同，不能用一種政治立場概括。",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/GOVPUB-D114-PURL-gpo111422/pdf/GOVPUB-D114-PURL-gpo111422.pdf"
+          ],
+          "showLabel": false
+        },
+        {
+          "from": "1951-07-10",
+          "until": "1952-05-07",
+          "stance": "停戰議題中的各方戰俘",
+          "relations": "是否全部遣返或尊重拒返者意願，涉及條約解讀、安全與政治宣傳。",
+          "sources": [
+            "https://history.army.mil/portals/143/Images/Publications/catalog/19-5.pdf",
+            "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d453"
+          ],
+          "showLabel": false
+        },
+        {
+          "from": "1952-05-07",
+          "until": "1953-04-20",
+          "stance": "戰俘營內親共、反共及受脅迫的個人",
+          "relations": "巨濟島扣押營長，凸顯營區組織暴力與管理失序；不能把甄別結果直接等同完全自由意願。",
+          "sources": [
+            "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d118"
+          ],
+          "showLabel": false
+        },
+        {
+          "from": "1953-04-20",
+          "until": "1953-06-08",
+          "stance": "部分傷病戰俘開始交換",
+          "relations": "小交換只涉及部分傷病者，一般戰俘問題尚未解決。",
+          "sources": [
+            "https://www.history.navy.mil/research/archives/Collections/personal-donated-collections/pd-d/daniel-john-c.html"
+          ],
+          "showLabel": false
+        },
+        {
+          "from": "1953-06-08",
+          "until": "1953-07-27",
+          "stance": "願返與拒返者適用不同處理程序",
+          "relations": "拒返者將交中立機制，並非當日全部獲釋；6 月 18 日南韓單方面放俘又改變履約條件。",
+          "sources": [
+            "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d581",
+            "https://history.state.gov/historicaldocuments/frus1952-54v15p2/d607"
+          ],
+          "showLabel": false
+        },
+        {
+          "from": "1953-07-27",
+          "stance": "停戰協定下等待遣返或中立處理的戰俘",
+          "relations": "大規模交換在停戰後展開，協定不等於全體被俘者當天返家。",
+          "sources": [
+            "https://www.archives.gov/milestone-documents/armistice-agreement-restoration-south-korean-state"
+          ],
+          "showLabel": false
+        }
+      ]
+    },
+    "IN": {
+      "point": [
+        77.21,
+        28.61
+      ],
+      "states": [
+        {
+          "from": "1950-06-25",
+          "until": "1953-06-08",
+          "stance": "印度；聯合國會員國，倡議控制擴戰風險",
+          "relations": "支持和平處理並提供醫療援助；不是對朝作戰的地面主力。",
+          "sources": [
+            "https://www.awm.gov.au/articles/atwar/korea",
+            "https://www.govinfo.gov/content/pkg/GOVPUB-D114-PURL-gpo126577/pdf/GOVPUB-D114-PURL-gpo126577.pdf"
+          ]
+        },
+        {
+          "from": "1953-06-08",
+          "until": "1953-07-27",
+          "stance": "印度；中立國遣返機制的重要成員",
+          "relations": "與瑞典、瑞士、波蘭、捷克斯洛伐克組成遣返委員會，提供看管部隊；與中立國監察委員會任務不同。",
+          "sources": [
+            "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d581",
+            "https://history.state.gov/historicaldocuments/frus1952-54v15p1/d501",
+            "https://www.archives.gov/milestone-documents/armistice-agreement-restoration-south-korean-state"
+          ]
+        },
+        {
+          "from": "1953-07-27",
+          "stance": "印度；參與執行戰俘託管，非交戰簽署方",
+          "relations": "後續接管拒返者，不表示印度取得朝鮮領土或主權。",
+          "sources": [
+            "https://www.archives.gov/milestone-documents/armistice-agreement-restoration-south-korean-state"
+          ]
+        }
+      ]
+    }
+  },
+  "boundaries": []
+}
