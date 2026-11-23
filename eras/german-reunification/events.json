@@ -1,10 +1,399 @@
 [
   {
-    "id": "wall-open",
+    "id": "hungary-fence",
     "chapter": 1,
+    "date": "1989-05-02",
+    "title": "匈牙利開始拆除邊境警報設施",
+    "place": "海吉什豪洛姆一帶，匈奧邊境",
+    "point": [
+      17.15,
+      47.91
+    ],
+    "actors": [
+      "HU",
+      "GDR"
+    ],
+    "type": "politics",
+    "causes": [],
+    "edges": [],
+    "sources": [
+      [
+        "匈牙利科學院歷史研究所｜拆除邊境警報設施與東德難民外交文件（頁 295–310）",
+        "https://tti.abtk.hu/images/kiadvanyok/folyoiratok/tsz/tsz2009-2/295-310_scweizer_d%C3%B6n%C3%B6t%C3%B6rfi.pdf"
+      ],
+      [
+        "德國歷史之家 LeMO｜匈牙利、布拉格與大規模出走",
+        "https://www.hdg.de/lemo/kapitel/deutsche-einheit/wandel-im-osten/massenflucht.html"
+      ]
+    ],
+    "summary": "匈牙利開始拆除與奧地利邊界的老舊警報設施。設施鬆動讓東德人看見可能的出口，但此時仍有邊防巡查，不能自由跨境。",
+    "background": "本章核心問題：出走者與留下抗議的人，如何共同改變東德政府的選項？ 二戰後形成冷戰陣營；東德由德國統一社會黨（以下簡稱統一社會黨）掌權，西德即聯邦共和國。東德居民出國受限，卻可前往部分社會主義國家旅行。",
+    "trigger": "匈牙利改革政府決定撤除耗費高、常誤報的邊境設備；5 月 2 日是開始施工的日期，並非全面准許東德人西行的日期。",
+    "motives": "匈牙利政府要降低設施成本並推動改革；東德居民則希望尋找可通往西德的路徑，兩者的目標並不完全相同。",
+    "impact": "拆除削弱封鎖的物質與象徵基礎，為後來邊境試探提供條件；實際通行仍取決於守衛與出境政策。",
+    "debate": "常見的「鐵幕開放」把拆設施、象徵剪鐵絲與准許出境混為一談。研究所刊出的邊防文件顯示，技術更新與難民政策須分開分析。",
+    "primary": "讀歷史研究所文章所刊的 1989 年外交文件與前言：設備失效、維護費與改革考量，如何成為撤除理由？文件反映官員的看法。",
+    "counterfactual": "假設匈牙利保留舊設備，越境可能更困難；限制是政府仍可改變放行政策，不能據此推論柏林圍牆必定不會開放。",
+    "mapNote": "點位為邊境城鎮附近的近似定位，不是拆除工程起點的測量值；未繪匈奧國界或拆除路線。"
+  },
+  {
+    "id": "local-election",
+    "chapter": 1,
+    "date": "1989-05-07",
+    "title": "地方選舉的計票監督揭露舞弊",
+    "place": "東柏林及東德各地",
+    "point": [
+      13.42,
+      52.53
+    ],
+    "actors": [
+      "GDR",
+      "CIVIC"
+    ],
+    "type": "politics",
+    "causes": [],
+    "edges": [],
+    "sources": [
+      [
+        "德國歷史之家 LeMO｜1989 年地方選舉與舞弊",
+        "https://www.hdg.de/lemo/kapitel/deutsche-einheit/wandel-im-osten/kommunalwahlen-in-der-ddr.html"
+      ],
+      [
+        "萊比錫圓角博物館｜1989-05-07 地方選舉監督紀事",
+        "https://www.runde-ecke-leipzig.de/index.php?L=2&id=521"
+      ]
+    ],
+    "summary": "東德舉行地方選舉，候選人被編入官方統一名單。公民監督計票，發現現場記錄與官方宣稱不符，選舉公正成為抗議焦點。",
+    "background": "東德有投票形式，卻缺乏政黨自由競爭。教會與人權團體已提供交換消息、互相支持的空間。",
+    "trigger": "觀察者核對票數，揭露反對票遭壓低等操控；當晚克倫茨公布的壓倒性支持率因此受到質疑。",
+    "motives": "統一社會黨要展示支持與秩序；監票公民希望把不滿轉為可核對的證據，要求真正的政治參與。",
+    "impact": "舞弊削弱政府可信度，也給後來萊比錫示威一個具體訴求：人民有權監督掌權者。",
+    "debate": "應區分官方公布的支持率與自由選擇下的民意；亦不能把每名反對舞弊者都視為已要求兩德統一。",
+    "primary": "LeMO 收錄當時的選舉影像與計票情境，並說明克倫茨的電視宣布。對照宣傳畫面與監票者記錄，注意原始全國計票表未在此重建。",
+    "counterfactual": "假設沒有揭露舞弊，抗議可能少一個共同焦點；限制是旅行限制與經濟不滿仍存在，不能認定抗議會消失。",
+    "mapNote": "柏林點代表全國性的政治事件，並不表示所有舞弊或監票都發生在同一地點。"
+  },
+  {
+    "id": "pan-european-picnic",
+    "chapter": 1,
+    "date": "1989-08-19",
+    "title": "泛歐野餐成為越境缺口",
+    "place": "索普朗附近，匈奧邊境",
+    "point": [
+      16.62,
+      47.76
+    ],
+    "actors": [
+      "HU",
+      "GDR"
+    ],
+    "type": "politics",
+    "causes": [
+      "hungary-fence"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "德國歷史之家｜1989-08-19 匈奧邊境出走照片及館藏說明",
+        "https://www.hdg.de/lemo/bestand/objekt/foto-massenflucht-ungarische-grenze.html"
+      ],
+      [
+        "德國聯邦政府｜泛歐野餐與 9 月 10 日夜至 11 日開放",
+        "https://www.bundesregierung.de/breg-en/service/archive/-pan-european-picnic--1662402"
+      ]
+    ],
+    "summary": "匈奧邊境的泛歐野餐活動短暫打開通道，數百名東德居民趁機進入奧地利。這次越境顯示，原本封閉的陣營邊界已出現缺口。",
+    "background": "匈牙利已拆除部分設備，但東德旅客的西行仍受限制；在匈境內等待出境的人數增加。",
+    "trigger": "活動的臨時開口與現場守衛未以武力阻攔，使東德居民得以通過。拆設施提供條件，現場決策才使越境成真。",
+    "motives": "活動籌辦者要象徵歐洲交流；東德出走者要獲得自由；邊防人員必須面對維持管制與避免傷亡的抉擇。",
+    "impact": "成功越境增加其他居民的期待，也使匈牙利政府面對更迫切的難民安置與外交壓力。",
+    "debate": "不同紀事對越境人數的估計不同，本教材採「數百人」。一次活動的放行不能等同持續有效的開放政策。",
+    "primary": "館藏照片標明 1989-08-19、奧地利默爾比施一側；觀察人群與邊境環境，但照片無法單獨解釋政府決策。",
+    "counterfactual": "假設守衛當場攔截，越境可能失敗；限制是稍後的正式政策仍可能改變，不能把整個出走潮歸因於一次野餐。",
+    "mapNote": "近似點位在索普朗邊境活動一帶；未繪人群實際行走軌跡，照片拍攝側與活動位置亦須區分。"
+  },
+  {
+    "id": "monday-protests",
+    "chapter": 1,
+    "date": "1989-09-04",
+    "title": "萊比錫週一示威：留下的人也要求改變",
+    "place": "萊比錫尼古拉教堂",
+    "point": [
+      12.378,
+      51.34
+    ],
+    "actors": [
+      "GDR",
+      "CIVIC"
+    ],
+    "type": "politics",
+    "causes": [
+      "local-election"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "德國歷史之家 LeMO｜週一示威",
+        "https://www.hdg.de/lemo/kapitel/deutsche-einheit/friedliche-revolution/montagsdemonstrationen.html"
+      ]
+    ],
+    "summary": "和平祈禱後，約千人在萊比錫尼古拉教堂外要求旅行自由與政治權利。此後的週一示威逐漸擴大，留在東德的人也公開發聲。",
+    "background": "尼古拉教堂長期容納和平、環境與人權團體。選舉舞弊的證據，使要求政治改革更具體。",
+    "trigger": "祈禱聚會讓人們能相約見面；集會者將對秘密警察與出境限制的不滿帶到教堂外。",
+    "motives": "參與者有人想離開，也有人要留下改革；教會提供空間，政權則試圖控制未經允許的公共表達。",
+    "impact": "固定的每週聚會降低聯絡成本，使零散不滿能累積為集體行動，為 10 月的大示威建立基礎。",
+    "debate": "9 月 4 日是本教材採用的週一示威起點，並非東德反對運動的開端。口號要求民主，也不能直接當成統一公投。",
+    "primary": "對讀 LeMO 所錄現場口號與示威照片：旅行自由、秘密警察與人民代表權，分別指向哪種不滿？",
+    "counterfactual": "假設教堂無法提供聚會空間，組織可能更困難；限制是其他城市與社群仍可發起行動，不能斷言抗議不會成形。",
+    "mapNote": "點位是教堂近似位置，表示聚集場所；未繪示威隊伍路線。"
+  },
+  {
+    "id": "hungary-open",
+    "chapter": 1,
+    "date": "1989-09-11",
+    "title": "匈牙利准許東德居民經奧地利出境",
+    "place": "布達佩斯，匈牙利政府決策中心",
+    "point": [
+      19.04,
+      47.5
+    ],
+    "actors": [
+      "HU",
+      "GDR",
+      "FRG"
+    ],
+    "type": "politics",
+    "causes": [
+      "pan-european-picnic"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "德國聯邦政府｜泛歐野餐與 9 月 10 日夜至 11 日開放",
+        "https://www.bundesregierung.de/breg-en/service/archive/-pan-european-picnic--1662402"
+      ],
+      [
+        "德國歷史之家 LeMO｜匈牙利、布拉格與大規模出走",
+        "https://www.hdg.de/lemo/kapitel/deutsche-einheit/wandel-im-osten/massenflucht.html"
+      ]
+    ],
+    "summary": "匈牙利在 9 月 10 日宣布新政策，於當夜跨入 11 日起准許東德居民經奧地利前往西方。這是持續的政策變化，超出野餐活動的臨時缺口。",
+    "background": "更多東德人滯留匈牙利，使人道安置與外交衝突加深；單靠拆設施無法解決他們是否獲准離境的問題。",
+    "trigger": "匈牙利決定不再按既有安排阻擋這批東德居民西行。時間軸取實際開放起日 9 月 11 日，宣布日另列在解說中。",
+    "motives": "匈牙利政府要處理難民困局與改革方向；西德希望接納同胞；東德領導層則要阻止人口與政治信心流失。",
+    "impact": "出走獲得可行通道，東德更難靠封鎖維持穩定；這與國內抗議形成兩種不同的壓力。",
+    "debate": "紀念文章可能把 10 日宣布與 11 日通行合稱「開放」。本教材區分這兩個時刻，也不將布達佩斯當作實際越境點。",
+    "primary": "聯邦政府紀事明記 9 月 10 日夜至 11 日的開放；配合難民照片閱讀。該紀事是事後整理，本筆未附完整匈方命令掃描。",
+    "counterfactual": "假設匈牙利繼續封鎖，東德居民可能轉向使館或其他出口；限制是替代路徑與政策變化無法量化，不能推算外流會少多少。",
+    "mapNote": "紅點在布達佩斯表示政府決策，不是邊境關卡；前往奧地利的移動只以文字交代，未繪推測路線。"
+  },
+  {
+    "id": "prague-embassy",
+    "chapter": 1,
+    "date": "1989-09-30",
+    "title": "布拉格使館難民獲准前往西德",
+    "place": "西德駐布拉格使館，羅布科維茨宮",
+    "point": [
+      14.403,
+      50.085
+    ],
+    "actors": [
+      "GDR",
+      "FRG",
+      "CS",
+      "USSR"
+    ],
+    "type": "politics",
+    "causes": [
+      "hungary-open"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "德國外交部｜重刊使館人員 1989-09-30 日記片段",
+        "https://www.auswaertiges-amt.de/en/newsroom/news/annen-order-of-malta-support-budapest-2246682"
+      ],
+      [
+        "德國外交部｜布拉格使館出境宣布時間",
+        "https://www.auswaertiges-amt.de/en/newsroom/news/maas-prague-2250942"
+      ],
+      [
+        "德國歷史之家 LeMO｜匈牙利、布拉格與大規模出走",
+        "https://www.hdg.de/lemo/kapitel/deutsche-einheit/wandel-im-osten/massenflucht.html"
+      ]
+    ],
+    "summary": "西德外長根舍在布拉格使館陽台宣布，聚集於使館的東德居民獲准前往西德。這是特定難民的外交安排，並非東德已全面開放國境。",
+    "background": "無法直接赴西德的人進入西德使館尋求協助；匈牙利的出口使東德更難掩蓋外流，也增加處理使館危機的壓力。",
+    "trigger": "多方協商達成出境安排，根舍在晚間約 19 時前宣布；其後專列須經東德領土再進入西德。",
+    "motives": "難民要安全離開；西德政府要取得放行；東德要保留出境程序的控制與顏面；捷克斯洛伐克希望解除使館困局，蘇聯也參與外交斡旋。",
+    "impact": "專列安排解決眼前危機，卻讓更多人相信施壓可換得出境；國內改革與旅行自由問題仍未獲解決。",
+    "debate": "使館人數隨時間快速變動，紀事估計並不一致，因此不把某一人數當成全天精確總數。出境成功也不代表難民贊成某種統一方案。",
+    "primary": "外交部重刊使館人員施特里德當日日記：下午仍不斷有人湧入，接著根舍抵達。這是當事人紀錄的節錄，與事後紀念演說須區分。",
+    "counterfactual": "假設協商未達成，滯留與人道危機可能延續；限制是無法確定其他通道何時開放，不能預言東德政權會因此存續。",
+    "mapNote": "點位是使館近似位置；專列途經東德的條件見文字，未繪未查核的鐵路路線。"
+  },
+  {
+    "id": "leipzig-october",
+    "chapter": 2,
+    "date": "1989-10-09",
+    "title": "七萬人上街，萊比錫當晚未遭武力鎮壓",
+    "place": "萊比錫市中心環城道路一帶",
+    "point": [
+      12.38,
+      51.34
+    ],
+    "actors": [
+      "GDR",
+      "CIVIC",
+      "USSR"
+    ],
+    "type": "politics",
+    "causes": [
+      "monday-protests"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "德國歷史之家 LeMO｜週一示威",
+        "https://www.hdg.de/lemo/kapitel/deutsche-einheit/friedliche-revolution/montagsdemonstrationen.html"
+      ],
+      [
+        "萊比錫圓角博物館｜1989-10-09 示威與現場照片",
+        "https://www.runde-ecke-leipzig.de/index.php?L=2&id=510"
+      ]
+    ],
+    "summary": "約七萬人在萊比錫要求民主並呼籲不要暴力。儘管安全部隊有所準備，示威當晚和平結束，更多人看見公開抗議可以持續。",
+    "background": "本章核心問題：更換領導人為何無法平息危機，關卡又如何在一晚內開放？ 示威逐週擴大；10 月初仍有拘捕與暴力，民眾擔心出現如北京六四的鎮壓。",
+    "trigger": "大批民眾在和平祈禱後上街，地方決策者面對超出預期的人潮，最終沒有動武；蘇軍亦未介入。",
+    "motives": "示威者希望以和平方式爭取政治權利；地方官員與安全人員擔心失控和傷亡；蘇聯此時未出兵替東德政權壓制抗議。",
+    "impact": "和平結束降低參與者的恐懼，削弱政權用威嚇阻止集會的能力，也加深黨內更換領導人的壓力。",
+    "debate": "「誰阻止開槍」的敘述牽涉地方指揮、群眾規模與事後自辯；不能只用某位領導人的回憶取代完整指揮鏈。",
+    "primary": "圓角博物館的現場照片與時序說明，配合 LeMO 的人數與蘇軍記載。照片可證示威規模，不能證明每道命令由誰下達。",
+    "counterfactual": "假設當晚動武，傷亡與後續動員可能不同；限制是外部反應及群眾回應不確定，不能把和平統一當成必然或不可能。",
+    "mapNote": "點位近似市中心；不畫戰線，因為這是公民示威；亦未把部隊駐地當作軍事占領面。"
+  },
+  {
+    "id": "honecker-replaced",
+    "chapter": 2,
+    "date": "1989-10-18",
+    "title": "何內克下台，克倫茨接任黨魁",
+    "place": "東柏林，統一社會黨中央",
+    "point": [
+      13.42,
+      52.53
+    ],
+    "actors": [
+      "GDR",
+      "CIVIC"
+    ],
+    "type": "politics",
+    "causes": [
+      "leipzig-october",
+      "prague-embassy"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "德國歷史之家 LeMO｜東德領導層更替",
+        "https://www.hdg.de/lemo/kapitel/deutsche-einheit/friedliche-revolution/fuehrungswechsel.html"
+      ]
+    ],
+    "summary": "長期掌權的何內克被黨內高層迫使下台，克倫茨接任統一社會黨總書記，承諾改革。換黨魁仍未等於自由選舉。",
+    "background": "出走潮與示威擴大，使黨內高層認為何內克無法化解危機；10 月 16 日萊比錫再有更大示威。",
+    "trigger": "17 日黨內推動撤換，18 日中央委員會完成領導更替；官方健康理由無法充分說明政治壓力。",
+    "motives": "黨內接班者想以有限改革保住執政權；公民要求制度改變，對曾參與選舉舞弊的克倫茨缺乏信任。",
+    "impact": "領導層承認政策必須變動，卻未恢復民眾信任；旅行政策與政治改革仍是公開施壓的焦點。",
+    "debate": "17 日的黨內行動、18 日黨職交接、24 日國家職位的選任須分開；本筆以黨魁更替的 18 日為準。",
+    "primary": "LeMO 收錄新舊領導人影像並交代官方說法；應將宣傳的健康理由與黨內決策記錄對讀，本筆未宣稱完整公開所有會議檔案。",
+    "counterfactual": "假設更早撤換何內克，改革也許較有說服力；限制是克倫茨的既有角色與制度問題仍在，無法證明能保住一黨統治。",
+    "mapNote": "柏林點代表黨中央決策場所一帶；黨魁更換不改變法理疆界。"
+  },
+  {
+    "id": "alexanderplatz",
+    "chapter": 2,
+    "date": "1989-11-04",
+    "title": "亞歷山大廣場要求言論與集會自由",
+    "place": "東柏林亞歷山大廣場",
+    "point": [
+      13.413,
+      52.521
+    ],
+    "actors": [
+      "GDR",
+      "CIVIC"
+    ],
+    "type": "politics",
+    "causes": [
+      "leipzig-october",
+      "honecker-replaced"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "德國歷史博物館｜1989-11-04 亞歷山大廣場示威照片",
+        "https://artsandculture.google.com/asset/demonstration-on-the-berlin-alexanderplatz-4-november-1989-rolf-z%C3%B6llner/ogF2hXTeF9NlOQ?hl=en"
+      ],
+      [
+        "德國歷史之家 LeMO｜東德領導層更替",
+        "https://www.hdg.de/lemo/kapitel/deutsche-einheit/friedliche-revolution/fuehrungswechsel.html"
+      ]
+    ],
+    "summary": "大批民眾參加獲准舉行的東柏林示威，要求言論、新聞與集會自由。作家、演員、公民運動者與官方人物同台發言，改革方向仍有分歧。",
+    "background": "克倫茨接班未平息抗議；過去遭壓抑的訴求，經由街頭集會與電視進入公共討論。",
+    "trigger": "文化工作者等人組織大型集會，讓民主權利的要求在首都集中表達；領導更換未回應制度問題，因而施壓持續。",
+    "motives": "公民希望自由表達並監督政府；部分發言者要改革社會主義，官方出席者希望維持影響力。各方尚未共有統一路線。",
+    "impact": "集會顯示政府難再壟斷公共討論；旅行法草案與後來的臨時規定，都在這種持續施壓下形成。",
+    "debate": "示威人數有不同估計，故不列精確總數。支持民主改革與支持立即統一，是當時不同的政治選擇。",
+    "primary": "德國歷史博物館藏佐爾納 11 月 4 日照片，提供人群與標語的原始影像；可與不同發言者的訴求對讀。",
+    "counterfactual": "假設集會未獲批准，抗議仍可能改以其他形式出現；限制是無法推知衝突程度，也不能用這個假設抹去公民的組織能力。",
+    "mapNote": "廣場為近似事件點；未將集會範圍畫成領土控制區。"
+  },
+  {
+    "id": "travel-announcement",
+    "chapter": 2,
+    "date": "1989-11-09",
+    "title": "記者會宣布新旅行規定「立即」適用",
+    "place": "東柏林國際新聞中心",
+    "point": [
+      13.385,
+      52.528
+    ],
+    "actors": [
+      "GDR",
+      "CIVIC"
+    ],
+    "type": "politics",
+    "causes": [
+      "prague-embassy",
+      "alexanderplatz"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "喬治梅森大學｜夏博夫斯基記者會逐字節錄（原始發言）",
+        "https://1989.rrchnm.org/items/show/449.html"
+      ],
+      [
+        "柏林市政府｜1989-11-09 記者會、有限放行與全面開關時序",
+        "https://www.berlin.de/en/history/8482274-8619314-opening-and-fall-of-the-berlin-wall.en.html"
+      ]
+    ],
+    "summary": "晚間接近 19 時，黨官員夏博夫斯基在電視記者會回答旅行新規何時適用時，說按他的了解是立即生效。這句話先於邊防取得配套指示。",
+    "background": "持續出走、示威與對旅行草案的不滿，促使東德修訂出境安排；規定仍涉及申請與簽證程序。",
+    "trigger": "夏博夫斯基在追問下讀取手中文件，宣布了未協調好的時間；媒體隨即把消息傳成邊境已開放。",
+    "motives": "政府希望用旅行鬆綁解除壓力；記者要求明確時間；居民希望立即實現通行權，三方對程序的理解出現落差。",
+    "impact": "消息使人群前往關卡要求通行，是當晚放行的直接誘因；宣布本身尚未讓所有關卡同時打開。",
+    "debate": "把圍牆開放只歸因於一句口誤，會忽略長期壓力與現場守衛決定；但忽略訊息傳播，也無法解釋為何正是當晚。",
+    "primary": "讀大學整理的記者會逐字節錄：先說可申請旅行，接著回答立即適用。原話中的猶疑與申請程序，不等於一道全面開關命令。",
+    "counterfactual": "假設宣布清楚列出翌日程序，人群抵達時間可能不同；限制是政治壓力仍在，無法據此確定統一會延後多久。",
+    "mapNote": "近似點位在新聞中心一帶；下一筆才移到波恩霍爾默大街關卡。同日按 ID 將宣布排在放行之前。"
+  },
+  {
+    "id": "wall-open",
+    "chapter": 2,
     "date": "1989-11-09",
     "title": "柏林關卡開放",
-    "place": "波恩霍爾默大街關卡，柏林",
+    "place": "柏林波恩霍爾默大街關卡",
     "point": [
       13.398,
       52.555
@@ -13,31 +402,482 @@
       "GDR"
     ],
     "type": "politics",
-    "causes": [],
+    "causes": [
+      "travel-announcement",
+      "leipzig-october"
+    ],
     "edges": [],
     "sources": [
       [
-        "柏林市政府｜圍牆開放經過",
+        "柏林市政府｜1989-11-09 記者會、有限放行與全面開關時序",
         "https://www.berlin.de/en/history/8482274-8619314-opening-and-fall-of-the-berlin-wall.en.html"
+      ],
+      [
+        "喬治梅森大學｜夏博夫斯基記者會逐字節錄（原始發言）",
+        "https://1989.rrchnm.org/items/show/449.html"
       ],
       [
         "德國聯邦政府｜1989 年 11 月 9 日",
         "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/die-mauer-ist-offen--403858"
       ]
     ],
-    "summary": "東德官員在記者會上說，新的旅行規定立即生效。消息傳開，人們趕到關卡要求放行。當晚守衛打開通道，柏林人得以跨越原先封閉的分界。",
-    "background": "東德已面對示威與持續外流的壓力，旅行限制成為民眾關注的焦點。",
-    "trigger": "記者會傳出的生效時間，與邊防人員手上的命令出現落差。",
-    "motives": "居民想立即行使通行權；現場守衛面對人群與上級指示的落差。",
-    "impact": "通行限制迅速瓦解，兩個德國的政治前途成為公開議題。",
-    "mapNote": "紅點是先放行的關卡之一。圖上未重建圍牆走線。",
+    "summary": "消息傳開，人們趕到柏林關卡要求放行。波恩霍爾默大街先有限放人，到晚間約 23 時 30 分不再逐一查驗，大批居民通過；其他關卡接著開放。",
+    "background": "東德已面對示威與持續外流的壓力，旅行限制成為民眾關注的焦點。柏林分為東、西兩部分，關卡通行不等於兩個國家已合併。",
+    "trigger": "當晚記者會傳出的立即生效說法，與邊防人員手上的命令出現落差；媒體報導和不斷聚集的人群，迫使現場做出決定。",
+    "motives": "居民想立即行使通行權；現場守衛面對人群、避免傷亡與上級指示不足的困局。其行動仍不能視為全體政府已決議統一。",
+    "impact": "通行限制迅速瓦解，兩個德國的政治前途成為公開議題；人民的移動自由與國家統一，仍相隔選舉、兩德條約和國際協商。",
+    "mapNote": "紅點是先放行的關卡之一，位置近似；未重建圍牆走線。比較 1990-10-03：此晚兩德仍各有政府，四國對柏林與德國整體的權責仍存在。",
     "debate": "政治改革的長期壓力與當晚訊息失控，可以分別解釋制度為何鬆動、通道為何在那一晚打開。",
-    "primary": "對讀記者會發言與守衛放行的時序，可見口頭宣布到實際通行之間仍有一段時間。",
-    "counterfactual": "如果規定的生效時間說得更清楚，當晚的放行時間可能不同；它對後來統一時程的影響無法確定。"
+    "primary": "對讀記者會逐字節錄與柏林市政府整理的時序：21 時 20 分左右先有限放人，約 23 時 30 分停止查驗。前者不是全面開關；官方紀事也有事後整理的限制。",
+    "counterfactual": "假設規定的適用時間說得更清楚，當晚的放行時間可能不同；限制是民眾施壓與守衛裁量仍存在，它對後來統一時程的影響無法確定。"
+  },
+  {
+    "id": "modrow-elected",
+    "chapter": 2,
+    "date": "1989-11-13",
+    "title": "莫德羅獲選組閣，尋求改革東德",
+    "place": "東柏林人民議院",
+    "point": [
+      13.402,
+      52.518
+    ],
+    "actors": [
+      "GDR",
+      "CIVIC",
+      "FRG"
+    ],
+    "type": "politics",
+    "causes": [
+      "wall-open",
+      "honecker-replaced"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "德國聯邦政府｜1989-11-13 莫德羅獲選與其政府主張",
+        "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/regierung-modrow-337206"
+      ],
+      [
+        "德國歷史博物館｜不同的統一構想",
+        "https://www.dhm.de/archiv/ausstellungen/wiedervereinigung/en/vereinigungskonzepte.html"
+      ]
+    ],
+    "summary": "東德人民議院選莫德羅為政府首長，交由他組閣。政府要恢復運作並推動改革，東德前途仍有維持獨立、密切合作與統一等不同主張。",
+    "background": "原政府已辭職，關卡開放加速既有權威瓦解；人民議院此時仍非自由競選產生。",
+    "trigger": "國家需要一個能處理行政與經濟危機的政府，議院以表決方式授權莫德羅組閣；新內閣於 17 日另行提出。",
+    "motives": "莫德羅起初要保存改革後的東德；反對派要求監督與自由選舉；西德政府則評估援助與合作的條件。",
+    "impact": "莫德羅成為過渡期協商對象，日後須面對圓桌監督；單靠黨內換人已不足以提供民主正當性。",
+    "debate": "11 月 13 日是獲選政府首長，17 日是內閣與施政聲明。不能把莫德羅後來支持統一的主張倒填到任職首日。",
+    "primary": "官方紀事重刊斯托夫對政府責任的發言，博物館則展示莫德羅的契約共同體構想。對照兩者，可看見認錯與改革方案的差別。",
+    "counterfactual": "假設過渡政府更早獲得信任，改革東德的方案可能較有空間；限制是經濟、外流與選民意願仍在變化，無法保證維持兩國。",
+    "mapNote": "柏林近似點代表議會決策，未將黨領導、政府與民意合併為同一行為者。"
+  },
+  {
+    "id": "ten-point-plan",
+    "chapter": 3,
+    "date": "1989-11-28",
+    "title": "柯爾提出十點計畫，統一成為政策選項",
+    "place": "聯邦議院，波昂",
+    "point": [
+      7.124,
+      50.719
+    ],
+    "actors": [
+      "FRG",
+      "GDR",
+      "US",
+      "GB",
+      "FR",
+      "USSR"
+    ],
+    "type": "politics",
+    "causes": [
+      "wall-open",
+      "modrow-elected"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "德國史文獻與圖像｜柯爾十點計畫原文，1989-11-28",
+        "https://germanhistorydocs.org/en/a-new-germany-1990-2023/helmut-kohl-s-ten-point-plan-for-german-unity-november-28-1989"
+      ],
+      [
+        "德國歷史之家 LeMO｜十點計畫及各國反應",
+        "https://www.hdg.de/lemo/kapitel/deutsche-einheit/weg-zur-einheit/zehn-punkte-programm.html"
+      ],
+      [
+        "德國歷史博物館｜不同的統一構想",
+        "https://www.dhm.de/archiv/ausstellungen/wiedervereinigung/en/vereinigungskonzepte.html"
+      ]
+    ],
+    "summary": "西德總理柯爾在波昂提出十點計畫，從援助、合作到邦聯式結構，設想最終統一。這是政策提案，沒有指定統一生效日。",
+    "background": "本章核心問題：誰有權代表東德協商，貨幣先統一是否等於國家已統一？ 關卡開放後，兩德合作與國家前途進入公開討論；部分東德公民仍主張建立民主而獨立的東德。",
+    "trigger": "莫德羅的合作構想與民間日益可見的統一要求，促使柯爾提出主動方案，爭取對進程的引導。",
+    "motives": "柯爾希望以民主化與市場改革連結援助；東德改革者擔心被西德吸收；鄰國與四國關心德國擴大後的安全和邊界。",
+    "impact": "統一由長期口號變成具體政策議題，但仍須取得東德選民授權與國際同意；後來的快速加入並非計畫已排好的步驟。",
+    "debate": "此計畫缺乏明確的波蘭邊界承諾，引起疑慮。不能將盟國的保留簡化為反對德國人民自由選擇。",
+    "primary": "讀原文第三、第五與第六點：自由選舉、合作機構及歐洲架構各是什麼條件？全文沒有提供後來 10 月 3 日的倒數表。",
+    "counterfactual": "假設未提出十點計畫，其他統一方案可能爭得更多討論空間；限制是選舉和國際談判仍可能推動統一，無法認定進程會中止。",
+    "mapNote": "點位近似波昂聯邦議院舊址，與柏林分開；這是政治提案，沒有領土變動。"
+  },
+  {
+    "id": "central-round-table",
+    "chapter": 3,
+    "date": "1989-12-07",
+    "title": "中央圓桌會議協商自由選舉與監督",
+    "place": "迪特里希・潘霍華之家，東柏林",
+    "point": [
+      13.384,
+      52.525
+    ],
+    "actors": [
+      "GDR",
+      "CIVIC"
+    ],
+    "type": "politics",
+    "causes": [
+      "modrow-elected",
+      "leipzig-october"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "德國史文獻與圖像｜中央圓桌會議目標原文，1989-12-07",
+        "https://germanhistorydocs.org/en/a-new-germany-1990-2023/goals-of-the-central-round-table-december-7-1989.pdf"
+      ],
+      [
+        "德國歷史之家 LeMO｜圓桌會議的成員、職責與選舉",
+        "https://www.hdg.de/lemo/kapitel/deutsche-einheit/weg-zur-einheit/der-runde-tisch.html"
+      ]
+    ],
+    "summary": "政府陣營、反對團體與教會在中央圓桌會議協商，要求公開國家情況、監督權力並安排自由選舉。它是過渡期協商平台。",
+    "background": "一黨支配正失去合法性。開放關卡沒有自動產生新議會，也沒有解決秘密警察與行政權的監督問題。",
+    "trigger": "街頭動員與政府危機迫使掌權者讓反對派參與；教會協助主持，讓衝突能進入談判。",
+    "motives": "公民團體要民主制度與可公開監督的政府；舊政黨希望維持政治參與；教會希望促進和平對話。",
+    "impact": "會議推動自由選舉並監督過渡；原議定的選舉時間後來因危機提前至 1990 年 3 月 18 日。這提供轉向民選授權的橋梁。",
+    "debate": "圓桌聲明明言自己不是議會或政府；它有政治影響力，卻不能替代選舉。公民運動也沒有單一的統一立場。",
+    "primary": "讀 12 月 7 日目標聲明原文：要求哪些資訊？如何定位自身權力？以此區分「諮詢與監督」和「民選議會立法」。",
+    "counterfactual": "假設缺少圓桌，權力轉型可能更難協調；限制是地方圓桌、議會與街頭仍有作用，不能假定只有這一條民主化途徑。",
+    "mapNote": "點位是首次會議場所一帶；後續會議有其他場地，不把本點當作所有會議的永久位置。"
+  },
+  {
+    "id": "free-election",
+    "chapter": 3,
+    "date": "1990-03-18",
+    "title": "東德首次自由人民議院選舉",
+    "place": "東柏林及東德各投票所",
+    "point": [
+      13.42,
+      52.53
+    ],
+    "actors": [
+      "GDR",
+      "CIVIC",
+      "FRG"
+    ],
+    "type": "politics",
+    "causes": [
+      "central-round-table",
+      "ten-point-plan"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "德國歷史之家 LeMO｜自由選舉與德梅齊埃政府",
+        "https://www.hdg.de/lemo/kapitel/deutsche-einheit/weg-zur-einheit/freie-volkskammerwahl"
+      ],
+      [
+        "聯邦檔案館 DA 1/18796｜1990-03-18 人民議院選舉最終結果掃描",
+        "https://deutsche-einheit-1990.de/wp-content/uploads/BArch-DA1-18796-Wahlergebnis.pdf"
+      ],
+      [
+        "德國聯邦議院｜1990 年自由人民議院與加入決議",
+        "https://www.bundestag.de/parlament/geschichte/19900318-kalenderblatt-wahl-684742"
+      ]
+    ],
+    "summary": "東德居民首次能自由競選人民議院。主張迅速統一的「德國聯盟」約得 48% 選票，取得優勢；參與和平革命的公民運動未取得相同的選票支持。",
+    "background": "圓桌協商提供選舉準備，經濟困境與持續外流使選舉提前；選民同時考慮工作、貨幣、社會保障與國家前途。",
+    "trigger": "自由競選、秘密投票與正式開票，使原本由街頭表達的訴求轉為議會席次；當天是投票日，最終結果另經核定。",
+    "motives": "德國聯盟要迅速加入聯邦共和國；社民黨、民主社會主義黨與公民團體提出不同速度和制度方案；西德政黨也投入競選支持。",
+    "impact": "選舉為迅速統一提供民主授權，並決定誰能組成談判政府；48% 並非所有東德人對每一項條約條件的同意。",
+    "debate": "解釋勝選不能只說選民要西德馬克，也不能忽略經濟期待；選票可證支持分布，無法直接讀出每人的內心動機。",
+    "primary": "聯邦檔案館 DA 1/18796 的選舉委員會最終結果掃描，可核對各黨票數與席次；德國聯盟是三黨合計，並非單一政黨。",
+    "counterfactual": "假設較慢統一的政黨勝出，政府授權可能不同；限制是不能由選票重新分配直接推出國際條件、經濟情勢也會配合改變。",
+    "mapNote": "柏林代表全國選舉，非單一投票所。選舉後東德仍是獨立國家。"
+  },
+  {
+    "id": "de-maiziere-government",
+    "chapter": 3,
+    "date": "1990-04-12",
+    "title": "德梅齊埃獲選，民選政府承接談判",
+    "place": "東柏林人民議院",
+    "point": [
+      13.402,
+      52.518
+    ],
+    "actors": [
+      "GDR",
+      "FRG",
+      "CIVIC"
+    ],
+    "type": "politics",
+    "causes": [
+      "free-election"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "德國歷史之家 LeMO｜自由選舉與德梅齊埃政府",
+        "https://www.hdg.de/lemo/kapitel/deutsche-einheit/weg-zur-einheit/freie-volkskammerwahl"
+      ],
+      [
+        "德國聯邦議院｜1990 年自由人民議院與加入決議",
+        "https://www.bundestag.de/parlament/geschichte/19900318-kalenderblatt-wahl-684742"
+      ]
+    ],
+    "summary": "人民議院選德梅齊埃為政府首長，組成多黨聯合政府。東德開始由自由選舉產生的政府，與西德協商經濟及國家統一。",
+    "background": "3 月選舉提供席次，卻仍需組閣與形成政策。先前莫德羅政府是過渡安排，不能代替新議會授權。",
+    "trigger": "政黨協商出聯合政府，由議會選任總理；德國聯盟雖居優勢，仍須與其他政黨合作。",
+    "motives": "德梅齊埃政府要落實快速統一並保障東德人的利益；西德政府希望有可代表東德選民的協商對象；反對黨仍可質疑條件。",
+    "impact": "兩德簽署具有重大經濟後果的條約，取得更明確的民主正當性；議會表決與對外談判仍須另外進行。",
+    "debate": "「民選」不代表談判力量對等：東德經濟與外流壓力限制選項；但也不能因此抹去東德議會與選民的決策角色。",
+    "primary": "依人民議院選任記錄的官方整理，核對 4 月 12 日與選舉日的差別；再對讀各黨得票，理解組閣為何需要聯盟。",
+    "counterfactual": "假設組閣拖延，條約協商可能放慢；限制是行政部門與黨派仍可先行接觸，不能精確推算統一會延至哪一天。",
+    "mapNote": "點位是議院所在地近似位置；此日起國家面板改顯示民選政府，仍保留東德國家身分。"
+  },
+  {
+    "id": "monetary-treaty",
+    "chapter": 3,
+    "date": "1990-05-18",
+    "title": "兩德簽署貨幣、經濟與社會聯盟條約",
+    "place": "波昂，兩德簽約",
+    "point": [
+      7.1,
+      50.74
+    ],
+    "actors": [
+      "GDR",
+      "FRG"
+    ],
+    "type": "alliance",
+    "causes": [
+      "de-maiziere-government",
+      "ten-point-plan"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "德國聯邦法規平台｜貨幣、經濟與社會聯盟條約原文",
+        "https://www.gesetze-im-internet.de/wwsuvtr/index.html"
+      ],
+      [
+        "盧森堡大學 CVCE｜1990-05-18 貨幣、經濟與社會聯盟條約（政府英譯）（部分連線可能受限，優先使用上一項原文）",
+        "https://www.cvce.eu/content/publication/1999/1/1/9847e49d-43c7-4c0e-b625-ff732673a06e/publishable_en.pdf"
+      ],
+      [
+        "德國聯邦政府｜1990-05-18 國家條約簽署",
+        "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/vertrag-zur-waehrungsunion-353930"
+      ],
+      [
+        "德國歷史之家 LeMO｜貨幣、經濟與社會聯盟",
+        "https://www.hdg.de/lemo/kapitel/deutsche-einheit/weg-zur-einheit/wirtschafts-waehrungs-und-sozialunion.html"
+      ]
+    ],
+    "summary": "兩德財政部長在波昂簽署國家條約，約定導入西德馬克及市場經濟、社會保險制度。簽約日為 5 月 18 日，實際轉換定在 7 月 1 日。",
+    "background": "民選東德政府承接統一授權；經濟差距與人口外移，使貨幣與社會保障成為最急迫的兩德議題之一。",
+    "trigger": "兩德政府就轉換規則與財政安排達成條約；政治授權使政府能承擔談判，但不表示技術爭議已消失。",
+    "motives": "東德政府要穩住居民生活與外流；柯爾政府要推進統一；企業與經濟專家則關心生產力差距及轉換成本。",
+    "impact": "條約為 7 月 1 日的共同貨幣與制度轉換提供法律安排；經濟整合將先於 10 月的國家統一。",
+    "debate": "快速轉換能否穩定東德，與是否加重企業競爭壓力，是不同評估尺度。不能把後來失業全歸因於一個匯率。",
+    "primary": "讀條約第 1、10 與 38 條原文（另附 CVCE 政府英譯）：7 月 1 日、換幣規則與批准安排各寫在哪裡？再對照簽署現場影像，避免把簽字和實施混為一談。",
+    "counterfactual": "假設採較長貨幣過渡期，企業調整可能較緩；限制是外流、物價與政治支持也會變動，不能保證經濟結果更佳。",
+    "mapNote": "波昂點表示簽約；沒有用領土顏色假裝國家已在當天合併。5 月開始的兩加四外交談判則是另一條協商線。"
+  },
+  {
+    "id": "monetary-union",
+    "chapter": 3,
+    "date": "1990-07-01",
+    "title": "貨幣、經濟與社會聯盟開始實施",
+    "place": "東柏林及東德各地",
+    "point": [
+      13.42,
+      52.53
+    ],
+    "actors": [
+      "GDR",
+      "FRG"
+    ],
+    "type": "politics",
+    "causes": [
+      "monetary-treaty"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "德國聯邦法規平台｜貨幣、經濟與社會聯盟條約原文",
+        "https://www.gesetze-im-internet.de/wwsuvtr/index.html"
+      ],
+      [
+        "盧森堡大學 CVCE｜1990-05-18 貨幣、經濟與社會聯盟條約（政府英譯）（部分連線可能受限，優先使用上一項原文）",
+        "https://www.cvce.eu/content/publication/1999/1/1/9847e49d-43c7-4c0e-b625-ff732673a06e/publishable_en.pdf"
+      ],
+      [
+        "德國歷史之家 LeMO｜貨幣、經濟與社會聯盟",
+        "https://www.hdg.de/lemo/kapitel/deutsche-einheit/weg-zur-einheit/wirtschafts-waehrungs-und-sozialunion.html"
+      ],
+      [
+        "德國聯邦政府｜1990-05-18 國家條約簽署",
+        "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/vertrag-zur-waehrungsunion-353930"
+      ]
+    ],
+    "summary": "西德馬克成為東德的通用貨幣，經濟與社會制度按條約轉換。兩德在貨幣上結合，東德政府與國家身分仍存在。",
+    "background": "5 月 18 日簽約後完成立法與行政準備。社會市場經濟指市場運作配合社會保險等保障，不只是更換紙鈔。",
+    "trigger": "條約約定的 7 月 1 日到來，銀行、薪資與社會保障制度開始切換；這是執行先前協議，並非另一次國家合併決議。",
+    "motives": "民眾期待穩定貨幣與生活改善；兩德政府希望減少外移、加速整合；企業則須應對新價格與競爭。",
+    "impact": "薪資、退休金等按一比一轉換，儲蓄另有額度及比率；制度改變帶來購買機會，也使東德企業的調整壓力更直接。",
+    "debate": "不能寫成「所有東德馬克一律一比一」。經濟困難還涉及生產設備、原有市場與後續企業政策。",
+    "primary": "讀條約第 10 條第 5 款：經常收入一比一，其他債權債務原則上二比一，個人存款另有分齡額度。條約是規則，不能代替每個人的銀行或就業紀錄。",
+    "counterfactual": "假設採較低的轉換待遇，企業成本或有不同，但居民財富與信任也可能受損；限制是資料不足以確定淨效果。",
+    "mapNote": "點位只代表東德各地同步施行；經濟制度適用與法理國界不同，地圖不填統一疆域色塊。"
+  },
+  {
+    "id": "caucasus-agreement",
+    "chapter": 4,
+    "date": "1990-07-16",
+    "title": "高加索共識突破德國結盟問題",
+    "place": "阿爾希茲，高加索地區",
+    "point": [
+      41.28,
+      43.56
+    ],
+    "actors": [
+      "FRG",
+      "USSR",
+      "US",
+      "GDR"
+    ],
+    "type": "peace",
+    "causes": [
+      "de-maiziere-government"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "德國聯邦政府｜7 月 15 日出訪、16 日高加索共識",
+        "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/15-juli-1990-430096"
+      ],
+      [
+        "德國史文獻與圖像｜兩加四條約原文節錄（第 1–7 條）",
+        "https://germanhistorydocs.org/en/a-new-germany-1990-2023/ghdi:document-176"
+      ],
+      [
+        "德國聯邦政府｜1990-07-17 兩加四會議與波蘭邊界",
+        "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/dritte-2-4-ministerkonferenz-in-paris-476390"
+      ]
+    ],
+    "summary": "柯爾與戈巴契夫就統一後德國的結盟自由、蘇軍撤離與安全安排取得關鍵共識。這是政治突破，仍須寫入六國條約。",
+    "background": "本章核心問題：兩德自己同意後，為何還要四國處理安全、邊界與主權？ 兩德之外，二戰後的美、英、法、蘇四國對柏林及德國整體保有權責。兩加四外長談判自 5 月展開，結盟與駐軍是難題。",
+    "trigger": "西德代表團 7 月 15 日先抵莫斯科，再赴高加索；16 日形成共識，蘇聯接受統一德國可自由選擇聯盟，搭配撤軍及軍力限制。",
+    "motives": "西德要保留北大西洋公約組織（北約）成員地位；美國支持此方向；蘇聯要安全保證與經濟協助，並有國內改革壓力。",
+    "impact": "共識鬆動主要外交障礙，使六國能推進最終條文；7 月 17 日巴黎會議仍須處理波蘭關切的邊界。",
+    "debate": "官方德文紀事以 16 日為突破日，部分紀念標題以 15 日出訪概括。前東德地區的特別駐軍限制，也不能擴寫為對所有東歐國家的同一承諾。",
+    "primary": "把官方記者會紀事與兩加四條約第 4–6 條對讀：撤軍、特定地區駐軍與自由結盟是不同條款，不能互相替換。",
+    "counterfactual": "假設蘇聯堅持中立化，國際協商可能延長；限制是其財政、軍事與國內局勢仍變動，無法斷言統一必定失敗。",
+    "mapNote": "紅點近似高加索阿爾希茲；莫斯科是出訪前段，不把整段談判都標在莫斯科。未繪撤軍路線或駐軍占領面。"
+  },
+  {
+    "id": "accession-vote",
+    "chapter": 4,
+    "date": "1990-08-23",
+    "title": "東德議會決議於 10 月 3 日加入",
+    "place": "東柏林人民議院",
+    "point": [
+      13.402,
+      52.518
+    ],
+    "actors": [
+      "GDR",
+      "FRG",
+      "CIVIC"
+    ],
+    "type": "politics",
+    "causes": [
+      "free-election",
+      "monetary-union",
+      "caucasus-agreement"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "德國聯邦議院｜1990 年自由人民議院與加入決議",
+        "https://www.bundestag.de/parlament/geschichte/19900318-kalenderblatt-wahl-684742"
+      ],
+      [
+        "德國歷史之家 LeMO｜加入決議、統一條約與慶典",
+        "https://www.hdg.de/lemo/kapitel/deutsche-einheit/weg-zur-einheit/einigungsvertrag.html"
+      ]
+    ],
+    "summary": "人民議院在深夜跨入 8 月 23 日後表決，決定東德於 10 月 3 日加入聯邦共和國基本法的適用範圍。通過決議與加入生效相隔數週。",
+    "background": "貨幣聯盟已運作，國際協商取得進展；政黨對統一速度、日期與程序仍有分歧。",
+    "trigger": "議員就加入的時間與條件進行表決，294 票贊成。新政府的民選授權、經濟整合與外交突破，使這項選擇更可實施。",
+    "motives": "多數議員要完成迅速統一；反對或保留者擔心程序與社會成本；兩德政府須把加入決議轉成行政和法律安排。",
+    "impact": "加入日期由東德議會明確選定，統一條約遂需配合安排法律銜接；決議尚不表示當天東德已消失。",
+    "debate": "採當時基本法第 23 條加入，與依第 146 條另制全德憲法，是不同路徑。不能以今日第 23 條的歐盟內容解讀當年決議。",
+    "primary": "聯邦議院整理記錄列出 294 票贊成、62 票反對、7 票棄權。核對這項加入表決，與 9 月批准整份統一條約的表決不同。",
+    "counterfactual": "假設選擇另制憲法，可能需要更多協商；限制是無法假定選民、四國與經濟條件會在更長期間保持不變。",
+    "mapNote": "柏林點表示議會表決；地圖在 8 月 23 日仍保留兩德身分，直到 10 月 3 日才更新。"
+  },
+  {
+    "id": "unification-treaty",
+    "chapter": 4,
+    "date": "1990-08-31",
+    "title": "兩德簽署統一條約，安排加入後的制度",
+    "place": "東柏林王儲宮",
+    "point": [
+      13.396,
+      52.517
+    ],
+    "actors": [
+      "GDR",
+      "FRG"
+    ],
+    "type": "alliance",
+    "causes": [
+      "accession-vote",
+      "monetary-union"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "德國聯邦法規平台｜統一條約生效註記及第 1、2、45 條",
+        "https://www.gesetze-im-internet.de/einigvtr/BJNR208890990.html"
+      ],
+      [
+        "德國史文獻與圖像｜1990-08-31 統一條約原文（第 1、2、45 條）",
+        "https://germanhistorydocs.org/en/a-new-germany-1990-2023/ghdi:document-78"
+      ],
+      [
+        "德國聯邦政府｜1990-08-31 王儲宮簽約",
+        "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/einigungsvertrag-353970"
+      ],
+      [
+        "德國歷史之家 LeMO｜加入決議、統一條約與慶典",
+        "https://www.hdg.de/lemo/kapitel/deutsche-einheit/weg-zur-einheit/einigungsvertrag.html"
+      ]
+    ],
+    "summary": "西德的蕭伯樂與東德的克勞澤在柏林簽署統一條約，安排新邦、法律、行政和財產等銜接。這份兩德內部條約，與處理外部條件的兩加四條約不同。",
+    "background": "人民議院已決議 10 月 3 日加入，但不同的法律與行政體系仍須具體銜接；貨幣聯盟無法取代這些規定。",
+    "trigger": "雙方談判將加入決議變成可實施條文，並簽署送交議會批准。簽署不等於批准，更不等於加入已生效。",
+    "motives": "兩德政府要在既定日期完成制度接軌；東德方面也需爭取過渡與權益安排，各方對財產和社會保障仍有不同利益。",
+    "impact": "條約第一條規定 10 月 3 日加入與新邦，第二條定柏林為首都；政府與議會是否遷移另待統一後決定。 條約本身於 9 月 29 日生效，第一條指定的國家加入另於 10 月 3 日生效。",
+    "debate": "部分官方導讀用「10 月 3 日條約生效」概括統一；聯邦法規平台註記條約本身於 9 月 29 日生效，第一條則規定 10 月 3 日加入，應以條文與生效公告區分。",
+    "primary": "直接讀第 1、2、45 條：簽署日期、加入日期與完成內部程序後互相通知，是三個不同法律節點。條約不是一般居民轉型經驗的完整紀錄。",
+    "counterfactual": "假設過渡規定談判未完成，行政接軌可能延後或更混亂；限制是不能從一項爭議推定整份條約必然無法成立。",
+    "mapNote": "點位近似王儲宮簽約地；未把政治簽約畫成當日領土擴張。"
   },
   {
     "id": "two-plus-four",
-    "chapter": 2,
+    "chapter": 4,
     "date": "1990-09-12",
     "title": "六國簽署最終解決條約",
     "place": "莫斯科",
@@ -55,10 +895,27 @@
     ],
     "type": "peace",
     "causes": [
-      "wall-open"
+      "caucasus-agreement",
+      "accession-vote"
     ],
     "edges": [],
     "sources": [
+      [
+        "德國聯邦議院文件 11/8024｜兩加四條約完整德、英、法文本",
+        "https://dserver.bundestag.de/btd/11/080/1108024.pdf"
+      ],
+      [
+        "德國史文獻與圖像｜兩加四條約原文節錄（第 1–7 條）",
+        "https://germanhistorydocs.org/en/a-new-germany-1990-2023/ghdi:document-176"
+      ],
+      [
+        "德國歷史之家 LeMO｜兩加四談判與安全議題",
+        "https://www.hdg.de/lemo/kapitel/deutsche-einheit/weg-zur-einheit/zwei-plus-vier-vertrag.html"
+      ],
+      [
+        "德國聯邦政府｜1990-07-17 兩加四會議與波蘭邊界",
+        "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/dritte-2-4-ministerkonferenz-in-paris-476390"
+      ],
       [
         "德國外交部｜二加四條約原文",
         "https://www.auswaertiges-amt.de/resource/blob/248556/2851e102b97772a5772e9fdb8a978663/vertragstextoriginal-data.pdf"
@@ -66,21 +923,73 @@
       [
         "德國聯邦政府｜莫斯科簽署條約",
         "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/unterzeichnung-des-2-4-vertrags-432842"
+      ],
+      [
+        "德國聯邦議院｜兩加四條約批准與四國權責暫停",
+        "https://www.bundestag.de/webarchiv/textarchiv/2015/kw40_kalenderblatt_zweiplusvier-389528"
       ]
     ],
     "summary": "兩個德國與美、英、法、蘇四國在莫斯科簽約。六國處理統一德國的邊界、安全安排與對外地位。兩德內部仍有另一份條約，規定統一如何實施。",
-    "background": "二戰結束以來，四國對柏林與德國整體保有特殊權責。",
-    "trigger": "統一進程使各方必須處理這些權責與安全安排。",
-    "motives": "兩德要為統一取得外部安排，四國則關注疆界、安全與歐洲秩序。",
-    "impact": "統一的國際安排有了書面依據。簽署和批准生效分屬兩個階段。",
-    "mapNote": "紅點移至莫斯科。六個參與方共同簽約，單一方向的箭頭不足以表示這次協商。",
-    "debate": "「二加四」將兩德的內部統一安排與四國權責分開處理，閱讀時可對照兩份條約的締約方。",
-    "primary": "條約第一條處理疆域和邊界，第七條處理四國權責，日期應區分簽署與生效。",
-    "counterfactual": "若外部安全協商延宕，兩德即使取得內部共識，也可能面對不同的實施時程。"
+    "background": "二戰結束以來，四國對柏林與德國整體保有特殊權責。兩德於 5 月起與四國談判，7 月高加索共識緩解結盟爭議，波蘭亦要求確認邊界。",
+    "trigger": "統一日期逐漸確定，六國須把結盟、駐軍與邊界共識寫入條約；7 月的突破使談判能處理最終文字，並非圍牆一開就自動取得同意。",
+    "motives": "兩德要為統一取得外部安排；美國支持統一德國留在北約；蘇聯關注撤軍與安全保障，英法重視穩定，波蘭要求不可侵犯的邊界。",
+    "impact": "統一的國際安排有了書面依據，德國承諾現有邊界、軍力上限與武器限制。簽署和批准生效分屬兩階段；條約本身於 1991-03-15 生效。",
+    "mapNote": "紅點移至莫斯科，代表六國簽約；未繪條約保障的政治疆界、蘇軍駐地或撤離路線。本日仍有兩個德國，不能把簽署日當統一日。",
+    "debate": "「兩加四」區分兩德內部統一與四國權責。波蘭不是六個簽約方之一，仍參與邊界議題；前東德地區駐軍限制不等於全歐洲的同一安排。",
+    "primary": "對讀條約第 1 條（邊界）、第 3 條（軍力與武器）、第 4–6 條（撤軍、駐軍、結盟）、第 7–9 條（四國權責、批准與生效）。議院文件 11/8024 附完整文本，GHDI 為節錄。",
+    "counterfactual": "假設外部安全協商延宕，兩德即使取得內部共識，也可能面對不同的實施時程；限制是各國可能另作過渡安排，不能確定會延後多久。"
+  },
+  {
+    "id": "four-power-declaration",
+    "chapter": 4,
+    "date": "1990-10-01",
+    "title": "四國聲明：統一日起暫停特殊權責",
+    "place": "紐約，四國外長簽署聲明",
+    "point": [
+      -73.97,
+      40.75
+    ],
+    "actors": [
+      "US",
+      "GB",
+      "FR",
+      "USSR",
+      "GDR",
+      "FRG"
+    ],
+    "type": "peace",
+    "causes": [
+      "two-plus-four",
+      "unification-treaty"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "德國聯邦參議院文件 706/90｜四國 10 月 1 日聲明原文",
+        "https://dserver.bundestag.de/brd/1990/D706%2B90.pdf"
+      ],
+      [
+        "德國聯邦政治教育署｜1990-10-01 聲明於統一日起適用",
+        "https://www.bpb.de/themen/zeit-kulturgeschichte/deutschland-chronik/132321/1-oktober-1990/"
+      ],
+      [
+        "德國聯邦議院｜兩加四條約批准與四國權責暫停",
+        "https://www.bundestag.de/webarchiv/textarchiv/2015/kw40_kalenderblatt_zweiplusvier-389528"
+      ]
+    ],
+    "summary": "四國在紐約發表聲明，安排自德國統一時起暫停其對柏林與德國整體的特殊權責，銜接兩加四條約尚未完成批准的空檔。",
+    "background": "兩加四條約已簽署，但第八條仍要求批准，第九條規定最後一份批准書交存才生效。兩德已預定 10 月 3 日統一，不能把已簽字寫成條約已生效。",
+    "trigger": "四國需在統一日以前確定過渡安排，因此 10 月 1 日簽署聲明，將效力起點定在統一時刻。",
+    "motives": "四國要有序結束戰後權責；兩德要使統一國家能行使完整主權，避免等待各國批准造成法律與政治不確定。",
+    "impact": "10 月 3 日起適用暫停安排；兩加四條約於 1991-03-15 生效後，相關權責正式終止。駐軍撤離仍依另外的時程執行。",
+    "debate": "有些紀事把聲明日期簡寫為取得主權日；原文清楚指向「統一時刻」起適用。應以原文校正這種壓縮敘述。",
+    "primary": "聯邦參議院文件 706/90 收錄四國聲明及外交部說明，核對「從統一時刻到條約生效」的區間；文件刊發日也不是簽署日。",
+    "counterfactual": "假設沒有這項聲明，等待批准的主權過渡會更複雜；限制是各方仍可設計其他法律工具，不能斷言統一絕無可能。",
+    "mapNote": "點位近似紐約聯合國一帶，會切換事件周邊視野；聲明處理德國權責，並非在紐約發生領土變動。"
   },
   {
     "id": "unity",
-    "chapter": 2,
+    "chapter": 4,
     "date": "1990-10-03",
     "title": "兩德統一生效",
     "place": "柏林國會大廈一帶，統一慶典",
@@ -94,10 +1003,28 @@
     ],
     "type": "politics",
     "causes": [
-      "two-plus-four"
+      "accession-vote",
+      "unification-treaty",
+      "four-power-declaration"
     ],
     "edges": [],
     "sources": [
+      [
+        "德國聯邦法規平台｜統一條約生效註記及第 1、2、45 條",
+        "https://www.gesetze-im-internet.de/einigvtr/BJNR208890990.html"
+      ],
+      [
+        "德國史文獻與圖像｜1990-08-31 統一條約原文（第 1、2、45 條）",
+        "https://germanhistorydocs.org/en/a-new-germany-1990-2023/ghdi:document-78"
+      ],
+      [
+        "德國聯邦參議院文件 706/90｜四國 10 月 1 日聲明原文",
+        "https://dserver.bundestag.de/brd/1990/D706%2B90.pdf"
+      ],
+      [
+        "德國聯邦議院｜兩加四條約批准與四國權責暫停",
+        "https://www.bundestag.de/webarchiv/textarchiv/2015/kw40_kalenderblatt_zweiplusvier-389528"
+      ],
       [
         "德國史文獻與圖像｜兩德統一條約",
         "https://germanhistorydocs.org/en/a-new-germany-1990-2023/unification-treaty-august-31-1990.pdf"
@@ -107,14 +1034,14 @@
         "https://www.auswaertiges-amt.de/resource/blob/248556/2851e102b97772a5772e9fdb8a978663/vertragstextoriginal-data.pdf"
       ]
     ],
-    "summary": "兩德統一條約指定的日期到來。東德加入德意志聯邦共和國，柏林各區也組成一個邦。從關卡開放到國家統一，已經過近十一個月。",
-    "background": "兩個德國在 8 月 31 日簽署統一條約，安排法律及行政過渡。",
-    "trigger": "統一條約第一條規定加入於 10 月 3 日生效。",
+    "summary": "統一條約第一條指定的加入日期到來：東德加入德意志聯邦共和國，五個新邦加入聯邦，柏林各區也組成一個邦。從關卡開放到國家統一，已經過近十一個月。",
+    "background": "兩德於 8 月 31 日簽署統一條約，9 月完成議會批准；條約本身 9 月 29 日生效，其第一條指定加入於 10 月 3 日生效。國內加入安排與國際權責安排由不同文件銜接。",
+    "trigger": "人民議院加入決議及統一條約第一條指定的 10 月 3 日到來；四國聲明也從統一時刻起暫停特殊權責。",
     "motives": "兩德政府需要讓行政、法律和政治代表制度在共同日期銜接。",
-    "impact": "東德結束獨立國家的地位，德國的對外安排則仍有後續批准程序。",
-    "mapNote": "回到柏林的慶典位置。地點代表紀念與慶祝；統一在兩德範圍生效。",
-    "debate": "條約能交代統一的法律時刻，仍須其他材料才能研究一般民眾如何經歷日常生活的轉型。",
-    "primary": "統一條約第一條載明日期與新邦。第二條將柏林定為首都，首都與政府遷移是兩件事。",
-    "counterfactual": "若過渡期較長，行政整合可能採取不同節奏，其實際影響須有更多地方史料佐證。"
+    "impact": "東德結束獨立國家地位，統一德國自此行使完整主權；兩加四條約本身仍待 1991 年批准生效。共同貨幣、國家統一與駐軍撤離並不同步完成。",
+    "mapNote": "回到柏林國會大廈慶典的近似位置，法律效力涵蓋兩德範圍。比較 1989-11-09：那晚關卡開放但仍是兩國；今天東德不再獨立，四國特殊權責亦暫停。未繪兩德國界或柏林分區。",
+    "debate": "條約能交代統一的法律時刻，仍須其他材料研究民眾的轉型經驗。快速加入與另制憲法的選擇、就業及財產安排，不能因統一慶典而略去。",
+    "primary": "統一條約第一條載明加入日期與新邦；第二條將柏林定為首都，政府遷移另議。對讀四國聲明，可分辨主權過渡和兩加四條約正式生效。",
+    "counterfactual": "假設過渡期較長，行政整合可能採不同節奏；限制是無法固定外流、經濟與國際條件，其實際社會影響須有更多地方史料佐證。"
   }
 ]

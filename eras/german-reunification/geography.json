@@ -7,15 +7,95 @@
       ],
       "states": [
         {
-          "stance": "德意志民主共和國",
-          "relations": "政府面對民眾外流與改革壓力。",
           "from": "1989-01-01",
+          "stance": "德意志民主共和國；何內克領導的一黨支配體制",
+          "relations": "統一社會黨控制政治競爭，政府限制居民出境。",
+          "sources": [
+            "https://www.hdg.de/lemo/kapitel/deutsche-einheit/wandel-im-osten/kommunalwahlen-in-der-ddr.html"
+          ],
+          "until": "1989-10-18"
+        },
+        {
+          "from": "1989-10-18",
+          "stance": "東德；克倫茨接任統一社會黨總書記",
+          "relations": "黨領導更替意在保存執政權；國家主席職位另於 10 月 24 日交接，並非已完成民主化。",
+          "sources": [
+            "https://www.hdg.de/lemo/kapitel/deutsche-einheit/friedliche-revolution/fuehrungswechsel.html"
+          ],
+          "until": "1989-11-13"
+        },
+        {
+          "from": "1989-11-13",
+          "stance": "東德；莫德羅獲選組閣",
+          "relations": "政府尋求改革並與西德合作，尚未由自由選舉取得授權；莫德羅起初主張保留改革後的東德。",
+          "sources": [
+            "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/regierung-modrow-337206",
+            "https://www.dhm.de/archiv/ausstellungen/wiedervereinigung/en/vereinigungskonzepte.html"
+          ],
+          "until": "1989-12-07"
+        },
+        {
+          "from": "1989-12-07",
+          "stance": "東德；過渡政府接受圓桌協商",
+          "relations": "反對團體與教會參與監督及選舉準備，圓桌不是新議會。",
+          "sources": [
+            "https://germanhistorydocs.org/en/a-new-germany-1990-2023/goals-of-the-central-round-table-december-7-1989.pdf",
+            "https://www.hdg.de/lemo/kapitel/deutsche-einheit/weg-zur-einheit/der-runde-tisch.html"
+          ],
+          "until": "1990-03-18"
+        },
+        {
+          "from": "1990-03-18",
+          "stance": "東德；自由選舉改變議會授權",
+          "relations": "主張快速統一的德國聯盟勝出；新政府尚待組成，莫德羅仍主持過渡。",
+          "sources": [
+            "https://www.hdg.de/lemo/kapitel/deutsche-einheit/weg-zur-einheit/freie-volkskammerwahl",
+            "https://deutsche-einheit-1990.de/wp-content/uploads/BArch-DA1-18796-Wahlergebnis.pdf",
+            "https://www.bundestag.de/parlament/geschichte/19900318-kalenderblatt-wahl-684742"
+          ],
+          "until": "1990-04-12"
+        },
+        {
+          "from": "1990-04-12",
+          "stance": "東德；德梅齊埃領導民選聯合政府",
+          "relations": "政府準備按當時基本法第 23 條加入，與西德及四國協商。",
+          "sources": [
+            "https://www.hdg.de/lemo/kapitel/deutsche-einheit/weg-zur-einheit/freie-volkskammerwahl",
+            "https://www.bundestag.de/parlament/geschichte/19900318-kalenderblatt-wahl-684742"
+          ],
+          "until": "1990-07-01"
+        },
+        {
+          "from": "1990-07-01",
+          "stance": "東德；已參加貨幣、經濟與社會聯盟",
+          "relations": "採用西德馬克和大部分西德經濟制度，但仍是獨立的締約國。",
+          "sources": [
+            "https://www.hdg.de/lemo/kapitel/deutsche-einheit/weg-zur-einheit/wirtschafts-waehrungs-und-sozialunion.html",
+            "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/vertrag-zur-waehrungsunion-353930"
+          ],
+          "until": "1990-08-23"
+        },
+        {
+          "from": "1990-08-23",
+          "stance": "東德；議會已決議 10 月 3 日加入",
+          "relations": "加入決議不是當日生效，兩德仍需完成條約與批准程序。",
+          "sources": [
+            "https://www.bundestag.de/parlament/geschichte/19900318-kalenderblatt-wahl-684742",
+            "https://www.hdg.de/lemo/kapitel/deutsche-einheit/weg-zur-einheit/einigungsvertrag.html"
+          ],
           "until": "1990-10-03"
         },
         {
           "from": "1990-10-03",
           "stance": "已加入德意志聯邦共和國",
-          "relations": "統一條約生效後，東德不再以獨立國家身分行動。",
+          "relations": "東德結束獨立國家地位，五個新邦加入聯邦，柏林合為一邦。",
+          "sources": [
+            "https://germanhistorydocs.org/en/a-new-germany-1990-2023/ghdi:document-78",
+            "https://dserver.bundestag.de/brd/1990/D706%2B90.pdf",
+            "https://www.bundestag.de/webarchiv/textarchiv/2015/kw40_kalenderblatt_zweiplusvier-389528",
+            "https://germanhistorydocs.org/en/a-new-germany-1990-2023/unification-treaty-august-31-1990.pdf",
+            "https://www.auswaertiges-amt.de/resource/blob/248556/2851e102b97772a5772e9fdb8a978663/vertragstextoriginal-data.pdf"
+          ],
           "showLabel": false
         }
       ]
@@ -27,15 +107,73 @@
       ],
       "states": [
         {
-          "stance": "參與兩德協商",
-          "relations": "聯邦政府設於波昂。",
           "from": "1989-01-01",
+          "stance": "德意志聯邦共和國（西德）；聯邦政府在波昂",
+          "relations": "接納東德出走者，透過使館與外交協商爭取放行。",
+          "sources": [
+            "https://www.auswaertiges-amt.de/en/newsroom/news/annen-order-of-malta-support-budapest-2246682",
+            "https://www.auswaertiges-amt.de/en/newsroom/news/maas-prague-2250942",
+            "https://www.hdg.de/lemo/kapitel/deutsche-einheit/wandel-im-osten/massenflucht.html"
+          ],
+          "until": "1989-11-28"
+        },
+        {
+          "from": "1989-11-28",
+          "stance": "西德；柯爾提出十點計畫",
+          "relations": "以民主化、市場改革與歐洲架構為條件，設想合作、邦聯式安排及最終統一。",
+          "sources": [
+            "https://germanhistorydocs.org/en/a-new-germany-1990-2023/helmut-kohl-s-ten-point-plan-for-german-unity-november-28-1989",
+            "https://www.hdg.de/lemo/kapitel/deutsche-einheit/weg-zur-einheit/zehn-punkte-programm.html",
+            "https://www.dhm.de/archiv/ausstellungen/wiedervereinigung/en/vereinigungskonzepte.html"
+          ],
+          "until": "1990-05-18"
+        },
+        {
+          "from": "1990-05-18",
+          "stance": "西德；已簽署兩德經濟聯盟條約",
+          "relations": "準備共同貨幣和社會制度；國際安全條件由兩加四談判處理。",
+          "sources": [
+            "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/vertrag-zur-waehrungsunion-353930",
+            "https://www.hdg.de/lemo/kapitel/deutsche-einheit/weg-zur-einheit/wirtschafts-waehrungs-und-sozialunion.html"
+          ],
+          "until": "1990-07-16"
+        },
+        {
+          "from": "1990-07-16",
+          "stance": "西德；與蘇聯達成結盟與撤軍的政治共識",
+          "relations": "推動統一德國留在北約，條文仍須六國確認。",
+          "sources": [
+            "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/15-juli-1990-430096",
+            "https://germanhistorydocs.org/en/a-new-germany-1990-2023/ghdi:document-176",
+            "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/dritte-2-4-ministerkonferenz-in-paris-476390"
+          ],
+          "until": "1990-09-12"
+        },
+        {
+          "from": "1990-09-12",
+          "stance": "西德；兩加四條約簽署方",
+          "relations": "同意現有邊界與軍力限制，條約尚待各國批准。",
+          "sources": [
+            "https://germanhistorydocs.org/en/a-new-germany-1990-2023/ghdi:document-176",
+            "https://www.hdg.de/lemo/kapitel/deutsche-einheit/weg-zur-einheit/zwei-plus-vier-vertrag.html",
+            "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/dritte-2-4-ministerkonferenz-in-paris-476390",
+            "https://www.auswaertiges-amt.de/resource/blob/248556/2851e102b97772a5772e9fdb8a978663/vertragstextoriginal-data.pdf",
+            "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/unterzeichnung-des-2-4-vertrags-432842",
+            "https://www.bundestag.de/webarchiv/textarchiv/2015/kw40_kalenderblatt_zweiplusvier-389528"
+          ],
           "until": "1990-10-03"
         },
         {
-          "stance": "統一後的聯邦共和國",
-          "relations": "統一條約生效，柏林成為首都。圖上波昂點位標示當時的政府所在地。",
-          "from": "1990-10-03"
+          "from": "1990-10-03",
+          "stance": "統一後的德意志聯邦共和國",
+          "relations": "柏林成為首都，政府與議會當時仍在波昂；首都地位與遷移日期須分開。四國特殊權責自統一時刻暫停。",
+          "sources": [
+            "https://germanhistorydocs.org/en/a-new-germany-1990-2023/ghdi:document-78",
+            "https://dserver.bundestag.de/brd/1990/D706%2B90.pdf",
+            "https://www.bundestag.de/webarchiv/textarchiv/2015/kw40_kalenderblatt_zweiplusvier-389528",
+            "https://germanhistorydocs.org/en/a-new-germany-1990-2023/unification-treaty-august-31-1990.pdf",
+            "https://www.auswaertiges-amt.de/resource/blob/248556/2851e102b97772a5772e9fdb8a978663/vertragstextoriginal-data.pdf"
+          ]
         }
       ]
     },
@@ -46,9 +184,59 @@
       ],
       "states": [
         {
-          "stance": "二戰後的四個權責國之一",
-          "relations": "蘇聯參與關於德國對外安排的最終解決談判。",
-          "from": "1989-01-01"
+          "from": "1989-01-01",
+          "stance": "蘇聯；二戰後四個權責國之一",
+          "relations": "戈巴契夫推動改革，蘇聯在東德駐軍；蘇聯對柏林與德國整體的特殊權責仍存在。",
+          "sources": [
+            "https://www.hdg.de/lemo/kapitel/deutsche-einheit/friedliche-revolution/montagsdemonstrationen.html",
+            "https://www.runde-ecke-leipzig.de/index.php?L=2&id=510"
+          ],
+          "until": "1989-10-09"
+        },
+        {
+          "from": "1989-10-09",
+          "until": "1990-07-16",
+          "stance": "蘇聯；未以駐軍鎮壓萊比錫示威",
+          "relations": "當晚蘇軍留在軍營；這不表示蘇聯已同意統一德國的全部安全與結盟安排。",
+          "sources": [
+            "https://www.hdg.de/lemo/kapitel/deutsche-einheit/friedliche-revolution/montagsdemonstrationen.html",
+            "https://www.runde-ecke-leipzig.de/index.php?L=2&id=510"
+          ]
+        },
+        {
+          "from": "1990-07-16",
+          "stance": "蘇聯；接受統一德國的自由結盟方向",
+          "relations": "以撤軍、軍力限制與經濟協助處理安全疑慮，仍需完成條約。",
+          "sources": [
+            "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/15-juli-1990-430096",
+            "https://germanhistorydocs.org/en/a-new-germany-1990-2023/ghdi:document-176",
+            "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/dritte-2-4-ministerkonferenz-in-paris-476390"
+          ],
+          "until": "1990-09-12"
+        },
+        {
+          "from": "1990-09-12",
+          "stance": "蘇聯；兩加四條約簽署方",
+          "relations": "簽署外部安排，撤軍另有期限；簽字當天四國權責尚未終止。",
+          "sources": [
+            "https://germanhistorydocs.org/en/a-new-germany-1990-2023/ghdi:document-176",
+            "https://www.hdg.de/lemo/kapitel/deutsche-einheit/weg-zur-einheit/zwei-plus-vier-vertrag.html",
+            "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/dritte-2-4-ministerkonferenz-in-paris-476390",
+            "https://www.auswaertiges-amt.de/resource/blob/248556/2851e102b97772a5772e9fdb8a978663/vertragstextoriginal-data.pdf",
+            "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/unterzeichnung-des-2-4-vertrags-432842",
+            "https://www.bundestag.de/webarchiv/textarchiv/2015/kw40_kalenderblatt_zweiplusvier-389528"
+          ],
+          "until": "1990-10-03"
+        },
+        {
+          "from": "1990-10-03",
+          "stance": "蘇聯；對德國的特殊權責依聲明暫停",
+          "relations": "暫停自統一時刻起適用，直到兩加四條約正式生效；駐軍仍按協議分期撤離。",
+          "sources": [
+            "https://dserver.bundestag.de/brd/1990/D706%2B90.pdf",
+            "https://www.bpb.de/themen/zeit-kulturgeschichte/deutschland-chronik/132321/1-oktober-1990/",
+            "https://www.bundestag.de/webarchiv/textarchiv/2015/kw40_kalenderblatt_zweiplusvier-389528"
+          ]
         }
       ]
     },
@@ -59,9 +247,53 @@
       ],
       "states": [
         {
-          "stance": "四國之一",
-          "relations": "參與德國對外安排談判。",
-          "from": "1989-01-01"
+          "from": "1989-01-01",
+          "stance": "二戰後四個權責國之一",
+          "relations": "對柏林與德國整體有特殊權責，德國統一涉及歐洲安全與鄰國邊界，須經外部協商。",
+          "sources": [
+            "https://germanhistorydocs.org/en/a-new-germany-1990-2023/ghdi:document-176",
+            "https://www.hdg.de/lemo/kapitel/deutsche-einheit/weg-zur-einheit/zwei-plus-vier-vertrag.html",
+            "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/dritte-2-4-ministerkonferenz-in-paris-476390",
+            "https://www.auswaertiges-amt.de/resource/blob/248556/2851e102b97772a5772e9fdb8a978663/vertragstextoriginal-data.pdf",
+            "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/unterzeichnung-des-2-4-vertrags-432842",
+            "https://www.bundestag.de/webarchiv/textarchiv/2015/kw40_kalenderblatt_zweiplusvier-389528"
+          ],
+          "until": "1989-11-28"
+        },
+        {
+          "from": "1989-11-28",
+          "stance": "對快速統一方案有所保留的四國成員",
+          "relations": "十點計畫引起對德國規模與安全秩序的疑慮；不代表國內所有人的立場一致。",
+          "sources": [
+            "https://germanhistorydocs.org/en/a-new-germany-1990-2023/helmut-kohl-s-ten-point-plan-for-german-unity-november-28-1989",
+            "https://www.hdg.de/lemo/kapitel/deutsche-einheit/weg-zur-einheit/zehn-punkte-programm.html",
+            "https://www.dhm.de/archiv/ausstellungen/wiedervereinigung/en/vereinigungskonzepte.html"
+          ],
+          "until": "1990-09-12"
+        },
+        {
+          "from": "1990-09-12",
+          "stance": "兩加四條約簽署方",
+          "relations": "同意條約中的邊界、安全與主權安排，支持統一的外部條件已具體化。",
+          "sources": [
+            "https://germanhistorydocs.org/en/a-new-germany-1990-2023/ghdi:document-176",
+            "https://www.hdg.de/lemo/kapitel/deutsche-einheit/weg-zur-einheit/zwei-plus-vier-vertrag.html",
+            "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/dritte-2-4-ministerkonferenz-in-paris-476390",
+            "https://www.auswaertiges-amt.de/resource/blob/248556/2851e102b97772a5772e9fdb8a978663/vertragstextoriginal-data.pdf",
+            "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/unterzeichnung-des-2-4-vertrags-432842",
+            "https://www.bundestag.de/webarchiv/textarchiv/2015/kw40_kalenderblatt_zweiplusvier-389528"
+          ],
+          "until": "1990-10-03"
+        },
+        {
+          "from": "1990-10-03",
+          "stance": "特殊權責依四國聲明暫停",
+          "relations": "從統一時刻起暫停權責，條約正式生效與駐軍撤離仍是另外的時點。",
+          "sources": [
+            "https://dserver.bundestag.de/brd/1990/D706%2B90.pdf",
+            "https://www.bpb.de/themen/zeit-kulturgeschichte/deutschland-chronik/132321/1-oktober-1990/",
+            "https://www.bundestag.de/webarchiv/textarchiv/2015/kw40_kalenderblatt_zweiplusvier-389528"
+          ]
         }
       ]
     },
@@ -72,9 +304,53 @@
       ],
       "states": [
         {
-          "stance": "四國之一",
-          "relations": "參與德國對外安排談判。",
-          "from": "1989-01-01"
+          "from": "1989-01-01",
+          "stance": "二戰後四個權責國之一",
+          "relations": "對柏林與德國整體有特殊權責，德國統一涉及歐洲安全與鄰國邊界，須經外部協商。",
+          "sources": [
+            "https://germanhistorydocs.org/en/a-new-germany-1990-2023/ghdi:document-176",
+            "https://www.hdg.de/lemo/kapitel/deutsche-einheit/weg-zur-einheit/zwei-plus-vier-vertrag.html",
+            "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/dritte-2-4-ministerkonferenz-in-paris-476390",
+            "https://www.auswaertiges-amt.de/resource/blob/248556/2851e102b97772a5772e9fdb8a978663/vertragstextoriginal-data.pdf",
+            "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/unterzeichnung-des-2-4-vertrags-432842",
+            "https://www.bundestag.de/webarchiv/textarchiv/2015/kw40_kalenderblatt_zweiplusvier-389528"
+          ],
+          "until": "1989-11-28"
+        },
+        {
+          "from": "1989-11-28",
+          "stance": "對快速統一方案有所保留的四國成員",
+          "relations": "十點計畫引起對德國規模與安全秩序的疑慮；不代表國內所有人的立場一致。",
+          "sources": [
+            "https://germanhistorydocs.org/en/a-new-germany-1990-2023/helmut-kohl-s-ten-point-plan-for-german-unity-november-28-1989",
+            "https://www.hdg.de/lemo/kapitel/deutsche-einheit/weg-zur-einheit/zehn-punkte-programm.html",
+            "https://www.dhm.de/archiv/ausstellungen/wiedervereinigung/en/vereinigungskonzepte.html"
+          ],
+          "until": "1990-09-12"
+        },
+        {
+          "from": "1990-09-12",
+          "stance": "兩加四條約簽署方",
+          "relations": "同意條約中的邊界、安全與主權安排，支持統一的外部條件已具體化。",
+          "sources": [
+            "https://germanhistorydocs.org/en/a-new-germany-1990-2023/ghdi:document-176",
+            "https://www.hdg.de/lemo/kapitel/deutsche-einheit/weg-zur-einheit/zwei-plus-vier-vertrag.html",
+            "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/dritte-2-4-ministerkonferenz-in-paris-476390",
+            "https://www.auswaertiges-amt.de/resource/blob/248556/2851e102b97772a5772e9fdb8a978663/vertragstextoriginal-data.pdf",
+            "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/unterzeichnung-des-2-4-vertrags-432842",
+            "https://www.bundestag.de/webarchiv/textarchiv/2015/kw40_kalenderblatt_zweiplusvier-389528"
+          ],
+          "until": "1990-10-03"
+        },
+        {
+          "from": "1990-10-03",
+          "stance": "特殊權責依四國聲明暫停",
+          "relations": "從統一時刻起暫停權責，條約正式生效與駐軍撤離仍是另外的時點。",
+          "sources": [
+            "https://dserver.bundestag.de/brd/1990/D706%2B90.pdf",
+            "https://www.bpb.de/themen/zeit-kulturgeschichte/deutschland-chronik/132321/1-oktober-1990/",
+            "https://www.bundestag.de/webarchiv/textarchiv/2015/kw40_kalenderblatt_zweiplusvier-389528"
+          ]
         }
       ]
     },
@@ -85,9 +361,170 @@
       ],
       "states": [
         {
-          "stance": "四國之一",
-          "relations": "參與德國對外安排談判。",
-          "from": "1989-01-01"
+          "from": "1989-01-01",
+          "stance": "美國；二戰後四個權責國之一",
+          "relations": "保有對柏林與德國整體的特殊權責；為西德的北約盟國。",
+          "sources": [
+            "https://germanhistorydocs.org/en/a-new-germany-1990-2023/ghdi:document-176",
+            "https://www.hdg.de/lemo/kapitel/deutsche-einheit/weg-zur-einheit/zwei-plus-vier-vertrag.html",
+            "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/dritte-2-4-ministerkonferenz-in-paris-476390",
+            "https://www.auswaertiges-amt.de/resource/blob/248556/2851e102b97772a5772e9fdb8a978663/vertragstextoriginal-data.pdf",
+            "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/unterzeichnung-des-2-4-vertrags-432842",
+            "https://www.bundestag.de/webarchiv/textarchiv/2015/kw40_kalenderblatt_zweiplusvier-389528"
+          ],
+          "until": "1989-11-28"
+        },
+        {
+          "from": "1989-11-28",
+          "stance": "布希政府支持自決與德國統一方向",
+          "relations": "柯爾方案先與美方溝通；美方主張統一德國維持北約成員地位，並透過六國協商處理。",
+          "sources": [
+            "https://germanhistorydocs.org/en/a-new-germany-1990-2023/helmut-kohl-s-ten-point-plan-for-german-unity-november-28-1989",
+            "https://www.hdg.de/lemo/kapitel/deutsche-einheit/weg-zur-einheit/zehn-punkte-programm.html",
+            "https://www.dhm.de/archiv/ausstellungen/wiedervereinigung/en/vereinigungskonzepte.html"
+          ],
+          "until": "1990-09-12"
+        },
+        {
+          "from": "1990-09-12",
+          "stance": "美國；兩加四條約簽署方",
+          "relations": "統一德國得選擇聯盟，原東德地區駐軍須依特別條款安排。",
+          "sources": [
+            "https://germanhistorydocs.org/en/a-new-germany-1990-2023/ghdi:document-176",
+            "https://www.hdg.de/lemo/kapitel/deutsche-einheit/weg-zur-einheit/zwei-plus-vier-vertrag.html",
+            "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/dritte-2-4-ministerkonferenz-in-paris-476390",
+            "https://www.auswaertiges-amt.de/resource/blob/248556/2851e102b97772a5772e9fdb8a978663/vertragstextoriginal-data.pdf",
+            "https://www.bundesregierung.de/breg-de/schwerpunkte/deutsche-einheit/unterzeichnung-des-2-4-vertrags-432842",
+            "https://www.bundestag.de/webarchiv/textarchiv/2015/kw40_kalenderblatt_zweiplusvier-389528"
+          ],
+          "until": "1990-10-03"
+        },
+        {
+          "from": "1990-10-03",
+          "stance": "美國；特殊權責依四國聲明暫停",
+          "relations": "支持統一後德國行使完整主權；暫停特殊權責不同於當天撤走全部駐軍。",
+          "sources": [
+            "https://dserver.bundestag.de/brd/1990/D706%2B90.pdf",
+            "https://www.bpb.de/themen/zeit-kulturgeschichte/deutschland-chronik/132321/1-oktober-1990/",
+            "https://www.bundestag.de/webarchiv/textarchiv/2015/kw40_kalenderblatt_zweiplusvier-389528"
+          ]
+        }
+      ]
+    },
+    "HU": {
+      "point": [
+        19.04,
+        47.5
+      ],
+      "states": [
+        {
+          "from": "1989-01-01",
+          "stance": "匈牙利人民共和國；改革中的社會主義政府",
+          "relations": "拆除邊境設備和准許東德人離境，是先後不同的政策。首都布達佩斯點不表示匈奧越境位置。",
+          "sources": [
+            "https://tti.abtk.hu/images/kiadvanyok/folyoiratok/tsz/tsz2009-2/295-310_scweizer_d%C3%B6n%C3%B6t%C3%B6rfi.pdf",
+            "https://www.hdg.de/lemo/kapitel/deutsche-einheit/wandel-im-osten/massenflucht.html"
+          ],
+          "until": "1989-09-11"
+        },
+        {
+          "from": "1989-09-11",
+          "stance": "匈牙利；准許東德居民經奧地利出境",
+          "relations": "9 月 10 日宣布、當夜跨入 11 日實施；此政策改變東德居民的實際選項。",
+          "sources": [
+            "https://www.bundesregierung.de/breg-en/service/archive/-pan-european-picnic--1662402",
+            "https://www.hdg.de/lemo/kapitel/deutsche-einheit/wandel-im-osten/massenflucht.html"
+          ],
+          "until": "1989-10-23"
+        },
+        {
+          "from": "1989-10-23",
+          "stance": "匈牙利共和國",
+          "relations": "國號已改；先前邊境決策仍是本教材關注的角色，不能因國號改變把全部改革歸於同一天。 身分日期依 LeMO〈1989 年紀事〉。",
+          "sources": [
+            "https://www.hdg.de/lemo/jahreschronik/1989.html"
+          ]
+        }
+      ]
+    },
+    "CS": {
+      "point": [
+        14.42,
+        50.08
+      ],
+      "states": [
+        {
+          "from": "1989-01-01",
+          "stance": "捷克斯洛伐克；共產黨執政時期",
+          "relations": "布拉格的西德使館成為東德居民尋求出境的場所；9 月的使館危機早於本國 11 月的天鵝絨革命。",
+          "sources": [
+            "https://www.auswaertiges-amt.de/en/newsroom/news/annen-order-of-malta-support-budapest-2246682",
+            "https://www.auswaertiges-amt.de/en/newsroom/news/maas-prague-2250942",
+            "https://www.hdg.de/lemo/kapitel/deutsche-einheit/wandel-im-osten/massenflucht.html"
+          ],
+          "until": "1989-12-29"
+        },
+        {
+          "from": "1989-12-29",
+          "stance": "捷克斯洛伐克；哈維爾獲選總統的轉型期",
+          "relations": "本國政治體制亦已轉變；不能把 9 月處理使館危機的政府直接稱為後來的民主政府。 身分日期依 LeMO〈1989 年紀事〉。",
+          "sources": [
+            "https://www.hdg.de/lemo/jahreschronik/1989.html"
+          ]
+        }
+      ]
+    },
+    "CIVIC": {
+      "point": [
+        12.378,
+        51.34
+      ],
+      "states": [
+        {
+          "from": "1989-01-01",
+          "stance": "東德教會、人權與公民團體；非國家",
+          "relations": "監督選舉、要求旅行與言論自由，部分人要出走，部分人要留下改革，並非同一組織。",
+          "sources": [
+            "https://www.hdg.de/lemo/kapitel/deutsche-einheit/wandel-im-osten/kommunalwahlen-in-der-ddr.html"
+          ],
+          "until": "1989-12-07",
+          "showLabel": false
+        },
+        {
+          "from": "1989-12-07",
+          "stance": "參與圓桌協商的多個公民團體",
+          "relations": "要求公開資訊、民主選舉與監督政府，對是否及如何統一仍有分歧。",
+          "sources": [
+            "https://germanhistorydocs.org/en/a-new-germany-1990-2023/goals-of-the-central-round-table-december-7-1989.pdf",
+            "https://www.hdg.de/lemo/kapitel/deutsche-einheit/weg-zur-einheit/der-runde-tisch.html"
+          ],
+          "until": "1990-03-18",
+          "showLabel": false
+        },
+        {
+          "from": "1990-03-18",
+          "stance": "參與競選與公共監督的公民運動",
+          "relations": "九〇聯盟約得 2.9% 選票；街頭動員影響力未直接轉成相同比例的議會席次。",
+          "sources": [
+            "https://www.hdg.de/lemo/kapitel/deutsche-einheit/weg-zur-einheit/freie-volkskammerwahl",
+            "https://deutsche-einheit-1990.de/wp-content/uploads/BArch-DA1-18796-Wahlergebnis.pdf",
+            "https://www.bundestag.de/parlament/geschichte/19900318-kalenderblatt-wahl-684742"
+          ],
+          "until": "1990-10-03",
+          "showLabel": false
+        },
+        {
+          "from": "1990-10-03",
+          "stance": "統一德國境內的公民團體與政治參與者",
+          "relations": "國家統一後，民主監督與轉型權益問題仍持續；不再另有東德國家。",
+          "sources": [
+            "https://germanhistorydocs.org/en/a-new-germany-1990-2023/ghdi:document-78",
+            "https://dserver.bundestag.de/brd/1990/D706%2B90.pdf",
+            "https://www.bundestag.de/webarchiv/textarchiv/2015/kw40_kalenderblatt_zweiplusvier-389528",
+            "https://germanhistorydocs.org/en/a-new-germany-1990-2023/unification-treaty-august-31-1990.pdf",
+            "https://www.auswaertiges-amt.de/resource/blob/248556/2851e102b97772a5772e9fdb8a978663/vertragstextoriginal-data.pdf"
+          ],
+          "showLabel": false
         }
       ]
     }

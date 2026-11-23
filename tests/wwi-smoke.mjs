@@ -133,13 +133,34 @@ function exercise(width,edition='world-war-i'){
   const nowLayer=(k,on)=>{const n=node($('layerItems'),'[data-layer="'+k+'"]');n.checked=on;n.fire('change');};
   if(edition==='german-reunification'){
     const title=()=>node($('article'),'.eventTitle').textContent;
-    assert.equal(title(),evt('wall-open').title);click('next');assert.equal(title(),evt('two-plus-four').title);
-    click('quickCause');node($('dlgBody'),'[data-event="wall-open"]').fire('click');assert.equal(title(),evt('wall-open').title);
-    click('compareOpen');setSelect('selB','unity');assert.ok($('noteB').textContent.includes('1990.10.03'));click('dlgClose');
-    node($('map'),'[aria-label="東德"]').fire('click');assert.ok($('article').textContent.includes('德意志民主共和國'));click('countryBack');
+    const at=id=>assert.equal(title(),evt(id).title);
+    at('wall-open');click('prev');at('travel-announcement');
+    assert.equal(evt('travel-announcement').date,evt('wall-open').date);
+    click('next');at('wall-open');click('next');at('modrow-elected');
+    click('quickCause');node($('dlgBody'),'[data-event="wall-open"]').fire('click');at('wall-open');
+    for(let n=1;n<=4;n++){
+      chapter(n);
+      const list=realm.ATLAS_EVENTS.filter(e=>e.chapter===n);
+      assert.equal(list.length,6);
+      for(let i=0;i<list.length;i++){
+        range(i);at(list[i].id);
+        node($('article'),'[data-tier="1"]').fire('click');assert.ok($('article').textContent.includes(list[i].trigger));
+        node($('article'),'[data-tier="2"]').fire('click');assert.ok($('article').textContent.includes(list[i].counterfactual));
+        assert.equal($('article').querySelectorAll('.sourceLink').length,list[i].sources.length);
+      }
+    }
+    click('baseline');at('wall-open');
+    click('compareOpen');assert.equal($('selA').value,'unity');assert.equal($('selB').value,'wall-open');
+    assert.ok($('noteA').textContent.includes('東德不再獨立'));
+    setSelect('selA','wall-open');setSelect('selB','unity');
+    assert.ok($('noteB').textContent.includes('1990.10.03'));
+    assert.ok(!$('cmpB').querySelector('[aria-label="東德"]'));
+    assert.ok($('cmpA').querySelector('[aria-label="東德"]'));click('dlgClose');
+    node($('map'),'[aria-label="東德"]').fire('click');assert.ok($('article').textContent.includes('克倫茨'));click('countryBack');
     click('helpOpen');click('helpReset');assert.equal(title(),evt('wall-open').title);
     click('methodOpen');assert.ok($('dlgBody').textContent.includes('未繪兩德國界'));click('dlgClose');
-    console.log('PASS — template edition timeline, causes, comparison, actor, help and geography notes');return;
+    click('sourceOpen');setSelect('sourceCh','3');assert.ok($('sourceList').querySelectorAll('a').length>=6);click('dlgClose');
+    console.log('PASS — German edition '+width+' px, 24 events, same-day order, tiers, sources, causes, comparison, identities and reset');return;
   }
   const jul=realm.ATLAS_EVENTS.filter(e=>e.chapter===2);
   const base=realm.ATLAS_EVENTS.find(e=>e.date==='1914-01-01');
@@ -202,4 +223,4 @@ function exercise(width,edition='world-war-i'){
 }
 for(const width of [780,540,375])exercise(width);
 
-if(!process.argv[2])exercise(780,'german-reunification');
+if(!process.argv[2])for(const width of [780,540,375])exercise(width,'german-reunification');

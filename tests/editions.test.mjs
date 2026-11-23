@@ -9,10 +9,31 @@ import {root,editions,validate} from '../tools/editions.mjs';
 test('published editions have independent maps and chronological sources',async()=>{
   const packs=await editions(),war=packs.find(x=>x.c.id==='world-war-i'),demo=packs.find(x=>x.c.id==='german-reunification');
   assert.ok(war.events.length>=79);assert.ok(war.events.filter(e=>e.chapter===2).length>=22);
-  assert(demo.events.length>=3);assert.equal(demo.c.mapEngine,'standard');
+  assert(demo.events.length>=18&&demo.events.length<=24);assert.equal(demo.c.chapters.length,4);assert.equal(demo.c.mapEngine,'standard');
   const page=await readFile(join(root,'site',demo.c.id,'index.html'),'utf8');
   assert(page.includes('../app/map.js'));assert(!page.includes('1914'));assert(!page.includes('editorial.js'));
   assert.throws(()=>validate(demo.c,[{...demo.events[0],causes:['future']}],demo.geo),/precede/);
+});
+
+test('German chronology distinguishes announcements, signatures, implementation and accession',async()=>{
+  const {c,events,geo}= (await editions()).find(x=>x.c.id==='german-reunification');
+  const event=id=>events.find(e=>e.id===id);
+  assert.equal(c.initial,'wall-open');assert.equal(c.baseline,'wall-open');assert.equal(c.compare,'unity');
+  assert.equal(event('travel-announcement').date,event('wall-open').date);
+  assert(events.indexOf(event('travel-announcement'))<events.indexOf(event('wall-open')));
+  assert(event('wall-open').causes.includes('travel-announcement'));
+  for(const [id,date] of [['hungary-open','1989-09-11'],['free-election','1990-03-18'],['monetary-treaty','1990-05-18'],['monetary-union','1990-07-01'],['unification-treaty','1990-08-31'],['two-plus-four','1990-09-12'],['four-power-declaration','1990-10-01'],['unity','1990-10-03']])assert.equal(event(id).date,date);
+  assert.match(event('unification-treaty').impact,/9 月 29 日/);
+  assert.match(event('two-plus-four').impact,/1991-03-15/);
+  assert(event('unity').causes.includes('unification-treaty'));
+  assert(event('unity').causes.includes('four-power-declaration'));
+  for(const e of events){assert.match(e.counterfactual,/假設/);assert.match(e.counterfactual,/限制/);}
+  const state=date=>geo.actors.GDR.states.find(s=>s.from<=date&&(!s.until||date<s.until));
+  assert.match(state('1989-11-09').stance,/克倫茨/);
+  assert.match(state('1990-04-12').stance,/民選/);
+  assert.equal(state('1990-10-03').showLabel,false);
+  assert.equal(geo.boundaries.length,0);
+  assert(events.every(e=>!e.overlays?.length));
 });
 
 test('search and social metadata point to published canonical pages and a real PNG',async()=>{
