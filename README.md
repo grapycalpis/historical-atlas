@@ -5,6 +5,7 @@
 | 目前可讀 | 時間範圍 | 內容 |
 | --- | --- | --- |
 | 第一次世界大戰 | 1871–1919 | 6 章、79 個事件。從塞拉耶佛暗殺開始，七月危機可逐步閱讀 22 個決策。 |
+| 古巴飛彈危機 | 1962.10.14–11.20 | 4 章、24 個事件。分辨拍照、情報確認與總統獲報，比較隔離生效與撤彈承諾，追蹤古巴安全及土耳其秘密安排。 |
 | 從柏林圍牆到德國統一 | 1989–1990 | 4 章、24 個事件。串連出走與抗議、自由選舉、兩德協商及國際條件，對照關卡開放與統一生效。 |
 
 ## 線上閱讀與自動部署
@@ -25,7 +26,7 @@ GitHub Free 可對公開 repo 使用 Pages；私有 repo 需要支援 Pages 的�
 
 ## 直接開啟
 
-下載 ZIP 後請先**完整解壓縮**，雙擊 [site/index.html](site/index.html) 選擇時期。兩套教材與底圖可離線操作，點擊外部史料才需要連線。ZIP 另附可單獨攜帶的 `exports/world-war-i.html`。
+下載 ZIP 後請先**完整解壓縮**，雙擊 [site/index.html](site/index.html) 選擇時期。三套教材與底圖可離線操作，點擊外部史料才需要連線。ZIP 另附可單獨攜帶的 `exports/world-war-i.html`。
 
 若從 GitHub 複製原始碼，在專案根目錄執行 `npm run build` 即可產生相同的入口。一般建置與測試只需要 Node.js 20 以上及 npm，沒有需要安裝的 npm 依賴。
 
@@ -70,6 +71,7 @@ npm run new-era -- meiji-restoration "明治維新"
 | --- | --- |
 | app/ | 共用版面、按鈕、播放器、解說與通用地圖 |
 | eras/world-war-i/ | 一戰的分章 JSON、已查核的 GIS、專用地圖與外交規則 |
+| eras/cuban-missile-crisis/ | 4 章、24 事件教材，區分公開與秘密資訊，使用自然底圖及近似點位 |
 | eras/german-reunification/ | 4 章、24 事件教材，使用通用地圖與分時參與方身分 |
 | templates/era/ | 空白教材骨架，供 new-era 複製 |
 | tools/、tests/ | 編譯、單檔匯出、資料規則與回歸測試 |
@@ -79,3 +81,5 @@ npm run new-era -- meiji-restoration "明治維新"
 一戰地理資料使用 CShapes-Europe、CShapes 2.0 及 Natural Earth。[完整出處、修改與精度說明](eras/world-war-i/gis/GIS.md)。一戰的衍生政治邊界維持 CC BY-NC-SA 4.0。共用自然陸塊 `app/land.json` 為 Natural Earth 1:110m Land 的簡化資料，屬公共領域。[Natural Earth 使用條款](https://www.naturalearthdata.com/about/terms-of-use/)。
 
 德國統一教材用近似地點表示事件，並在地圖上明示缺少當時的政治邊界；其史料包含博物館、檔案文件、大學及兩德／兩加四條約原文；查核差異與地圖限制見 [教材查核記錄](eras/german-reunification/RESEARCH.md)。每一筆事件都保留可點擊來源。新增其他時期時應在教材內填寫其獨立的來源、地圖年代與授權。專案未為自撰程式另選開源授權。
+
+古巴飛彈危機教材以公開演說、總統公告、解密會議及美蘇古信件對讀，日期差異、資訊層次與製圖限制見 [教材查核記錄](eras/cuban-missile-crisis/RESEARCH.md)。未繪缺乏可靠座標及授權的隔離線、艦位、航線或歷史政治疆界。

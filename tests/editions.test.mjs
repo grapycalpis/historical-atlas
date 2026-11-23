@@ -36,6 +36,31 @@ test('German chronology distinguishes announcements, signatures, implementation 
   assert(events.every(e=>!e.overlays?.length));
 });
 
+test('Cuban crisis separates intelligence, public commitments, secret bargaining and implementation',async()=>{
+  const {c,events,geo}=(await editions()).find(x=>x.c.id==='cuban-missile-crisis');
+  const event=id=>events.find(e=>e.id===id);
+  assert.equal(c.chapters.length,4);assert(events.length>=18&&events.length<=24);
+  assert.equal(events[0].date,'1962-10-14');assert.equal(events.at(-1).date,'1962-11-20');
+  for(const [id,date] of [['d14-photo','1962-10-14'],['d15-identify','1962-10-15'],['d16a-president','1962-10-16'],['d22a-excomm','1962-10-22'],['d22b-address','1962-10-22'],['d23-proclamation','1962-10-23'],['d24a-quarantine','1962-10-24'],['d27b-u2-down','1962-10-27'],['d28a-deescalation','1962-10-28']])assert.equal(event(id).date,date);
+  assert.equal(c.initial,'d14-photo');assert.equal(c.baseline,'d24a-quarantine');assert.equal(c.compare,'d28a-deescalation');
+  assert(event('d15-identify').causes.includes('d14-photo'));
+  assert(event('d16a-president').causes.includes('d15-identify'));
+  assert(!event('d27b-u2-down').causes.includes('d26b-castro-letter'));
+  assert(!event('d27d-public-reply').causes.includes('d27c-secret-channel'));
+  assert.match(event('d27c-secret-channel').debate,/刪去/);
+  assert.match(event('d26b-castro-letter').debate,/跨夜/);
+  assert.match(event('n10-missile-count').debate,/不是聲稱/);
+  assert.match(event('n20-quarantine-lifted').impact,/1963年4月/);
+  for(const e of events){assert.match(e.primary,/資訊狀態/);assert.match(e.counterfactual,/假設/);assert.match(e.counterfactual,/限制/);}
+  const state=(code,date)=>geo.actors[code].states.find(s=>s.from<=date&&(!s.until||date<s.until));
+  assert.match(state('US','1962-10-15').stance,/總統尚未獲報/);
+  assert.match(state('US','1962-10-24').stance,/隔離生效/);
+  assert.match(state('USSR','1962-10-28').stance,/承諾/);
+  assert.match(state('CU','1962-10-28').relations,/未同意/);
+  assert.equal(geo.boundaries.length,0);assert(events.every(e=>!e.overlays?.length));
+  assert((await readFile(join(root,'site/index.html'),'utf8')).includes('cuban-missile-crisis/index.html'));
+});
+
 test('search and social metadata point to published canonical pages and a real PNG',async()=>{
   const config=JSON.parse(await readFile(join(root,'app/site.json'),'utf8'));
   const packs=await editions();
@@ -56,7 +81,7 @@ test('search and social metadata point to published canonical pages and a real P
     assert(!html.includes('{{')&&!html.includes('noindex'));
   }
   const home=await readFile(join(root,'site/index.html'),'utf8');
-  assert.match(home,/<title>時序地圖集｜第一次世界大戰、德國統一互動歷史地圖<\/title>/);
+  assert.match(home,/<title>時序地圖集｜一戰、德國統一、古巴飛彈危機互動歷史地圖<\/title>/);
   if(config.googleSiteVerification)assert(home.includes('name="google-site-verification" content="'+config.googleSiteVerification+'"'));
   const png=await readFile(join(root,'site',config.image));
   assert.equal(png.subarray(0,8).toString('hex'),'89504e470d0a1a0a');

@@ -1,0 +1,283 @@
+{
+  "actors": {
+    "US": {
+      "point": [
+        -77.0365,
+        38.8977
+      ],
+      "states": [
+        {
+          "stance": "美利堅合眾國；甘迺迪政府尚未獲得14日照片判讀結果",
+          "relations": "偵察古巴軍備；豬玀灣失敗與後續秘密破壞，使古巴持續擔心美方推翻政權。",
+          "sources": [
+            "https://history.state.gov/historicaldocuments/frus1961-63v11/d16",
+            "https://history.state.gov/milestones/1961-1968/cuban-missile-crisis"
+          ],
+          "from": "1962-10-14",
+          "until": "1962-10-15"
+        },
+        {
+          "from": "1962-10-15",
+          "until": "1962-10-16",
+          "stance": "美國；情報部門確認部署，總統尚未獲報",
+          "relations": "卡特15日晚將判讀結果報告班迪；班迪等16日晨備好簡報才向總統說明。一般公眾尚不知悉。",
+          "sources": [
+            "https://history.state.gov/historicaldocuments/frus1961-63v11/d16"
+          ]
+        },
+        {
+          "stance": "美國；總統已獲報，主要顧問秘密討論",
+          "relations": "政府尚未公開照片，評估空襲、入侵、外交與封鎖。這是當日狀態摘要，上午獲報與稍後開會仍分事件。",
+          "sources": [
+            "https://history.state.gov/historicaldocuments/frus1961-63v11/d18"
+          ],
+          "from": "1962-10-16",
+          "until": "1962-10-22"
+        },
+        {
+          "stance": "美國；正式設行政委員會並於當晚公開隔離政策",
+          "relations": "要求撤彈，準備海上執行；本狀態依日更新，不表示當日上午公眾已聽到晚間演說。",
+          "sources": [
+            "https://history.state.gov/historicaldocuments/frus1961-63v11/d42",
+            "https://www.presidency.ucsb.edu/documents/radio-and-television-report-the-american-people-the-soviet-arms-buildup-cuba"
+          ],
+          "from": "1962-10-22",
+          "until": "1962-10-24"
+        },
+        {
+          "stance": "美國；海上隔離生效，仍保留軍事選項",
+          "relations": "攔阻指定軍備並持續偵察，對部分停航或轉向報告暫緩攔截；尚無撤彈共識。",
+          "sources": [
+            "https://microsites.jfklibrary.org/cmc/oct23/doc4.html",
+            "https://history.state.gov/historicaldocuments/frus1961-63v11/d55"
+          ],
+          "from": "1962-10-24",
+          "until": "1962-10-28"
+        },
+        {
+          "stance": "美國；接受以撤彈與安全承諾降溫",
+          "relations": "公開框架連於查驗、解除隔離及不入侵；秘密土耳其安排未向當時公眾公開。隔離仍在。",
+          "sources": [
+            "https://history.state.gov/historicaldocuments/frus1961-63v11/d95",
+            "https://history.state.gov/historicaldocuments/frus1961-63v11/d102",
+            "https://history.state.gov/historicaldocuments/frus1961-63v06/d70"
+          ],
+          "from": "1962-10-28",
+          "until": "1962-11-20"
+        },
+        {
+          "stance": "美國；已指示解除隔離，繼續監視",
+          "relations": "取得轟炸機撤離承諾；國際查驗仍不完備，美古敵對與經濟壓力未全面終止。",
+          "sources": [
+            "https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-170"
+          ],
+          "from": "1962-11-20"
+        }
+      ]
+    },
+    "USSR": {
+      "point": [
+        37.62,
+        55.75
+      ],
+      "states": [
+        {
+          "stance": "蘇維埃社會主義共和國聯邦；赫魯雪夫領導",
+          "relations": "在古巴秘密部署飛彈，公開以防禦援助說明；核武發射並非古巴政府可自行決定。",
+          "sources": [
+            "https://history.state.gov/milestones/1961-1968/cuban-missile-crisis",
+            "https://history.state.gov/historicaldocuments/frus1961-63v11/d29",
+            "https://history.state.gov/historicaldocuments/frus1961-63v11/d102"
+          ],
+          "from": "1962-10-14",
+          "until": "1962-10-26"
+        },
+        {
+          "stance": "蘇聯；提出以不入侵保證尋求出口",
+          "relations": "私人來信將保古安全與撤去軍事部署必要性相連，尚待談妥查驗及撤除細節。",
+          "sources": [
+            "https://history.state.gov/historicaldocuments/frus1961-63v11/d84"
+          ],
+          "from": "1962-10-26",
+          "until": "1962-10-27"
+        },
+        {
+          "stance": "蘇聯；公開要求土耳其同類飛彈撤除",
+          "relations": "對美國近距離部署提出對等安全要求；當晚秘密管道收到土耳其安排。日級狀態包含晚間，非上午已知全部。",
+          "sources": [
+            "https://history.state.gov/historicaldocuments/frus1961-63v11/d91",
+            "https://nsarchive.gwu.edu/document/29362-document-1-soviet-embassy-telegram-soviet-foreign-ministry-ambassador-dobrynin"
+          ],
+          "from": "1962-10-27",
+          "until": "1962-10-28"
+        },
+        {
+          "stance": "蘇聯；公開承諾拆除並運回武器",
+          "relations": "公開信以不入侵古巴說明降溫，秘密信另確認土耳其保證；古巴未先同意現地查驗。",
+          "sources": [
+            "https://history.state.gov/historicaldocuments/frus1961-63v11/d102",
+            "https://history.state.gov/historicaldocuments/frus1961-63v06/d70",
+            "https://history.state.gov/historicaldocuments/frus1961-63v10-12mSupp/d475"
+          ],
+          "from": "1962-10-28",
+          "until": "1962-11-20"
+        },
+        {
+          "stance": "蘇聯；另承諾撤除IL-28轟炸機",
+          "relations": "彈道飛彈已經核對運出；轟炸機承諾30天內撤離並可觀察點算，不是本日全部武器已離境。",
+          "sources": [
+            "https://history.state.gov/historicaldocuments/frus1961-63v07/d245",
+            "https://www.presidency.ucsb.edu/documents/the-presidents-news-conference-170"
+          ],
+          "from": "1962-11-20"
+        }
+      ]
+    },
+    "CU": {
+      "point": [
+        -82.37,
+        23.13
+      ],
+      "states": [
+        {
+          "stance": "古巴共和國；卡斯楚任總理，多蒂科斯任總統",
+          "relations": "接受蘇聯援助以防美國再次入侵；與美國敵對，但對蘇聯核武不擁有獨立發射決策權。",
+          "sources": [
+            "https://history.state.gov/milestones/1961-1968/cuban-missile-crisis",
+            "https://history.state.gov/historicaldocuments/frus1961-63v11/d29"
+          ],
+          "from": "1962-10-14",
+          "until": "1962-10-26"
+        },
+        {
+          "stance": "古巴；領導層憂慮迫近的空襲或入侵",
+          "relations": "卡斯楚署26日、跨夜擬成的信在全面入侵條件下提出極端核回應想法；這不是蘇方已接受的命令。",
+          "sources": [
+            "https://nsarchive2.gwu.edu/nsa/cuba_mis_cri/621026%20Castro%20Letter%20to%20Khrushchev.pdf",
+            "https://nsarchive.gwu.edu/news/cuba/2018-01-11/dark-beyond-darkness-cuban-missile-crisis-book",
+            "https://www.pbs.org/wgbh/americanexperience/features/jfk-defendcuba/"
+          ],
+          "from": "1962-10-26",
+          "until": "1962-10-28"
+        },
+        {
+          "stance": "古巴；未受充分諮詢，反對外來現地查驗",
+          "relations": "要求較廣安全保障與主權尊重，同時願暫時約束防空砲火避免傷及談判；未同意讓美蘇替古巴接受檢查。",
+          "sources": [
+            "https://nsarchive2.gwu.edu/nsa/cuba_mis_cri/19621028caslet.pdf",
+            "https://history.state.gov/historicaldocuments/frus1961-63v10-12mSupp/d475"
+          ],
+          "from": "1962-10-28",
+          "until": "1962-10-30"
+        },
+        {
+          "stance": "古巴；與吳丹會談，仍拒絕領土內查驗",
+          "relations": "30至31日斡旋沒有取得現地查驗同意。盟友撤彈與古巴主權、關達那摩及經濟壓力訴求不同步解決。",
+          "sources": [
+            "https://history.state.gov/historicaldocuments/frus1961-63v10-12mSupp/d475"
+          ],
+          "from": "1962-10-30"
+        }
+      ]
+    },
+    "TR": {
+      "point": [
+        32.85,
+        39.93
+      ],
+      "states": [
+        {
+          "stance": "土耳其共和國；北約成員，境內部署美國朱比特飛彈",
+          "relations": "飛彈牽涉美國核嚇阻與盟國信任；首都點不是基地。當時美方須顧慮撤除會被視為削弱防衛。",
+          "sources": [
+            "https://history.state.gov/historicaldocuments/frus1961-63v11/d34",
+            "https://history.state.gov/historicaldocuments/frus1961-63v11/d91"
+          ],
+          "from": "1962-10-14",
+          "until": "1962-10-27"
+        },
+        {
+          "stance": "土耳其；成為蘇聯公開交換提案涉及的盟國",
+          "relations": "本國未出席美蘇當晚秘密會談。私下撤除保證不等於土耳其當日已批准公開交換，更不等於飛彈已撤。",
+          "sources": [
+            "https://history.state.gov/historicaldocuments/frus1961-63v11/d91",
+            "https://history.state.gov/historicaldocuments/frus1961-63v11/d96",
+            "https://nsarchive.gwu.edu/document/29362-document-1-soviet-embassy-telegram-soviet-foreign-ministry-ambassador-dobrynin"
+          ],
+          "from": "1962-10-27",
+          "until": "1962-10-28"
+        },
+        {
+          "stance": "土耳其；撤彈時間表仍是當時秘密安排",
+          "relations": "美方透過秘密管道承諾後續撤除；朱比特實際於1963年4月撤離，未在本教材捏造單日或繪基地。",
+          "sources": [
+            "https://history.state.gov/historicaldocuments/frus1961-63v06/d70",
+            "https://history.state.gov/milestones/1961-1968/cuban-missile-crisis"
+          ],
+          "from": "1962-10-28"
+        }
+      ]
+    },
+    "UN": {
+      "point": [
+        -73.968,
+        40.75
+      ],
+      "states": [
+        {
+          "stance": "聯合國；吳丹為代理秘書長",
+          "relations": "提供外交協商場合；組織並不直接指揮美蘇或古巴的軍隊。",
+          "sources": [
+            "https://history.state.gov/historicaldocuments/frus1961-63v11/d59"
+          ],
+          "from": "1962-10-14",
+          "until": "1962-10-24"
+        },
+        {
+          "stance": "聯合國；吳丹呼籲克制並斡旋",
+          "relations": "24日起倡議暫緩升級，25日進一步要求蘇聯船隻避開攔截區、美軍避免直接對撞。",
+          "sources": [
+            "https://history.state.gov/historicaldocuments/frus1961-63v11/d59"
+          ],
+          "from": "1962-10-24",
+          "until": "1962-10-30"
+        },
+        {
+          "stance": "聯合國；吳丹在古巴尋求查驗安排",
+          "relations": "30至31日會談沒有克服古巴主權反對；不能以美蘇同意代替古巴准許現地檢查。",
+          "sources": [
+            "https://history.state.gov/historicaldocuments/frus1961-63v10-12mSupp/d475"
+          ],
+          "from": "1962-10-30"
+        }
+      ]
+    },
+    "OAS": {
+      "point": [
+        -77.04,
+        38.89
+      ],
+      "states": [
+        {
+          "stance": "美洲國家組織；美洲區域政府間組織",
+          "relations": "組織與聯合國是不同架構；尚未通過23日針對飛彈危機的行動決議。",
+          "sources": [
+            "https://history.state.gov/historicaldocuments/frus1961-63v11/d49"
+          ],
+          "from": "1962-10-14",
+          "until": "1962-10-23"
+        },
+        {
+          "stance": "美洲國家組織；理事會決議支持應對核武部署",
+          "relations": "美國以區域集體安全決議支持隔離；不能將此寫成聯合國安理會授權，也不能替代蘇古的法律立場。",
+          "sources": [
+            "https://history.state.gov/historicaldocuments/frus1961-63v11/d49",
+            "https://microsites.jfklibrary.org/cmc/oct23/doc4.html"
+          ],
+          "from": "1962-10-23"
+        }
+      ]
+    }
+  },
+  "boundaries": []
+}
