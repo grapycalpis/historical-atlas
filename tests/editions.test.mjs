@@ -127,3 +127,32 @@ test('scaffold, validate and build a third era without touching the reader',asyn
     await access(join(work,'eras/test-period/events.json'));
   }finally{await rm(work,{recursive:true,force:true});}
 });
+
+test('French revolution separates legal change, coercion, colonial freedom and the two-day coup',async()=>{
+  const {c,events,geo}=(await editions()).find(x=>x.c.id==='french-revolution');
+  const event=id=>events.find(e=>e.id===id);
+  const state=(code,date)=>geo.actors[code].states.find(s=>s.from<=date&&(!s.until||date<s.until));
+  assert.equal(c.chapters.length,6);assert(events.length>=30&&events.length<=36);
+  assert.equal(c.initial,'estates-open');assert.equal(c.baseline,'estates-open');assert.equal(c.compare,'brumaire-19');
+  for(const [id,date] of [['estates-open','1789-05-05'],['national-assembly','1789-06-17'],['tennis-oath','1789-06-20'],['october-march','1789-10-05'],['royal-return','1789-10-06'],['varennes-stop','1791-06-21'],['champ-mars','1791-07-17'],['saint-domingue-uprising','1791-08-22'],['constitution-1791','1791-09-03'],['war-austria','1792-04-20'],['tuileries-attack','1792-08-10'],['monarchy-abolished','1792-09-21'],['louis-executed','1793-01-21'],['slavery-abolished','1794-02-04'],['prairial-law','1794-06-10'],['fleurus','1794-06-26'],['thermidor','1794-07-27'],['constitution-1795','1795-08-22'],['directory-begins','1795-11-02'],['fructidor-coup','1797-09-04'],['brumaire-18','1799-11-09'],['brumaire-19','1799-11-10']])assert.equal(event(id).date,date);
+  assert(event('royal-return').causes.includes('october-march'));
+  assert(event('monarchy-abolished').causes.includes('tuileries-attack'));
+  assert(!event('monarchy-abolished').causes.includes('valmy'),'a battle is not an automatically received instruction to abolish the monarchy');
+  assert(event('slavery-abolished').causes.includes('saint-domingue-uprising'));
+  assert(event('brumaire-19').causes.includes('brumaire-18'));
+  assert.match(event('august-decrees').impact,/贖買/);
+  assert.match(event('slavery-abolished').impact,/未普遍/);
+  assert.match(event('thermidor').summary,/28 日/);
+  assert.match(event('brumaire-19').impact,/12 月 13 日/);
+  assert.match(state('CROWN','1792-08-10').stance,/停職/);
+  assert.match(state('CROWN','1792-09-21').stance,/前國王/);
+  assert.match(state('FR','1799-11-09').stance,/瓦解中/);
+  assert.match(state('FR','1799-11-10').stance,/臨時執政/);
+  assert.match(state('SD','1799-11-10').relations,/尚非獨立/);
+  assert.match(state('PR','1795-04-05').relations,/批准/);
+  for(let ch=1;ch<=6;ch++)assert.match(events.find(e=>e.chapter===ch).background,/本章核心問題/);
+  for(const e of events){assert.match(e.counterfactual,/假設/);assert.match(e.counterfactual,/限制/);}
+  for(const a of Object.values(geo.actors))for(const s of a.states)assert(s.sources?.length);
+  assert.equal(geo.boundaries.length,0);assert(events.every(e=>!e.overlays?.length));
+  assert((await readFile(join(root,'site/index.html'),'utf8')).includes('french-revolution/index.html'));
+});

@@ -1,0 +1,154 @@
+{
+  "id": "french-revolution",
+  "title": "法國大革命：從三級會議到霧月政變",
+  "subject": "革命與國家重建",
+  "years": "1789 — 1799",
+  "subtitle": "代表權、麵包、戰爭與緊急權力",
+  "description": "6 章、36 個事件：從財政危機與三級會議，追到共和、地方內戰、恐怖統治及霧月政變。納入女性、農民、糧食與聖多明各，對照 1789 年改革訴求與 1799 年臨時執政權力。",
+  "region": "法國、北部邊境與聖多明各",
+  "bounds": [
+    -6,
+    42,
+    17,
+    55
+  ],
+  "chapters": [
+    [
+      "I",
+      "財政危機與三級會議",
+      "1789.05–06"
+    ],
+    [
+      "II",
+      "國民議會與革命擴散",
+      "1789.07–10"
+    ],
+    [
+      "III",
+      "君主立憲的危機",
+      "1790.07–1791.09"
+    ],
+    [
+      "IV",
+      "共和建立與對外戰爭",
+      "1792.04–1793.03"
+    ],
+    [
+      "V",
+      "恐怖統治及熱月轉折",
+      "1793.04–1794.07"
+    ],
+    [
+      "VI",
+      "督政府與霧月政變",
+      "1795.08–1799.11"
+    ]
+  ],
+  "names": {
+    "FR": "中央代表機關",
+    "CROWN": "王室",
+    "CLERGY": "天主教教士",
+    "URBAN": "城市民眾",
+    "WOMEN": "女性行動者",
+    "RURAL": "農村居民",
+    "JAC": "雅各賓派與山岳派",
+    "GIR": "吉倫特派",
+    "ARMY": "法國軍隊",
+    "SD": "聖多明各被奴役者與起事者",
+    "COLON": "殖民地自由居民",
+    "AT": "哈布斯堡君主國",
+    "PR": "普魯士"
+  },
+  "layers": {
+    "names": [
+      "參與方位置",
+      "標籤只供定位；多個群體可在同城活動"
+    ],
+    "places": [
+      "先前事件",
+      "空心圓為較早事件；紅圈為目前事件"
+    ],
+    "relations": [
+      "當次政治與外交關係",
+      "虛線表示宣戰等關係，不是軍隊路線"
+    ]
+  },
+  "initial": "estates-open",
+  "baseline": "estates-open",
+  "compare": "brumaire-19",
+  "reset": "回到三級會議開幕",
+  "guideTitle": "1789 年要求限制王權，1799 年的權力又落在誰手中？",
+  "guideText": "先從 1789-05-05 閱讀，按「時點比較」與 1799-11-10 對照：誰能授權徵稅與制定法律？誰掌握軍隊？女性、貧民與殖民地居民能否參與？比較圖的 A 預設為政變完成，B 為三級會議；可互換選單。六章依序追問：國王為了借錢與徵稅召集代表，為何反而出現了自稱代表全國的議會？ 議會的改革，為何需要城市群眾與農村行動才能推進？ 既然已有憲法，為何國王、議會與民眾仍無法互相信任？ 對外戰爭如何加劇內部猜疑，共和建立又為何沒有終結暴力？ 救國的緊急權力如何變成恐怖統治，軍事勝利為何沒有立刻停止鎮壓？ 設計來防止獨裁的督政府，為何最終依靠軍人並遭軍人推翻？ 全篇日期均為經查核的西曆；革命曆原日期附於相關事件。只有月份的《女性權利宣言》及集體運動放在背景，不虛設某一天。",
+  "mapEngine": "standard",
+  "credit": "Natural Earth（公共領域）· 編者近似事件點位",
+  "legend": "自然底圖與事件位置；不表示政治疆界、軍事占領或戰線",
+  "mapNote": "使用現有 Natural Earth 1:110m 自然陸塊，不含現代國界，也未重建 1789–1799 年政治疆界、軍事占領面、戰線或行軍／進軍／逃亡航線。三者在文字分開解釋：法理疆界要有條約與有效日；占領是軍事控制；戰線是特定時點的交戰配置，不能互相替代。本教材未取得同時有可靠幾何、有效日期與可用授權的資料，故 boundaries 留空、無 overlays。巴黎與凡爾賽等點為編者依事件所在地近似定位，城市精度約 1–10 公里，鄉間或戰場約 10–30 公里；紅點代表決策地、城鎮或戰場周邊，不代表運動全域與交戰陣形。旺代軍事活動跨越當時省界，本教材以馬什庫勒地方事件及文字定位。聖多明各使用法蘭西角附近的北部平原近似點，選該事件自動切換周邊；世界全圖可看跨洋距離。多個巴黎群體的標籤不移至虛構領地，部分隱藏標籤，可按事件的參與方按鈕查看。參與方身分以日為單位更新，同日先後由解說交代。比較時應讀權力與立場文字，不能從相同陸塊推斷十年間沒有政治改變。",
+  "mapSources": [
+    [
+      "Natural Earth｜1:110m Land，自然陸塊",
+      "https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-land/"
+    ],
+    [
+      "Natural Earth｜公共領域使用條款",
+      "https://www.naturalearthdata.com/about/terms-of-use/"
+    ],
+    [
+      "瓦爾密歷史中心｜1792-09-20 戰役及交戰背景",
+      "https://www.valmy1792.com/centre-historique-valmy-1792/la-bataille/"
+    ],
+    [
+      "里昂市檔案館｜圍城、投降與鎮壓命令原件",
+      "https://www.archives-lyon.fr/vuln%C3%A9rabilit%C3%A9s/risques-militaires/Lyon-n%27est-plus"
+    ],
+    [
+      "法國國家圖書館｜馬什庫勒屠殺主題權威紀錄",
+      "https://catalogue.bnf.fr/ark:/12148/cb155985942"
+    ],
+    [
+      "昂熱工兵博物館｜1794-06-26 弗勒呂斯戰役及觀測氣球",
+      "https://www.musee-du-genie-angers.fr/fpdb/20204458-11-dioramaduballonlentreprenant-batailledefleurus.pdf"
+    ],
+    [
+      "聯合國教科文組織｜1791 年 8 月 22 日夜至 23 日起事",
+      "https://www.unesco.org/en/days/slave-trade-remembrance"
+    ]
+  ],
+  "eventFiles": [
+    "events.json"
+  ],
+  "eventLabels": {
+    "bastille": "攻城與群眾暴力",
+    "august-decrees": "制度與農民負擔",
+    "rights-declaration": "權利文字通過",
+    "october-march": "女性集體行動",
+    "royal-return": "王室遷居",
+    "civil-clergy": "教會制度改革",
+    "varennes-stop": "王室出走遭攔截",
+    "champ-mars": "集會遭武力鎮壓",
+    "saint-domingue-uprising": "殖民地起事",
+    "constitution-1791": "憲法文字通過",
+    "war-austria": "君主立憲政府宣戰",
+    "tuileries-attack": "攻宮與王權停職",
+    "september-massacres": "監獄屠殺",
+    "valmy": "邊境防衛戰役",
+    "monarchy-abolished": "王權正式廢除",
+    "louis-executed": "公會判決後處刑",
+    "vendee-machecoul": "地方起事與屠殺",
+    "public-safety": "緊急機關成立",
+    "girondins-purged": "武力干預議會",
+    "levee-en-masse": "全社會軍事動員",
+    "law-suspects": "擴大預防拘押",
+    "general-maximum": "糧價與工資管制",
+    "lyon-surrenders": "圍城投降與後續鎮壓",
+    "slavery-abolished": "殖民地廢奴法令",
+    "prairial-law": "革命司法擴權",
+    "fleurus": "北部邊境戰役",
+    "thermidor": "逮捕與隔日處刑",
+    "constitution-1795": "新憲法通過",
+    "vendemiaire": "首都武裝鎮壓",
+    "directory-begins": "行政機關開始運作",
+    "fructidor-coup": "軍事介入選舉結果",
+    "brumaire-18": "政變第一日：部署",
+    "brumaire-19": "政變第二日：武力清場"
+  }
+}

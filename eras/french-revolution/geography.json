@@ -1,0 +1,1023 @@
+{
+  "actors": {
+    "FR": {
+      "point": [
+        2.33,
+        48.86
+      ],
+      "states": [
+        {
+          "from": "1789-05-05",
+          "stance": "三級會議；等級代表，由國王召集",
+          "relations": "爭議集中在資格審查、稅收與表決方式；國王仍掌行政，代表沒有預定廢君共識。",
+          "sources": [
+            "https://www.chateauversailles.fr/decouvrir/histoire/grandes-dates/ouverture-etats-generaux",
+            "https://www2.assemblee-nationale.fr/decouvrir-l-assemblee/histoire/les-grands-discours-parlementaires/revolution-francaise"
+          ],
+          "until": "1789-06-17"
+        },
+        {
+          "from": "1789-06-17",
+          "stance": "國民議會；第三等級與加入的教士主張代表全國",
+          "relations": "王室尚未穩固接受其制憲地位；20 日以宣誓維持集體行動。",
+          "sources": [
+            "https://www2.assemblee-nationale.fr/decouvrir-l-assemblee/histoire/les-grands-discours-parlementaires/revolution-francaise",
+            "https://www.chateauversailles.fr/decouvrir/histoire/les-grandes-dates/serment-jeu-paume"
+          ],
+          "until": "1789-07-09"
+        },
+        {
+          "from": "1789-07-09",
+          "stance": "國民制憲議會；起草憲法與改革特權",
+          "relations": "與王室及地方動員交涉，八月宣言仍未給全體居民同等投票權。",
+          "sources": [
+            "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/la-declaration-des-droits-de-l-homme-et-du-citoyen",
+            "https://www.elysee.fr/la-presidence/la-constitution-du-3-septembre-1791"
+          ],
+          "until": "1791-10-01"
+        },
+        {
+          "from": "1791-10-01",
+          "stance": "立法議會；依 1791 年憲法組成",
+          "relations": "國王仍掌行政並有暫緩否決權；對外戰爭加劇互疑。",
+          "sources": [
+            "https://www.elysee.fr/la-presidence/la-constitution-du-3-septembre-1791",
+            "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/la-convention-nationale-et-la-fin-de-la-royaute",
+            "https://www2.assemblee-nationale.fr/sycomore/fiche/12806?legislature=2"
+          ],
+          "until": "1792-08-10"
+        },
+        {
+          "from": "1792-08-10",
+          "stance": "立法議會過渡行政；國王被停職",
+          "relations": "準備選出國民公會，尚未在今天正式廢除王權。",
+          "sources": [
+            "https://revolution.chnm.org/d/319/",
+            "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/la-convention-nationale-et-la-fin-de-la-royaute"
+          ],
+          "until": "1792-09-21"
+        },
+        {
+          "from": "1792-09-21",
+          "stance": "國民公會；王權已廢，翌日採共和紀年",
+          "relations": "吉倫特派、山岳派與平原派競爭；女性仍無選舉權。",
+          "sources": [
+            "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/la-convention-nationale-et-la-fin-de-la-royaute"
+          ],
+          "until": "1793-04-06"
+        },
+        {
+          "from": "1793-04-06",
+          "stance": "國民公會與新設救國委員會",
+          "relations": "公會授權委員會監督行政、協調防衛；初期九人，非羅伯斯比爾個人政府。",
+          "sources": [
+            "https://rdf.archives-nationales.culture.gouv.fr/garance/entities/agent/051694/"
+          ],
+          "until": "1793-06-02"
+        },
+        {
+          "from": "1793-06-02",
+          "stance": "吉倫特領導者被排除後的國民公會",
+          "relations": "山岳派居優勢，委員會權力擴大；法庭、治安與軍事權力仍分屬不同機構。",
+          "sources": [
+            "https://revolution.chnm.org/d/429/",
+            "https://revolution.chnm.org/d/417/"
+          ],
+          "until": "1794-07-27"
+        },
+        {
+          "from": "1794-07-27",
+          "stance": "熱月九日的國民公會；下令拘捕羅伯斯比爾等人",
+          "relations": "市政支持者仍在動員，當日結果並非一開始就確定，處刑在翌日。",
+          "sources": [
+            "https://revolution.chnm.org/d/441/",
+            "https://revolution.chnm.org/d/396/"
+          ],
+          "until": "1794-07-28"
+        },
+        {
+          "from": "1794-07-28",
+          "stance": "熱月後的國民公會",
+          "relations": "羅伯斯比爾等人已被處死，緊急措施其後逐步撤銷；報復暴力與生計抗議持續。",
+          "sources": [
+            "https://revolution.chnm.org/d/397/",
+            "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/constitution-de-l-an-iii-le-directoire",
+            "https://revolution.chnm.org/d/492/"
+          ],
+          "until": "1795-10-27"
+        },
+        {
+          "from": "1795-10-27",
+          "stance": "共和三年憲法下的兩院過渡",
+          "relations": "國民公會已結束；五百人院與元老院構成新立法體，督政府正在組織。",
+          "sources": [
+            "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/constitution-de-l-an-iii-le-directoire",
+            "https://www.archivesnationales.culture.gouv.fr/chan/chan/pdf/sm/PV4.pdf#page=3",
+            "https://www2.assemblee-nationale.fr/sycomore/liste/4?alpha=true"
+          ],
+          "until": "1795-11-02"
+        },
+        {
+          "from": "1795-11-02",
+          "stance": "兩院立法與五名督政官行政",
+          "relations": "制度意在分權；政府須處理戰爭與財政，漸倚軍隊支持。",
+          "sources": [
+            "https://www.archivesnationales.culture.gouv.fr/chan/chan/pdf/sm/PV4.pdf#page=3",
+            "https://revolution.chnm.org/d/450/"
+          ],
+          "until": "1797-09-04"
+        },
+        {
+          "from": "1797-09-04",
+          "stance": "果月政變中的督政府與兩院",
+          "relations": "三名督政官獲軍方支持排除右派，後續取消部分選舉並限制新聞。",
+          "sources": [
+            "https://revolution.chnm.org/d/457/",
+            "https://www.napoleon.org/en/history-of-the-two-empires/articles/18-brumaire-the-context-and-course-of-a-coup-detat/",
+            "https://www.napoleon.org/histoire-des-2-empires/biographies/barras-paul-francois-jean-nicolas-vicomte-de-1755-1829-homme-politique/"
+          ],
+          "until": "1799-11-09"
+        },
+        {
+          "from": "1799-11-09",
+          "stance": "督政府瓦解中；兩院被安排遷往聖克盧",
+          "relations": "元老院將軍權交波拿巴；尚未完成翌日武力清場與臨時執政任命。",
+          "sources": [
+            "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/le-coup-d-etat-des-18-et-19-brumaire-an-viii"
+          ],
+          "until": "1799-11-10"
+        },
+        {
+          "from": "1799-11-10",
+          "stance": "臨時執政與立法委員會；兩院在武力下退場",
+          "relations": "波拿巴、西耶斯、迪科掌行政；十二月憲法才確立第一執政優勢，不能稱今日已成皇帝。",
+          "sources": [
+            "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/le-coup-d-etat-des-18-et-19-brumaire-an-viii",
+            "https://revolution.chnm.org/d/502/",
+            "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/consulat-et-premier-empire"
+          ]
+        }
+      ]
+    },
+    "CROWN": {
+      "point": [
+        2.13,
+        48.8
+      ],
+      "states": [
+        {
+          "from": "1789-05-05",
+          "stance": "路易十六王室；仍主張王室權威",
+          "relations": "召集三級會議以處理財政，希望改革不摧毀王權。",
+          "sources": [
+            "https://www.chateauversailles.fr/decouvrir/histoire/grandes-dates/ouverture-etats-generaux"
+          ],
+          "until": "1789-10-06",
+          "showLabel": false
+        },
+        {
+          "from": "1789-10-06",
+          "stance": "被迫遷居巴黎的王室",
+          "relations": "仍有君主身分，行動更受首都群眾與議會監督；點位保留凡爾賽作歷史參照。",
+          "sources": [
+            "https://www.chateauversailles.fr/decouvrir/histoire/les-grandes-dates/grand-depart-roi"
+          ],
+          "until": "1791-06-21",
+          "showLabel": false
+        },
+        {
+          "from": "1791-06-21",
+          "stance": "出走遭攔截、權力暫停的王室",
+          "relations": "6 月 21 日深夜在瓦雷訥遭攔截，之後被送回巴黎，國王權力暫停；王室未跨越國界。9 月接受憲法以前，立憲地位仍在協商。",
+          "sources": [
+            "https://revolution.chnm.org/d/312/",
+            "https://revolution.chnm.org/d/313/"
+          ],
+          "until": "1791-09-14",
+          "showLabel": false
+        },
+        {
+          "from": "1791-09-14",
+          "stance": "已宣誓接受憲法的立憲君主",
+          "relations": "國王接受有限王權，但書信仍顯示對制度的懷疑。",
+          "sources": [
+            "https://revolution.chnm.org/d/315/",
+            "https://www.elysee.fr/la-presidence/la-constitution-du-3-septembre-1791"
+          ],
+          "until": "1792-08-10",
+          "showLabel": false
+        },
+        {
+          "from": "1792-08-10",
+          "stance": "被停職的國王與受拘束王室",
+          "relations": "失去行政職權，正式廢君尚待公會決議。",
+          "sources": [
+            "https://revolution.chnm.org/d/319/"
+          ],
+          "until": "1792-09-21",
+          "showLabel": false
+        },
+        {
+          "from": "1792-09-21",
+          "stance": "王權廢除；路易十六為被拘押的前國王",
+          "relations": "王室已不是法國行政機關，前國王仍在世。",
+          "sources": [
+            "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/la-convention-nationale-et-la-fin-de-la-royaute"
+          ],
+          "until": "1793-01-21",
+          "showLabel": false
+        },
+        {
+          "from": "1793-01-21",
+          "stance": "路易十六被處死；保王者繼續活動",
+          "relations": "不能再讓已死的國王作決策；流亡者與國內保王力量並非同一組織。",
+          "sources": [
+            "https://revolution.chnm.org/d/327/",
+            "https://revolution.chnm.org/d/457/"
+          ],
+          "showLabel": false
+        }
+      ]
+    },
+    "CLERGY": {
+      "point": [
+        2.33,
+        48.86
+      ],
+      "states": [
+        {
+          "from": "1789-05-05",
+          "stance": "天主教教士等級，內部有高級教士與堂區神父差異",
+          "relations": "部分支持特權，部分支持第三等級改革，不能視為一致反革命。",
+          "sources": [
+            "https://www.chateauversailles.fr/decouvrir/histoire/grandes-dates/ouverture-etats-generaux",
+            "https://www2.assemblee-nationale.fr/decouvrir-l-assemblee/histoire/les-grands-discours-parlementaires/revolution-francaise"
+          ],
+          "until": "1790-07-12",
+          "showLabel": false
+        },
+        {
+          "from": "1790-07-12",
+          "stance": "教士公民組織法下的重組對象",
+          "relations": "教區與選任制度改變，宣誓問題其後加深分裂。",
+          "sources": [
+            "https://www.assemblee-nationale.fr/dyn/histoire/separation-des-eglises-et-de-l-etat/les-jalons-historiques"
+          ],
+          "until": "1790-11-27",
+          "showLabel": false
+        },
+        {
+          "from": "1790-11-27",
+          "stance": "在職教士被要求宣誓，逐漸分成宣誓與拒誓兩方",
+          "relations": "地方信徒與神父的關係左右接受程度；不是所有農村均反對改革。 11 月 27 日是議會決議，國王於 12 月 26 日才認可，地方通知與宣誓另有時程。",
+          "sources": [
+            "https://www.assemblee-nationale.fr/dyn/histoire/separation-des-eglises-et-de-l-etat/les-jalons-historiques",
+            "https://cliothemis.com/Legalite-et-integrite-de-la-loi-le.html"
+          ],
+          "until": "1792-09-02",
+          "showLabel": false
+        },
+        {
+          "from": "1792-09-02",
+          "stance": "部分拒誓教士遭拘押與九月屠殺",
+          "relations": "被指不忠不等於犯罪已證實，其他教士仍支持共和。",
+          "sources": [
+            "https://revolution.chnm.org/d/393/"
+          ],
+          "until": "1793-09-17",
+          "showLabel": false
+        },
+        {
+          "from": "1793-09-17",
+          "stance": "緊急統治中處境不同的教士與信徒",
+          "relations": "嫌疑拘押及去基督教化壓力不一，不能把教士全體等同旺代軍隊。",
+          "sources": [
+            "https://revolution.chnm.org/d/417/",
+            "https://www.assemblee-nationale.fr/dyn/histoire/separation-des-eglises-et-de-l-etat/les-jalons-historiques"
+          ],
+          "until": "1795-11-02",
+          "showLabel": false
+        },
+        {
+          "from": "1795-11-02",
+          "stance": "督政府時期仍分歧的天主教教士",
+          "relations": "宗教與共和忠誠仍受政治監督；果月政變後又加強針對部分教士的措施。",
+          "sources": [
+            "https://revolution.chnm.org/d/457/",
+            "https://www.assemblee-nationale.fr/dyn/histoire/separation-des-eglises-et-de-l-etat/les-jalons-historiques"
+          ],
+          "showLabel": false
+        }
+      ]
+    },
+    "URBAN": {
+      "point": [
+        2.33,
+        48.86
+      ],
+      "states": [
+        {
+          "from": "1789-05-05",
+          "stance": "城市居民與勞動者；非單一組織",
+          "relations": "麵包、就業與稅負影響政治選擇，與受教育的第三等級代表利益未必相同。",
+          "sources": [
+            "https://revolution.chnm.org/d/279/",
+            "https://revolution.chnm.org/d/382/"
+          ],
+          "until": "1789-07-14",
+          "showLabel": false
+        },
+        {
+          "from": "1789-07-14",
+          "stance": "參與巴黎武裝與地方市政變革的民眾",
+          "relations": "希望獲武器自保，亦有攻守談判與投降後暴力。",
+          "sources": [
+            "https://revolution.chnm.org/d/382/",
+            "https://revolution.chnm.org/d/383/"
+          ],
+          "until": "1791-07-17",
+          "showLabel": false
+        },
+        {
+          "from": "1791-07-17",
+          "stance": "在君主問題上分裂的城市政治參與者",
+          "relations": "部分支持立憲，部分要求追究國王；戒嚴流血造成不信任。",
+          "sources": [
+            "https://revolution.chnm.org/d/389/"
+          ],
+          "until": "1792-08-10",
+          "showLabel": false
+        },
+        {
+          "from": "1792-08-10",
+          "stance": "巴黎各區與無套褲漢等群眾力量",
+          "relations": "無套褲漢通常指工匠、小店主等激進城市參與者，非所有貧民或統一政黨。",
+          "sources": [
+            "https://revolution.chnm.org/d/319/",
+            "https://revolution.chnm.org/d/429/"
+          ],
+          "until": "1793-09-29",
+          "showLabel": false
+        },
+        {
+          "from": "1793-09-29",
+          "stance": "要求糧食保障、亦受工資上限與監察約束的居民",
+          "relations": "參與者有不同經濟位置，限價不必然讓所有工人同等受益。",
+          "sources": [
+            "https://revolution.chnm.org/d/415/",
+            "https://revolution.chnm.org/d/479/"
+          ],
+          "until": "1795-08-22",
+          "showLabel": false
+        },
+        {
+          "from": "1795-08-22",
+          "stance": "熱月後抗議受壓的城市居民",
+          "relations": "1795 年要求麵包與 1793 年憲法的動員被打擊，財產秩序優先。",
+          "sources": [
+            "https://revolution.chnm.org/d/492/",
+            "https://revolution.chnm.org/d/418/",
+            "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/constitution-de-l-an-iii-le-directoire"
+          ],
+          "until": "1799-11-10",
+          "showLabel": false
+        },
+        {
+          "from": "1799-11-10",
+          "stance": "在霧月政變中缺乏直接決策權的城市居民",
+          "relations": "立法機關移至聖克盧降低首都群眾介入；不能由缺少大規模抗爭推定全民同意。",
+          "sources": [
+            "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/le-coup-d-etat-des-18-et-19-brumaire-an-viii",
+            "https://revolution.chnm.org/d/502/"
+          ],
+          "showLabel": false
+        }
+      ]
+    },
+    "WOMEN": {
+      "point": [
+        2.33,
+        48.86
+      ],
+      "states": [
+        {
+          "from": "1789-05-05",
+          "stance": "女性居民、工作者與請願者；沒有平等國家代表權",
+          "relations": "要求教育、生計與被聽見，階級、信仰及政治立場各不相同。",
+          "sources": [
+            "https://revolution.chnm.org/d/279/"
+          ],
+          "until": "1789-10-05",
+          "showLabel": false
+        },
+        {
+          "from": "1789-10-05",
+          "stance": "以市場女性為重要力量的十月進軍參與者",
+          "relations": "要求麵包與統治者回應，並非只是男性領袖的跟隨者。",
+          "sources": [
+            "https://revolution.chnm.org/d/474/",
+            "https://revolution.chnm.org/d/473/"
+          ],
+          "until": "1791-09-03",
+          "showLabel": false
+        },
+        {
+          "from": "1791-09-03",
+          "stance": "仍無選舉權的女性；權利論述正在發展",
+          "relations": "德古日同月以女性權利宣言質疑排除，不能把一位作者當全體女性代言。",
+          "sources": [
+            "https://revolution.chnm.org/d/293/",
+            "https://www.elysee.fr/la-presidence/la-constitution-du-3-septembre-1791"
+          ],
+          "until": "1793-09-29",
+          "showLabel": false
+        },
+        {
+          "from": "1793-09-29",
+          "stance": "以請願、市場及俱樂部行動介入糧食政治的女性",
+          "relations": "要求限價者與其他市場女性也有衝突，並非一個固定政治陣營。",
+          "sources": [
+            "https://revolution.chnm.org/d/479/",
+            "https://revolution.chnm.org/d/294/"
+          ],
+          "until": "1793-10-30",
+          "showLabel": false
+        },
+        {
+          "from": "1793-10-30",
+          "stance": "女性政治俱樂部遭公會禁止",
+          "relations": "革命共和女性同樣受到排除；禁令並非嫌疑犯法令的同一條文。",
+          "sources": [
+            "https://revolution.chnm.org/d/294/"
+          ],
+          "until": "1795-08-22",
+          "showLabel": false
+        },
+        {
+          "from": "1795-08-22",
+          "stance": "曾參與 1795 年糧食抗議、仍被限制參政的女性",
+          "relations": "新憲法未給投票權，抗議材料顯示生活與政治訴求繼續存在。",
+          "sources": [
+            "https://revolution.chnm.org/d/492/",
+            "https://revolution.chnm.org/d/418/",
+            "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/constitution-de-l-an-iii-le-directoire"
+          ],
+          "until": "1799-11-10",
+          "showLabel": false
+        },
+        {
+          "from": "1799-11-10",
+          "stance": "臨時執政體制下仍無選舉權的女性",
+          "relations": "1789 年以來的公開行動沒有轉為國家層級平等政治權利；不能將共和女性象徵當成真實授權。",
+          "sources": [
+            "https://www.elysee.fr/la-presidence/la-constitution-du-3-septembre-1791",
+            "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/constitution-de-l-an-iii-le-directoire",
+            "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/le-coup-d-etat-des-18-et-19-brumaire-an-viii"
+          ],
+          "showLabel": false
+        }
+      ]
+    },
+    "RURAL": {
+      "point": [
+        -1.82,
+        46.99
+      ],
+      "states": [
+        {
+          "from": "1789-05-05",
+          "stance": "農村居民；大多數人口並非固定政治派別",
+          "relations": "關心領主負擔、什一稅、糧食與地方自治，財產與雇傭關係各異。",
+          "sources": [
+            "https://revolution.chnm.org/d/551/"
+          ],
+          "until": "1789-08-04",
+          "showLabel": false
+        },
+        {
+          "from": "1789-08-04",
+          "stance": "大恐慌與廢特權改革中的農村行動者",
+          "relations": "廢除人身負擔不等於所有地租消失，若干負擔仍待贖買。",
+          "sources": [
+            "https://revolution.chnm.org/d/366/",
+            "https://revolution.chnm.org/d/551/"
+          ],
+          "until": "1790-11-27",
+          "showLabel": false
+        },
+        {
+          "from": "1790-11-27",
+          "stance": "面對教士宣誓分裂的地方社群",
+          "relations": "教會與地方生活密切，支持與反對革命因地而異。",
+          "sources": [
+            "https://www.assemblee-nationale.fr/dyn/histoire/separation-des-eglises-et-de-l-etat/les-jalons-historiques"
+          ],
+          "until": "1793-03-11",
+          "showLabel": false
+        },
+        {
+          "from": "1793-03-11",
+          "stance": "徵集壓力下的西部起事者及其他農村居民",
+          "relations": "旺代戰爭有農民、貴族與教士等力量；共和支持者亦存在，不能以點位概括全法國農村。",
+          "sources": [
+            "https://catalogue.bnf.fr/ark:/12148/cb155985942",
+            "https://revolution.chnm.org/d/426/"
+          ],
+          "until": "1793-08-23",
+          "showLabel": false
+        },
+        {
+          "from": "1793-08-23",
+          "stance": "全國動員與糧食徵用的承擔者",
+          "relations": "家庭勞力、供糧與軍隊需要互相衝突，農民不等同城市口中的囤積商。",
+          "sources": [
+            "https://sourcebooks.fordham.edu/mod/1793levee.asp",
+            "https://revolution.chnm.org/d/415/"
+          ],
+          "until": "1795-11-02",
+          "showLabel": false
+        },
+        {
+          "from": "1795-11-02",
+          "stance": "督政府時期處境不同的農村家庭",
+          "relations": "財產改革保留，宗教衝突與徵兵負擔未全消失，並非一致支持或反對新政府。",
+          "sources": [
+            "https://revolution.chnm.org/d/450/",
+            "https://revolution.chnm.org/d/457/"
+          ],
+          "showLabel": false
+        }
+      ]
+    },
+    "JAC": {
+      "point": [
+        2.33,
+        48.86
+      ],
+      "states": [
+        {
+          "from": "1789-05-05",
+          "stance": "尚未形成後來的雅各賓與山岳派",
+          "relations": "不能將後來派名套在三級會議所有改革者身上。",
+          "sources": [
+            "https://www2.assemblee-nationale.fr/decouvrir-l-assemblee/histoire/les-grands-discours-parlementaires/revolution-francaise"
+          ],
+          "until": "1791-07-17",
+          "showLabel": false
+        },
+        {
+          "from": "1791-07-17",
+          "stance": "雅各賓運動在國王問題上分裂",
+          "relations": "保留立憲君主的斐揚派與更激進者分道，俱樂部不是固定全國政黨。",
+          "sources": [
+            "https://revolution.chnm.org/d/389/"
+          ],
+          "until": "1792-09-21",
+          "showLabel": false
+        },
+        {
+          "from": "1792-09-21",
+          "stance": "雅各賓網絡與公會山岳派；兩者並非完全重合",
+          "relations": "支持共和，與吉倫特派爭論戰爭、巴黎群眾及國王審判。",
+          "sources": [
+            "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/la-convention-nationale-et-la-fin-de-la-royaute",
+            "https://revolution.chnm.org/d/429/"
+          ],
+          "until": "1793-06-02",
+          "showLabel": false
+        },
+        {
+          "from": "1793-06-02",
+          "stance": "取得公會優勢的山岳派及其盟友",
+          "relations": "依靠群眾施壓排除吉倫特派，之後也壓制部分激進行動者。",
+          "sources": [
+            "https://revolution.chnm.org/d/429/",
+            "https://revolution.chnm.org/d/417/"
+          ],
+          "until": "1794-06-10",
+          "showLabel": false
+        },
+        {
+          "from": "1794-06-10",
+          "stance": "內部矛盾加深的革命政府與雅各賓運動",
+          "relations": "牧月法令造成司法恐懼；不同委員與俱樂部成員不能合稱一人意志。",
+          "sources": [
+            "https://revolution.chnm.org/d/439/",
+            "https://revolution.chnm.org/d/440/"
+          ],
+          "until": "1794-07-27",
+          "showLabel": false
+        },
+        {
+          "from": "1794-07-27",
+          "stance": "熱月九日分裂中的革命派",
+          "relations": "部分原山岳派參與逮捕，羅伯斯比爾的市政與俱樂部支持者試圖反抗。",
+          "sources": [
+            "https://revolution.chnm.org/d/441/",
+            "https://revolution.chnm.org/d/396/"
+          ],
+          "until": "1795-08-22",
+          "showLabel": false
+        },
+        {
+          "from": "1795-08-22",
+          "stance": "熱月後受打擊的雅各賓與民主共和傳統支持者",
+          "relations": "1793 年憲法未獲實施；1795 年抗議遭壓制，但激進共和思想並未消失。",
+          "sources": [
+            "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/constitution-de-l-an-iii-le-directoire",
+            "https://revolution.chnm.org/d/492/"
+          ],
+          "until": "1799-11-09",
+          "showLabel": false
+        },
+        {
+          "from": "1799-11-09",
+          "stance": "被政變者指為陰謀威脅的雅各賓力量",
+          "relations": "陰謀是移會的政治理由，不能直接視為已有迫近攻擊的證據。",
+          "sources": [
+            "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/le-coup-d-etat-des-18-et-19-brumaire-an-viii"
+          ],
+          "showLabel": false
+        }
+      ]
+    },
+    "GIR": {
+      "point": [
+        2.33,
+        48.86
+      ],
+      "states": [
+        {
+          "from": "1789-05-05",
+          "stance": "吉倫特派尚未成為可辨識的議會群體",
+          "relations": "日後被歸入此派者的早期立場不應一律倒填。",
+          "sources": [
+            "https://www2.assemblee-nationale.fr/decouvrir-l-assemblee/histoire/les-grands-discours-parlementaires/revolution-francaise"
+          ],
+          "until": "1792-04-20",
+          "showLabel": false
+        },
+        {
+          "from": "1792-04-20",
+          "stance": "以布里索等人為核心的主戰議員群",
+          "relations": "希望用戰爭保衛革命及揭露內敵；與反戰的羅伯斯比爾立場不同。",
+          "sources": [
+            "https://www2.assemblee-nationale.fr/decouvrir-l-assemblee/histoire/les-grands-discours-parlementaires/revolution-francaise",
+            "https://www.valmy1792.com/centre-historique-valmy-1792/la-bataille/"
+          ],
+          "until": "1792-09-21",
+          "showLabel": false
+        },
+        {
+          "from": "1792-09-21",
+          "stance": "國民公會中支持共和的吉倫特派",
+          "relations": "對巴黎武裝施壓、九月暴力及審判國王有分歧，不等於保王派。",
+          "sources": [
+            "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/la-convention-nationale-et-la-fin-de-la-royaute",
+            "https://revolution.chnm.org/d/429/"
+          ],
+          "until": "1793-06-02",
+          "showLabel": false
+        },
+        {
+          "from": "1793-06-02",
+          "stance": "多名吉倫特領導者被拘押與排除",
+          "relations": "部分逃亡或日後遭處刑；不能讓其繼續以完整執政派身分發動決策。",
+          "sources": [
+            "https://revolution.chnm.org/d/429/",
+            "https://revolution.chnm.org/d/394/"
+          ],
+          "until": "1795-08-22",
+          "showLabel": false
+        },
+        {
+          "from": "1795-08-22",
+          "stance": "部分倖存者重返政治，已非 1792 年原有派系",
+          "relations": "參與熱月後制度安排者立場仍有差異。",
+          "sources": [
+            "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/constitution-de-l-an-iii-le-directoire"
+          ],
+          "showLabel": false
+        }
+      ]
+    },
+    "ARMY": {
+      "point": [
+        2.33,
+        48.86
+      ],
+      "states": [
+        {
+          "from": "1789-05-05",
+          "stance": "王室軍隊；官兵與部隊忠誠不一",
+          "relations": "後來國民自衛軍是另一種地方公民武裝，兩者不能直接合併。",
+          "sources": [
+            "https://revolution.chnm.org/d/383/"
+          ],
+          "until": "1789-07-14",
+          "showLabel": false
+        },
+        {
+          "from": "1789-07-14",
+          "stance": "部分士兵參與民眾行動，新市政籌組國民自衛軍",
+          "relations": "武裝力量不再只受宮廷政治支配；不能把全軍視為一致革命。",
+          "sources": [
+            "https://revolution.chnm.org/d/382/",
+            "https://revolution.chnm.org/d/383/"
+          ],
+          "until": "1791-07-17",
+          "showLabel": false
+        },
+        {
+          "from": "1791-07-17",
+          "stance": "國民自衛軍亦成為政府鎮壓工具",
+          "relations": "拉法葉部隊對請願人群開火；群眾與自衛軍並非總是盟友。",
+          "sources": [
+            "https://revolution.chnm.org/d/389/"
+          ],
+          "until": "1792-04-20",
+          "showLabel": false
+        },
+        {
+          "from": "1792-04-20",
+          "stance": "立憲君主政府的對外作戰軍隊",
+          "relations": "軍官流亡、指揮與紀律問題影響作戰，志願兵與正規兵共同參戰。",
+          "sources": [
+            "https://www.valmy1792.com/centre-historique-valmy-1792/la-bataille/"
+          ],
+          "until": "1792-09-21",
+          "showLabel": false
+        },
+        {
+          "from": "1792-09-21",
+          "stance": "共和國軍隊與地方武裝",
+          "relations": "保衛共和亦參與內戰，與公會之間存在授權和監督問題。",
+          "sources": [
+            "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/la-convention-nationale-et-la-fin-de-la-royaute",
+            "https://revolution.chnm.org/d/426/"
+          ],
+          "until": "1793-08-23",
+          "showLabel": false
+        },
+        {
+          "from": "1793-08-23",
+          "stance": "全民動員體制下的共和軍",
+          "relations": "兵員與物資擴充，效果仍取決補給、訓練和地方徵用。",
+          "sources": [
+            "https://sourcebooks.fordham.edu/mod/1793levee.asp",
+            "https://www.musee-du-genie-angers.fr/fpdb/20204458-11-dioramaduballonlentreprenant-batailledefleurus.pdf"
+          ],
+          "until": "1795-10-05",
+          "showLabel": false
+        },
+        {
+          "from": "1795-10-05",
+          "stance": "保衛中央機關、壓制首都起事的政府軍",
+          "relations": "波拿巴透過葡月行動取得聲望，尚非全國執政者。",
+          "sources": [
+            "https://www.napoleon.org/en/enseignants/documents/avec-le-coup-detat-du-18-brumaire-la-revolution-est-elle-terminee-le-travail-de-lhistorien-lecture-dun-document/"
+          ],
+          "until": "1797-09-04",
+          "showLabel": false
+        },
+        {
+          "from": "1797-09-04",
+          "stance": "介入督政府與兩院競爭的軍隊",
+          "relations": "軍事力量協助排除當選對手，擴大將領的政治影響。",
+          "sources": [
+            "https://revolution.chnm.org/d/457/"
+          ],
+          "until": "1799-11-09",
+          "showLabel": false
+        },
+        {
+          "from": "1799-11-09",
+          "stance": "波拿巴獲授首都軍權",
+          "relations": "移會和控制兵力提供翌日清場條件，不能假定每個軍人均支持同一改制方案。",
+          "sources": [
+            "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/le-coup-d-etat-des-18-et-19-brumaire-an-viii"
+          ],
+          "until": "1799-11-10",
+          "showLabel": false
+        },
+        {
+          "from": "1799-11-10",
+          "stance": "在聖克盧武力驅散議員的軍事力量",
+          "relations": "協助臨時執政取得權力，文人策畫者未必能控制將軍。",
+          "sources": [
+            "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/le-coup-d-etat-des-18-et-19-brumaire-an-viii",
+            "https://revolution.chnm.org/d/502/"
+          ],
+          "showLabel": false
+        }
+      ]
+    },
+    "SD": {
+      "point": [
+        -72.2,
+        19.7
+      ],
+      "states": [
+        {
+          "from": "1789-05-05",
+          "stance": "聖多明各被奴役者；法國種植園制度下的人口",
+          "relations": "沒有平等政治權利，抵抗、逃亡與自保先於巴黎革命。",
+          "sources": [
+            "https://revolution.chnm.org/d/607/",
+            "https://memoire-esclavage.org/sites/default/files/inline-files/20210701_Dossier_pedagogique_Enseigner_le_retablissement_de_lesclavage_en_1802.pdf"
+          ],
+          "until": "1791-08-22",
+          "showLabel": false
+        },
+        {
+          "from": "1791-08-22",
+          "stance": "北部被奴役者大規模起事中",
+          "relations": "22 日夜至 23 日動員，領導與訴求不同，不應視為已成立獨立海地或單一部隊。",
+          "sources": [
+            "https://www.unesco.org/en/days/slave-trade-remembrance",
+            "https://www2.assemblee-nationale.fr/15/evenements/2021/abolition-de-l-esclavage-1794-et-1848/1794-la-premiere-abolition"
+          ],
+          "until": "1794-02-04",
+          "showLabel": false
+        },
+        {
+          "from": "1794-02-04",
+          "stance": "地方解放已先發生，公會現將廢奴擴大為全殖民地法令",
+          "relations": "自由的實現源於起事、地方決策與巴黎立法相互作用，不是單向恩賜。",
+          "sources": [
+            "https://www2.assemblee-nationale.fr/14/evenements/2016/abolition-de-l-esclavage-1794-et-1848/1794-la-premiere-abolition/discours-de-louis-pierre-dufay-16-pluviose-an-ii",
+            "https://www2.assemblee-nationale.fr/15/evenements/2021/abolition-de-l-esclavage-1794-et-1848/1794-la-premiere-abolition"
+          ],
+          "until": "1799-11-10",
+          "showLabel": false
+        },
+        {
+          "from": "1799-11-10",
+          "stance": "已經歷解放、仍屬法國殖民體制的聖多明各居民",
+          "relations": "尚非獨立海地；強制勞動與地方軍事權力問題仍在，1802 年政策不可倒填。",
+          "sources": [
+            "https://memoire-esclavage.org/sites/default/files/inline-files/20210701_Dossier_pedagogique_Enseigner_le_retablissement_de_lesclavage_en_1802.pdf",
+            "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/consulat-et-premier-empire"
+          ],
+          "showLabel": false
+        }
+      ]
+    },
+    "COLON": {
+      "point": [
+        -72.2,
+        19.7
+      ],
+      "states": [
+        {
+          "from": "1789-05-05",
+          "stance": "殖民地白人與自由有色居民；不是同一利益群",
+          "relations": "白人掌握較多政治特權，自由有色人中也有財產與奴隸擁有者。",
+          "sources": [
+            "https://revolution.chnm.org/d/607/",
+            "https://www2.assemblee-nationale.fr/15/evenements/2021/abolition-de-l-esclavage-1794-et-1848/1794-la-premiere-abolition"
+          ],
+          "until": "1791-08-22",
+          "showLabel": false
+        },
+        {
+          "from": "1791-08-22",
+          "stance": "面對起事與自身政治分裂的自由居民",
+          "relations": "自由有色人的平等訴求不等於都主張立即廢奴；奴隸主擔心失去勞動控制。",
+          "sources": [
+            "https://revolution.chnm.org/d/607/",
+            "https://www2.assemblee-nationale.fr/15/evenements/2021/abolition-de-l-esclavage-1794-et-1848/1794-la-premiere-abolition"
+          ],
+          "until": "1792-04-04",
+          "showLabel": false
+        },
+        {
+          "from": "1792-04-04",
+          "stance": "法律承認自由有色男性與白人的政治平等",
+          "relations": "這項平權仍未解放所有被奴役者，殖民地爭鬥與戰爭延續。",
+          "sources": [
+            "https://memoire-esclavage.org/sites/default/files/inline-files/20210701_Dossier_pedagogique_Enseigner_le_retablissement_de_lesclavage_en_1802.pdf"
+          ],
+          "until": "1794-02-04",
+          "showLabel": false
+        },
+        {
+          "from": "1794-02-04",
+          "stance": "全面廢奴法令下的殖民地公民與反對者",
+          "relations": "身分差別在法律上縮小，地方控制與奴隸主反抗妨礙普遍實施。",
+          "sources": [
+            "https://www2.assemblee-nationale.fr/14/evenements/2016/abolition-de-l-esclavage-1794-et-1848/1794-la-premiere-abolition/discours-de-louis-pierre-dufay-16-pluviose-an-ii",
+            "https://memoire-esclavage.org/sites/default/files/inline-files/20210701_Dossier_pedagogique_Enseigner_le_retablissement_de_lesclavage_en_1802.pdf"
+          ],
+          "until": "1799-11-10",
+          "showLabel": false
+        },
+        {
+          "from": "1799-11-10",
+          "stance": "處於不同軍事控制與廢奴執行情況的殖民地居民",
+          "relations": "不能把聖多明各、英占馬丁尼克與印度洋殖民地畫成同一實施狀態。",
+          "sources": [
+            "https://memoire-esclavage.org/sites/default/files/inline-files/20210701_Dossier_pedagogique_Enseigner_le_retablissement_de_lesclavage_en_1802.pdf"
+          ],
+          "showLabel": false
+        }
+      ]
+    },
+    "AT": {
+      "point": [
+        16.37,
+        48.21
+      ],
+      "states": [
+        {
+          "from": "1789-05-05",
+          "stance": "哈布斯堡君主國；法國王室的王朝親緣方",
+          "relations": "關切革命與君主安全，但戰爭不是 1789 年已注定的政策。",
+          "sources": [
+            "https://www.valmy1792.com/centre-historique-valmy-1792/la-bataille/"
+          ],
+          "until": "1792-04-20"
+        },
+        {
+          "from": "1792-04-20",
+          "stance": "法蘭茲以波希米亞與匈牙利國王身分成為宣戰對象",
+          "relations": "尚未當選神聖羅馬皇帝；與普魯士合作，仍有各自利益。",
+          "sources": [
+            "https://www.valmy1792.com/centre-historique-valmy-1792/la-bataille/"
+          ],
+          "until": "1792-09-20"
+        },
+        {
+          "from": "1792-09-20",
+          "stance": "參與入侵法國的聯軍成員",
+          "relations": "瓦爾密法軍守住陣地，戰局改變不等於立即簽約或撤出全部戰區。",
+          "sources": [
+            "https://www.valmy1792.com/centre-historique-valmy-1792/la-bataille/"
+          ],
+          "until": "1794-06-26"
+        },
+        {
+          "from": "1794-06-26",
+          "stance": "在奧屬尼德蘭與法軍作戰的聯軍核心",
+          "relations": "弗勒呂斯戰敗後北部局勢轉向；軍事失利與領土法理轉移不同。",
+          "sources": [
+            "https://www.musee-du-genie-angers.fr/fpdb/20204458-11-dioramaduballonlentreprenant-batailledefleurus.pdf"
+          ],
+          "until": "1799-11-09"
+        },
+        {
+          "from": "1799-11-09",
+          "stance": "再次與法國交戰的哈布斯堡君主國",
+          "relations": "第二次反法同盟戰爭是督政府危機背景之一，不能把 1792 年同盟名單沿用全期。",
+          "sources": [
+            "https://www.napoleon.org/en/history-of-the-two-empires/articles/18-brumaire-the-context-and-course-of-a-coup-detat/"
+          ]
+        }
+      ]
+    },
+    "PR": {
+      "point": [
+        13.4,
+        52.52
+      ],
+      "states": [
+        {
+          "from": "1789-05-05",
+          "stance": "普魯士王國",
+          "relations": "關心歐洲力量平衡與法國局勢，不能預設與奧地利利益完全一致。",
+          "sources": [
+            "https://www.valmy1792.com/centre-historique-valmy-1792/la-bataille/"
+          ],
+          "until": "1792-09-20"
+        },
+        {
+          "from": "1792-09-20",
+          "stance": "布倫瑞克指揮的入侵聯軍主力之一",
+          "relations": "在瓦爾密未能擊潰法軍，稍後撤退；不是當日即正式承認共和。",
+          "sources": [
+            "https://www.valmy1792.com/centre-historique-valmy-1792/la-bataille/"
+          ],
+          "until": "1795-04-05"
+        },
+        {
+          "from": "1795-04-05",
+          "stance": "普魯士與法國已簽署巴塞爾和約，尚待批准",
+          "relations": "4 月 5 日為簽署；依條約第 2、12 條，停止敵對與條約效力以批准為條件。退出對法戰爭的安排已形成，不能把簽字當日寫成全部生效。",
+          "sources": [
+            "https://documentsdedroitinternational.fr/1795-5-avril-traite-de-bale/"
+          ],
+          "until": "1799-11-09"
+        },
+        {
+          "from": "1799-11-09",
+          "stance": "維持對法和平、未參加第二次反法同盟的普魯士",
+          "relations": "不能將 1792 年入侵成員名單直接沿用到霧月政變。",
+          "sources": [
+            "https://www.napoleon.org/en/history-of-the-two-empires/articles/18-brumaire-the-context-and-course-of-a-coup-detat/"
+          ]
+        }
+      ]
+    }
+  },
+  "boundaries": []
+}
