@@ -1,0 +1,124 @@
+{
+  "id": "american-revolution",
+  "title": "美國獨立革命：從殖民地抗爭到國際承認",
+  "subject": "大西洋革命時代",
+  "years": "1773 — 1783",
+  "subtitle": "殖民地合作、國際戰爭與自由的界線",
+  "description": "5 章、30 個事件：從波士頓茶葉事件、大陸會議及列星頓交火，讀到獨立決議、薩拉托加、法美同盟、南方戰事與巴黎和約。比較 1773 年殖民地地位及 1783 年國際承認，追問效忠派、原住民族及被奴役者的不同處境。",
+  "region": "北美東岸",
+  "bounds": [
+    -86,
+    29,
+    -65,
+    47
+  ],
+  "chapters": [
+    [
+      "I",
+      "波士頓衝突與殖民地合作",
+      "1773.12–1774.10"
+    ],
+    [
+      "II",
+      "戰爭爆發與獨立決策",
+      "1775.04–1776.07"
+    ],
+    [
+      "III",
+      "戰局逆轉與法國結盟",
+      "1776.12–1778.09"
+    ],
+    [
+      "IV",
+      "南方戰事及約克鎮",
+      "1778.12–1781.10"
+    ],
+    [
+      "V",
+      "巴黎和約與獨立的限制",
+      "1782.11–1783.12"
+    ]
+  ],
+  "names": {
+    "AM": "殖民地代表／美國",
+    "GB": "英國王室與政府",
+    "FR": "法國王室與政府",
+    "LOY": "效忠派各社群",
+    "BLACK": "被奴役者與黑人自由追求者",
+    "DEL": "德拉瓦（勒納佩）",
+    "ONE": "奧奈達及部分塔斯卡洛拉",
+    "HAUD": "豪德諾索尼諸社群"
+  },
+  "layers": {
+    "names": [
+      "參與方示意位置",
+      "非疆域、人口分布或完整陣營；點選查看本時點身分"
+    ],
+    "places": [
+      "先前事件",
+      "空心圓為較早事件，紅圈為目前事件"
+    ],
+    "relations": [
+      "本次外交關係",
+      "虛線表示締約或議和，非軍隊或船舶路線"
+    ]
+  },
+  "initial": "tea-party",
+  "baseline": "tea-party",
+  "compare": "treaty-paris",
+  "reset": "回到 1773 年茶葉事件",
+  "guideTitle": "從英屬殖民地到獲承認的國家：誰取得自由？",
+  "guideText": "地圖範圍可先改「世界全圖」以同時定位北美與巴黎，再用「時點比較」對照 1773 年茶葉事件與 1783 年巴黎和約，點選「殖民地代表／美國」與英國，分辨自稱獨立與原宗主國承認。第一章問：地方衝突如何變合作？第二章問：已開戰，為何一年多後才決定獨立？第三章問：軍事信用如何換得結盟？第四章問：英軍南方勝利為何走向約克鎮困局？第五章問：國家獨立後，誰仍無自由或土地保障？各章首筆深入解釋重申問題。日期均為西曆；英國及殖民地本期已採格里曆，無舊曆或革命曆換算。僅知月份者留在背景，不虛設某日；本版無需分先後的同日事件。須分辨 1776 年 7 月 2 日獨立決議、4 日宣言文字、1781 年駐軍投降、1783 年和約簽署與 1784 年批准。",
+  "mapEngine": "standard",
+  "credit": "Natural Earth（公共領域）· 編者近似點位",
+  "legend": "自然陸地供定位；點位與外交虛線不表示疆界、占領或戰線",
+  "mapNote": "沿用 Natural Earth 1:110m 概化自然陸塊，屬現代定位參照，不是 1773–1783 年海岸測量。北美東岸為預設視野；巴黎及倫敦事件會切換周邊，也可改用世界全圖。政治疆界、軍事占領、戰線、事件位置分開處理：只顯示事件點、參與方示意點及少數外交虛線，未繪殖民地／州界、1783 年條約邊界、原住民族領土、英法美控制面、封鎖線、陣線及行軍／航行／逃亡路線。缺少同時完成來源、有效日期及可用授權查核的上述向量資料，故 boundaries 留空，不設 overlays。點位由編者依事件來源提及地點近似定位，非史料測量座標：城市與會址約為城市或街區精度，戰場約公里級，切薩皮克外海誤差可數十公里，不能據此測距。參與方點固定供閱讀，費城非本期不變首都，群體點非居住範圍；立場因人、村落及時段不同。身分區間含起日、不含止日，只在查核事件日更新；起點為教材狀態截面，非成立日。英美相互認可邊界不等於原住民族同意割地或美軍實控。外部史料只連結，不複製地圖圖像，其授權不因此轉移。 豪德諾索尼是包含多種選擇的聯盟，為避免與奧奈達點位重疊，不另放總括標籤；可由事件參與方按鈕讀各時點說明。比較巴黎和約時，巴黎在北美預設視野外，圖框邊的地名框不表示它位於北美；比較前可先選世界全圖。",
+  "mapSources": [
+    [
+      "Natural Earth｜1:110m 自然陸塊",
+      "https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-land/"
+    ],
+    [
+      "Natural Earth｜公共領域使用條款",
+      "https://www.naturalearthdata.com/about/terms-of-use/"
+    ],
+    [
+      "美國國家檔案館｜1783-09-03 巴黎和約原件及全文",
+      "https://www.archives.gov/milestone-documents/treaty-of-paris"
+    ],
+    [
+      "史密森尼美洲原住民博物館｜1778-09-17 德拉瓦條約全文",
+      "https://americanindian.si.edu/nationtonation/pdf/Treaty-with-the-Delawares-1778.pdf"
+    ],
+    [
+      "史密森尼美洲原住民博物館｜豪德諾索尼土地與革命戰爭",
+      "https://americanindian.si.edu/nk360/haudenosaunee-lands/the-american-revolution/pdf/transcripts/Haudenosaunee-%28Iroquois%29-Lands-and-the-American-Revolution-During.pdf"
+    ],
+    [
+      "美國國家公園署｜切薩皮克海戰與協同時序",
+      "https://www.nps.gov/york/learn/historyculture/eventstoyorktown.htm"
+    ],
+    [
+      "英國國家檔案館｜茶葉事件教材、軍官信與報紙原件",
+      "https://cdn.nationalarchives.gov.uk/documents/education/boston-tea-party.pdf"
+    ]
+  ],
+  "eventFiles": [
+    "events.json"
+  ],
+  "eventLabels": {
+    "port-act": "立法（六月另施行）",
+    "olive-petition": "請願文字通過",
+    "independence-resolution": "獨立決議",
+    "declaration-adopted": "宣言文字通過",
+    "articles-adopted": "條例文本通過",
+    "french-alliance": "兩份條約簽署",
+    "saratoga-surrender": "北方軍投降",
+    "yorktown-surrender": "特定駐軍投降",
+    "preliminary-peace": "初步條款簽署",
+    "cessation-proclamation": "國會停戰公告",
+    "treaty-paris": "正式和約簽署",
+    "new-york-evacuation": "城市軍事撤離",
+    "washington-resigns": "交還軍事委任"
+  }
+}

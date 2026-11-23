@@ -1,0 +1,481 @@
+{
+  "actors": {
+    "AM": {
+      "point": [
+        -75.15,
+        39.95
+      ],
+      "states": [
+        {
+          "stance": "英屬殖民地；尚無共同獨立政府",
+          "relations": "抗爭者爭論稅權與自治，不是全體一致要求獨立。",
+          "sources": [
+            "https://cdn.nationalarchives.gov.uk/documents/education/boston-tea-party.pdf",
+            "https://avalon.law.yale.edu/18th_century/boston_port_act.asp"
+          ],
+          "from": "1773-12-16",
+          "until": "1774-09-05"
+        },
+        {
+          "stance": "第一次大陸會議的殖民地代表",
+          "relations": "十二地協調抗爭、仍尋帝國內權利，喬治亞未出席。",
+          "sources": [
+            "https://visit.archives.gov/whats-on/explore-exhibits/first-continental-congress"
+          ],
+          "from": "1774-09-05",
+          "until": "1775-05-10"
+        },
+        {
+          "stance": "第二次大陸會議；協調已爆發的戰爭",
+          "relations": "建軍與請願並行，尚未通過獨立。",
+          "sources": [
+            "https://history.house.gov/People/Continental-Congress/Session-Dates/",
+            "https://www.army.mil/1775/timeline.html?from=hp_spotlight",
+            "https://www.nps.gov/articles/000/the-olive-branch-petition.htm"
+          ],
+          "from": "1775-05-10",
+          "until": "1776-07-02"
+        },
+        {
+          "stance": "已通過獨立決議的美國各邦代表",
+          "relations": "十二地贊成、紐約待授權；英國未承認。",
+          "sources": [
+            "https://www.archives.gov/milestone-documents/lee-resolution"
+          ],
+          "from": "1776-07-02",
+          "until": "1776-07-04"
+        },
+        {
+          "stance": "已通過獨立宣言文字的美國",
+          "relations": "公開分離理由；未全面廢奴或給所有居民平等政治權利。",
+          "sources": [
+            "https://www.archives.gov/founding-docs/declaration-transcript",
+            "https://www.archives.gov/founding-docs/declaration-history"
+          ],
+          "from": "1776-07-04",
+          "until": "1778-02-06"
+        },
+        {
+          "stance": "美國；與法國簽署同盟及商務條約",
+          "relations": "法國建立條約關係，國會 5 月 4 日另批准；英國仍未承認。",
+          "sources": [
+            "https://avalon.law.yale.edu/18th_century/fr1788-2.asp",
+            "https://avalon.law.yale.edu/18th_century/fr1778r.asp"
+          ],
+          "from": "1778-02-06",
+          "until": "1781-03-01"
+        },
+        {
+          "stance": "美國；《邦聯條例》生效",
+          "relations": "各州保留大量權力，由邦聯會議處理共同事務，無今日聯邦總統制度。",
+          "sources": [
+            "https://www.archives.gov/milestone-documents/articles-of-confederation"
+          ],
+          "from": "1781-03-01",
+          "until": "1782-11-30"
+        },
+        {
+          "stance": "美國；英美初步和平條款簽署方",
+          "relations": "獨立及邊界寫入文字，正式和平仍連結英法協議。",
+          "sources": [
+            "https://avalon.law.yale.edu/18th_century/prel1782.asp"
+          ],
+          "from": "1782-11-30",
+          "until": "1783-09-03"
+        },
+        {
+          "stance": "美國；英國在正式和約承認自由、主權與獨立",
+          "relations": "已非 1773 年殖民地地位；正式條約仍待批准，奴隸制及土地衝突持續。",
+          "sources": [
+            "https://www.archives.gov/milestone-documents/treaty-of-paris",
+            "https://guides.loc.gov/treaty-of-paris/digital-collections"
+          ],
+          "from": "1783-09-03",
+          "until": "1783-12-23"
+        },
+        {
+          "stance": "美國邦聯；華盛頓交還軍權",
+          "relations": "文官控制的先例不解決財政、州權及普遍平等問題。",
+          "sources": [
+            "https://msa.maryland.gov/msa/mdstatehouse/pdf/gwspeech.pdf",
+            "https://www.archives.gov/milestone-documents/articles-of-confederation"
+          ],
+          "from": "1783-12-23"
+        }
+      ]
+    },
+    "GB": {
+      "point": [
+        -0.13,
+        51.5
+      ],
+      "states": [
+        {
+          "stance": "大不列顛王國；十三殖民地的宗主國",
+          "relations": "王室國會主張徵稅統治權，英國內部亦有不同聲音。",
+          "sources": [
+            "https://cdn.nationalarchives.gov.uk/documents/education/boston-tea-party.pdf",
+            "https://avalon.law.yale.edu/18th_century/boston_port_act.asp"
+          ],
+          "from": "1773-12-16",
+          "until": "1774-03-31"
+        },
+        {
+          "stance": "英國；以港法回應毀茶",
+          "relations": "定六月施行，旨在賠償及恢復服從，非對獨立國家的封鎖。",
+          "sources": [
+            "https://avalon.law.yale.edu/18th_century/boston_port_act.asp"
+          ],
+          "from": "1774-03-31",
+          "until": "1775-04-19"
+        },
+        {
+          "stance": "英國；正規軍與殖民地民兵已交火",
+          "relations": "仍視反抗者為臣民，開戰不表示承認對等國家。",
+          "sources": [
+            "https://www.nps.gov/mima/learn/historyculture/april-19-1775.htm"
+          ],
+          "from": "1775-04-19",
+          "until": "1776-07-02"
+        },
+        {
+          "stance": "英國；不接受美國獨立主張",
+          "relations": "美方決議不使倫敦自動承認，軍事鎮壓持續。",
+          "sources": [
+            "https://www.archives.gov/milestone-documents/lee-resolution",
+            "https://www.archives.gov/founding-docs/declaration-transcript"
+          ],
+          "from": "1776-07-02",
+          "until": "1781-10-19"
+        },
+        {
+          "stance": "英國；約克鎮特定駐軍已投降",
+          "relations": "其他駐軍與全球戰事仍在，投降條款不是獨立和約。",
+          "sources": [
+            "https://www.nps.gov/common/uploads/teachers/lessonplans/Articles%20of%20Capitulation%2C%20Yorktown.pdf",
+            "https://www.nps.gov/york/learn/historyculture/afterthesiege.htm"
+          ],
+          "from": "1781-10-19",
+          "until": "1782-11-30"
+        },
+        {
+          "stance": "英國；簽署初步和平條款",
+          "relations": "承認措辭已寫入，正式和平受英法條件及程序約束。",
+          "sources": [
+            "https://avalon.law.yale.edu/18th_century/prel1782.asp",
+            "https://avalon.law.yale.edu/18th_century/pre782n.asp"
+          ],
+          "from": "1782-11-30",
+          "until": "1783-09-03"
+        },
+        {
+          "stance": "英國；正式和約簽署方，承認美國獨立",
+          "relations": "解除對各州統治主張，承諾撤軍；簽字不表示當日撤完。",
+          "sources": [
+            "https://www.archives.gov/milestone-documents/treaty-of-paris"
+          ],
+          "from": "1783-09-03",
+          "until": "1783-11-25"
+        },
+        {
+          "stance": "英國；已撤出紐約市",
+          "relations": "紐約占領結束，難民此前分批離開，非所有西部據點同日撤離。",
+          "sources": [
+            "https://www.nps.gov/resources/event.htm?eventID=474F977E-1DD8-B71B-0B9ED433852837D7",
+            "https://archives.novascotia.ca/africanns/book-of-negroes/"
+          ],
+          "from": "1783-11-25"
+        }
+      ]
+    },
+    "FR": {
+      "point": [
+        2.34,
+        48.86
+      ],
+      "states": [
+        {
+          "stance": "法蘭西王國；與英國競爭的君主國",
+          "relations": "此時無法美同盟；後來秘密援助不倒填成 1773 年已結盟。",
+          "sources": [
+            "https://history.state.gov/milestones/1776-1783/french-alliance"
+          ],
+          "from": "1773-12-16",
+          "until": "1778-02-06"
+        },
+        {
+          "stance": "法國；與美國簽署兩份條約",
+          "relations": "商務及有條件軍事同盟並行，限制單獨媾和；王室沒有改採共和制度。",
+          "sources": [
+            "https://avalon.law.yale.edu/18th_century/fr1788-2.asp",
+            "https://history.state.gov/milestones/1776-1783/french-alliance"
+          ],
+          "from": "1778-02-06",
+          "until": "1781-09-05"
+        },
+        {
+          "stance": "法國；艦隊支援切薩皮克行動的美國盟友",
+          "relations": "制海為約克鎮創造條件，法國陸軍亦參與，非美軍獨力作戰。",
+          "sources": [
+            "https://www.nps.gov/york/learn/historyculture/eventstoyorktown.htm",
+            "https://www.nps.gov/common/uploads/teachers/lessonplans/Articles%20of%20Capitulation%2C%20Yorktown.pdf"
+          ],
+          "from": "1781-09-05",
+          "until": "1783-09-03"
+        },
+        {
+          "stance": "法國；以另份條約與英國議和",
+          "relations": "英美巴黎和約並非三邊文件，法國國家利益與美國不完全相同。",
+          "sources": [
+            "https://www.archives.gov/milestone-documents/treaty-of-paris",
+            "https://www.nps.gov/york/learn/historyculture/afterthesiege.htm"
+          ],
+          "from": "1783-09-03"
+        }
+      ]
+    },
+    "LOY": {
+      "point": [
+        -73.99,
+        40.75
+      ],
+      "states": [
+        {
+          "stance": "各殖民地支持王室的不同居民",
+          "relations": "非單一政黨；擔心失序、財產或帝國貿易，也可能批評英國政策。",
+          "sources": [
+            "https://cdn.nationalarchives.gov.uk/documents/education/boston-tea-party.pdf",
+            "https://visit.archives.gov/whats-on/explore-exhibits/first-continental-congress"
+          ],
+          "from": "1773-12-16",
+          "until": "1774-10-20"
+        },
+        {
+          "stance": "面對抵制監督及社區壓力的效忠者",
+          "relations": "協約可使反對者遭點名排斥，社區忠誠逐漸分裂。",
+          "sources": [
+            "https://visit.archives.gov/whats-on/explore-exhibits/first-continental-congress"
+          ],
+          "from": "1774-10-20",
+          "until": "1776-01-10"
+        },
+        {
+          "stance": "效忠派面對潘恩公開提出的獨立論",
+          "relations": "反對者憂慮戰爭與經濟制度風險；後續英格利斯的反駁可供對讀，不能把後出文本當成本日已出版。",
+          "sources": [
+            "https://www.americainclass.org/sources/makingrevolution/rebellion/text7/text7.htm",
+            "https://www.americainclass.org/sources/makingrevolution/rebellion/text7/inglisdeceiverunmasked.pdf"
+          ],
+          "from": "1776-01-10",
+          "until": "1780-10-07"
+        },
+        {
+          "stance": "南方效忠派部隊遭國王山挫敗",
+          "relations": "敗者多為北美居民；英軍依靠地方人作戰，並非兩整塊陣營。",
+          "sources": [
+            "https://www.battlefields.org/learn/revolutionary-war/battles/kings-mountain",
+            "https://www.nps.gov/cowp/learn/historyculture/the-battle-of-cowpens.htm"
+          ],
+          "from": "1780-10-07",
+          "until": "1783-09-03"
+        },
+        {
+          "stance": "面對和約安全及財產條件的效忠派",
+          "relations": "第五條要求國會建議各州處理財產，非保證人人立即取回。",
+          "sources": [
+            "https://www.archives.gov/milestone-documents/treaty-of-paris"
+          ],
+          "from": "1783-09-03",
+          "until": "1783-11-25"
+        },
+        {
+          "stance": "部分已撤離、部分留居美國的效忠者",
+          "relations": "白人、自由黑人、仍被奴役者及家人處境不同，不一概而論。",
+          "sources": [
+            "https://www.nps.gov/resources/event.htm?eventID=474F977E-1DD8-B71B-0B9ED433852837D7",
+            "https://archives.novascotia.ca/africanns/book-of-negroes/"
+          ],
+          "from": "1783-11-25"
+        }
+      ]
+    },
+    "BLACK": {
+      "point": [
+        -76.3,
+        36.85
+      ],
+      "states": [
+        {
+          "stance": "被奴役者及自由黑人；跨殖民地的不同人群",
+          "relations": "點供查閱，非聚居區或政治組織；停止奴隸貿易不等於解放。",
+          "sources": [
+            "https://visit.archives.gov/whats-on/explore-exhibits/first-continental-congress"
+          ],
+          "from": "1773-12-16",
+          "until": "1775-11-07"
+        },
+        {
+          "stance": "部分可依鄧莫爾公告尋求自由的人",
+          "relations": "僅反抗者所屬、能且願持械加入者；有人投英，有人服務美軍，有人無法逃離。",
+          "sources": [
+            "https://www.lva.virginia.gov/collections/educator-resources/oc-api/uploads/1643821335434_dunmoresproclamation-transcription.pdf",
+            "https://www.nps.gov/articles/000/the-battle-of-bunker-hill.htm"
+          ],
+          "from": "1775-11-07",
+          "until": "1776-07-04"
+        },
+        {
+          "stance": "未因宣言而普遍解放的黑人居民",
+          "relations": "平等原則可支持自由要求，但沒有廢奴或普遍投票權。",
+          "sources": [
+            "https://www.archives.gov/founding-docs/declaration-transcript"
+          ],
+          "from": "1776-07-04",
+          "until": "1783-09-03"
+        },
+        {
+          "stance": "自由仍受和約財產爭議威脅的逃亡者",
+          "relations": "第七條措辭與英方自由承諾衝突；有人離境，也有人被送回。",
+          "sources": [
+            "https://www.archives.gov/milestone-documents/treaty-of-paris",
+            "https://archives.novascotia.ca/africanns/book-of-negroes/"
+          ],
+          "from": "1783-09-03",
+          "until": "1783-11-25"
+        },
+        {
+          "stance": "部分已離境、部分留居或再被奴役的人",
+          "relations": "名冊跨四至十一月，非本日同時出發；移居不保證平等。",
+          "sources": [
+            "https://archives.novascotia.ca/africanns/book-of-negroes/"
+          ],
+          "from": "1783-11-25"
+        }
+      ]
+    },
+    "DEL": {
+      "point": [
+        -80.05,
+        40.48
+      ],
+      "states": [
+        {
+          "stance": "德拉瓦（勒納佩）各社群",
+          "relations": "非殖民地居民同義詞；點供進入後來皮特堡問題，非領土，各村落有自身選擇。",
+          "sources": [
+            "https://americanindian.si.edu/nationtonation/pdf/Treaty-with-the-Delawares-1778.pdf"
+          ],
+          "from": "1773-12-16",
+          "until": "1778-09-17"
+        },
+        {
+          "stance": "德拉瓦代表與美國締結皮特堡條約",
+          "relations": "通行援助交換保護；可能的聯合政治體須經國會同意，並未建州。",
+          "sources": [
+            "https://americanindian.si.edu/nationtonation/pdf/Treaty-with-the-Delawares-1778.pdf"
+          ],
+          "from": "1778-09-17",
+          "until": "1783-09-03"
+        },
+        {
+          "stance": "未簽署英美巴黎和約的原住民族",
+          "relations": "英美邊界不等於德拉瓦同意割地，仍須對讀 1778 年土地保障。",
+          "sources": [
+            "https://americanindian.si.edu/nationtonation/pdf/Treaty-with-the-Delawares-1778.pdf",
+            "https://www.archives.gov/milestone-documents/treaty-of-paris"
+          ],
+          "from": "1783-09-03"
+        }
+      ]
+    },
+    "ONE": {
+      "point": [
+        -75.6,
+        43.08
+      ],
+      "states": [
+        {
+          "stance": "豪德諾索尼聯盟內奧奈達及塔斯卡洛拉社群",
+          "relations": "點非領土，不能因後來助美便假定始終全體一致。",
+          "sources": [
+            "https://www.oneidaindiannation.org/the-oneidas-americas-first-allies"
+          ],
+          "from": "1773-12-16",
+          "until": "1777-10-17"
+        },
+        {
+          "stance": "本時點已有奧奈達與部分塔斯卡洛拉助美軍",
+          "relations": "協助奧里斯卡尼、史坦威克斯堡及薩拉托加；此日是狀態截面，非全族結盟生效日。",
+          "sources": [
+            "https://www.oneidaindiannation.org/the-oneidas-americas-first-allies",
+            "https://home.nps.gov/sara/learn/historyculture/campaign-timeline.htm"
+          ],
+          "from": "1777-10-17",
+          "until": "1783-09-03"
+        },
+        {
+          "stance": "美軍的原住民盟友，未共同簽署和約",
+          "relations": "支援不等於放棄土地或獲各州同樣權利。",
+          "sources": [
+            "https://www.oneidaindiannation.org/the-oneidas-americas-first-allies",
+            "https://www.archives.gov/milestone-documents/treaty-of-paris"
+          ],
+          "from": "1783-09-03"
+        }
+      ]
+    },
+    "HAUD": {
+      "point": [
+        -76.15,
+        43.02
+      ],
+      "states": [
+        {
+          "stance": "豪德諾索尼（易洛魁）聯盟各民族社群",
+          "relations": "非單一陣營；近似紐約中部點供閱讀，未畫六族領土。",
+          "sources": [
+            "https://americanindian.si.edu/nk360/haudenosaunee-lands/the-american-revolution/pdf/transcripts/Haudenosaunee-%28Iroquois%29-Lands-and-the-American-Revolution-During.pdf",
+            "https://www.oneidaindiannation.org/the-oneidas-americas-first-allies"
+          ],
+          "from": "1773-12-16",
+          "until": "1775-04-19",
+          "showLabel": false
+        },
+        {
+          "stance": "面臨中立、結盟及土地安全抉擇的各社群",
+          "relations": "部分嘗試中立；貿易政治及定居者壓力使選擇分歧，不能統稱親英。",
+          "sources": [
+            "https://www.oneidaindiannation.org/the-oneidas-americas-first-allies",
+            "https://americanindian.si.edu/nk360/haudenosaunee-lands/the-american-revolution/pdf/transcripts/Haudenosaunee-%28Iroquois%29-Lands-and-the-American-Revolution-During.pdf"
+          ],
+          "from": "1775-04-19",
+          "until": "1777-10-17",
+          "showLabel": false
+        },
+        {
+          "stance": "本時點各社群已因戰爭分裂",
+          "relations": "塞內卡、莫霍克、卡尤加、奧農達加多傾向英方；奧奈達及部分塔斯卡洛拉助美，村落個人仍有例外。",
+          "sources": [
+            "https://americanindian.si.edu/nk360/haudenosaunee-lands/the-american-revolution/pdf/transcripts/Haudenosaunee-%28Iroquois%29-Lands-and-the-American-Revolution-During.pdf",
+            "https://www.oneidaindiannation.org/the-oneidas-americas-first-allies",
+            "https://home.nps.gov/sara/learn/historyculture/campaign-timeline.htm"
+          ],
+          "from": "1777-10-17",
+          "until": "1783-09-03",
+          "showLabel": false
+        },
+        {
+          "stance": "戰爭破壞家園，未共同簽署英美和約",
+          "relations": "1779 年美軍焚毀親英社群家園與作物造成難民；條約疆界不證同意讓地。",
+          "sources": [
+            "https://americanindian.si.edu/nk360/haudenosaunee-lands/the-american-revolution/pdf/transcripts/Haudenosaunee-%28Iroquois%29-Lands-and-the-American-Revolution-During.pdf",
+            "https://www.archives.gov/milestone-documents/treaty-of-paris"
+          ],
+          "from": "1783-09-03",
+          "showLabel": false
+        }
+      ]
+    }
+  },
+  "boundaries": []
+}

@@ -81,11 +81,36 @@ test('search and social metadata point to published canonical pages and a real P
     assert(!html.includes('{{')&&!html.includes('noindex'));
   }
   const home=await readFile(join(root,'site/index.html'),'utf8');
-  assert.match(home,/<title>時序地圖集｜一戰、德國統一、古巴飛彈危機互動歷史地圖<\/title>/);
+  assert(home.includes('<title>'+config.title+'</title>'));
   if(config.googleSiteVerification)assert(home.includes('name="google-site-verification" content="'+config.googleSiteVerification+'"'));
   const png=await readFile(join(root,'site',config.image));
   assert.equal(png.subarray(0,8).toString('hex'),'89504e470d0a1a0a');
   assert.equal(png.readUInt32BE(16),1200);assert.equal(png.readUInt32BE(20),630);
+});
+
+test('American revolution preserves distinct decisions, recognition, and excluded perspectives',async()=>{
+  const {c,events,geo}=(await editions()).find(x=>x.c.id==='american-revolution');
+  const event=id=>events.find(e=>e.id===id);
+  assert.equal(c.chapters.length,5);assert(events.length>=24&&events.length<=30);
+  assert.equal(c.initial,'tea-party');assert.equal(c.baseline,'tea-party');assert.equal(c.compare,'treaty-paris');
+  for(const [id,date] of [['tea-party','1773-12-16'],['port-act','1774-03-31'],['first-congress','1774-09-05'],['lexington-concord','1775-04-19'],['dunmore-proclamation','1775-11-07'],['independence-resolution','1776-07-02'],['declaration-adopted','1776-07-04'],['saratoga-surrender','1777-10-17'],['french-alliance','1778-02-06'],['fort-pitt-treaty','1778-09-17'],['yorktown-surrender','1781-10-19'],['preliminary-peace','1782-11-30'],['cessation-proclamation','1783-04-11'],['treaty-paris','1783-09-03']])assert.equal(event(id).date,date);
+  assert(event('declaration-adopted').causes.includes('independence-resolution'));
+  assert(event('french-alliance').causes.includes('saratoga-surrender'));
+  assert(event('yorktown-surrender').causes.includes('chesapeake'));
+  assert(!event('articles-adopted').causes.includes('saratoga-surrender'));
+  assert.match(event('treaty-paris').impact,/1784 年 1 月 14 日/);
+  assert.match(event('dunmore-proclamation').debate,/不解放/);
+  assert.match(event('fort-pitt-treaty').impact,/未因此建州/);
+  for(let ch=1;ch<=5;ch++)assert.match(events.find(e=>e.chapter===ch).background,/本章核心問題/);
+  for(const e of events){assert.match(e.counterfactual,/假設/);assert.match(e.counterfactual,/限制/);}
+  const state=(code,date)=>geo.actors[code].states.find(s=>s.from<=date&&(!s.until||date<s.until));
+  assert.match(state('AM','1773-12-16').stance,/英屬殖民地/);
+  assert.match(state('AM','1776-07-02').relations,/英國未承認/);
+  assert.match(state('AM','1783-09-03').stance,/正式和約承認/);
+  for(const code of ['LOY','BLACK','DEL','ONE','HAUD'])assert(geo.actors[code].states.length>=3);
+  for(const a of Object.values(geo.actors))for(const s of a.states)assert(s.sources?.length);
+  assert.equal(geo.boundaries.length,0);assert(events.every(e=>!e.overlays?.length));
+  assert((await readFile(join(root,'site/index.html'),'utf8')).includes('american-revolution/index.html'));
 });
 test('scaffold, validate and build a third era without touching the reader',async()=>{
   const work=await mkdtemp(join(tmpdir(),'atlas-test-'));

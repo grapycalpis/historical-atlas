@@ -1,0 +1,1304 @@
+[
+  {
+    "id": "tea-party",
+    "chapter": 1,
+    "date": "1773-12-16",
+    "title": "波士頓茶葉事件：誰有權向殖民地課稅？",
+    "place": "波士頓港，格里芬碼頭一帶",
+    "point": [
+      -71.05,
+      42.35
+    ],
+    "actors": [
+      "AM",
+      "GB"
+    ],
+    "type": "tension",
+    "causes": [],
+    "edges": [],
+    "sources": [
+      [
+        "英國國家檔案館｜茶葉事件教材、軍官信與報紙原件",
+        "https://cdn.nationalarchives.gov.uk/documents/education/boston-tea-party.pdf"
+      ],
+      [
+        "美國國家公園署｜波士頓茶葉事件",
+        "https://www.nps.gov/articles/000/boston-tea-party-250.htm"
+      ]
+    ],
+    "summary": "抗爭者登上茶船，把東印度公司的茶投入港中。他們反對的不只是茶價，而是自己未在英國國會選出代表，國會卻仍向殖民地課稅。十三殖民地仍屬英王治下，抗爭尚未等於決定獨立。",
+    "background": "本章核心問題：波士頓地方衝突，如何變成跨殖民地合作？七年戰爭後英國負債，要求殖民地分擔防務；地方議會主張課稅須經自己同意。1773 年茶法給公司出口便利，仍保留殖民地端茶稅。",
+    "trigger": "抗爭者要求茶船退運，總督不准未完成海關程序的船離港；交涉失敗後，當晚有人毀茶，阻止上岸繳稅。",
+    "motives": "抗爭者要拒絕國會課稅權，部分商人也怕失去生意；公司要出售積茶，官員要執行法律。並非全體居民同意毀損財產。",
+    "impact": "英國將毀茶視為挑戰統治，日後以封港等法案施壓；懲罰一城反使其他殖民地擔憂自身自治。",
+    "debate": "茶法並非新加茶稅；較便宜的合法茶仍可能使購買者承認既有稅權。有人裝扮成原住民，不表示莫霍克民族策劃或同意此行動。",
+    "primary": "對讀英國檔案館 WO 40/1 的萊斯利 12 月 17 日信與 CO 5/91 的當月報紙：軍官通報與抗爭辯護立場不同，兩者都不能代表所有居民。",
+    "counterfactual": "假設總督准許退運，當夜毀茶可能避免；限制是稅權與自治爭議仍在，不能推論革命必定消失。",
+    "mapNote": "紅點近似舊碼頭，波士頓填海使海岸已變。1773 年仍是英屬殖民地；與 1783 年和約比較時，請讀法律身分而非底圖顏色。"
+  },
+  {
+    "id": "port-act",
+    "chapter": 1,
+    "date": "1774-03-31",
+    "title": "波士頓港法立法：懲罰能否恢復服從？",
+    "place": "倫敦，英國國會",
+    "point": [
+      -0.13,
+      51.5
+    ],
+    "actors": [
+      "GB",
+      "AM"
+    ],
+    "type": "politics",
+    "causes": [
+      "tea-party"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "耶魯大學 Avalon｜1774-03-31 波士頓港法全文",
+        "https://avalon.law.yale.edu/18th_century/boston_port_act.asp"
+      ],
+      [
+        "英國國家檔案館｜茶葉事件教材、軍官信與報紙原件",
+        "https://cdn.nationalarchives.gov.uk/documents/education/boston-tea-party.pdf"
+      ]
+    ],
+    "summary": "英國制定波士頓港法，規定自 6 月 1 日限制港口裝卸，迫使地方賠償。這是強制法案的一部分，當天並非所有法案一起通過。",
+    "background": "倫敦認為官員已無法保障財產與徵稅。1774 年接續法案又改動麻薩諸塞政府與司法安排，殖民地稱為不可容忍法案。",
+    "trigger": "國會與王室以法律回應公司財產遭毀，將港口貿易與賠償及恢復秩序連結。",
+    "motives": "英國政府要顯示違法代價；波士頓居民要維持生計及自治；其他殖民地商人衡量聲援與貿易損失。",
+    "impact": "封港威脅使地方衝突變成共同權利問題，促進救援、抵制及派代表集會的倡議。",
+    "debate": "部分概述列 3 月 30 日程序；本筆採 Avalon 原文標題 3 月 31 日立法日期，另分 6 月 1 日施行。燃料、食物有例外，不是港內一切活動皆禁止。",
+    "primary": "讀港法第一節施行日期與第四節例外；英國檔案館教材另附 C 65/956 法案原件。法律理由可證官方論述，不能直接證明懲罰有效。",
+    "counterfactual": "假設改採個別刑事追訴，跨地聲援可能較弱；限制是其他法案與既有組織仍可能推動合作。",
+    "mapNote": "倫敦點代表立法，限制對象在波士頓。未將海軍執法或貿易禁令畫成政治邊界。"
+  },
+  {
+    "id": "first-congress",
+    "chapter": 1,
+    "date": "1774-09-05",
+    "title": "第一次大陸會議：共同抗爭仍可效忠國王？",
+    "place": "費城，木匠廳",
+    "point": [
+      -75.147,
+      39.948
+    ],
+    "actors": [
+      "AM",
+      "GB",
+      "LOY"
+    ],
+    "type": "politics",
+    "causes": [
+      "port-act"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "美國國家檔案館博物館｜大陸會議與聯合協約原件",
+        "https://visit.archives.gov/whats-on/explore-exhibits/first-continental-congress"
+      ],
+      [
+        "美國眾議院史料室｜大陸及邦聯會議會期",
+        "https://history.house.gov/People/Continental-Congress/Session-Dates/"
+      ]
+    ],
+    "summary": "十二個殖民地的代表在費城開會，喬治亞未出席。他們協調對強制法案的回應，仍尋求在帝國內維護權利，沒有通過獨立。",
+    "background": "封港與自治受限使各地認為單獨陳情難奏效。殖民地各有議會與經濟利益，跨地協商需要共同程序。",
+    "trigger": "地方與殖民地組織派出代表，將分散抗議帶到共同會議；封港使不合作的風險更受注意。",
+    "motives": "激進派要施壓，溫和派要和解；效忠者可能反對某項稅制，卻不同意推翻王權。代表不是全民普選產生。",
+    "impact": "會議提供共同決策及再度集會的框架，接著把抵制寫成跨地協約。",
+    "debate": "「大陸」指跨殖民地聯合，不表示代表整個北美，也不是今日美國國會的同一法律機構。",
+    "primary": "檔案館展示會議粗稿、權利決議與協約原件；眾議院會期表核對開幕日。這些反映代表決定，不能代替未被代表者的意見。",
+    "counterfactual": "假設無法達成共同立場，抵制可能較零散；限制是地方委員會仍可自行動員。",
+    "mapNote": "木匠廳為近似會址點；不畫現代州界，也不把十二地出席說成十三地全體同意。"
+  },
+  {
+    "id": "association",
+    "chapter": 1,
+    "date": "1774-10-20",
+    "title": "大陸聯合協約：抵制如何改變地方權力？",
+    "place": "費城，木匠廳",
+    "point": [
+      -75.147,
+      39.948
+    ],
+    "actors": [
+      "AM",
+      "GB",
+      "LOY",
+      "BLACK"
+    ],
+    "type": "politics",
+    "causes": [
+      "first-congress"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "美國國家檔案館博物館｜大陸會議與聯合協約原件",
+        "https://visit.archives.gov/whats-on/explore-exhibits/first-continental-congress"
+      ]
+    ],
+    "summary": "代表簽署大陸聯合協約，分階段抵制英國商品，由地方委員會監督。買什麼、賣給誰，從私人交易變成政治選擇。",
+    "background": "單一港口抗爭容易被轉移貿易削弱；代表要擴大經濟壓力，婦女的消費與家庭生產也是抵制條件。",
+    "trigger": "會議把共同不滿轉成不輸入、不消費及日後不輸出的規則，委員會得公開違反者姓名。",
+    "motives": "支持者盼國會撤法；商農擔心收入，反對者也怕群眾強迫服從。婦女參與抵制不表示已取得投票權。",
+    "impact": "地方委員會增強動員，為後來支援戰爭提供網絡，也加深獨立派與效忠派裂痕。",
+    "debate": "停止奴隸貿易不等於解放境內被奴役者。抵制既有自願合作，也有羞辱和威嚇，不能一概說成全民共識。",
+    "primary": "讀協約原件與《威廉斯堡的選擇》諷刺版畫，思考規則與執行壓力。版畫是政治表達，非各地執行的統計。",
+    "counterfactual": "假設缺少地方監督，抵制可能更易規避；限制是自律與其他制裁仍有作用，無法量化。",
+    "mapNote": "費城為簽署地，抵制各地陸續執行，不畫成軍事封鎖線。"
+  },
+  {
+    "id": "lexington-concord",
+    "chapter": 2,
+    "date": "1775-04-19",
+    "title": "列星頓與康科德交火：戰爭先於獨立",
+    "place": "列星頓鎮公地；延及康科德及回程道路",
+    "point": [
+      -71.23,
+      42.45
+    ],
+    "actors": [
+      "GB",
+      "AM"
+    ],
+    "type": "battle",
+    "causes": [
+      "port-act"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "美國國家公園署｜1775-04-19 時序、英軍日記與民兵證詞",
+        "https://www.nps.gov/mima/learn/historyculture/april-19-1775.htm"
+      ],
+      [
+        "美國國家公園署｜邦克山戰役與布里茲山",
+        "https://www.nps.gov/articles/000/the-battle-of-bunker-hill.htm"
+      ]
+    ],
+    "summary": "英軍搜查康科德軍需，途中在列星頓與民兵交火（民兵是地方居民組成、常採短期服役的武裝），接著在康科德與撤回道路遭抵抗。政治抗爭變成戰爭，此時殖民地尚未宣布獨立。",
+    "background": "本章核心問題：既已開戰，為何還要一年多才決定獨立？強制法案削弱自治，地方另組政治機構並儲備軍需，雙方都認為對方破壞秩序。",
+    "trigger": "蓋奇派兵查繳軍需，地方警報網通知民兵；搜查與武裝抵抗在道路及聚落接觸，形成連續交戰。",
+    "motives": "英軍要解除反抗者武裝；民兵要保護社區及軍需，有人仍以捍衛英國臣民權利理解行動。",
+    "impact": "新英格蘭民兵圍住波士頓，其他殖民地須決定是否共同負擔；沒有宣戰書自動把各地合成國家。",
+    "debate": "列星頓第一槍由誰發射仍有爭議；康科德北橋後來交火，不能倒推列星頓第一槍責任。",
+    "primary": "國家公園署對讀巴克日記、里維爾記述與民兵證詞；部分證詞數十年後採錄，對第一槍敘述不一。",
+    "counterfactual": "假設查繳未引發交火，當日可能避免傷亡；限制是雙方已武裝對峙，不能確定長期和平。",
+    "mapNote": "點位取列星頓，康科德在西側；未繪交戰走廊、進軍路線或包圍面，單點不表示只在一地作戰。"
+  },
+  {
+    "id": "second-congress",
+    "chapter": 2,
+    "date": "1775-05-10",
+    "title": "第二次大陸會議：誰負責共同戰爭？",
+    "place": "費城，賓夕法尼亞州議會大樓（今獨立廳）",
+    "point": [
+      -75.15,
+      39.949
+    ],
+    "actors": [
+      "AM",
+      "GB"
+    ],
+    "type": "politics",
+    "causes": [
+      "first-congress",
+      "lexington-concord"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "美國眾議院史料室｜大陸及邦聯會議會期",
+        "https://history.house.gov/People/Continental-Congress/Session-Dates/"
+      ],
+      [
+        "美國陸軍｜1775-06-14 建軍決議節錄",
+        "https://www.army.mil/1775/timeline.html?from=hp_spotlight"
+      ],
+      [
+        "1777 年印《大陸會議日誌》卷一｜原件掃描鏡像，印本第 73 頁起",
+        "https://upload.wikimedia.org/wikipedia/commons/e/ed/Journals_of_Congress._Containing_the_proceedings_in_the_year%2C_1776._Published_by_order_of_Congress._Volume_II_%28IA_journalsofcongre00unit_13%29.pdf"
+      ]
+    ],
+    "summary": "代表再次集會，面對已爆發的戰爭，開始承擔軍事、財政及外交工作。共同權力中心逐步形成，尚無今日總統和聯邦政府。",
+    "background": "第一次會議原已安排必要時再開；四月交火使議程從抵制擴大到軍隊供應與指揮。",
+    "trigger": "既定會期到來，又收到新英格蘭求援，代表須將地方作戰納入共同協調。",
+    "motives": "新英格蘭要支援，其他地區希望共享決策；溫和派仍想陳情，避免被地方衝突帶向永久分離。",
+    "impact": "會議成為建軍及請願的決策場所；合作作戰與尋求和解將同時進行。",
+    "debate": "開會不等於各地當天交出主權；授權與出席情況變化，不能倒填後來的十三州制度。",
+    "primary": "讀 1777 年印《大陸會議日誌》卷一第 73 頁的 1775 年 5 月 10 日記錄：先選倫道夫為主席、湯姆森為書記，翌日再讀代表授權書。這是公開印本，部分軍事決議曾省略；會期另以眾議院紀錄核對。",
+    "counterfactual": "假設未建立共同指揮，補給與招募可能更難；限制是各地仍有自己的合作機構。",
+    "mapNote": "會址與第一次會議的木匠廳不同；近似獨立廳點位，並非今日華盛頓特區。"
+  },
+  {
+    "id": "continental-army",
+    "chapter": 2,
+    "date": "1775-06-14",
+    "title": "建立大陸軍：地方戰事如何共同承擔？",
+    "place": "費城，大陸會議",
+    "point": [
+      -75.15,
+      39.949
+    ],
+    "actors": [
+      "AM",
+      "GB"
+    ],
+    "type": "mobilize",
+    "causes": [
+      "second-congress",
+      "lexington-concord"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "美國陸軍｜1775-06-14 建軍決議節錄",
+        "https://www.army.mil/1775/timeline.html?from=hp_spotlight"
+      ]
+    ],
+    "summary": "會議決議徵募步槍兵並納入波士頓周邊部隊，這一天成為大陸軍建軍日。共同軍隊先於獨立宣告出現。",
+    "background": "波士頓圍城由不同新英格蘭部隊參與，指揮、服役期限與補給難以統一。",
+    "trigger": "代表決定從賓夕法尼亞、馬里蘭及維吉尼亞徵募部隊赴波士頓，讓軍事責任跨出新英格蘭。",
+    "motives": "代表要共享負擔、防止各自為政；士兵關心薪餉、役期與家庭生計。",
+    "impact": "指揮和財政需求加深合作；華盛頓 6 月 15 日獲選統帥，7 月到營接掌，與建軍日須分開。",
+    "debate": "建軍決議不代表所有民兵當日立即變成長期正規兵。陸軍紀念頁對委任書日期有不同簡寫，本筆不以此推定授銜日。",
+    "primary": "讀陸軍頁所引 6 月 14 日決議：哪些地方出兵、到哪報到？決議可證組織意圖，不能證明足額到位。",
+    "counterfactual": "假設仍由地方各自指揮，協同可能較弱；限制是共同建軍也不自動解決補給與役期問題。",
+    "mapNote": "費城是決策地，部隊主要在波士頓周邊；未把兩地連線當作行軍路線。"
+  },
+  {
+    "id": "bunker-hill",
+    "chapter": 2,
+    "date": "1775-06-17",
+    "title": "邦克山戰役：占領高地就等於勝利？",
+    "place": "波士頓北側，查爾斯鎮布里茲山",
+    "point": [
+      -71.061,
+      42.377
+    ],
+    "actors": [
+      "AM",
+      "GB",
+      "BLACK"
+    ],
+    "type": "battle",
+    "causes": [
+      "lexington-concord"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "美國國家公園署｜邦克山戰役與布里茲山",
+        "https://www.nps.gov/articles/000/the-battle-of-bunker-hill.htm"
+      ]
+    ],
+    "summary": "英軍攻下高地，卻付出沉重傷亡。殖民地守軍撤退，仍顯示能抵抗正規軍；得地與政治成果是不同問題。",
+    "background": "波士頓遭圍後，雙方都想控制周邊高地。雖稱邦克山戰役，主要攻防在較靠河流的布里茲山。",
+    "trigger": "殖民地部隊先築工事，英軍進攻消除威脅；反覆突擊與守軍彈藥不足造成傷亡及撤離。",
+    "motives": "英軍要解除被圍局勢，守軍要限制英軍；參戰者包括白人、自由及被奴役黑人與原住民，個人處境不同。",
+    "impact": "英軍能奪取陣地，卻難低成本解除反抗；代表仍同時準備作戰與請願。",
+    "debate": "不能稱殖民地戰術取勝，也不能因英軍占領便說抗爭已敗；著名口號與後世畫作須另查出處。",
+    "primary": "國家公園署引當時波士頓周邊圖與史料編本，區分兩座山；未附完整戰報，不用紀念畫證明每一步攻防。",
+    "counterfactual": "假設英軍繞攻或等待，傷亡可能不同；限制是海軍、地形與守軍反應也會變。",
+    "mapNote": "點取布里茲山近似位置，無當年地形；未畫陣線，也未把高地占領當成主權移轉。"
+  },
+  {
+    "id": "olive-petition",
+    "chapter": 2,
+    "date": "1775-07-05",
+    "title": "通過橄欖枝請願：持械仍想和解",
+    "place": "費城，大陸會議",
+    "point": [
+      -75.15,
+      39.949
+    ],
+    "actors": [
+      "AM",
+      "GB",
+      "LOY"
+    ],
+    "type": "politics",
+    "causes": [
+      "second-congress",
+      "bunker-hill"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "美國國家公園署｜橄欖枝請願：通過與簽署",
+        "https://www.nps.gov/articles/000/the-olive-branch-petition.htm"
+      ],
+      [
+        "美國國家檔案館博物館｜7 月 8 日請願原件與王室回應",
+        "https://visit.archives.gov/whats-on/explore-exhibits/olive-branch-petition"
+      ],
+      [
+        "吉爾德・萊爾曼美國史研究所｜7 月 8 日請願全文轉錄（紐約公共圖書館原件）",
+        "https://hamilton.gilderlehrman.org/media/462/download"
+      ]
+    ],
+    "summary": "會議通過向喬治三世請願的文字，盼恢復與英國關係。5 日是通過日，代表 8 日簽署；作戰與和解此時並存。",
+    "background": "部分代表仍相信國王能調停國會，也怕獨立帶來更大戰爭；各地尚無一致分離授權。",
+    "trigger": "流血卻未能談判的僵局，使狄金森等提出最後一輪王室申訴。",
+    "motives": "溫和派要避免分離；激進者願證明和平手段已試盡；英王認為武裝抵抗破壞統治權。",
+    "impact": "請願未獲王室答覆，八月王室又宣布反叛；國王調停的期待減弱，獨立論更具說服力。",
+    "debate": "國家公園署開頭將 5 日簡寫為簽署，但詳細段落明列 5 日通過、8 日簽署，採後者；拒答不等於當面撕毀。",
+    "primary": "對讀 7 月 8 日簽署本全文及檔案館展示的英國國家檔案館 CO 5/76 F.256 原件：自稱忠誠臣民、請求恢復和諧，與翌年宣言明顯不同。國家公園署詳細段落核對 5 日文字通過、8 日簽署；原件表達期望，不證國王願意調停。",
+    "counterfactual": "假設國王同意談判，獨立派可能面對更大阻力；限制是稅權、軍事與地方授權仍須實質協議。",
+    "mapNote": "費城為通過地，文件後送倫敦；不畫使者航線，不將請願視為停火。"
+  },
+  {
+    "id": "dunmore-proclamation",
+    "chapter": 2,
+    "date": "1775-11-07",
+    "title": "鄧莫爾公告：誰能藉戰爭尋求自由？",
+    "place": "維吉尼亞諾福克外海，威廉號船上",
+    "point": [
+      -76.3,
+      36.9
+    ],
+    "actors": [
+      "GB",
+      "AM",
+      "BLACK",
+      "LOY"
+    ],
+    "type": "politics",
+    "causes": [
+      "lexington-concord"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "維吉尼亞圖書館｜1775-11-07 鄧莫爾公告全文轉錄",
+        "https://www.lva.virginia.gov/collections/educator-resources/oc-api/uploads/1643821335434_dunmoresproclamation-transcription.pdf"
+      ]
+    ],
+    "summary": "王室總督鄧莫爾宣布戒嚴，對反抗者所屬、能且願持械加入英軍的被奴役者及契約僕役承諾自由。這是部分人的機會，並非全面廢奴。",
+    "background": "維吉尼亞衝突加劇，總督退到船上；種植園依賴被奴役勞工，其勞動控制也是戰爭問題。",
+    "trigger": "總督缺兵且面對反抗部隊，徵募敵方控制人口以恢復王室權威。",
+    "motives": "鄧莫爾要補兵並削弱反抗者；逃亡者要自己與家人的自由；奴隸主怕失去勞動力及財產控制。",
+    "impact": "逃入英軍陣地成為自由策略之一，也增加奴隸主對英軍敵意；疾病、軍役與被再捕風險依然存在。",
+    "debate": "公告不解放英王支持者的所有奴隸。黑人不是單一效忠派：有人求生，有人服務大陸軍，有人無法離開。",
+    "primary": "維吉尼亞圖書館轉錄保留對象、持械與加入條件，末署 11 月 7 日；文件日期不等於各地收到消息日。",
+    "counterfactual": "假設沒有公告，仍可能有人利用戰亂逃亡；限制是無法估算失去機會人數，也不能把英軍視為無條件解放者。",
+    "mapNote": "諾福克外海近似示意，非船位測量；未繪船線、逃亡路徑或控制面。"
+  },
+  {
+    "id": "common-sense",
+    "chapter": 2,
+    "date": "1776-01-10",
+    "title": "《常識》問世：為何放棄君主統治？",
+    "place": "費城，貝爾印刷所一帶",
+    "point": [
+      -75.15,
+      39.95
+    ],
+    "actors": [
+      "AM",
+      "GB",
+      "LOY"
+    ],
+    "type": "politics",
+    "causes": [
+      "olive-petition"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "密西根大學克萊門茨圖書館｜《常識》首版與版本史",
+        "https://clements.umich.edu/exhibit/revolutionary-paine/going-viral-in-1776/"
+      ],
+      [
+        "美國國家人文中心｜《常識》與效忠派、貴格會回應",
+        "https://www.americainclass.org/sources/makingrevolution/rebellion/text7/text7.htm"
+      ],
+      [
+        "美國國家人文中心｜英格利斯效忠派反駁原文節錄",
+        "https://www.americainclass.org/sources/makingrevolution/rebellion/text7/inglisdeceiverunmasked.pdf"
+      ]
+    ],
+    "summary": "潘恩匿名出版《常識》，用平易文字主張分離、建立共和政體。原本被視為過激的獨立選項，進入更多人的討論。",
+    "background": "戰爭持續，請願未帶來和解；不少人仍認同英國傳統與君主，獨立並非早有共識。",
+    "trigger": "潘恩將和解無望、世襲不合理與北美能立國的主張組成可流通小冊，回應前途焦慮。",
+    "motives": "潘恩要動員獨立；英格利斯等效忠派憂慮戰爭、經濟與共和制度風險；部分貴格會人士反對暴力及極端化。",
+    "impact": "獨立的公共論證擴大，但代表仍須獲授權；出版物影響不能代替表決。",
+    "debate": "依大學館藏研究採首版 1 月 10 日，廣告、增訂及重印另算；總銷量估計分歧，不列精確讀者數。",
+    "primary": "對讀館藏《常識》與英格利斯《揭穿騙徒》節錄及貴格會回應：各自如何衡量自由與安全？論戰文不是民意調查。",
+    "counterfactual": "假設小冊未廣泛流通，獨立論可能較難動員；限制是戰爭及地方決議仍會推動改變。",
+    "mapNote": "僅定位費城出版城市，未核精確地籍；不表示所有殖民地同日轉向獨立。"
+  },
+  {
+    "id": "independence-resolution",
+    "chapter": 2,
+    "date": "1776-07-02",
+    "title": "通過獨立決議：先決定分離",
+    "place": "費城，大陸會議",
+    "point": [
+      -75.15,
+      39.949
+    ],
+    "actors": [
+      "AM",
+      "GB",
+      "LOY"
+    ],
+    "type": "declare",
+    "causes": [
+      "second-congress",
+      "olive-petition",
+      "common-sense"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "美國國家檔案館｜1776-07-02 李氏決議及表決原件",
+        "https://www.archives.gov/milestone-documents/lee-resolution"
+      ],
+      [
+        "美國國家檔案館｜獨立決議、宣言通過與印行",
+        "https://www.archives.gov/founding-docs/declaration/how-did-it-happen"
+      ]
+    ],
+    "summary": "會議通過李氏決議的獨立部分，宣稱各殖民地為自由獨立之邦，解除對英王效忠。政治決定先通過，解釋理由的宣言文字兩天後才通過。",
+    "background": "維吉尼亞代表理查・亨利・李在 6 月 7 日提出獨立、結盟與邦聯方向；部分代表等待地方授權，和解希望減弱使分離支持增加。",
+    "trigger": "代表取得足夠授權並完成協商，將獨立付表決；《常識》擴大辯論，卻不能直接命令代表。",
+    "motives": "支持者要獨立作戰並尋求外交；反對者怕戰敗與制度未成熟；紐約代表尚無贊成授權。",
+    "impact": "自我主張的國家身分改變，外交條約及內部聯合仍待處理；英國並未立即承認。",
+    "debate": "十二地贊成，紐約未投贊成票，至 7 月 9 日地方會議支持宣言。不能寫十三地一致，更不是全民公投。",
+    "primary": "國家檔案館表決原件旁列十二地；比對決議三部分，可見結盟及邦聯計畫不是同日全完成。",
+    "counterfactual": "假設決議延後，外交授權可能較不明確；限制是軍事抵抗仍能繼續，不能斷言結盟不可能。",
+    "mapNote": "費城點代表決策；面板自此更新為美國獨立主張，未把宣稱主權畫成實控面。"
+  },
+  {
+    "id": "declaration-adopted",
+    "chapter": 2,
+    "date": "1776-07-04",
+    "title": "通過《獨立宣言》：向誰說明自由？",
+    "place": "費城，大陸會議",
+    "point": [
+      -75.15,
+      39.949
+    ],
+    "actors": [
+      "AM",
+      "GB",
+      "BLACK",
+      "LOY",
+      "HAUD"
+    ],
+    "type": "declare",
+    "causes": [
+      "independence-resolution"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "美國國家檔案館｜《獨立宣言》全文",
+        "https://www.archives.gov/founding-docs/declaration-transcript"
+      ],
+      [
+        "美國國家檔案館｜獨立決議、宣言通過與印行",
+        "https://www.archives.gov/founding-docs/declaration/how-did-it-happen"
+      ],
+      [
+        "美國國家檔案館｜宣言文件史與簽署",
+        "https://www.archives.gov/founding-docs/declaration-history"
+      ]
+    ],
+    "summary": "代表通過宣言文字，向居民及外界說明分離理由，提出平等、權利及政府須經同意等原則。這不是英國承認書，也沒使所有人當場自由。",
+    "background": "7 月 2 日已決定獨立，仍須修訂傑佛遜等草稿，形成可傳播的共同說法。",
+    "trigger": "獨立決議需要對外解釋，會議完成審議後交印散發。",
+    "motives": "代表要證成革命、凝聚支持及外援；被奴役者與原住民族對自由有不同經驗，效忠者不認為代表能解除自己的效忠。",
+    "impact": "印本逐地傳播；平等語言也成為後人挑戰奴隸制及政治排除可援引的標準。",
+    "debate": "7 月 4 日通過文字，多數羊皮紙簽名在 8 月 2 日。宣言沒廢奴，且貶抑原住民；刪去責怪英王奴隸貿易段落，不等於原稿本可自動解放奴隸。",
+    "primary": "讀全文權利段、控訴段與結論，並對照文件史印行及簽名日期；政治辯護的每項指控不能當成中立判決。",
+    "counterfactual": "假設保留更強反奴隸貿易文字，論辯或不同；限制是沒有完整解放制度，不能推定各州必會廢奴。",
+    "mapNote": "費城是文字通過地；印行不等於同日全民接受，須與 7 月 2 日決議及 1783 年和約承認分開。"
+  },
+  {
+    "id": "trenton",
+    "chapter": 3,
+    "date": "1776-12-26",
+    "title": "特倫頓突襲：怎樣讓戰爭繼續？",
+    "place": "新澤西，特倫頓",
+    "point": [
+      -74.76,
+      40.22
+    ],
+    "actors": [
+      "AM",
+      "GB"
+    ],
+    "type": "battle",
+    "causes": [
+      "continental-army",
+      "declaration-adopted"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "賓夕法尼亞州歷史公園｜渡河與特倫頓戰役",
+        "https://www.pa.gov/agencies/dcnr/recreation/where-to-go/state-parks/find-a-park/washington-crossing-historic-park/history"
+      ],
+      [
+        "俄亥俄州立大學｜華盛頓 1776-12-27 致漢考克信全文轉錄",
+        "https://hti.osu.edu/sites/hti.osu.edu/files/washington_to_continental_congress_dec_1776.pdf"
+      ]
+    ],
+    "summary": "華盛頓部隊聖誕夜渡過德拉瓦河，26 日突襲特倫頓黑森駐軍（來自德意志諸邦、受英方僱用的部隊）。勝利改善士氣，尚未推翻英軍在紐約等地優勢。",
+    "background": "本章核心問題：戰場存活如何轉成外國結盟？宣言後美軍在紐約、新澤西連敗，役期將滿，續戰能力受考驗。",
+    "trigger": "華盛頓利用敵方分散駐守，冒險渡河，盼部隊解散前取得可見戰果。 宣布獨立後若共同軍隊瓦解，維持分離的能力便會受損，故代表的政治承諾也使保存軍隊更迫切。",
+    "motives": "美軍要挽回信心、取得補給及鼓勵續役；黑森兵依諸侯與英國的軍事安排服役，不能全以個人逐利概括。",
+    "impact": "本役與接續的普林斯頓作戰支持招募續役，使共同軍隊存續；這提供後續勝利可能，並非直接決定法國結盟。",
+    "debate": "渡河在 25 日夜至 26 日，戰役是 26 日；後世冰河畫作不能證精確船型、站姿與月光，也不採全因醉酒失敗的傳說。",
+    "primary": "讀華盛頓 12 月 27 日致漢考克信：稱作戰在昨日早上、25 日夜開始渡河，並交代冰阻使其他部隊未能過河。這份勝方戰報可核對日期與計畫落差，其死傷估計及自我表現仍須與其他記錄對讀。",
+    "counterfactual": "假設冰河阻止渡河，美軍可能錯失突襲；限制是還有其他續役和作戰策略，不能說革命必在年底結束。",
+    "mapNote": "點取城區，渡口在西北方；未畫渡河及行軍線，點位不是北美戰線。"
+  },
+  {
+    "id": "saratoga-surrender",
+    "chapter": 3,
+    "date": "1777-10-17",
+    "title": "薩拉托加投降：軍事信用如何影響外交？",
+    "place": "紐約北部，今斯凱勒維爾一帶",
+    "point": [
+      -73.59,
+      43.09
+    ],
+    "actors": [
+      "AM",
+      "GB",
+      "ONE",
+      "HAUD"
+    ],
+    "type": "battle",
+    "causes": [
+      "continental-army",
+      "trenton"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "美國國家公園署｜薩拉托加戰役時序",
+        "https://home.nps.gov/sara/learn/historyculture/campaign-timeline.htm"
+      ],
+      [
+        "美國國家公園署｜薩拉托加投降地與目擊紀錄節錄",
+        "https://www.nps.gov/places/saratoga-surrender-site.htm"
+      ],
+      [
+        "美國國務院史家辦公室｜法國援助與結盟（停止更新之歷史專題）",
+        "https://history.state.gov/milestones/1776-1783/french-alliance"
+      ],
+      [
+        "奧奈達民族｜革命時期結盟與大陸會議答辭",
+        "https://www.oneidaindiannation.org/the-oneidas-americas-first-allies"
+      ]
+    ],
+    "summary": "伯戈因北方軍在薩拉托加戰役後向蓋茲投降。法國獲知後，更相信美軍能持續作戰，正式結盟的風險評估因此改變。",
+    "background": "英軍企圖沿哈德遜河切斷新英格蘭；補給、協同與地方抵抗使其陷困。奧奈達及部分塔斯卡洛拉人助美軍，其他社群有不同選擇。 特倫頓等勝利協助軍隊渡過役期危機，使持續動員成為可能，並不直接決定這次戰術。",
+    "trigger": "9 月 19 日及 10 月 7 日戰鬥後，伯戈因退路補給受阻；雙方議妥公約，再於 17 日交械。",
+    "motives": "伯戈因要保存部隊、爭取返國條件；蓋茲要消除北方威脅；法國要削弱英國，也怕援助即將潰散的力量。",
+    "impact": "勝利提高國際信用，配合外交及英美可能和解消息，促使法國加快締約；消息並非當天抵達巴黎。",
+    "debate": "薩拉托加包括多次作戰，本筆是投降日；公約附有條件，不能說全部英軍無條件投降。",
+    "primary": "國家公園署導覽引當日牧師及軍人記述；紀年區分戰鬥、議條件與交械。紀念畫合併時刻，不宜照畫重建。",
+    "counterfactual": "假設伯戈因撤回，法國或更審慎；限制是秘密援助早已存在，戰果不是唯一變項。",
+    "mapNote": "取投降地附近，非今日薩拉托加泉市中心；未畫北方軍路線或民族疆域。"
+  },
+  {
+    "id": "articles-adopted",
+    "chapter": 3,
+    "date": "1777-11-15",
+    "title": "通過《邦聯條例》：獨立各邦如何聯合？",
+    "place": "賓夕法尼亞，約克的大陸會議",
+    "point": [
+      -76.73,
+      39.96
+    ],
+    "actors": [
+      "AM"
+    ],
+    "type": "politics",
+    "causes": [
+      "independence-resolution",
+      "second-congress"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "美國國家檔案館｜《邦聯條例》原件、全文與批准歷程",
+        "https://www.archives.gov/milestone-documents/articles-of-confederation"
+      ],
+      [
+        "美國國家檔案館｜宣言文件史與簽署",
+        "https://www.archives.gov/founding-docs/declaration-history"
+      ]
+    ],
+    "summary": "會議通過《邦聯條例》交各州批准，以保留州權方式建立共同制度。文本通過與全部批准不同，直到 1781 年 3 月 1 日才實施。",
+    "background": "獨立決議同時提出聯合政府問題，代表對州權、西部土地與財政分歧；英軍占領費城後，會議移至約克。",
+    "trigger": "長期修訂形成可交各州批准的方案；作戰借款及外交使制度迫切，不是薩拉托加勝利自動產生憲法。",
+    "motives": "各州要共同防衛外交，也怕中央凌駕；軍隊需資金，州政府不願輕易讓出課稅權。",
+    "impact": "條例規定一州一票及共同對外權限，土地等爭端使批准延宕；戰末的邦聯不同於 1789 年後聯邦政府。",
+    "debate": "1777 年文本、1778 年開始簽署與 1781 年全部批准須分開；財力不足不表示人民毫無制度。",
+    "primary": "讀第二、五、九及十三條的州權、票制、外交及修改規則；原件上的後續簽名不全在 11 月 15 日。",
+    "counterfactual": "假設中央能直接籌稅，融資或較易；限制是各州未必批准，不能假定無政治成本。",
+    "mapNote": "賓夕法尼亞約克與維吉尼亞約克鎮不同；文本通過不代表新制度當日實施。"
+  },
+  {
+    "id": "french-alliance",
+    "chapter": 3,
+    "date": "1778-02-06",
+    "title": "法美簽約：外援變成有條件同盟",
+    "place": "巴黎，法美代表簽約",
+    "point": [
+      2.34,
+      48.86
+    ],
+    "actors": [
+      "AM",
+      "FR",
+      "GB"
+    ],
+    "type": "alliance",
+    "causes": [
+      "saratoga-surrender",
+      "declaration-adopted"
+    ],
+    "edges": [
+      [
+        "FR",
+        "AM",
+        "alliance"
+      ]
+    ],
+    "sources": [
+      [
+        "耶魯大學 Avalon｜1778-02-06 法美同盟條約全文",
+        "https://avalon.law.yale.edu/18th_century/fr1788-2.asp"
+      ],
+      [
+        "耶魯大學 Avalon｜1778-05-04 批准法美條約紀錄",
+        "https://avalon.law.yale.edu/18th_century/fr1778r.asp"
+      ],
+      [
+        "美國國務院史家辦公室｜法國援助與結盟（停止更新之歷史專題）",
+        "https://history.state.gov/milestones/1776-1783/french-alliance"
+      ]
+    ],
+    "summary": "法美簽署友好商務及同盟兩份條約，秘密援助進入公開結盟階段。法國建立正式條約關係，英國仍未承認美國獨立。",
+    "background": "法國早已暗中援助；薩拉托加消息提高美軍可信度，法方也怕英美和解讓削弱英國的機會消失。",
+    "trigger": "代表把軍事信用及法國利益轉成條文，法國不再等待其他歐洲夥伴同意。",
+    "motives": "美國要借款、武器和陸海軍；路易十六政府要改變英法力量平衡，並非王室已接受共和原則。",
+    "impact": "同盟針對英法開戰規劃共同作戰、保障獨立及不單獨媾和；大陸會議 5 月 4 日批准，後續法軍支援成為約克鎮重要條件。",
+    "debate": "簽署、批准及部隊抵達不同；西班牙後與英國作戰，不是此雙邊條約原始簽約方。",
+    "primary": "讀同盟第二、八、十一至十三條及 5 月 4 日紀錄，分辨共同目標、媾和限制、保障及批准；兩份條約各有用途。",
+    "counterfactual": "假設仍只秘密援助，公開海軍協同或受限；限制是其他外援仍可能存在，無法估算延戰年數。",
+    "mapNote": "巴黎是簽約城，非北美駐地；外交虛線表示締約，非航線或疆界。"
+  },
+  {
+    "id": "fort-pitt-treaty",
+    "chapter": 3,
+    "date": "1778-09-17",
+    "title": "皮特堡條約：原住民族不是單一陣營",
+    "place": "匹茲堡，皮特堡",
+    "point": [
+      -80.01,
+      40.44
+    ],
+    "actors": [
+      "AM",
+      "DEL",
+      "ONE",
+      "HAUD"
+    ],
+    "type": "alliance",
+    "causes": [
+      "independence-resolution"
+    ],
+    "edges": [
+      [
+        "AM",
+        "DEL",
+        "alliance"
+      ]
+    ],
+    "sources": [
+      [
+        "史密森尼美洲原住民博物館｜1778-09-17 德拉瓦條約全文",
+        "https://americanindian.si.edu/nationtonation/pdf/Treaty-with-the-Delawares-1778.pdf"
+      ],
+      [
+        "史密森尼美洲原住民博物館｜豪德諾索尼土地與革命戰爭",
+        "https://americanindian.si.edu/nk360/haudenosaunee-lands/the-american-revolution/pdf/transcripts/Haudenosaunee-%28Iroquois%29-Lands-and-the-American-Revolution-During.pdf"
+      ],
+      [
+        "奧奈達民族｜革命時期結盟與大陸會議答辭",
+        "https://www.oneidaindiannation.org/the-oneidas-americas-first-allies"
+      ]
+    ],
+    "summary": "美國與德拉瓦（勒納佩）領袖締約，約定友好、通行及援助。奧奈達等助美軍，其他原住民族助英方或試圖中立，不能合成一個陣營。",
+    "background": "戰爭擴至俄亥俄與豪德諾索尼地區，各社群面對貿易、入侵及敵軍；美國宣布獨立沒解決土地政治關係。",
+    "trigger": "美軍需經德拉瓦土地進軍及取得補給，雙方以條約交換通行、保護及合作。",
+    "motives": "美國要攻擊英國據點；德拉瓦領袖要保護老幼、土地及地位。不同村落立場不同，簽約不代表所有原住民族同意。",
+    "impact": "條約提出德拉瓦主導聯合政治體、可能獲國會代表權的構想，須另經國會同意，未因此建州；其他地區 1779 年焚村毀糧仍造成難民。",
+    "debate": "保障承諾與後來土地喪失須對讀；不能把支援任何一方簡化成被操縱，也不假定同族一致。",
+    "primary": "讀第三條通行補給、第六條土地保障與需國會批准的構想；對照博物館豪德諾索尼紀事。英語書面條約未完整保存口頭理解。",
+    "counterfactual": "假設土地保障確實履行，互信或較強；限制是代表不能控制全部定居者，各社群也非單一決策。",
+    "mapNote": "點為皮特堡；奧奈達及豪德諾索尼列作對照，並非本約簽署方。未畫部族領土、軍事通道或 1779 年遠征路線。"
+  },
+  {
+    "id": "savannah-captured",
+    "chapter": 4,
+    "date": "1778-12-29",
+    "title": "英軍攻占薩凡納：為何轉向南方？",
+    "place": "喬治亞，薩凡納",
+    "point": [
+      -81.09,
+      32.08
+    ],
+    "actors": [
+      "GB",
+      "AM",
+      "LOY",
+      "BLACK"
+    ],
+    "type": "attack",
+    "causes": [
+      "french-alliance"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "美國國家公園署｜薩凡納陷落與查爾斯頓圍城",
+        "https://www.nps.gov/articles/siege-of-charleston-1780.htm"
+      ],
+      [
+        "美國國家公園署｜考彭斯戰役與南方內戰",
+        "https://www.nps.gov/cowp/learn/historyculture/the-battle-of-cowpens.htm"
+      ],
+      [
+        "喬治亞歷史學會｜羅伯特・豪軍事書信 GHS 0400，Item 18（12 月 30 日失城報告之目錄）",
+        "https://7063.sydneyplus.com/archive/final/Portal/Default.aspx?component=AABC&record=cc033655-6be3-40ec-9329-8a54785d29e6"
+      ],
+      [
+        "喬治亞歷史學會｜薩凡納陷落及戰場位置",
+        "https://www.georgiahistory.com/ghmi_marker_updated/capture-of-savannah/"
+      ]
+    ],
+    "summary": "英軍攻占薩凡納，建立南方據點。倫敦希望藉港口、補給與效忠派恢復統治，但占領城市不表示鄉村都會服從。",
+    "background": "本章核心問題：英軍南方勝利為何最後走向約克鎮困局？法國參戰使英國兼顧加勒比海等地，南方港口、財富及效忠派成為考量。",
+    "trigger": "英軍由紐約派遠征軍進攻防守較弱的薩凡納，建立可擴大作戰的基地。",
+    "motives": "英軍要重建王室政府；效忠派盼保護，獨立派要維持政權，被奴役者尋找生存自由機會。",
+    "impact": "薩凡納成為攻勢支點；1779 年法美未能奪回，英軍更有信心攻查爾斯頓。",
+    "debate": "南方策略兼有帝國、經濟及軍事因素，不只誤判效忠者人數；控制港口也不等於穩定控制整個喬治亞。",
+    "primary": "原始資料可追索羅伯特・豪 12 月 30 日書信（GHS 0400，Item 18），館方目錄明記內容是薩凡納被攻占；本次可讀到目錄，未取得該信全文，故不把它當作已逐句核讀的證據。日期及作戰背景由國家公園署研究與歷史學會專頁交叉核對。",
+    "counterfactual": "假設守住薩凡納，英軍補給布局或變；限制是其他基地及海軍仍在，不能說南方策略完全不可行。",
+    "mapNote": "只標城市近似位置；不畫占領面，也不把 1779 年營地圖轉成 1778 年戰線。"
+  },
+  {
+    "id": "charleston-surrender",
+    "chapter": 4,
+    "date": "1780-05-12",
+    "title": "查爾斯頓投降：占領如何激起抵抗？",
+    "place": "南卡羅來納，查爾斯頓",
+    "point": [
+      -79.93,
+      32.78
+    ],
+    "actors": [
+      "GB",
+      "AM",
+      "LOY",
+      "BLACK"
+    ],
+    "type": "battle",
+    "causes": [
+      "savannah-captured"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "美國國家公園署｜薩凡納陷落與查爾斯頓圍城",
+        "https://www.nps.gov/articles/siege-of-charleston-1780.htm"
+      ],
+      [
+        "美國國家公園署｜獨立戰爭紀年",
+        "https://www.nps.gov/waro/learn/historyculture/timeline-of-the-war-for-independence.htm"
+      ]
+    ],
+    "summary": "林肯率守軍投降，美方南方正規軍遭重創。英軍掌握大港後，仍須面對鄉村抵抗與地方忠誠問題。",
+    "background": "薩凡納維持英軍控制後，英國集中海陸軍攻城；守軍與地方官對撤退有分歧。",
+    "trigger": "英軍封住退路、逼近工事，守軍缺補給，未能爭得保留軍隊撤退的條件，遂投降。",
+    "motives": "英軍要消滅主力；林肯與地方官要保城，居民盼免炮擊，卻未必能決定投降條件。",
+    "impact": "英軍後要求部分假釋者重新效忠服役，增加抵抗；獨立派重建軍隊，也依靠民兵。",
+    "debate": "5 月 12 日為投降而非圍城起日；被俘總數、正規兵及死傷須分開，失一城不是南方戰爭結束。",
+    "primary": "研究引黑森軍官欣里希斯的記述及林肯回應，另以公園署紀年核投降日；原文節錄顯示困境，未附完整投降書。",
+    "counterfactual": "假設較早撤離，或可保存兵力；限制是政治壓力、撤退路線及追兵使安全撤走不確定。",
+    "mapNote": "城區點不代表全州歸屬；軍事占領、王室主張與地方支持分開敘述。"
+  },
+  {
+    "id": "kings-mountain",
+    "chapter": 4,
+    "date": "1780-10-07",
+    "title": "國王山戰役：鄰人為何分站兩邊？",
+    "place": "南卡羅來納，國王山戰場",
+    "point": [
+      -81.38,
+      35.14
+    ],
+    "actors": [
+      "AM",
+      "GB",
+      "LOY"
+    ],
+    "type": "battle",
+    "causes": [
+      "charleston-surrender"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "美國戰場保護信託｜國王山戰役與雙方回憶節錄",
+        "https://www.battlefields.org/learn/revolutionary-war/battles/kings-mountain"
+      ],
+      [
+        "美國國家公園署｜考彭斯戰役與南方內戰",
+        "https://www.nps.gov/cowp/learn/historyculture/the-battle-of-cowpens.htm"
+      ]
+    ],
+    "summary": "獨立派民兵擊敗佛格森指揮的效忠派部隊。雙方大多是北美居民，戰爭也是社區分裂的內戰。",
+    "background": "英軍在查爾斯頓及康登取勝後，盼效忠者守內陸；佛格森招募民兵保護主力側翼。",
+    "trigger": "其威脅促成山區民兵聯合追擊，偵得位置後多面上山；指揮官陣亡後效忠派投降。",
+    "motives": "獨立派要保家園、削弱英軍地方力量；效忠派要維持忠誠及安全，私人仇怨也會影響暴力。",
+    "impact": "英軍損失側翼力量，康沃利斯退回南卡羅來納、延誤北進；效忠者的參戰風險增加。",
+    "debate": "多為北美人不等於無英國人，佛格森就是英國軍官；勝利不能替報復暴力辯護。",
+    "primary": "戰場保護信託引雙方回憶與威脅用語，可比較自我讚揚及貶敵措辭；為經整理節錄，不能還原每位參戰者。",
+    "counterfactual": "假設佛格森及時會合主力，圍攻或較難；限制是補給及地方反抗仍影響控制。",
+    "mapNote": "點在南卡羅來納戰場，非同名北卡羅來納市中心；不畫追擊線、包圍箭頭或戰線。"
+  },
+  {
+    "id": "cowpens",
+    "chapter": 4,
+    "date": "1781-01-17",
+    "title": "考彭斯：正規兵與民兵如何協同？",
+    "place": "南卡羅來納，考彭斯牧場",
+    "point": [
+      -81.82,
+      35.14
+    ],
+    "actors": [
+      "AM",
+      "GB",
+      "LOY"
+    ],
+    "type": "battle",
+    "causes": [
+      "charleston-surrender",
+      "kings-mountain"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "美國國家公園署｜考彭斯戰役與南方內戰",
+        "https://www.nps.gov/cowp/learn/historyculture/the-battle-of-cowpens.htm"
+      ],
+      [
+        "美國國家公園署｜考彭斯參戰者柯林斯記述節錄",
+        "https://home.nps.gov/cowp/learn/education/unit-7-the-battle-the-human-element.htm"
+      ]
+    ],
+    "summary": "摩根指揮正規軍、民兵及騎兵擊敗塔爾頓追兵，削弱英軍機動力量。民兵在適當部署下能與正規軍互補。",
+    "background": "格林重建南方軍後分兵，讓摩根威脅補給；康沃利斯派塔爾頓追趕。國王山提升地方動員信心，並非考彭斯部署的直接命令。",
+    "trigger": "追兵逼近，摩根在牧場迎戰，以多層陣列、撤回及反擊協同，將追兵引入不利局面。",
+    "motives": "摩根要保存兵力並打擊追兵；塔爾頓要在敵軍會合前摧毀其部隊；民兵怕撤退時遭騎兵追殺。",
+    "impact": "英軍損失重要部隊，康沃利斯加緊追擊；還須經吉爾福德及維吉尼亞行動，才走到約克鎮。",
+    "debate": "勝利也有誤解命令與臨場調整，不全是完美預定計畫。公園署此頁註解把約克鎮寫 10 月 18 日，本教材以投降原文 19 日校正。",
+    "primary": "讀柯林斯參戰記述中的退後、騎兵救援及整隊；回顧性記述的死傷估計不宜直接當核定總數。",
+    "counterfactual": "假設追兵停止急追並偵察，美軍或較難誘敵；限制是其情報及後方壓力也要改變，不能只憑結果判斷。",
+    "mapNote": "近似牧場點，非兵力分布；不繪未查核尺度方向的戰術箭頭。"
+  },
+  {
+    "id": "guilford-courthouse",
+    "chapter": 4,
+    "date": "1781-03-15",
+    "title": "吉爾福德法院：贏得戰場為何仍撤走？",
+    "place": "北卡羅來納，吉爾福德法院一帶",
+    "point": [
+      -79.85,
+      36.13
+    ],
+    "actors": [
+      "GB",
+      "AM"
+    ],
+    "type": "battle",
+    "causes": [
+      "cowpens"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "美國國家公園署｜吉爾福德法院戰役與雙方將領報告",
+        "https://www.nps.gov/articles/000/upload/TwHP-Lessons_32guilford.pdf"
+      ],
+      [
+        "美國國家公園署｜切薩皮克海戰與協同時序",
+        "https://www.nps.gov/york/learn/historyculture/eventstoyorktown.htm"
+      ]
+    ],
+    "summary": "康沃利斯迫格林撤出戰場，英軍本身也嚴重受損。誰留在戰場，與誰還能持續補給作戰，是兩個問題。",
+    "background": "考彭斯後追擊消耗雙方。格林以民兵及正規軍分層部署，接受一場可消耗英軍的戰鬥。",
+    "trigger": "英軍進攻，美軍部分潰退、部分抵抗，格林最後保存軍隊撤出。",
+    "motives": "康沃利斯要摧毀主力，格林要消耗敵人又不被殲；短期役期與恐懼也影響民兵。",
+    "impact": "英軍保有戰場卻難續戰，先去威明頓補給、再赴維吉尼亞；不是當日就決定約克鎮投降。",
+    "debate": "戰場占有可稱英軍勝利，續戰能力可說代價過高；失蹤者不少是返鄉民兵，不能全算死亡。",
+    "primary": "對讀 3 月 17 日康沃利斯報告及 18 日格林致納許信，兩人各自解釋結果；公園署附節錄與損失表，可檢視自辯。",
+    "counterfactual": "假設英軍傷亡較低，選項或更多；限制是補給及民眾支持不會自動改善。",
+    "mapNote": "法院聚落近似點；撤離戰場不等於放棄全州，不畫北進實際道路。"
+  },
+  {
+    "id": "chesapeake",
+    "chapter": 4,
+    "date": "1781-09-05",
+    "title": "切薩皮克海戰：陸上包圍為何要海軍？",
+    "place": "維吉尼亞海岬外，切薩皮克灣口附近",
+    "point": [
+      -75.8,
+      36.95
+    ],
+    "actors": [
+      "FR",
+      "GB",
+      "AM"
+    ],
+    "type": "battle",
+    "causes": [
+      "french-alliance",
+      "guilford-courthouse"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "美國國家公園署｜切薩皮克海戰與協同時序",
+        "https://www.nps.gov/york/learn/historyculture/eventstoyorktown.htm"
+      ],
+      [
+        "美國國家公園署｜拉法葉 1781-09-08 致華盛頓信",
+        "https://home.nps.gov/common/uploads/teachers/lessonplans/Marquis%20de%20LafayetLafayette%20to%20Washington%20September%208%2C%2017811.pdf"
+      ]
+    ],
+    "summary": "法國德格拉斯艦隊與英國格雷夫斯艦隊交戰，英艦未打通約克鎮海路。法軍後續恢復封鎖，為美法陸軍圍城提供條件。",
+    "background": "康沃利斯進入維吉尼亞並據約克鎮；華盛頓和羅尚博得知法艦可赴此灣，將聯軍主力南移。",
+    "trigger": "英艦試解除灣口控制，法艦出迎；之後數日未再交戰，英艦最終返紐約修理。",
+    "motives": "英軍要補給或解救守軍，法軍要控海路接攻城器材，美軍要利用短期制海優勢圍城。",
+    "impact": "德巴拉補給艦隊得以入灣，攻城炮與陸軍會合；當天海戰沒有立刻使英軍投降。",
+    "debate": "未殲滅敵艦仍可取得戰略成果；灣口附近一點不是查核過的精確艦位。",
+    "primary": "對讀公園署 5 日海戰、8 日補給紀年及拉法葉 9 月 8 日信；當事人期待還不是十月結果的預知。",
+    "counterfactual": "假設英艦打通海路，圍城可能更難；限制是陸軍、天候及救援抵達時間仍影響結局。",
+    "mapNote": "僅示灣口外海域，誤差可數十公里；不畫艦位、封鎖線或航跡。"
+  },
+  {
+    "id": "yorktown-surrender",
+    "chapter": 4,
+    "date": "1781-10-19",
+    "title": "約克鎮投降：軍隊投降不是英國簽和約",
+    "place": "維吉尼亞，約克鎮",
+    "point": [
+      -76.51,
+      37.24
+    ],
+    "actors": [
+      "AM",
+      "FR",
+      "GB",
+      "LOY",
+      "BLACK"
+    ],
+    "type": "battle",
+    "causes": [
+      "chesapeake",
+      "french-alliance"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "美國國家公園署｜1781-10-19 約克鎮投降條款全文",
+        "https://www.nps.gov/common/uploads/teachers/lessonplans/Articles%20of%20Capitulation%2C%20Yorktown.pdf"
+      ],
+      [
+        "美國國家公園署｜約克鎮圍城逐日紀事",
+        "https://www.nps.gov/york/learn/historyculture/siegetimeline.htm"
+      ],
+      [
+        "美國國家公園署｜約克鎮後的戰事與議和",
+        "https://www.nps.gov/york/learn/historyculture/afterthesiege.htm"
+      ]
+    ],
+    "summary": "康沃利斯所部在美法海陸包圍後交出約克及格洛斯特駐軍。英國仍有其他駐軍，和平與獨立承認還須談判。",
+    "background": "聯軍掘壕炮擊、奪重要堡壘；英援未及抵達，守軍退路及補給受限。",
+    "trigger": "守軍無法突圍，雙方議條件，19 日簽字交械，將軍事困境轉成投降安排。",
+    "motives": "康沃利斯要改善戰俘待遇；聯軍要部隊與軍需，保留效忠者民事處置權；隨英軍逃亡者擔心再遭奴役。",
+    "impact": "英國反戰壓力增加，推進議和；效忠者與逃亡者安全未隨投降一併解決。",
+    "debate": "18 日談判有時被簡寫為投降，原文末署 19 日；這是特定駐軍投降，不是英國全軍投降或承認獨立。",
+    "primary": "讀投降條款第一條範圍、第十條居民免罰要求與美方拒絕、第八條船隻安排；條款沒有全面解放，也非全國和平書。",
+    "counterfactual": "假設救援打通海路，守軍或能續守撤退；限制是攻城已進展、部隊受損，不能保證英國贏全場戰爭。",
+    "mapNote": "維吉尼亞約克鎮不同於通過條例的賓夕法尼亞約克；只標投降地，不畫全境撤軍或新國界。"
+  },
+  {
+    "id": "preliminary-peace",
+    "chapter": 5,
+    "date": "1782-11-30",
+    "title": "初步和平條款：承認如何寫進談判？",
+    "place": "巴黎，英美議和",
+    "point": [
+      2.34,
+      48.86
+    ],
+    "actors": [
+      "AM",
+      "GB",
+      "FR",
+      "LOY",
+      "BLACK",
+      "HAUD",
+      "DEL"
+    ],
+    "type": "peace",
+    "causes": [
+      "yorktown-surrender",
+      "french-alliance"
+    ],
+    "edges": [
+      [
+        "GB",
+        "AM",
+        "peace"
+      ]
+    ],
+    "sources": [
+      [
+        "耶魯大學 Avalon｜1782-11-30 初步和平條款全文",
+        "https://avalon.law.yale.edu/18th_century/prel1782.asp"
+      ],
+      [
+        "耶魯大學 Avalon｜初步條款考證與 1783-04-11 停戰公告全文",
+        "https://avalon.law.yale.edu/18th_century/pre782n.asp"
+      ],
+      [
+        "美國國家檔案館｜1783-09-03 巴黎和約原件及全文",
+        "https://www.archives.gov/milestone-documents/treaty-of-paris"
+      ]
+    ],
+    "summary": "英美簽署初步和平條款，列獨立、邊界、漁業、債務及撤軍。但正式和平連到英法議和，不是當天一切戰事立即停止。",
+    "background": "本章核心問題：國家獨立後，誰仍被排除在自由之外？約克鎮後英國政治方向轉變，其他戰區與盟友利益仍待協調。",
+    "trigger": "英美代表談妥初步文字；軍事失利削弱倫敦堅持重新統治的政治空間。",
+    "motives": "美國要獨立與西部利益，英國要止戰及貿易，法國要盟友合作；效忠派、原住民族與被奴役者的命運由他人談判。",
+    "impact": "初步文字成為正式和約基礎；英法 1783 年初達成協議再推進停戰，財產與黑人撤離的理解仍衝突。",
+    "debate": "國會圖書館某展頁導言誤寫 11 月 20 日，藏品標題、原文與考證均為 30 日，採後者。不單獨媾和義務與此次先簽初步條款的緊張不能抹去。",
+    "primary": "讀前言英法條件及第一、五、七條；Avalon 考證引亞當斯 30 日日記核簽署，承認措辭仍須放在條件與批准歷程讀。",
+    "counterfactual": "假設堅持盟國同時完成文字，簽署可能延後；限制是可另訂停戰，無法預知延戰多久。",
+    "mapNote": "巴黎是談判城；西部邊界為英美書面安排，無原住民族共同簽認，不畫成無爭議實控線。"
+  },
+  {
+    "id": "cessation-proclamation",
+    "chapter": 5,
+    "date": "1783-04-11",
+    "title": "停戰公告：消息與和平為何不同步？",
+    "place": "費城，邦聯會議",
+    "point": [
+      -75.15,
+      39.949
+    ],
+    "actors": [
+      "AM",
+      "GB",
+      "FR"
+    ],
+    "type": "peace",
+    "causes": [
+      "preliminary-peace"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "耶魯大學 Avalon｜初步條款考證與 1783-04-11 停戰公告全文",
+        "https://avalon.law.yale.edu/18th_century/pre782n.asp"
+      ],
+      [
+        "美國國會圖書館｜和平文件、公告與批准日期",
+        "https://guides.loc.gov/treaty-of-paris/digital-collections"
+      ],
+      [
+        "美國國家公園署｜約克鎮後的戰事與議和",
+        "https://www.nps.gov/york/learn/historyculture/afterthesiege.htm"
+      ]
+    ],
+    "summary": "邦聯會議公告停止海陸敵對行動。這是國內公告日，不同於初步條款簽署，也不同於正式和約批准。",
+    "background": "英法及英西 1 月 20 日達成初步和平，英美同日同意停戰安排；通信與不同海域期限使停止敵對無法瞬間完成。",
+    "trigger": "歐洲文件抵美，國會正式公布停戰要求，指示軍政人員遵行。",
+    "motives": "國會要避免傷亡及海上捕獲爭議，士兵盼欠餉與返鄉，各國須交代公告及批准程序。",
+    "impact": "4 月 15 日另批准初步條款；華盛頓 18 日下令向軍隊宣告，19 日慶祝；正式和約仍待九月簽署。",
+    "debate": "曾有記載列 12 日，Avalon 依原件及議事錄採 11 日；停戰不是駐軍全撤，也不是正式和約批准。",
+    "primary": "讀所附公告原文與考證，並看國會圖書館分列的公告、批准及軍令日期；海域不同，停止拿捕船隻期限亦不同。",
+    "counterfactual": "假設通信更慢，誤擊與捕獲可能更多；限制是地方可先停火，不能依速度精算傷亡。",
+    "mapNote": "費城是公告地，軍隊另在紐堡接令；不畫假裝全境同時生效的停火線。"
+  },
+  {
+    "id": "treaty-paris",
+    "chapter": 5,
+    "date": "1783-09-03",
+    "title": "巴黎和約：獨立獲承認，平等仍有限制",
+    "place": "巴黎（歐洲），英美正式和約簽署",
+    "point": [
+      2.34,
+      48.86
+    ],
+    "actors": [
+      "AM",
+      "GB",
+      "FR",
+      "LOY",
+      "BLACK",
+      "HAUD",
+      "DEL",
+      "ONE"
+    ],
+    "type": "peace",
+    "causes": [
+      "preliminary-peace",
+      "cessation-proclamation"
+    ],
+    "edges": [
+      [
+        "GB",
+        "AM",
+        "peace"
+      ]
+    ],
+    "sources": [
+      [
+        "美國國家檔案館｜1783-09-03 巴黎和約原件及全文",
+        "https://www.archives.gov/milestone-documents/treaty-of-paris"
+      ],
+      [
+        "美國國會圖書館｜和平文件、公告與批准日期",
+        "https://guides.loc.gov/treaty-of-paris/digital-collections"
+      ],
+      [
+        "史密森尼美洲原住民博物館｜1778-09-17 德拉瓦條約全文",
+        "https://americanindian.si.edu/nationtonation/pdf/Treaty-with-the-Delawares-1778.pdf"
+      ],
+      [
+        "史密森尼美洲原住民博物館｜豪德諾索尼土地與革命戰爭",
+        "https://americanindian.si.edu/nk360/haudenosaunee-lands/the-american-revolution/pdf/transcripts/Haudenosaunee-%28Iroquois%29-Lands-and-the-American-Revolution-During.pdf"
+      ],
+      [
+        "新斯科細亞檔案館｜1783 年黑人名冊與遭遣返者紀錄",
+        "https://archives.novascotia.ca/africanns/book-of-negroes/"
+      ]
+    ],
+    "summary": "英王在正式巴黎和約第一條承認美國各州自由、主權與獨立。相較 1773 年，身分從英屬殖民地轉為獲原宗主國承認的國家；奴隸制與土地排除卻持續。",
+    "background": "初步條款及停戰已建立框架，仍須正式文件。英法、英西和平另有條約，不是所有國家同簽這份英美文件。",
+    "trigger": "議和代表將初步條款整理成正式和約，確立獨立承認、邊界與戰後義務。",
+    "motives": "美國要固定獨立與疆界，英國要和平貿易；效忠派要安全財產，原住民族要土地，逃亡者不願再被當財產送還。",
+    "impact": "第二條劃英美認可邊界，第五條要求國會建議各州處理效忠派財產，第七條涉及撤軍與不得帶走黑人等財產措辭；美國國會正式批准在 1784 年 1 月 14 日，超出本時間軸。",
+    "debate": "簽署不是全數批准完成，也不是世界同時承認；原住民族未同意邊界，不證美國實控；效忠派財產條款不是即刻強制全部返還。 公園署約克鎮後紀年把 9 月 3 日簡寫為批准，應以和約原件的簽署日期及國會圖書館 1784 年 1 月 14 日批准紀錄校正。",
+    "primary": "讀第一、二、五至七及十條，對照德拉瓦土地保障與黑人名冊個人紀錄：國家承認、土地權與自由分屬不同問題。種族化財產詞語須批判閱讀。",
+    "counterfactual": "假設原住民族與逃亡者可平等參與，條件或不同；限制是權力不對等，也不能假定所有人訴求相同。",
+    "mapNote": "巴黎紅點為簽約地。比較 1773-12-16：英國如今承認獨立，卻不代表原住民族割地或人人自由；未畫條約疆界與實控面。 巴黎在北美預設視野外，圖框邊地名框不代表巴黎位於北美；可先切世界全圖再比較。"
+  },
+  {
+    "id": "new-york-evacuation",
+    "chapter": 5,
+    "date": "1783-11-25",
+    "title": "英軍撤出紐約：同日有慶祝，也有流亡",
+    "place": "紐約市，曼哈頓南端",
+    "point": [
+      -74.01,
+      40.705
+    ],
+    "actors": [
+      "GB",
+      "AM",
+      "LOY",
+      "BLACK"
+    ],
+    "type": "peace",
+    "causes": [
+      "treaty-paris"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "美國國家公園署｜紐約 1783-11-25 撤軍與多方處境",
+        "https://www.nps.gov/resources/event.htm?eventID=474F977E-1DD8-B71B-0B9ED433852837D7"
+      ],
+      [
+        "新斯科細亞檔案館｜1783 年黑人名冊與遭遣返者紀錄",
+        "https://archives.novascotia.ca/africanns/book-of-negroes/"
+      ],
+      [
+        "美國國家檔案館｜1783-09-03 巴黎和約原件及全文",
+        "https://www.archives.gov/milestone-documents/treaty-of-paris"
+      ]
+    ],
+    "summary": "英軍撤出紐約，美軍進城；獨立派慶祝，許多效忠派與黑人難民已在此前數月離去。國家獨立不等於個人安居解放。",
+    "background": "紐約是長期占領地及撤離港；和約要求撤軍，船運、財產與身分核查仍需時間。",
+    "trigger": "英美安排 25 日交接，落實撤軍義務，並未解決所有自由與財產衝突。",
+    "motives": "美方要恢復地方控制，英方要撤人及履行部分保護承諾；難民要去處，黑人逃亡者要證明自由身分。",
+    "impact": "紐約占領結束；黑人名冊記錄約三千名離開者，也記有人被認定仍屬奴隸而遭遣返，移居亦未保證平等。",
+    "debate": "25 日不是所有難民出發日，名冊跨四至十一月。不能說效忠者全部離去、黑人全部自由或英軍已撤全部西部據點。",
+    "primary": "新斯科細亞檔案館提供英版名冊，說明美版，並記貝蒂被送還奴隸主；登記是權力篩選結果，不代表全體逃亡者。",
+    "counterfactual": "假設所有難民皆准離境，更多人或免再受奴役；限制是船位、家人分離及移居權利仍影響人生。",
+    "mapNote": "紐約港附近點位，不繪撤軍航線或難民分布；跨月發生的撤離不虛構為同日同船。"
+  },
+  {
+    "id": "washington-resigns",
+    "chapter": 5,
+    "date": "1783-12-23",
+    "title": "華盛頓交還軍權：獨立後誰來統治？",
+    "place": "馬里蘭，安納波利斯州議會大樓",
+    "point": [
+      -76.491,
+      38.979
+    ],
+    "actors": [
+      "AM",
+      "BLACK",
+      "HAUD",
+      "LOY"
+    ],
+    "type": "politics",
+    "causes": [
+      "yorktown-surrender",
+      "treaty-paris",
+      "new-york-evacuation"
+    ],
+    "edges": [],
+    "sources": [
+      [
+        "馬里蘭州檔案館｜1783-12-23 華盛頓辭職演說與手稿",
+        "https://msa.maryland.gov/msa/mdstatehouse/pdf/gwspeech.pdf"
+      ],
+      [
+        "美國國家檔案館｜《邦聯條例》原件、全文與批准歷程",
+        "https://www.archives.gov/milestone-documents/articles-of-confederation"
+      ]
+    ],
+    "summary": "華盛頓向國會交還總司令委任，回到平民生活。革命也要決定軍隊與文官關係；他此時不是卸任美國總統。",
+    "background": "和平及主要撤軍已推進，欠餉與退伍問題仍在；邦聯各州保留大量權力，戰後治理須協商。",
+    "trigger": "軍事任務接近完成，他公開交還職權，表達軍隊服從文官權威。",
+    "motives": "華盛頓要結束受託任務，國會要合法統治，士兵要薪餉；被排除者仍面對自由土地問題。",
+    "impact": "辭職強化文官控軍先例，未解決邦聯財政、州權、奴隸制或原住民族土地；國際成果與社會限制同時留下。",
+    "debate": "不是一人保證後續所有民主，也不能將本時國會等同 1789 年後聯邦國會；獨立與普遍平等須分開。",
+    "primary": "州檔案館存演說自用稿，另說明官方文本及麥亨利見證信；讀交還委任段，思考公開儀式與制度的關係。",
+    "counterfactual": "假設拒絕交權，軍政衝突可能加劇；限制是各州、國會與軍隊也有行動力，不能假定他可永久單方面統治。",
+    "mapNote": "近似安納波利斯舊參議院會議室；軍職終止不是疆界變化，也不是 1784 年和約批准。"
+  }
+]
