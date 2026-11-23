@@ -1,0 +1,864 @@
+[
+  {
+    "id": "casablanca",
+    "chapter": 7,
+    "date": "1943-01-14",
+    "title": "卡薩布蘭卡會議與無條件投降方針",
+    "place": "卡薩布蘭卡",
+    "point": [
+      -7.62,
+      33.59
+    ],
+    "theaters": [
+      "africa",
+      "west",
+      "home"
+    ],
+    "actors": [
+      "US",
+      "GB",
+      "FF",
+      "SU"
+    ],
+    "type": "politics",
+    "summary": "羅斯福與邱吉爾開會至 24 日，協調 1943 年戰略，會末公開提出軸心無條件投降方針。",
+    "background": "本章核心問題：工業、護航、殖民地社會與盟國協調如何支持反攻？ 北非登陸已開啟新的戰略選項，蘇聯要求英美開西歐戰場。",
+    "trigger": "盟國需要決定有限登陸艇、兵力與空軍如何分配。",
+    "motives": "英美尋求可行攻勢並避免單獨媾和疑慮；史達林因東線作戰未赴會。",
+    "impact": "西西里登陸、加強轟炸與反潛等方向成形，跨海峽進攻仍待更多準備。",
+    "debate": "14 日是開會，24 日才公開無條件投降；政策不是立刻決定所有戰後安排。",
+    "primary": "讀會議公報與聯合參謀討論，區分政治宣示和作戰資源決定。",
+    "counterfactual": "假設較早承諾西歐登陸，或可回應蘇方需求；限制是運輸與訓練短缺不能僅靠宣言解決。",
+    "causes": [
+      "torch"
+    ],
+    "causalLinks": [
+      {
+        "event": "torch",
+        "kind": "enabling",
+        "explanation": "控制法屬北非建立地中海戰略選項及會議條件。",
+        "sources": [
+          "https://history.state.gov/milestones/1937-1945/casablanca"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "卡薩布蘭卡為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國務院史家辦公室｜卡薩布蘭卡會議",
+        "https://history.state.gov/milestones/1937-1945/casablanca"
+      ]
+    ]
+  },
+  {
+    "id": "stalingrad-surrender",
+    "chapter": 7,
+    "date": "1943-02-02",
+    "title": "史達林格勒最後德軍投降",
+    "place": "史達林格勒",
+    "point": [
+      44.51,
+      48.71
+    ],
+    "theaters": [
+      "east"
+    ],
+    "actors": [
+      "SU",
+      "DE",
+      "RO"
+    ],
+    "type": "battle",
+    "summary": "繼 1 月 31 日南部集團投降後，北部德軍於 2 月 2 日停止抵抗；被圍部隊遭毀滅性失敗。",
+    "background": "蘇軍 1942 年 11 月反攻包圍德軍，軸心救援與空運無法解除圍困。",
+    "trigger": "糧彈耗盡、疾病與蘇軍進攻使剩餘抵抗崩潰。",
+    "motives": "蘇方要消滅包圍圈；希特勒要求固守，部隊與指揮官面對生存危機。",
+    "impact": "軸心南翼與軍事威信重挫，但蘇軍仍須經歷漫長反攻。",
+    "debate": "勝利不能等同東線立即一面倒；1943 年春德軍仍有反擊能力。",
+    "primary": "比較投降時刻、空運需求與實際送達量，解釋命令和物質條件的落差。",
+    "counterfactual": "假設德軍提早突圍，部分兵力或保存；限制是突圍路線、燃油與蘇軍壓力仍是難題。",
+    "causes": [
+      "stalingrad"
+    ],
+    "causalLinks": [
+      {
+        "event": "stalingrad",
+        "kind": "consequence",
+        "explanation": "城市消耗與蘇軍包圍後的供應崩潰導向投降。",
+        "sources": [
+          "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "史達林格勒為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜二戰關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+      ]
+    ]
+  },
+  {
+    "id": "warsaw-ghetto",
+    "chapter": 7,
+    "date": "1943-04-19",
+    "title": "華沙猶太區起義：面對滅絕的抵抗",
+    "place": "華沙",
+    "point": [
+      21,
+      52.25
+    ],
+    "theaters": [
+      "east"
+    ],
+    "actors": [
+      "JEW",
+      "DE",
+      "PL"
+    ],
+    "type": "attack",
+    "summary": "德軍再進猶太區準備清空時，猶太抵抗者武裝反抗，戰鬥延至 5 月並遭鎮壓。",
+    "background": "1942 年大規模驅逐後，居民更清楚「重新安置」實為送往殺戮中心。",
+    "trigger": "德軍和警察展開最後清空，抵抗組織選擇交戰。",
+    "motives": "抵抗者求尊嚴、生存或逃脫；納粹以焚毀街區摧毀抵抗。",
+    "impact": "少數人逃到城外，更多人遭殺害或送營；史料保存本身也是抵抗。",
+    "debate": "本次是 1943 年猶太區起義，與 1944 年波蘭家鄉軍主導的全城起義不同。",
+    "primary": "對讀施特魯普報告中的犯罪者視角與倖存者、地下檔案。",
+    "counterfactual": "假設外援更多或能支撐抵抗；限制是不能把滅絕下的受害者行動評為必然可勝或可避。",
+    "causes": [
+      "wannsee"
+    ],
+    "causalLinks": [
+      {
+        "event": "wannsee",
+        "kind": "context",
+        "explanation": "驅逐及滅絕體系擴張使居民重新認識威脅，並非萬湖直接下令這次清空。",
+        "sources": [
+          "https://encyclopedia.ushmm.org/content/en/timeline-event/holocaust/1942-1945/warsaw-ghetto-uprising"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "華沙為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜華沙猶太區起義",
+        "https://encyclopedia.ushmm.org/content/en/timeline-event/holocaust/1942-1945/warsaw-ghetto-uprising"
+      ]
+    ]
+  },
+  {
+    "id": "tunisia",
+    "chapter": 7,
+    "date": "1943-05-13",
+    "title": "北非軸心部隊最後投降",
+    "place": "突尼西亞，邦角",
+    "point": [
+      10.8,
+      36.8
+    ],
+    "theaters": [
+      "africa",
+      "west"
+    ],
+    "actors": [
+      "DE",
+      "IT",
+      "US",
+      "GB",
+      "FF",
+      "IND"
+    ],
+    "type": "battle",
+    "summary": "突尼西亞剩餘軸心部隊投降，北非戰役結束，盟軍取得向地中海北岸進攻的基地。",
+    "background": "盟軍由東西推進，軸心港口與海空補給遭壓縮。",
+    "trigger": "突尼斯與比塞大失守後，殘餘軍隊失去續戰條件。",
+    "motives": "盟軍要消除北非威脅；軸心增援未能挽回孤立部隊。",
+    "impact": "大量軸心兵員被俘，盟軍轉向西西里，地中海航路改善。",
+    "debate": "軍事勝利沒有終止法國殖民統治，當地社會仍承擔戰後清理及政治衝突。",
+    "primary": "紐西蘭年表和北非軍史記載最後投降，不混同 7 日主要城市陷落。",
+    "counterfactual": "假設軸心早撤至義大利，或能保存兵力；限制是盟軍制海和船運能力未必允許。",
+    "causes": [
+      "torch",
+      "el-alamein"
+    ],
+    "causalLinks": [
+      {
+        "event": "torch",
+        "kind": "enabling",
+        "explanation": "西方登陸與東方第八軍團共同壓縮突尼西亞軸心。",
+        "sources": [
+          "https://www.nam.ac.uk/explore/struggle-north-africa-1940-43"
+        ]
+      },
+      {
+        "event": "el-alamein",
+        "kind": "enabling",
+        "explanation": "埃及方向突破迫使軸心向西，最終與火炬攻勢形成夾擊。",
+        "sources": [
+          "https://www.nam.ac.uk/explore/struggle-north-africa-1940-43"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "突尼西亞，邦角為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "紐西蘭文化與遺產部｜北非戰爭年表",
+        "https://nzhistory.govt.nz/war/the-north-african-campaign/timeline"
+      ],
+      [
+        "英國國家陸軍博物館｜北非戰爭 1940–1943",
+        "https://www.nam.ac.uk/explore/struggle-north-africa-1940-43"
+      ]
+    ]
+  },
+  {
+    "id": "atlantic-turn",
+    "chapter": 7,
+    "date": "1943-05-24",
+    "title": "大西洋護航戰局轉變",
+    "place": "北大西洋護航海域",
+    "point": [
+      -30,
+      50
+    ],
+    "theaters": [
+      "atlantic",
+      "home",
+      "east"
+    ],
+    "actors": [
+      "GB",
+      "CA",
+      "US",
+      "DE",
+      "WORK"
+    ],
+    "type": "battle",
+    "summary": "德國潛艇在 5 月損失沉重，鄧尼茨下令暫離主要北大西洋航線；海運戰仍持續至 1945 年。",
+    "background": "護航艦、長程飛機、雷達、無線電定位與密碼情報逐漸整合。",
+    "trigger": "德國狼群攻擊遇到更密集、更有效的盟軍反潛防禦。",
+    "motives": "德方要切斷英國供應；盟軍保護商船與軍隊運輸。",
+    "impact": "安全運量增加，支持英國生存、援蘇及西歐大規模集結。",
+    "debate": "「黑色五月」是轉折而非海戰停止，商船船員仍承受高度風險。",
+    "primary": "皇家海軍以 24 日撤離命令定位，應對照商船與護航紀錄，避免只看潛艇損失。",
+    "counterfactual": "假設沒有長程空中掩護，空隙或持續存在；限制是多項技術和組織須共同發揮。",
+    "causes": [
+      "war-production-board",
+      "lend-lease"
+    ],
+    "causalLinks": [
+      {
+        "event": "war-production-board",
+        "kind": "enabling",
+        "explanation": "造船、飛機和電子設備生產提供反潛與補充運力的條件。",
+        "sources": [
+          "https://www.royalnavy.mod.uk/news/2021/may/24/20210524-battle-atlantic"
+        ]
+      },
+      {
+        "event": "lend-lease",
+        "kind": "context",
+        "explanation": "援助必須安全運抵，護航因此連接工業產出與盟軍戰力。",
+        "sources": [
+          "https://history.state.gov/milestones/1937-1945/lend-lease"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "海上點為北大西洋護航區的概略代表，約數百公里精度；此日標的是德方命令，並非在此發生單場海戰或存在固定護航線。",
+    "sources": [
+      [
+        "英國皇家海軍｜1943 年 5 月護航戰局轉折",
+        "https://www.royalnavy.mod.uk/news/2021/may/24/20210524-battle-atlantic"
+      ],
+      [
+        "美國國務院史家辦公室｜租借援助與盟國",
+        "https://history.state.gov/milestones/1937-1945/lend-lease"
+      ]
+    ]
+  },
+  {
+    "id": "kursk",
+    "chapter": 7,
+    "date": "1943-07-05",
+    "title": "庫斯克與蘇軍轉向持續反攻",
+    "place": "庫斯克突出部",
+    "point": [
+      36.2,
+      51.74
+    ],
+    "theaters": [
+      "east"
+    ],
+    "actors": [
+      "DE",
+      "SU"
+    ],
+    "type": "battle",
+    "summary": "德軍發動堡壘行動，企圖夾擊庫斯克突出部；深層防禦與蘇軍反攻挫敗德方目標。",
+    "background": "史達林格勒後戰線仍反覆，德軍希望重奪主動。",
+    "trigger": "德方延後多時的攻勢終於展開，蘇軍已準備工事和預備隊。",
+    "motives": "德軍求殲滅突出部兵力；蘇方以防禦消耗後發動更廣反攻。",
+    "impact": "7 至 8 月蘇軍擴大攻勢，德國更難恢復東線戰略主動。",
+    "debate": "不能把整場戰役簡化為普羅霍羅夫卡單日「最大坦克戰」；規模和損失統計有爭論。",
+    "primary": "德國歷史博物館說明部署與深層防禦，可和蘇方作戰資料對讀。",
+    "counterfactual": "假設德軍提早進攻，或有較少工事；限制是蘇方動員和德軍補給並未消失。",
+    "causes": [
+      "stalingrad-surrender"
+    ],
+    "causalLinks": [
+      {
+        "event": "stalingrad-surrender",
+        "kind": "context",
+        "explanation": "先前敗局促使德軍尋求恢復主動，但庫斯克是另作的攻勢選擇。",
+        "sources": [
+          "https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/kriegsverlauf/schlacht-bei-kursk-1943"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "庫斯克突出部為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "德國歷史博物館 LeMO｜庫斯克戰役",
+        "https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/kriegsverlauf/schlacht-bei-kursk-1943"
+      ]
+    ]
+  },
+  {
+    "id": "sicily",
+    "chapter": 7,
+    "date": "1943-07-10",
+    "title": "西西里登陸連動義大利政局",
+    "place": "西西里，傑拉",
+    "point": [
+      14.25,
+      37.07
+    ],
+    "theaters": [
+      "africa",
+      "west"
+    ],
+    "actors": [
+      "US",
+      "GB",
+      "CA",
+      "IT",
+      "DE"
+    ],
+    "type": "attack",
+    "summary": "盟軍登陸西西里，作戰延續至 8 月，德義部隊最後撤往義大利本土。",
+    "background": "北非戰役結束提供基地和經驗，卡薩布蘭卡會議已決定地中海方向。",
+    "trigger": "哈士奇行動開始海空登陸。",
+    "motives": "盟軍要打擊義大利並打開航路；軸心保住島嶼與撤退通道。",
+    "impact": "軍事壓力加深義大利統治危機，但戰後政治轉變仍需王室和菁英決策。",
+    "debate": "西西里不是無代價的「軟腹」，地形、後勤與德軍防禦使戰鬥激烈。",
+    "primary": "讀登陸及撤退記錄、義大利政府討論，區分戰場壓力和政變程序。",
+    "counterfactual": "假設盟軍不攻西西里，墨索里尼可能仍受危機壓迫；限制是倒臺時機無法確定。",
+    "causes": [
+      "tunisia",
+      "casablanca"
+    ],
+    "causalLinks": [
+      {
+        "event": "tunisia",
+        "kind": "enabling",
+        "explanation": "北非勝利提供登陸基地與釋出的部隊。",
+        "sources": [
+          "https://www.nationalww2museum.org/war/articles/allied-campaign-italy-1943-45-timeline-part-one"
+        ]
+      },
+      {
+        "event": "casablanca",
+        "kind": "direct",
+        "explanation": "盟軍會議確定以西西里作為下一步作戰目標。",
+        "sources": [
+          "https://history.state.gov/milestones/1937-1945/casablanca"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "西西里，傑拉為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國家二戰博物館｜義大利戰局年表，第一部分",
+        "https://www.nationalww2museum.org/war/articles/allied-campaign-italy-1943-45-timeline-part-one"
+      ],
+      [
+        "美國國務院史家辦公室｜卡薩布蘭卡會議",
+        "https://history.state.gov/milestones/1937-1945/casablanca"
+      ]
+    ]
+  },
+  {
+    "id": "mussolini-dismissed",
+    "chapter": 7,
+    "date": "1943-07-25",
+    "title": "墨索里尼遭罷免，義大利尚未停戰",
+    "place": "羅馬",
+    "point": [
+      12.5,
+      41.9
+    ],
+    "theaters": [
+      "west",
+      "africa"
+    ],
+    "actors": [
+      "IT",
+      "DE",
+      "CIV"
+    ],
+    "type": "politics",
+    "summary": "國王罷免並拘捕墨索里尼，任命巴多格里奧；新政府公開仍稱繼續戰爭，暗中接觸盟軍。",
+    "background": "長期軍事失敗、轟炸與西西里登陸削弱法西斯政權支持。",
+    "trigger": "法西斯大委員會表決後，國王決定更換政府。",
+    "motives": "王室和部分菁英要保住國家及自身地位；德國擔心義大利退出。",
+    "impact": "德軍加緊部署，秘密停戰談判展開，人民期待和平卻未立即實現。",
+    "debate": "罷免法西斯領袖不等於當天民主化或退出軸心戰爭。",
+    "primary": "比較王室公告、巴多格里奧聲明與秘密外交，而非只以街頭慶祝判斷。",
+    "counterfactual": "假設國王更早更換政府，談判可能提早；限制是德國軍事控制與盟軍條件仍存在。",
+    "causes": [
+      "sicily"
+    ],
+    "causalLinks": [
+      {
+        "event": "sicily",
+        "kind": "enabling",
+        "explanation": "盟軍登陸加深政權危機，卻不自動取代王室的罷免決策。",
+        "sources": [
+          "https://www.nationalww2museum.org/war/articles/allied-campaign-italy-1943-45-timeline-part-one"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "羅馬為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國家二戰博物館｜義大利戰局年表，第一部分",
+        "https://www.nationalww2museum.org/war/articles/allied-campaign-italy-1943-45-timeline-part-one"
+      ]
+    ]
+  },
+  {
+    "id": "bengal-famine-report",
+    "chapter": 7,
+    "date": "1943-08-28",
+    "title": "孟加拉饑荒：糧食、運力與殖民治理",
+    "place": "加爾各答",
+    "point": [
+      88.36,
+      22.57
+    ],
+    "theaters": [
+      "southeast",
+      "indian",
+      "home"
+    ],
+    "actors": [
+      "GB",
+      "IND",
+      "CIV",
+      "US"
+    ],
+    "type": "politics",
+    "summary": "美國國務院備忘錄記錄孟加拉村民流入城市、街頭餓死與救濟不足，建議安排糧食及船位。",
+    "background": "緬甸米源中斷、物價上漲、徵購、天災、貧窮與殖民政策共同造成危機。",
+    "trigger": "外交官收到災情報告，指出缺糧和船運安排已危及生命及戰爭後方。",
+    "motives": "居民求食與生存；殖民政府和盟國在軍需、航運及救濟優先順序間作選擇。",
+    "impact": "死亡與疾病延續至 1944 年，暴露戰時生產中心和農村取得食物能力的巨大落差。",
+    "debate": "這是可確定日期的報告，並非饑荒起日；死亡估計的期間和疾病納入範圍不同，本筆不給單一總數。",
+    "primary": "FRUS 原文及 IWM 救濟影片對讀，影像可能展示救助而淡化先前失政。",
+    "counterfactual": "假設更早救濟及糧價干預或能減少死亡；限制是無法精確重算未發生情境的人口損失。",
+    "causes": [
+      "rangoon"
+    ],
+    "causalLinks": [
+      {
+        "event": "rangoon",
+        "kind": "enabling",
+        "explanation": "失去緬甸米源及交通加深壓力，但不能單因解釋饑荒。",
+        "sources": [
+          "https://film.iwmcollections.org.uk/r/1773"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "點位代表受災居民湧入的加爾各答，約十公里精度；8 月 28 日是華盛頓備忘錄日期，不是饑荒起日、全部受災範圍或文件寫作地。",
+    "sources": [
+      [
+        "美國外交文件 FRUS｜1943 年孟加拉糧食危機電報",
+        "https://history.state.gov/historicaldocuments/frus1943v04/d337"
+      ],
+      [
+        "帝國戰爭博物館｜孟加拉救濟影片與研究解說",
+        "https://film.iwmcollections.org.uk/r/1773"
+      ]
+    ]
+  },
+  {
+    "id": "italy-armistice-signed",
+    "chapter": 7,
+    "date": "1943-09-03",
+    "title": "義大利秘密簽署停戰",
+    "place": "卡西比萊",
+    "point": [
+      15.2,
+      36.97
+    ],
+    "theaters": [
+      "west"
+    ],
+    "actors": [
+      "IT",
+      "US",
+      "GB",
+      "DE"
+    ],
+    "type": "peace",
+    "summary": "義大利代表與盟軍在西西里簽署短期停戰條款，尚未公開；盟軍同日跨海至卡拉布里亞。",
+    "background": "新政府尋求退出戰爭，卻擔心德軍反應及自身防禦。",
+    "trigger": "秘密談判達成接受盟軍條件的協議。",
+    "motives": "義方要結束對盟軍作戰；盟軍要使義大利退出並取得軍事便利。",
+    "impact": "公布時間、保衛首都與部隊命令未妥善協調，數日後發生崩潰與德軍解除武裝。",
+    "debate": "3 日簽署與 8 日宣布分開；不能用簽字日宣稱全國即已停止交戰。",
+    "primary": "讀卡西比萊短期停戰條款及盟軍登陸日誌。",
+    "counterfactual": "假設安排更完整撤防，或可減少被德軍俘虜；限制是秘密難維持且德軍已有準備。",
+    "causes": [
+      "mussolini-dismissed"
+    ],
+    "causalLinks": [
+      {
+        "event": "mussolini-dismissed",
+        "kind": "enabling",
+        "explanation": "政府更迭使秘密退出戰爭談判成為可行選項。",
+        "sources": [
+          "https://www.nationalww2museum.org/war/articles/allied-campaign-italy-1943-45-timeline-part-one"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "卡西比萊為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國家二戰博物館｜義大利戰局年表，第一部分",
+        "https://www.nationalww2museum.org/war/articles/allied-campaign-italy-1943-45-timeline-part-one"
+      ]
+    ]
+  },
+  {
+    "id": "italy-armistice-announced",
+    "chapter": 7,
+    "date": "1943-09-08",
+    "title": "停戰公布，義大利陷入占領與內戰",
+    "place": "羅馬",
+    "point": [
+      12.5,
+      41.9
+    ],
+    "theaters": [
+      "west",
+      "balkans"
+    ],
+    "actors": [
+      "IT",
+      "RSI",
+      "DE",
+      "US",
+      "GB",
+      "RES"
+    ],
+    "type": "peace",
+    "summary": "盟軍與義方公布停戰，德軍大規模解除義軍武裝並占領；盟軍翌日在薩勒諾登陸。",
+    "background": "德軍已部署在義大利和巴爾幹，義軍缺乏一致應變命令。",
+    "trigger": "停戰公開打破德義既有軍事關係。",
+    "motives": "德國要保住南方防線；王室政府求生存，抵抗者和法西斯支持者走向對立。",
+    "impact": "王室南遷；墨索里尼被救後在德國保護下建立義大利社會共和國，戰鬥持續至 1945 年。",
+    "debate": "義大利王國 10 月 13 日對德宣戰成共同交戰國；不是所有義大利人同日轉為盟軍。",
+    "primary": "讀停戰廣播、部隊命令與抵抗組織記錄，分清王國、合作政權與民間組織。",
+    "counterfactual": "假設政府留在羅馬並有效指揮，混亂或減少；限制是德軍數量與位置仍有優勢。",
+    "causes": [
+      "italy-armistice-signed"
+    ],
+    "causalLinks": [
+      {
+        "event": "italy-armistice-signed",
+        "kind": "direct",
+        "explanation": "秘密簽署的停戰在 8 日公布並觸發德軍解除武裝行動。",
+        "sources": [
+          "https://www.nationalww2museum.org/war/articles/allied-campaign-italy-1943-45-timeline-part-one"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "羅馬為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國家二戰博物館｜義大利戰局年表，第一部分",
+        "https://www.nationalww2museum.org/war/articles/allied-campaign-italy-1943-45-timeline-part-one"
+      ]
+    ]
+  },
+  {
+    "id": "burma-thai-railway",
+    "chapter": 7,
+    "date": "1943-10-16",
+    "title": "泰緬鐵路接通：後勤建設建立在強迫勞動上",
+    "place": "孔夸塔周邊，泰緬邊區",
+    "point": [
+      98.5,
+      15.3
+    ],
+    "theaters": [
+      "southeast",
+      "indian"
+    ],
+    "actors": [
+      "JP",
+      "CIV",
+      "GB",
+      "AU",
+      "NL",
+      "IND"
+    ],
+    "type": "support",
+    "summary": "泰緬鐵路接通，日軍以盟軍戰俘與大量亞洲勞工修築運補線，疾病、飢餓和暴力造成大規模死亡。",
+    "background": "緬甸占領軍需要不完全依賴海運的供應，工程穿越山林和疫區。",
+    "trigger": "日方壓縮工期並加重勞動，救護與食物不足。",
+    "motives": "軍方追求迅速通車；戰俘和被徵集、欺騙或強迫的勞工設法生存。",
+    "impact": "鐵路支援戰區，也成為戰後追責與記憶的重要象徵，亞洲勞工經驗長期較少留檔。",
+    "debate": "16 日是接通，不是全部勞動或死亡的終點；不同資料對亞洲勞工人數和死亡率有很大缺口。",
+    "primary": "澳洲紀念館保留部隊及醫療日記，需補入亞洲勞工證詞，勿只以澳洲人代表全體。",
+    "counterfactual": "假設放寬工期並供應醫療，死亡可能降低；限制是強迫勞動制度本身仍侵害人權。",
+    "causes": [
+      "rangoon"
+    ],
+    "causalLinks": [
+      {
+        "event": "rangoon",
+        "kind": "context",
+        "explanation": "占領緬甸後的持續後勤需求促成鐵路工程，並不使強迫勞動合理化。",
+        "sources": [
+          "https://www.awm.gov.au/research/guide/pow-ww2-burma-thai"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "點位約示泰緬接軌地區，精度約數十公里；不是全長鐵路線、國界或所有勞工營的位置。",
+    "sources": [
+      [
+        "澳洲戰爭紀念館｜泰緬鐵路戰俘及檔案",
+        "https://www.awm.gov.au/research/guide/pow-ww2-burma-thai"
+      ],
+      [
+        "巴黎政治學院｜日本戰爭暴力與受害者研究",
+        "https://www.sciencespo.fr/mass-violence-war-massacre-resistance/en/document/japanese-mass-violence-and-its-victims-fifteen-years-war-1931-45.html"
+      ]
+    ]
+  },
+  {
+    "id": "tarawa",
+    "chapter": 7,
+    "date": "1943-11-20",
+    "title": "塔拉瓦：中太平洋反攻與登陸代價",
+    "place": "塔拉瓦，貝蒂奧",
+    "point": [
+      172.93,
+      1.35
+    ],
+    "theaters": [
+      "pacific"
+    ],
+    "actors": [
+      "US",
+      "JP",
+      "CIV"
+    ],
+    "type": "battle",
+    "summary": "美軍登陸塔拉瓦環礁貝蒂奧島，激戰至 23 日；淺礁、潮汐與日軍工事造成重大損失。",
+    "background": "盟軍採逐步奪取基地、繞過部分據點的中太平洋攻勢。",
+    "trigger": "美軍為推進馬紹爾群島方向而奪取吉爾伯特群島基地。",
+    "motives": "盟軍建立前進機場；日軍堅守據點；島上勞工和居民承受戰火。",
+    "impact": "經驗影響後續兩棲裝備、偵察與火力協調。",
+    "debate": "「跳島」不是每個島都繞過，也不能把珊瑚礁當作無人地景。",
+    "primary": "NPS 列 20 至 23 日作戰，對讀海灘偵察與兩棲部隊檢討。",
+    "counterfactual": "假設潮汐情報更準確，登陸可能較順；限制是工事和守軍火力仍然存在。",
+    "causes": [],
+    "causalLinks": [],
+    "edges": [],
+    "mapNote": "塔拉瓦，貝蒂奧為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國家公園署｜太平洋主要戰事索引",
+        "https://home.nps.gov/perl/learn/historyculture/pacific-battles.htm"
+      ]
+    ]
+  },
+  {
+    "id": "cairo-conference",
+    "chapter": 7,
+    "date": "1943-11-22",
+    "title": "開羅會議：中國與戰後東亞安排",
+    "place": "開羅",
+    "point": [
+      31.24,
+      30.04
+    ],
+    "theaters": [
+      "africa",
+      "china",
+      "pacific"
+    ],
+    "actors": [
+      "US",
+      "GB",
+      "CN",
+      "JP"
+    ],
+    "type": "politics",
+    "summary": "蔣中正、羅斯福與邱吉爾於 22 至 26 日會談，討論對日作戰及日本應放棄的領土。",
+    "background": "中國長期抗戰與盟國全球戰略相連，緬甸補給和太平洋反攻仍需協調。",
+    "trigger": "領袖在德黑蘭會議前先討論東亞問題。",
+    "motives": "中方爭取戰後地位與領土恢復；美英兼顧擊敗日本及自身戰略。",
+    "impact": "公報 26 日定稿、12 月 1 日公布；戰時政治目標與戰後具體實施仍有距離。",
+    "debate": "不把會議起日、文字定稿與發布混成一次「簽署條約」。",
+    "primary": "FRUS 公報附註明確區分 26 日文本和 12 月 1 日發布。",
+    "counterfactual": "假設對緬甸行動作更強承諾，或能改善中國補給；限制是盟軍運力與優先順序仍競爭。",
+    "causes": [],
+    "causalLinks": [],
+    "edges": [],
+    "mapNote": "開羅為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國外交文件 FRUS｜開羅公報定稿與發布註記",
+        "https://history.state.gov/historicaldocuments/frus1943China/d136"
+      ],
+      [
+        "美國國務院史家辦公室｜戰時會議與開羅宣言",
+        "https://history.state.gov/milestones/1937-1945/war-time-conferences"
+      ]
+    ]
+  },
+  {
+    "id": "tehran",
+    "chapter": 7,
+    "date": "1943-11-28",
+    "title": "德黑蘭會議協調東西夾擊與未來對日作戰",
+    "place": "德黑蘭",
+    "point": [
+      51.39,
+      35.69
+    ],
+    "theaters": [
+      "east",
+      "west",
+      "indian",
+      "pacific"
+    ],
+    "actors": [
+      "US",
+      "GB",
+      "SU",
+      "IR"
+    ],
+    "type": "politics",
+    "summary": "三巨頭會談至 12 月 1 日，確認跨海峽登陸及東線配合，蘇聯也承諾在擊敗德國後對日作戰。",
+    "background": "蘇聯長期要求西方開第二戰場，英美已累積登陸與海運能力。",
+    "trigger": "領袖首次共同面談，將戰略承諾與戰後構想連結。",
+    "motives": "蘇方分擔德軍壓力；美英求協同取勝，也討論國際組織與東歐安排。",
+    "impact": "1944 年東西攻勢協同；對日承諾於雅爾達進一步具體化。",
+    "debate": "軍事合作不代表各方已同意全部邊界、民主制度或殖民地前途。",
+    "primary": "讀會議決議與伊朗宣言；承諾維護伊朗主權須和盟軍占領現實對照。",
+    "counterfactual": "假設未確認跨海峽攻勢，盟國互信或受損；限制是蘇方仍會依自身軍事情況安排反攻。",
+    "causes": [
+      "atlantic-turn",
+      "iran-invasion"
+    ],
+    "causalLinks": [
+      {
+        "event": "atlantic-turn",
+        "kind": "enabling",
+        "explanation": "更安全的航運支撐英美在英國集結，增加跨海峽攻勢的可行性。",
+        "sources": [
+          "https://www.royalnavy.mod.uk/news/2021/may/24/20210524-battle-atlantic"
+        ]
+      },
+      {
+        "event": "iran-invasion",
+        "kind": "context",
+        "explanation": "會議地點與援蘇通道位於遭盟軍占領的伊朗，合作包含主權代價。",
+        "sources": [
+          "https://history.state.gov/milestones/1937-1945/tehran-conf"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "德黑蘭為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國務院史家辦公室｜德黑蘭會議",
+        "https://history.state.gov/milestones/1937-1945/tehran-conf"
+      ],
+      [
+        "英國皇家海軍｜1943 年 5 月護航戰局轉折",
+        "https://www.royalnavy.mod.uk/news/2021/may/24/20210524-battle-atlantic"
+      ]
+    ]
+  },
+  {
+    "id": "cairo-declaration",
+    "chapter": 7,
+    "date": "1943-12-01",
+    "title": "開羅公報公布：戰後目標不是當日領土移轉",
+    "place": "開羅（發布由盟國協調）",
+    "point": [
+      31.24,
+      30.04
+    ],
+    "theaters": [
+      "china",
+      "pacific",
+      "home"
+    ],
+    "actors": [
+      "US",
+      "GB",
+      "CN",
+      "JP"
+    ],
+    "type": "politics",
+    "summary": "盟國公開開羅公報，宣示日本應交還滿洲、臺灣及澎湖給中華民國，朝鮮應於適當時機自由獨立。",
+    "background": "會議已於 11 月完成協商，發布須與領袖行程和新聞管理配合。",
+    "trigger": "盟國協調後將 26 日定稿公開。",
+    "motives": "盟國要界定對日戰爭目標並鼓舞抗戰，但對實施時程未在公報詳定。",
+    "impact": "1945 年波茨坦公告援引開羅條件；投降、占領、受降和後續法律安排須繼續分開讀。",
+    "debate": "公報表達政治目的，不表示當日已完成撤軍、主權轉移或朝鮮獨立。",
+    "primary": "FRUS 原文與編者註同頁可核對定稿、發布及「適當時機」措辭。",
+    "counterfactual": "假設較早具體訂定獨立程序，或可減少模糊；限制是各大國利益與戰後權力差異仍在。",
+    "causes": [
+      "cairo-conference"
+    ],
+    "causalLinks": [
+      {
+        "event": "cairo-conference",
+        "kind": "direct",
+        "explanation": "會議協商形成公報，26 日定稿後於 12 月 1 日發布。",
+        "sources": [
+          "https://history.state.gov/historicaldocuments/frus1943China/d136"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "開羅（發布由盟國協調）為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國外交文件 FRUS｜開羅公報定稿與發布註記",
+        "https://history.state.gov/historicaldocuments/frus1943China/d136"
+      ]
+    ]
+  }
+]

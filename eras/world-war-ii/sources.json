@@ -1,0 +1,923 @@
+{
+  "https://history.state.gov/milestones/1921-1936/mukden-incident": {
+    "title": "美國國務院史家辦公室｜九一八與不承認政策",
+    "checked": "2026-11-23",
+    "events": [
+      "mukden",
+      "stimson",
+      "manchukuo",
+      "japan-league"
+    ]
+  },
+  "https://www.ungeneva.org/sites/default/files/2022-01/sdn_chronology_0.pdf": {
+    "title": "聯合國日內瓦檔案｜國際聯盟年表",
+    "checked": "2026-11-23",
+    "events": [
+      "manchukuo",
+      "japan-league",
+      "winter-war"
+    ]
+  },
+  "https://www.jacar.go.jp/english/newsletter/newsletter_029e/newsletter_029e.html": {
+    "title": "日本亞洲歷史資料中心｜滿洲國及對外關係檔案解說",
+    "checked": "2026-11-23",
+    "events": [
+      "manchukuo"
+    ]
+  },
+  "https://encyclopedia.ushmm.org/content/en/article/1933-key-dates": {
+    "title": "美國大屠殺紀念館｜1933 年關鍵日期",
+    "checked": "2026-11-23",
+    "events": [
+      "hitler"
+    ]
+  },
+  "https://www.dhm.de/lemo/kapitel/ns-regime/aussenpolitik/wehrpflicht-1935": {
+    "title": "德國歷史博物館 LeMO｜1935 年恢復徵兵",
+    "checked": "2026-11-23",
+    "events": [
+      "rearmament",
+      "rhineland"
+    ]
+  },
+  "https://encyclopedia.ushmm.org/content/en/article/nuremberg-laws": {
+    "title": "美國大屠殺紀念館｜紐倫堡法",
+    "checked": "2026-11-23",
+    "events": [
+      "nuremberg-laws"
+    ]
+  },
+  "https://history.state.gov/historicaldocuments/frus1935v01/d666": {
+    "title": "美國外交文件 FRUS｜1935 年 10 月 4 日駐義大使電報",
+    "checked": "2026-11-23",
+    "events": [
+      "ethiopia"
+    ]
+  },
+  "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates": {
+    "title": "美國大屠殺紀念館｜二戰關鍵日期",
+    "checked": "2026-11-23",
+    "events": [
+      "ethiopia",
+      "rhineland",
+      "anschluss",
+      "munich",
+      "prague",
+      "molotov-ribbentrop",
+      "poland",
+      "allied-declarations",
+      "soviet-poland",
+      "winter-war",
+      "norway",
+      "western-offensive",
+      "free-france",
+      "france-armistice",
+      "blitz",
+      "balkans",
+      "barbarossa",
+      "moscow",
+      "germany-us",
+      "stalingrad",
+      "stalingrad-surrender",
+      "hungarian-deportations",
+      "rome-liberated",
+      "normandy",
+      "ardennes",
+      "auschwitz-liberation"
+    ]
+  },
+  "https://warwick.ac.uk/services/library/mrc/collections/digital/scw/timeline2/": {
+    "title": "華威大學現代檔案中心｜西班牙內戰年表",
+    "checked": "2026-11-23",
+    "events": [
+      "spain"
+    ]
+  },
+  "https://history.state.gov/milestones/1937-1945/pearl-harbor": {
+    "title": "美國國務院史家辦公室｜中國、日本與通向珍珠港之路",
+    "checked": "2026-11-23",
+    "events": [
+      "marco-polo",
+      "shanghai",
+      "united-front",
+      "guangzhou",
+      "wuhan",
+      "indochina",
+      "tripartite",
+      "asset-freeze",
+      "japan-war-decision",
+      "pearl-harbor",
+      "germany-us",
+      "java-sea",
+      "rangoon"
+    ]
+  },
+  "https://art.archives.gov.tw/tw/art/1623.html": {
+    "title": "國家發展委員會檔案管理局｜淞滬會戰",
+    "checked": "2026-11-23",
+    "events": [
+      "shanghai",
+      "united-front"
+    ]
+  },
+  "https://art.archives.gov.tw/tw/art/1949.html": {
+    "title": "臺灣檔案管理局｜國共合作檔案",
+    "checked": "2026-11-23",
+    "events": [
+      "united-front"
+    ]
+  },
+  "https://adhoc.yalepages.org/Collections/Nanking/findingaid.html": {
+    "title": "耶魯神學圖書館｜南京大屠殺原始文件索引",
+    "checked": "2026-11-23",
+    "events": [
+      "nanjing"
+    ]
+  },
+  "https://www.sciencespo.fr/mass-violence-war-massacre-resistance/en/document/japanese-mass-violence-and-its-victims-fifteen-years-war-1931-45.html": {
+    "title": "巴黎政治學院｜日本戰爭暴力與受害者研究",
+    "checked": "2026-11-23",
+    "events": [
+      "nanjing",
+      "sexual-slavery",
+      "wang-regime",
+      "singapore",
+      "burma-thai-railway",
+      "okinawa"
+    ]
+  },
+  "https://international.ucla.edu/cks/care/japanesedocs": {
+    "title": "加州大學洛杉磯分校｜日軍性奴役制度軍方文件",
+    "checked": "2026-11-23",
+    "events": [
+      "sexual-slavery"
+    ]
+  },
+  "https://encyclopedia.ushmm.org/content/en/article/kristallnacht": {
+    "title": "美國大屠殺紀念館｜1938 年十一月反猶暴行",
+    "checked": "2026-11-23",
+    "events": [
+      "anschluss",
+      "november-pogrom"
+    ]
+  },
+  "https://www.bundestag.de/resource/blob/194724/Muenchner_Abkommen.pdf": {
+    "title": "德國聯邦議院研究處｜慕尼黑協定與捷克斯洛伐克解體",
+    "checked": "2026-11-23",
+    "events": [
+      "munich",
+      "prague"
+    ]
+  },
+  "https://cpc.people.com.cn/BIG5/64162/64164/4415987.html": {
+    "title": "中國共產黨黨史資料｜1938 年大事記（政黨編纂）",
+    "checked": "2026-11-23",
+    "events": [
+      "guangzhou",
+      "wuhan"
+    ]
+  },
+  "https://www.jacar.go.jp/exhibition/shuhou/nenpyo/nenpyo19381027.html": {
+    "title": "日本亞洲歷史資料中心｜1938 年 10 月 27 日武漢三鎮占領",
+    "checked": "2026-11-23",
+    "events": [
+      "wuhan"
+    ]
+  },
+  "https://www.jacar.go.jp/english/exhibition/shuhou-english/timeline/nenpyo19390512.html": {
+    "title": "日本亞洲歷史資料中心｜諾門罕衝突與資訊管制",
+    "checked": "2026-11-23",
+    "events": [
+      "nomonhan"
+    ]
+  },
+  "https://www.mofa.go.jp/region/europe/russia/territory/edition92/period3.html": {
+    "title": "日本外務省｜日蘇中立條約及蘇方文件",
+    "checked": "2026-11-23",
+    "events": [
+      "nomonhan",
+      "soviet-japan-neutrality",
+      "july-imperial-policy",
+      "soviet-war-declaration",
+      "aug09a-soviet-offensive"
+    ]
+  },
+  "https://encyclopedia.ushmm.org/content/en/timeline-event/holocaust/1939-1941/st-louis-voyage": {
+    "title": "美國大屠殺紀念館｜聖路易號啟航與難民遭拒",
+    "checked": "2026-11-23",
+    "events": [
+      "st-louis"
+    ]
+  },
+  "https://nzhistory.govt.nz/war/second-world-war/war-in-the-pacific/timeline": {
+    "title": "紐西蘭文化與遺產部｜太平洋戰爭年表（須留意日期差異）",
+    "checked": "2026-11-23",
+    "events": [
+      "allied-declarations",
+      "italy-enters",
+      "tripartite",
+      "asset-freeze",
+      "south-indochina",
+      "malaya",
+      "philippines-attack",
+      "hong-kong",
+      "singapore",
+      "darwin",
+      "coral-sea",
+      "guadalcanal",
+      "leyte",
+      "rangoon-retaken"
+    ]
+  },
+  "https://nzhistory.govt.nz/page/battle-river-plate": {
+    "title": "紐西蘭文化與遺產部｜拉普拉塔河口海戰",
+    "checked": "2026-11-23",
+    "events": [
+      "river-plate"
+    ]
+  },
+  "https://www.jacar.go.jp/exhibition/shuhou/nenpyo/nenpyo19400330.html": {
+    "title": "日本亞洲歷史資料中心｜1940 年 3 月 30 日汪政權成立",
+    "checked": "2026-11-23",
+    "events": [
+      "wang-regime"
+    ]
+  },
+  "https://www.english-heritage.org.uk/visit/places/dover-castle/history-and-stories/operation-dynamo-things-you-need-to-know/": {
+    "title": "英格蘭遺產組織｜敦克爾克發電機行動",
+    "checked": "2026-11-23",
+    "events": [
+      "dunkirk"
+    ]
+  },
+  "https://www.nam.ac.uk/explore/struggle-north-africa-1940-43": {
+    "title": "英國國家陸軍博物館｜北非戰爭 1940–1943",
+    "checked": "2026-11-23",
+    "events": [
+      "italy-enters",
+      "compass",
+      "el-alamein",
+      "torch",
+      "tunisia"
+    ]
+  },
+  "https://history.state.gov/milestones/1937-1945/war-time-conferences": {
+    "title": "美國國務院史家辦公室｜戰時會議與開羅宣言",
+    "checked": "2026-11-23",
+    "events": [
+      "free-france",
+      "torch",
+      "cairo-conference"
+    ]
+  },
+  "https://www.archives-nationales.culture.gouv.fr/dossiers-thematiques/lappel-du-18-juin-1940": {
+    "title": "法國國家檔案館｜6 月 18 日呼籲、手稿與自由法國",
+    "checked": "2026-11-23",
+    "events": [
+      "free-france"
+    ]
+  },
+  "https://www.rafmuseum.org.uk/our-collection/supporting-research/online-exhibitions/introduction-to-the-phases-of-the-battle-of-britain/": {
+    "title": "英國皇家空軍博物館｜不列顛戰役分期",
+    "checked": "2026-11-23",
+    "events": [
+      "battle-britain",
+      "blitz"
+    ]
+  },
+  "https://www.londonmuseum.org.uk/collections/london-stories/black-saturday-first-day-blitz/": {
+    "title": "倫敦博物館｜1940 年 9 月 7 日大空襲與碼頭區",
+    "checked": "2026-11-23",
+    "events": [
+      "blitz"
+    ]
+  },
+  "https://www.ndl.go.jp/modern/e/utility/chronology.html": {
+    "title": "日本國立國會圖書館｜近代日本年表",
+    "checked": "2026-11-23",
+    "events": [
+      "indochina",
+      "japan-final-decision",
+      "japan-broadcast"
+    ]
+  },
+  "https://history.state.gov/historicaldocuments/frus1940v04/d169": {
+    "title": "美國外交文件 FRUS｜1940 年 9 月 22 日河內領事電報",
+    "checked": "2026-11-23",
+    "events": [
+      "indochina"
+    ]
+  },
+  "https://nzhistory.govt.nz/war/the-north-african-campaign/timeline": {
+    "title": "紐西蘭文化與遺產部｜北非戰爭年表",
+    "checked": "2026-11-23",
+    "events": [
+      "compass",
+      "balkans",
+      "el-alamein",
+      "torch",
+      "tunisia"
+    ]
+  },
+  "https://www.archives.gov/milestone-documents/lend-lease-act": {
+    "title": "美國國家檔案館｜租借法案原文",
+    "checked": "2026-11-23",
+    "events": [
+      "lend-lease"
+    ]
+  },
+  "https://history.state.gov/milestones/1937-1945/lend-lease": {
+    "title": "美國國務院史家辦公室｜租借援助與盟國",
+    "checked": "2026-11-23",
+    "events": [
+      "lend-lease",
+      "atlantic-turn",
+      "bretton-woods"
+    ]
+  },
+  "https://www.ibiblio.org/hyperwar/UN/India/EAfrica/EAfrica-9.html": {
+    "title": "印度官方軍史（北卡羅來納大學 ibiblio 典藏）｜克倫至阿斯馬拉",
+    "checked": "2026-11-23",
+    "events": [
+      "keren"
+    ]
+  },
+  "https://encyclopedia.ushmm.org/content/en/article/kiev-and-babi-yar": {
+    "title": "美國大屠殺紀念館｜娘子谷大屠殺",
+    "checked": "2026-11-23",
+    "events": [
+      "barbarossa",
+      "babyn-yar"
+    ]
+  },
+  "https://www.archives.gov/milestone-documents/executive-order-8802": {
+    "title": "美國國家檔案館｜第 8802 號行政命令原文",
+    "checked": "2026-11-23",
+    "events": [
+      "fair-employment",
+      "war-production-board"
+    ]
+  },
+  "https://www.jacar.go.jp/english/exhibition/nichibei/popup/pop_10.html": {
+    "title": "日本亞洲歷史資料中心｜1941 年 7 月 2 日御前會議",
+    "checked": "2026-11-23",
+    "events": [
+      "july-imperial-policy",
+      "south-indochina"
+    ]
+  },
+  "https://www.ndl.go.jp/modern/e/cha4/description13.html": {
+    "title": "日本國立國會圖書館｜日美開戰的決策資料",
+    "checked": "2026-11-23",
+    "events": [
+      "asset-freeze",
+      "south-indochina",
+      "japan-war-decision",
+      "pearl-harbor",
+      "malaya",
+      "philippines-attack"
+    ]
+  },
+  "https://history.state.gov/milestones/1937-1945/atlantic-conf": {
+    "title": "美國國務院史家辦公室｜大西洋會議與憲章",
+    "checked": "2026-11-23",
+    "events": [
+      "atlantic-charter"
+    ]
+  },
+  "https://www.ibiblio.org/hyperwar/USA/USA-ME-Persia/index.html": {
+    "title": "美國陸軍官方軍史｜波斯走廊與援蘇（網頁典藏）",
+    "checked": "2026-11-23",
+    "events": [
+      "iran-invasion"
+    ]
+  },
+  "https://www.archives.gov/publications/prologue/1996/fall/butow.html": {
+    "title": "美國國家檔案館 Prologue｜赫爾照會與開戰史料辨析",
+    "checked": "2026-11-23",
+    "events": [
+      "japan-war-decision"
+    ]
+  },
+  "https://www.nps.gov/articles/pearlattackww2.htm/index.htm": {
+    "title": "美國國家公園署｜珍珠港攻擊的計畫與經過",
+    "checked": "2026-11-23",
+    "events": [
+      "japan-war-decision",
+      "pearl-harbor",
+      "philippines-attack"
+    ]
+  },
+  "https://www.nationalww2museum.org/war/articles/degrees-separation": {
+    "title": "美國國家二戰博物館｜1941 年 12 月蘇軍反攻與全球戰爭",
+    "checked": "2026-11-23",
+    "events": [
+      "moscow"
+    ]
+  },
+  "https://home.nps.gov/perl/learn/historyculture/pacific-battles.htm": {
+    "title": "美國國家公園署｜太平洋主要戰事索引",
+    "checked": "2026-11-23",
+    "events": [
+      "philippines-attack",
+      "coral-sea",
+      "guadalcanal",
+      "tarawa",
+      "philippine-sea",
+      "leyte",
+      "iwo-jima",
+      "okinawa"
+    ]
+  },
+  "https://www.npm.edu.tw/NewChineseArtDownload.ashx?bid=2533": {
+    "title": "國立故宮博物院｜外交史料特展：1941 年宣戰與盟國合作",
+    "checked": "2026-11-23",
+    "events": [
+      "germany-us"
+    ]
+  },
+  "https://www.warmuseum.ca/war-against-japan/": {
+    "title": "加拿大戰爭博物館｜對日戰爭與香港",
+    "checked": "2026-11-23",
+    "events": [
+      "hong-kong",
+      "hong-kong-surrender"
+    ]
+  },
+  "https://treaties.un.org/doc/Publication/UNTS/LON/Volume%20204/v204.pdf#page=384": {
+    "title": "聯合國｜1942 年聯合國家宣言與四國先簽程序",
+    "checked": "2026-11-23",
+    "events": [
+      "united-nations-declaration"
+    ]
+  },
+  "https://www.archives.gov/research/guide-fed-records/groups/179.html": {
+    "title": "美國國家檔案館｜戰時生產委員會檔案",
+    "checked": "2026-11-23",
+    "events": [
+      "war-production-board"
+    ]
+  },
+  "https://encyclopedia.ushmm.org/content/en/article/wannsee-conference-and-the-final-solution": {
+    "title": "美國大屠殺紀念館｜萬湖會議與最終解決",
+    "checked": "2026-11-23",
+    "events": [
+      "wannsee"
+    ]
+  },
+  "https://www.nam.ac.uk/explore/timeline-burma-army": {
+    "title": "英國國家陸軍博物館｜緬甸戰爭年表",
+    "checked": "2026-11-23",
+    "events": [
+      "singapore",
+      "rangoon",
+      "indian-ocean-raid",
+      "rangoon-retaken"
+    ]
+  },
+  "https://www.awm.gov.au/papua-campaign/timeline": {
+    "title": "澳洲戰爭紀念館｜巴布亞戰役年表",
+    "checked": "2026-11-23",
+    "events": [
+      "darwin",
+      "kokoda"
+    ]
+  },
+  "https://www.archives.gov/milestone-documents/executive-order-9066": {
+    "title": "美國國家檔案館｜第 9066 號行政命令原文",
+    "checked": "2026-11-23",
+    "events": [
+      "japanese-american-incarceration"
+    ]
+  },
+  "https://www.awm.gov.au/visit/exhibitions/alliesinadversity/japanese/java": {
+    "title": "澳洲戰爭紀念館｜爪哇海海戰",
+    "checked": "2026-11-23",
+    "events": [
+      "java-sea"
+    ]
+  },
+  "https://www.nps.gov/articles/oss-in-action-the-pacific-and-the-far-east.htm": {
+    "title": "美國國家公園署｜遠東戰爭、一號作戰與情報",
+    "checked": "2026-11-23",
+    "events": [
+      "rangoon",
+      "ichi-go"
+    ]
+  },
+  "https://www.awmlondon.gov.au/battles/indian-ocean": {
+    "title": "澳洲戰爭紀念館｜印度洋海運與錫蘭空襲",
+    "checked": "2026-11-23",
+    "events": [
+      "indian-ocean-raid"
+    ]
+  },
+  "https://www.nationalww2museum.org/war/topics/battle-bataan-death-march": {
+    "title": "美國國家二戰博物館｜巴丹戰役與死亡行軍",
+    "checked": "2026-11-23",
+    "events": [
+      "bataan"
+    ]
+  },
+  "https://www.nps.gov/articles/world-war-ii-facilities-at-midway.htm": {
+    "title": "美國國家公園署｜中途島戰役與設施",
+    "checked": "2026-11-23",
+    "events": [
+      "midway"
+    ]
+  },
+  "https://www.nationalww2museum.org/war/topics/battle-of-midway": {
+    "title": "美國國家二戰博物館｜中途島戰役",
+    "checked": "2026-11-23",
+    "events": [
+      "midway",
+      "guadalcanal"
+    ]
+  },
+  "https://history.state.gov/historicaldocuments/frus1942v05/d625": {
+    "title": "美國外交文件 FRUS｜1942 年 8 月 22 日巴西戰爭狀態",
+    "checked": "2026-11-23",
+    "events": [
+      "brazil-war"
+    ]
+  },
+  "https://encyclopedia.ushmm.org/content/en/timeline-event/holocaust/1942-1945/himmler-orders-deportation-of-roma-and-sinti-to-auschwitz": {
+    "title": "美國大屠殺紀念館｜1942 年羅姆與辛提人驅逐命令",
+    "checked": "2026-11-23",
+    "events": [
+      "roma-deportation"
+    ]
+  },
+  "https://history.state.gov/milestones/1937-1945/casablanca": {
+    "title": "美國國務院史家辦公室｜卡薩布蘭卡會議",
+    "checked": "2026-11-23",
+    "events": [
+      "casablanca",
+      "sicily"
+    ]
+  },
+  "https://encyclopedia.ushmm.org/content/en/timeline-event/holocaust/1942-1945/warsaw-ghetto-uprising": {
+    "title": "美國大屠殺紀念館｜華沙猶太區起義",
+    "checked": "2026-11-23",
+    "events": [
+      "warsaw-ghetto"
+    ]
+  },
+  "https://www.royalnavy.mod.uk/news/2021/may/24/20210524-battle-atlantic": {
+    "title": "英國皇家海軍｜1943 年 5 月護航戰局轉折",
+    "checked": "2026-11-23",
+    "events": [
+      "atlantic-turn",
+      "tehran",
+      "normandy"
+    ]
+  },
+  "https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/kriegsverlauf/schlacht-bei-kursk-1943": {
+    "title": "德國歷史博物館 LeMO｜庫斯克戰役",
+    "checked": "2026-11-23",
+    "events": [
+      "kursk"
+    ]
+  },
+  "https://www.nationalww2museum.org/war/articles/allied-campaign-italy-1943-45-timeline-part-one": {
+    "title": "美國國家二戰博物館｜義大利戰局年表，第一部分",
+    "checked": "2026-11-23",
+    "events": [
+      "sicily",
+      "mussolini-dismissed",
+      "italy-armistice-signed",
+      "italy-armistice-announced",
+      "rome-liberated"
+    ]
+  },
+  "https://history.state.gov/historicaldocuments/frus1943v04/d337": {
+    "title": "美國外交文件 FRUS｜1943 年孟加拉糧食危機電報",
+    "checked": "2026-11-23",
+    "events": [
+      "bengal-famine-report"
+    ]
+  },
+  "https://film.iwmcollections.org.uk/r/1773": {
+    "title": "帝國戰爭博物館｜孟加拉救濟影片與研究解說",
+    "checked": "2026-11-23",
+    "events": [
+      "bengal-famine-report"
+    ]
+  },
+  "https://www.awm.gov.au/research/guide/pow-ww2-burma-thai": {
+    "title": "澳洲戰爭紀念館｜泰緬鐵路戰俘及檔案",
+    "checked": "2026-11-23",
+    "events": [
+      "burma-thai-railway"
+    ]
+  },
+  "https://history.state.gov/historicaldocuments/frus1943China/d136": {
+    "title": "美國外交文件 FRUS｜開羅公報定稿與發布註記",
+    "checked": "2026-11-23",
+    "events": [
+      "cairo-conference",
+      "cairo-declaration"
+    ]
+  },
+  "https://history.state.gov/milestones/1937-1945/tehran-conf": {
+    "title": "美國國務院史家辦公室｜德黑蘭會議",
+    "checked": "2026-11-23",
+    "events": [
+      "tehran",
+      "normandy",
+      "bagration"
+    ]
+  },
+  "https://www.nam.ac.uk/explore/battle-imphal": {
+    "title": "英國國家陸軍博物館｜英帕爾與科希馬戰役",
+    "checked": "2026-11-23",
+    "events": [
+      "imphal",
+      "kohima",
+      "rangoon-retaken"
+    ]
+  },
+  "https://royalarmouries.org/objects-and-stories/stories/the-battles-of-imphal-and-kohima-1944": {
+    "title": "英國皇家軍械博物館｜英帕爾與科希馬",
+    "checked": "2026-11-23",
+    "events": [
+      "imphal",
+      "kohima"
+    ]
+  },
+  "https://history.army.mil/Portals/143/Images/Publications/Publication%20By%20Title%20Images/C%20Img/campaigns-wwii/pdf/12.pdf": {
+    "title": "美國陸軍官方軍史｜中國防禦戰役",
+    "checked": "2026-11-23",
+    "events": [
+      "ichi-go"
+    ],
+    "accessNote": "美國陸軍 PDF 回傳 403；19 日主攻日期可由搜尋索引原文查得，另以 NPS 遠東研究核對戰役背景及期間，尚未逐頁讀完 PDF。"
+  },
+  "https://encyclopedia.ushmm.org/content/en/article/auschwitz-key-dates": {
+    "title": "美國大屠殺紀念館｜奧斯威辛關鍵日期",
+    "checked": "2026-11-23",
+    "events": [
+      "hungarian-deportations",
+      "auschwitz-revolt",
+      "auschwitz-liberation"
+    ]
+  },
+  "https://oceanexplorer.noaa.gov/expedition-feature/22saipan-surveys-features-history/": {
+    "title": "美國國家海洋暨大氣總署｜馬里亞納群島的戰略發展",
+    "checked": "2026-11-23",
+    "events": [
+      "saipan",
+      "philippine-sea",
+      "iwo-jima"
+    ]
+  },
+  "https://ibiblio.org/hyperwar/USMC/USMC-M-Saipan/USMC-M-Saipan-II.html": {
+    "title": "美國海軍陸戰隊官方軍史（ibiblio 典藏）｜塞班戰役第二附錄年表",
+    "checked": "2026-11-23",
+    "events": [
+      "saipan"
+    ]
+  },
+  "https://www.nationalww2museum.org/war/articles/immeasurable-brutality-nazi-soviet-war-1941-1945-interview-jeff-rutherford-phd": {
+    "title": "美國國家二戰博物館｜東線戰爭與巴格拉季昂訪談",
+    "checked": "2026-11-23",
+    "events": [
+      "bagration"
+    ]
+  },
+  "https://www.dhm.de/lemo/jahreschronik/1944": {
+    "title": "德國歷史博物館 LeMO｜1944 年紀事",
+    "checked": "2026-11-23",
+    "events": [
+      "bagration",
+      "paris-liberation",
+      "ardennes"
+    ]
+  },
+  "https://www.elibrary.imf.org/display/book/9798400276132/ch005.xml": {
+    "title": "國際貨幣基金官方史｜布列頓森林會議",
+    "checked": "2026-11-23",
+    "events": [
+      "bretton-woods"
+    ],
+    "accessNote": "IMF 電子書本文回傳 403；使用搜尋索引章節節錄及可開啟的國務院經濟史頁交叉核對，未逐頁核對全書。"
+  },
+  "https://history.state.gov/milestones/1937-1945/bretton-woods": {
+    "title": "美國國務院史家辦公室｜布列頓森林與戰後經濟談判",
+    "checked": "2026-11-23",
+    "events": [
+      "bretton-woods"
+    ]
+  },
+  "https://encyclopedia.ushmm.org/content/en/article/the-warsaw-polish-uprising": {
+    "title": "美國大屠殺紀念館｜1944 年華沙起義",
+    "checked": "2026-11-23",
+    "events": [
+      "warsaw-uprising"
+    ]
+  },
+  "https://www.cheminsdememoire.gouv.fr/fr/revue/le-retour-la-republique": {
+    "title": "法國國防部記憶與檔案｜共和回歸與巴黎解放",
+    "checked": "2026-11-23",
+    "events": [
+      "paris-liberation"
+    ]
+  },
+  "https://www.nationalww2museum.org/war/articles/liberation-of-philippines-cecilia-gaerlan": {
+    "title": "美國國家二戰博物館｜1945 年菲律賓解放與平民經驗",
+    "checked": "2026-11-23",
+    "events": [
+      "manila"
+    ]
+  },
+  "https://history.state.gov/milestones/1937-1945/yalta-conf": {
+    "title": "美國國務院史家辦公室｜雅爾達會議",
+    "checked": "2026-11-23",
+    "events": [
+      "yalta"
+    ]
+  },
+  "https://history.state.gov/historicaldocuments/frus1945Malta/d503": {
+    "title": "美國外交文件 FRUS｜蘇聯對日參戰秘密協定",
+    "checked": "2026-11-23",
+    "events": [
+      "yalta",
+      "ve-day",
+      "soviet-war-declaration"
+    ]
+  },
+  "https://www.dresden.de/media/pdf/stadtarchiv/Historikerkommission_Dresden1945_Abschlussbericht_V1_14a.pdf": {
+    "title": "德勒斯登市史學委員會｜轟炸死亡調查結論",
+    "checked": "2026-11-23",
+    "events": [
+      "dresden"
+    ],
+    "accessNote": "PDF 原站回傳 503；查閱搜尋索引節錄，並以可開啟的德國聯邦政治教育中心研究交叉確認死亡數及範圍，未聲稱全文逐頁核對。"
+  },
+  "https://www.bpb.de/themen/deutschlandarchiv/518214/der-13-februar-1945-im-kollektiven-gedaechtnis-dresdens/": {
+    "title": "德國聯邦政治教育中心｜德勒斯登轟炸與死亡數研究",
+    "checked": "2026-11-23",
+    "events": [
+      "dresden"
+    ]
+  },
+  "https://tokyo-sensai.net/english": {
+    "title": "東京大空襲・戰災資料中心｜空襲與平民經驗",
+    "checked": "2026-11-23",
+    "events": [
+      "tokyo-firebombing"
+    ]
+  },
+  "https://www.nationalww2museum.org/war/articles/hellfire-earth-operation-meetinghouse": {
+    "title": "美國國家二戰博物館｜東京燃燒彈轟炸行動",
+    "checked": "2026-11-23",
+    "events": [
+      "tokyo-firebombing"
+    ]
+  },
+  "https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/kriegsverlauf/schlacht-um-berlin-1945": {
+    "title": "德國歷史博物館 LeMO｜柏林戰役",
+    "checked": "2026-11-23",
+    "events": [
+      "berlin-battle",
+      "hitler-death",
+      "ve-day"
+    ]
+  },
+  "https://www.archives.gov/milestone-documents/surrender-of-germany": {
+    "title": "美國國家檔案館｜德國軍事投降書原文",
+    "checked": "2026-11-23",
+    "events": [
+      "hitler-death",
+      "reims-surrender",
+      "ve-day"
+    ]
+  },
+  "https://www.un.org/en/about-us/un-charter": {
+    "title": "聯合國｜憲章原文及簽署、生效日期",
+    "checked": "2026-11-23",
+    "events": [
+      "un-charter"
+    ]
+  },
+  "https://treaties-prod.un.org/doc/Publication/CTC/uncharter.pdf": {
+    "title": "聯合國條約處｜憲章與國際法院規約原文",
+    "checked": "2026-11-23",
+    "events": [
+      "un-charter"
+    ]
+  },
+  "https://home.nps.gov/mapr/learn/historyculture/trinity.htm": {
+    "title": "美國國家公園署｜三位一體試爆與當地居民",
+    "checked": "2026-11-23",
+    "events": [
+      "trinity"
+    ]
+  },
+  "https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2025-08-05/atomic-bombings-japan-and-end-world-war-ii-80-years-later": {
+    "title": "喬治華盛頓大學國家安全檔案館｜終戰原始文件集",
+    "checked": "2026-11-23",
+    "events": [
+      "trinity",
+      "potsdam-declaration",
+      "hiroshima",
+      "soviet-war-declaration",
+      "aug09a-soviet-offensive",
+      "aug09b-nagasaki",
+      "japan-offer",
+      "japan-final-decision"
+    ]
+  },
+  "https://history.state.gov/milestones/1937-1945/potsdam-conf": {
+    "title": "美國國務院史家辦公室｜波茨坦會議",
+    "checked": "2026-11-23",
+    "events": [
+      "potsdam-conference",
+      "potsdam-declaration"
+    ]
+  },
+  "https://www.city.hiroshima.lg.jp/english/peace/1029920/1009857.html": {
+    "title": "廣島市｜原爆時間、受害者與統計限制",
+    "checked": "2026-11-23",
+    "events": [
+      "hiroshima"
+    ]
+  },
+  "https://www.city.hiroshima.lg.jp/faq/hibakushaengo/1001593/1002276.html": {
+    "title": "廣島市｜1945 年底死亡估計及正負一萬人",
+    "checked": "2026-11-23",
+    "events": [
+      "hiroshima"
+    ]
+  },
+  "https://nagasakipeace.jp/en/search/record/": {
+    "title": "長崎市原爆資料館｜原爆投下經過",
+    "checked": "2026-11-23",
+    "events": [
+      "aug09b-nagasaki"
+    ]
+  },
+  "https://nagasakipeace.jp/content/files/souki/leaflet/english.pdf": {
+    "title": "長崎原爆資料館｜英文資料冊及死亡估計來源",
+    "checked": "2026-11-23",
+    "events": [
+      "aug09b-nagasaki"
+    ]
+  },
+  "https://www.ndl.go.jp/constitution/shiryo/01/017shoshi.html": {
+    "title": "日本國立國會圖書館｜1945 年 8 月 14 日終戰詔書",
+    "checked": "2026-11-23",
+    "events": [
+      "japan-offer",
+      "japan-final-decision",
+      "japan-broadcast"
+    ]
+  },
+  "https://www.nam.ac.uk/explore/september-1945": {
+    "title": "英國國家陸軍博物館｜1945 年 9 月各地受降與占領",
+    "checked": "2026-11-23",
+    "events": [
+      "japan-broadcast",
+      "japan-formal-surrender",
+      "vietnam-independence",
+      "singapore-surrender",
+      "hong-kong-surrender"
+    ]
+  },
+  "https://www.wilsoncenter.org/publication/soviet-policy-indonesia-during-the-liberal-democracy-period-1950-1959": {
+    "title": "威爾遜中心｜印尼獨立、承認與去殖民化",
+    "checked": "2026-11-23",
+    "events": [
+      "indonesia-independence"
+    ]
+  },
+  "https://www.archives.gov/milestone-documents/surrender-of-japan": {
+    "title": "美國國家檔案館｜日本投降書原文",
+    "checked": "2026-11-23",
+    "events": [
+      "japan-formal-surrender",
+      "china-surrender"
+    ]
+  },
+  "https://sourcebooks.fordham.edu/mod/1945vietnam.asp": {
+    "title": "福坦莫大學史料庫｜1945 年越南獨立宣言",
+    "checked": "2026-11-23",
+    "events": [
+      "vietnam-independence"
+    ]
+  },
+  "https://art.archives.gov.tw/tw/art/1778-15212.html": {
+    "title": "臺灣檔案管理局｜日本投降文獻與中國戰區命令",
+    "checked": "2026-11-23",
+    "events": [
+      "china-surrender"
+    ]
+  },
+  "https://biblioasia.nlb.gov.sg/all-sections/vol-16-issue-1-apr-jun-2020-witness-to-history/": {
+    "title": "新加坡國家圖書館 BiblioAsia｜1945 年受降見證",
+    "checked": "2026-11-23",
+    "events": [
+      "singapore-surrender"
+    ]
+  }
+}

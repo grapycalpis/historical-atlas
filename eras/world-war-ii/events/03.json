@@ -1,0 +1,431 @@
+[
+  {
+    "id": "prague",
+    "chapter": 3,
+    "date": "1939-03-15",
+    "title": "德軍占領捷克地區，慕尼黑承諾破裂",
+    "place": "布拉格",
+    "point": [
+      14.42,
+      50.08
+    ],
+    "theaters": [
+      "west"
+    ],
+    "actors": [
+      "DE",
+      "CS",
+      "GB",
+      "FR"
+    ],
+    "type": "attack",
+    "summary": "德軍進入布拉格，翌日設波希米亞與摩拉維亞保護國；斯洛伐克則在德國壓力下另立政權。",
+    "background": "本章核心問題：誰選擇開戰，又有哪些人尚無逃生道路？ 蘇臺德割讓已削弱捷國的軍事與經濟防禦。",
+    "trigger": "希特勒逼迫捷國領導人接受軍事進入，並利用內部政治危機。",
+    "motives": "德國要控制中歐資源與戰略位置；英法重新評估讓步能否維持和平。",
+    "impact": "英國對波蘭作出安全保證，歐洲外交更直接轉向威懾。",
+    "debate": "保護國和附庸國不是同一法律形式，也不是當地居民自由選擇的結果。",
+    "primary": "對讀保護國法令、德捷交涉及英國保證聲明。",
+    "counterfactual": "假設捷國未在慕尼黑失去防禦，德方成本或更高；限制是德國仍可能升高威脅。",
+    "causes": [
+      "munich"
+    ],
+    "causalLinks": [
+      {
+        "event": "munich",
+        "kind": "enabling",
+        "explanation": "割讓削弱防禦，促成德國次年的占領。",
+        "sources": [
+          "https://www.bundestag.de/resource/blob/194724/Muenchner_Abkommen.pdf"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "布拉格為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜二戰關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+      ],
+      [
+        "德國聯邦議院研究處｜慕尼黑協定與捷克斯洛伐克解體",
+        "https://www.bundestag.de/resource/blob/194724/Muenchner_Abkommen.pdf"
+      ]
+    ]
+  },
+  {
+    "id": "nomonhan",
+    "chapter": 3,
+    "date": "1939-05-12",
+    "title": "諾門罕衝突：日本北進政策的考驗",
+    "place": "哈拉哈河，諾門罕周邊",
+    "point": [
+      118.6,
+      47.7
+    ],
+    "theaters": [
+      "china",
+      "east"
+    ],
+    "actors": [
+      "JP",
+      "MAN",
+      "SU",
+      "MN"
+    ],
+    "type": "battle",
+    "summary": "邊界爭議引發日滿與蘇蒙軍隊交戰，衝突延至 9 月，日軍在蘇軍反攻中遭重創。",
+    "background": "滿洲國與蒙古的邊界認定不同，蘇聯支持蒙古，日本支持滿洲國。",
+    "trigger": "邊境部隊衝突升級，雙方投入航空、裝甲與更多地面部隊。",
+    "motives": "關東軍要維持威信；蘇軍要保住遠東邊境及蒙古安全。",
+    "impact": "損失提高日本對蘇作戰的疑慮，但南進仍受中國戰爭、資源與歐洲局勢共同影響。",
+    "debate": "日本資料中心採 5 月 12 日；蒙古巡邏等前奏可見 11 日，這裡定位公開年表的武裝衝突。",
+    "primary": "JACAR 同時列軍事資料與新聞管制文件，可比較戰況和公眾所知。",
+    "counterfactual": "假設日軍獲勝可能提高北進吸引力；限制是不能推定其必在 1941 年侵蘇。",
+    "causes": [],
+    "causalLinks": [],
+    "edges": [],
+    "mapNote": "哈拉哈河，諾門罕周邊為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "日本亞洲歷史資料中心｜諾門罕衝突與資訊管制",
+        "https://www.jacar.go.jp/english/exhibition/shuhou-english/timeline/nenpyo19390512.html"
+      ],
+      [
+        "日本外務省｜日蘇中立條約及蘇方文件",
+        "https://www.mofa.go.jp/region/europe/russia/territory/edition92/period3.html"
+      ]
+    ]
+  },
+  {
+    "id": "st-louis",
+    "chapter": 3,
+    "date": "1939-05-13",
+    "title": "聖路易號出航：遭封閉的避難道路",
+    "place": "漢堡",
+    "point": [
+      9.99,
+      53.55
+    ],
+    "theaters": [
+      "west",
+      "home",
+      "atlantic"
+    ],
+    "actors": [
+      "JEW",
+      "CIV",
+      "US",
+      "CU"
+    ],
+    "type": "politics",
+    "summary": "聖路易號載著九百多名多為猶太人的旅客赴古巴；多數遭拒入境，美國也未讓其登岸，6 月被迫返歐。",
+    "background": "納粹迫害迫使家庭尋求海外庇護，各國移民制度卻限制接納。",
+    "trigger": "古巴入境文件失效與政府拒絕接納，使航行變成難民危機。",
+    "motives": "乘客求生；接收國政府受移民限制、國內政治與反猶偏見影響。",
+    "impact": "英法比荷其後接納旅客，但西歐被占領後，部分人再落入納粹控制。",
+    "debate": "不能說船上所有人都遭殺害；館方逐人研究顯示不同命運。",
+    "primary": "閱讀旅客信件、簽證與船舶記錄，注意個別經歷不能直接推成全體統計。",
+    "counterfactual": "假設古巴或美國接納，多人可能免遭後續占領；限制是無法推定所有家庭之後的生活。",
+    "causes": [
+      "november-pogrom"
+    ],
+    "causalLinks": [
+      {
+        "event": "november-pogrom",
+        "kind": "enabling",
+        "explanation": "迫害升高推動更多家庭尋求出境，移民限制使選擇稀少。",
+        "sources": [
+          "https://encyclopedia.ushmm.org/content/en/timeline-event/holocaust/1939-1941/st-louis-voyage"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "漢堡為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜聖路易號啟航與難民遭拒",
+        "https://encyclopedia.ushmm.org/content/en/timeline-event/holocaust/1939-1941/st-louis-voyage"
+      ]
+    ]
+  },
+  {
+    "id": "molotov-ribbentrop",
+    "chapter": 3,
+    "date": "1939-08-23",
+    "title": "德蘇互不侵犯條約與秘密議定書",
+    "place": "莫斯科",
+    "point": [
+      37.62,
+      55.75
+    ],
+    "theaters": [
+      "east",
+      "west"
+    ],
+    "actors": [
+      "DE",
+      "SU",
+      "PL"
+    ],
+    "type": "alliance",
+    "summary": "德蘇簽署互不侵犯條約；秘密議定書劃分東歐勢力範圍，包括波蘭的分割安排。",
+    "background": "英法蘇安全談判未能形成協定，希特勒正準備進攻波蘭。",
+    "trigger": "雙方選擇暫時交易，降低各自短期的戰略風險。",
+    "motives": "德方避免立即兩面作戰；史達林爭取緩衝與領土，同時與德國進行物資交易。",
+    "impact": "條約便利侵波決策，並為蘇聯向東歐擴張提供秘密框架。",
+    "debate": "公開互不侵犯不是共同防禦同盟；秘密安排也不能剝奪被分割國家的主權。",
+    "primary": "對讀公開條約與秘密議定書，兩份文本回答不同問題。",
+    "counterfactual": "假設未達協議，德國面臨較高風險；限制是不能認定侵波計畫必被取消。",
+    "causes": [],
+    "causalLinks": [],
+    "edges": [],
+    "mapNote": "莫斯科為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜二戰關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+      ]
+    ]
+  },
+  {
+    "id": "poland",
+    "chapter": 3,
+    "date": "1939-09-01",
+    "title": "德國進攻波蘭，歐洲戰爭爆發",
+    "place": "格但斯克，西盤半島",
+    "point": [
+      18.67,
+      54.41
+    ],
+    "theaters": [
+      "east",
+      "west"
+    ],
+    "actors": [
+      "DE",
+      "PL"
+    ],
+    "type": "attack",
+    "summary": "德國全面進攻波蘭；教材以此作 1939–1945 主時間軸的開端。",
+    "background": "德國要求領土與通道，波蘭拒絕屈服，英法已作安全承諾。",
+    "trigger": "希特勒下令執行侵略計畫，以邊境假事件等宣傳掩飾。",
+    "motives": "德方追求領土、種族帝國與摧毀波蘭；波蘭保衛國家並等待盟友支援。",
+    "impact": "數日內英法宣戰，平民轟炸、處決與占領統治隨軍事推進展開。",
+    "debate": "亞洲戰爭已進行多年，這一天標的是歐洲戰爭，並非全球共同起點。",
+    "primary": "對讀侵略命令、波方報告與軍民證言；西盤半島點只是多處攻擊之一。",
+    "counterfactual": "假設英法威懾更可信或可改變希特勒計算；限制是其決策有高度冒險性。",
+    "causes": [
+      "molotov-ribbentrop"
+    ],
+    "causalLinks": [
+      {
+        "event": "molotov-ribbentrop",
+        "kind": "enabling",
+        "explanation": "德蘇交易降低德國進攻波蘭時的東方風險，並非單獨決定侵略的原因。",
+        "sources": [
+          "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "格但斯克，西盤半島為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜二戰關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+      ]
+    ],
+    "comparison": "1939.09：中國抗戰已進行；德國侵波後英法等參戰，蘇聯仍與德國簽有互不侵犯安排。日本與美英尚未正式開戰。"
+  },
+  {
+    "id": "allied-declarations",
+    "chapter": 3,
+    "date": "1939-09-03",
+    "title": "英法宣戰，帝國與自治領被捲入",
+    "place": "倫敦",
+    "point": [
+      -0.13,
+      51.51
+    ],
+    "theaters": [
+      "west",
+      "home"
+    ],
+    "actors": [
+      "GB",
+      "FR",
+      "DE",
+      "AU",
+      "NZ",
+      "PL"
+    ],
+    "type": "declare",
+    "summary": "英國與法國對德宣戰；澳洲、紐西蘭等相繼投入，帝國、自治領與殖民地的法律地位並不相同。",
+    "background": "英法的波蘭保證與德軍侵波使安全承諾受到考驗。",
+    "trigger": "德國未依最後要求停止侵略，英法宣布戰爭狀態。",
+    "motives": "英法要阻止德國霸權並維持承諾；各自治領有各自程序與政治選擇。",
+    "impact": "海運、殖民地資源與海外部隊成為全球性戰爭能力的一部分。",
+    "debate": "英國宣戰不代表所有英聯邦國家在同一時刻完成相同法律程序。",
+    "primary": "讀張伯倫廣播、法方宣戰記錄與紐澳政府聲明，注意當地時間。",
+    "counterfactual": "假設英法未宣戰，波蘭仍遭入侵；限制是無法把外交退出當作持久和平。",
+    "causes": [
+      "poland"
+    ],
+    "causalLinks": [
+      {
+        "event": "poland",
+        "kind": "direct",
+        "explanation": "德國侵波且拒絕退兵使英法履行安全承諾。",
+        "sources": [
+          "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "倫敦為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜二戰關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+      ],
+      [
+        "紐西蘭文化與遺產部｜太平洋戰爭年表（須留意日期差異）",
+        "https://nzhistory.govt.nz/war/second-world-war/war-in-the-pacific/timeline"
+      ]
+    ]
+  },
+  {
+    "id": "soviet-poland",
+    "chapter": 3,
+    "date": "1939-09-17",
+    "title": "蘇聯由東方進入波蘭",
+    "place": "布列斯特周邊",
+    "point": [
+      23.69,
+      52.1
+    ],
+    "theaters": [
+      "east"
+    ],
+    "actors": [
+      "SU",
+      "PL",
+      "DE",
+      "CIV"
+    ],
+    "type": "attack",
+    "summary": "蘇軍自東方入侵波蘭，波蘭軍民面臨兩面壓力；德蘇其後調整分割線。",
+    "background": "德軍已深入波蘭，秘密議定書預定東歐勢力範圍。",
+    "trigger": "史達林下令進軍，蘇方宣稱波蘭國家已解體並以保護居民為理由。",
+    "motives": "蘇聯追求領土及緩衝；波蘭政府與軍隊設法延續抵抗和國家代表權。",
+    "impact": "占領後出現逮捕、驅逐與政治鎮壓，波蘭政府轉入流亡。",
+    "debate": "蘇方保護論述不能取代侵略與占領事實；波蘭仍有軍隊抵抗。",
+    "primary": "對讀蘇聯外交照會、波方記錄與秘密議定書，避免把占領宣傳當成中立描述。",
+    "counterfactual": "假設蘇聯不入侵，波蘭或能較久抵抗；限制是西線德軍優勢仍巨大。",
+    "causes": [
+      "molotov-ribbentrop"
+    ],
+    "causalLinks": [
+      {
+        "event": "molotov-ribbentrop",
+        "kind": "enabling",
+        "explanation": "秘密勢力範圍為蘇聯入侵和後續分割提供框架。",
+        "sources": [
+          "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "布列斯特周邊為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜二戰關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+      ]
+    ]
+  },
+  {
+    "id": "winter-war",
+    "chapter": 3,
+    "date": "1939-11-30",
+    "title": "蘇聯進攻芬蘭，冬季戰爭開始",
+    "place": "卡累利阿地峽",
+    "point": [
+      29.7,
+      60.5
+    ],
+    "theaters": [
+      "north",
+      "east"
+    ],
+    "actors": [
+      "SU",
+      "FI",
+      "CIV"
+    ],
+    "type": "attack",
+    "summary": "蘇軍進攻芬蘭，戰爭持續至 1940 年 3 月，芬蘭割讓領土但維持獨立。",
+    "background": "蘇聯以列寧格勒安全要求邊界與基地調整，芬蘭拒絕部分條件。",
+    "trigger": "談判破裂後，蘇方以邊境砲擊指控為藉口開戰。",
+    "motives": "蘇聯追求安全縱深與政治控制；芬蘭保衛主權。",
+    "impact": "國聯驅逐蘇聯，芬蘭抗戰影響各國對蘇軍的評估與後續結盟。",
+    "debate": "抵抗成功不表示沒有重大領土損失；1941 年芬蘭與德合作有自身目標。",
+    "primary": "對讀蘇芬外交文件和 1940 年莫斯科和約；和約簽署與停火生效分開。",
+    "counterfactual": "假設邊界妥協達成可能避免眼前戰事；限制是無法確證蘇方會滿足於原要求。",
+    "causes": [],
+    "causalLinks": [],
+    "edges": [],
+    "mapNote": "卡累利阿地峽為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜二戰關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+      ],
+      [
+        "聯合國日內瓦檔案｜國際聯盟年表",
+        "https://www.ungeneva.org/sites/default/files/2022-01/sdn_chronology_0.pdf"
+      ]
+    ]
+  },
+  {
+    "id": "river-plate",
+    "chapter": 3,
+    "date": "1939-12-13",
+    "title": "拉普拉塔河口海戰：南大西洋也是戰場",
+    "place": "烏拉圭外海",
+    "point": [
+      -49.9,
+      -34.6
+    ],
+    "theaters": [
+      "atlantic",
+      "home"
+    ],
+    "actors": [
+      "DE",
+      "GB",
+      "NZ",
+      "UY"
+    ],
+    "type": "battle",
+    "summary": "英國及紐西蘭人員服役的巡洋艦與德國施佩伯爵號在南大西洋交戰；德艦入蒙特維多後於 17 日自沉。",
+    "background": "德國水面襲擊艦威脅商船，盟軍必須保護全球航運。",
+    "trigger": "英方巡邏隊找到德艦並交火。",
+    "motives": "德艦要破壞貿易；盟軍要恢復航運安全，烏拉圭則維持中立規則。",
+    "impact": "戰事把海運、情報、外交與中立港口問題結合。",
+    "debate": "13 日海戰與 17 日自沉是不同事件，不把海戰結果描述為當場擊沉。",
+    "primary": "紐西蘭館方提供交戰敘事和位置圖，對照 14 日 BBC 報導的當時資訊。",
+    "counterfactual": "假設德艦離港突圍，結果可能不同；限制是艦況、情報與英軍部署都不確定。",
+    "causes": [],
+    "causalLinks": [],
+    "edges": [],
+    "mapNote": "點位在烏拉圭以東的大西洋，代表交戰海域近似中心，約數十至百公里精度；不是河口城市、停泊點或沉船座標。",
+    "sources": [
+      [
+        "紐西蘭文化與遺產部｜拉普拉塔河口海戰",
+        "https://nzhistory.govt.nz/page/battle-river-plate"
+      ]
+    ]
+  }
+]

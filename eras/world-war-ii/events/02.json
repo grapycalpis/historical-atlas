@@ -1,0 +1,503 @@
+[
+  {
+    "id": "marco-polo",
+    "chapter": 2,
+    "date": "1937-07-07",
+    "title": "七七事變與中國全面抗戰",
+    "place": "北平，盧溝橋",
+    "point": [
+      116.22,
+      39.85
+    ],
+    "theaters": [
+      "china"
+    ],
+    "actors": [
+      "JP",
+      "CN",
+      "CCP"
+    ],
+    "type": "attack",
+    "summary": "盧溝橋附近中日軍隊衝突，局部交涉未能阻止增兵，戰爭逐漸全面化。",
+    "background": "本章核心問題：城市、平民與國際外交如何同時被戰爭改變？ 華北的日本駐軍、政治滲透與中國主權衝突已累積多年。",
+    "trigger": "夜間演習後的失蹤士兵與搜查要求引發交火及升級。",
+    "motives": "日軍追求華北控制；中國政府逐步決定持久抵抗，國共也尋求抗日合作。",
+    "impact": "戰爭耗用日本大量兵力，影響中國遷移、國際援助及日美關係。",
+    "debate": "起始日期採當地 7 日；全面戰爭是數週決策累積，並非一聲槍響即自動形成。",
+    "primary": "對讀現地交涉與政府聲明；美國外交史頁說明援華政策如何改變。",
+    "counterfactual": "假設停戰協議獲履行，升級或可延緩；限制是華北主權衝突仍未解決。",
+    "causes": [
+      "mukden"
+    ],
+    "causalLinks": [
+      {
+        "event": "mukden",
+        "kind": "context",
+        "explanation": "東北占領及華北擴張是衝突的共同背景，不是單一直接命令。",
+        "sources": [
+          "https://history.state.gov/milestones/1937-1945/pearl-harbor"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "北平，盧溝橋為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國務院史家辦公室｜中國、日本與通向珍珠港之路",
+        "https://history.state.gov/milestones/1937-1945/pearl-harbor"
+      ]
+    ]
+  },
+  {
+    "id": "shanghai",
+    "chapter": 2,
+    "date": "1937-08-13",
+    "title": "淞滬會戰與都市戰爭",
+    "place": "上海",
+    "point": [
+      121.48,
+      31.23
+    ],
+    "theaters": [
+      "china"
+    ],
+    "actors": [
+      "JP",
+      "CN",
+      "CIV"
+    ],
+    "type": "battle",
+    "summary": "上海戰事擴大為大型會戰，主要戰鬥持續至 11 月，中國軍隊撤退，日軍續向南京推進。",
+    "background": "上海是工業、航運與外國租界交會的城市，平民密集。",
+    "trigger": "地方衝突、增兵與國民政府投入主力，使戰事擴大。",
+    "motives": "中方盼抵抗並爭取外國注意；日方增援以控制上海與長江通道。",
+    "impact": "傷亡、轟炸與難民潮顯示現代戰爭對城市社會的破壞。",
+    "debate": "中國軍隊抵抗延緩日軍，但不以「三個月」口號代替日方實際計畫查核。",
+    "primary": "檔案管理局提供作戰與行政檔案，與倖存者記憶對讀。",
+    "counterfactual": "假設中國避免上海決戰或可保存兵力；限制是日軍仍能選擇沿海登陸。",
+    "causes": [
+      "marco-polo"
+    ],
+    "causalLinks": [
+      {
+        "event": "marco-polo",
+        "kind": "enabling",
+        "explanation": "華北戰爭全面化促成雙方在上海投入主力。",
+        "sources": [
+          "https://history.state.gov/milestones/1937-1945/pearl-harbor"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "上海為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "國家發展委員會檔案管理局｜淞滬會戰",
+        "https://art.archives.gov.tw/tw/art/1623.html"
+      ],
+      [
+        "美國國務院史家辦公室｜中國、日本與通向珍珠港之路",
+        "https://history.state.gov/milestones/1937-1945/pearl-harbor"
+      ]
+    ]
+  },
+  {
+    "id": "united-front",
+    "chapter": 2,
+    "date": "1937-09-22",
+    "title": "國共合作宣言公布，統一戰線仍有裂縫",
+    "place": "南京",
+    "point": [
+      118.8,
+      32.06
+    ],
+    "theaters": [
+      "china"
+    ],
+    "actors": [
+      "CN",
+      "CCP",
+      "JP"
+    ],
+    "type": "politics",
+    "summary": "國民黨通訊機構公布中共合作宣言，翌日蔣中正談話回應；紅軍改編後仍保有自身組織。",
+    "background": "西安事變後協商已進行，全面抗戰提高合作需要。",
+    "trigger": "戰爭危機使公開承認合作成為政治選項。",
+    "motives": "國民政府要整合抗戰；中共要擴大合法活動與敵後組織空間。",
+    "impact": "正面戰場、敵後游擊與民眾動員並存，也持續有摩擦。",
+    "debate": "9 月公開宣言不是全部軍隊改編的單一起日，也不代表國共互信。",
+    "primary": "比較雙方公開宣言和實際軍隊指揮記錄，黨史材料各有選擇。",
+    "counterfactual": "假設合作更穩固或可減少內耗；限制是雙方對戰後政權的目標仍不同。",
+    "causes": [
+      "marco-polo"
+    ],
+    "causalLinks": [
+      {
+        "event": "marco-polo",
+        "kind": "enabling",
+        "explanation": "全面抗日戰爭提高國共公開合作的必要性。",
+        "sources": [
+          "https://history.state.gov/milestones/1937-1945/pearl-harbor"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "南京為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國務院史家辦公室｜中國、日本與通向珍珠港之路",
+        "https://history.state.gov/milestones/1937-1945/pearl-harbor"
+      ],
+      [
+        "國家發展委員會檔案管理局｜淞滬會戰",
+        "https://art.archives.gov.tw/tw/art/1623.html"
+      ],
+      [
+        "臺灣檔案管理局｜國共合作檔案",
+        "https://art.archives.gov.tw/tw/art/1949.html"
+      ]
+    ]
+  },
+  {
+    "id": "nanjing",
+    "chapter": 2,
+    "date": "1937-12-13",
+    "title": "南京陷落與大屠殺",
+    "place": "南京",
+    "point": [
+      118.78,
+      32.05
+    ],
+    "theaters": [
+      "china"
+    ],
+    "actors": [
+      "JP",
+      "CN",
+      "CIV"
+    ],
+    "type": "attack",
+    "summary": "日軍攻入南京後，對平民與被解除武裝者施行大規模殺戮、性暴力和搶掠；暴行延續數週以上。",
+    "background": "上海敗退後中國軍隊防守南京，政府機關已向內地遷移。",
+    "trigger": "城市防線崩潰、俘虜處置與日軍占領暴力相互結合。",
+    "motives": "日軍追擊並控制首都；平民與安全區工作者尋求庇護和救援。",
+    "impact": "倖存者留下長期創傷，難民救援與戰後追責形成重要史料。",
+    "debate": "死亡估計受地域、期間及被殺身分界定影響；本筆不把單一總數當作無誤普查，也不以估計差異否認暴行。",
+    "primary": "耶魯典藏魏特琳日記、貝德士及史邁士信函；與日軍資料及戰後證詞交叉閱讀。",
+    "counterfactual": "假設更有效保護俘虜與平民或能減少殺害；限制是不能假定撤守本身足以制止占領暴力。",
+    "causes": [
+      "shanghai"
+    ],
+    "causalLinks": [
+      {
+        "event": "shanghai",
+        "kind": "enabling",
+        "explanation": "上海後的軍事推進使南京暴露於日軍進攻；軍事勝利並不免除暴行責任。",
+        "sources": [
+          "https://www.sciencespo.fr/mass-violence-war-massacre-resistance/en/document/japanese-mass-violence-and-its-victims-fifteen-years-war-1931-45.html"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "南京為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "耶魯神學圖書館｜南京大屠殺原始文件索引",
+        "https://adhoc.yalepages.org/Collections/Nanking/findingaid.html"
+      ],
+      [
+        "巴黎政治學院｜日本戰爭暴力與受害者研究",
+        "https://www.sciencespo.fr/mass-violence-war-massacre-resistance/en/document/japanese-mass-violence-and-its-victims-fifteen-years-war-1931-45.html"
+      ]
+    ]
+  },
+  {
+    "id": "sexual-slavery",
+    "chapter": 2,
+    "date": "1938-03-04",
+    "title": "陸軍徵集文件揭露性奴役制度的軍方介入",
+    "place": "東京",
+    "point": [
+      139.75,
+      35.68
+    ],
+    "theaters": [
+      "china",
+      "home"
+    ],
+    "actors": [
+      "JP",
+      "CIV"
+    ],
+    "type": "politics",
+    "summary": "日本陸軍省關於軍隊「慰安所」女性徵集的通牒，顯示軍方知悉徵集問題並參與管理。",
+    "background": "軍用性剝削設施已存在，對中國戰爭擴大後規模上升。",
+    "trigger": "軍方收到徵集者以軍方名義行事、近似誘拐等情況的報告。",
+    "motives": "軍方追求控制士兵與設施；女性的招募、移送與拘束常涉及欺騙和強迫。",
+    "impact": "性奴役制度隨占領擴及亞洲多地，韓國、中國與其他地區女性受害。",
+    "debate": "此日是文件日期，並非制度創始日；「慰安婦」是歷史委婉語，需說明其強制與暴力。",
+    "primary": "UCLA JS-13〈軍慰安所從業婦等募集〉等影像與譯文，須連同其他軍政資料及倖存者證言閱讀。",
+    "counterfactual": "假設軍方禁止並實際取締強迫徵集，部分受害可避免；限制是命令文本不能證明現地執行。",
+    "causes": [],
+    "causalLinks": [],
+    "edges": [],
+    "mapNote": "東京為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "加州大學洛杉磯分校｜日軍性奴役制度軍方文件",
+        "https://international.ucla.edu/cks/care/japanesedocs"
+      ],
+      [
+        "巴黎政治學院｜日本戰爭暴力與受害者研究",
+        "https://www.sciencespo.fr/mass-violence-war-massacre-resistance/en/document/japanese-mass-violence-and-its-victims-fifteen-years-war-1931-45.html"
+      ]
+    ]
+  },
+  {
+    "id": "anschluss",
+    "chapter": 2,
+    "date": "1938-03-12",
+    "title": "德軍進入奧地利，翌日宣布合併",
+    "place": "維也納",
+    "point": [
+      16.37,
+      48.21
+    ],
+    "theaters": [
+      "west"
+    ],
+    "actors": [
+      "DE",
+      "AT",
+      "CIV"
+    ],
+    "type": "territory",
+    "summary": "德軍進入奧地利，3 月 13 日頒布合併法律；反對者遭鎮壓，猶太人遭公開羞辱與剝奪。",
+    "background": "納粹向奧地利政府施壓，阻止其自行決定政治前途。",
+    "trigger": "德方最後通牒與政府崩潰為軍隊進入開路。",
+    "motives": "希特勒追求大德意志；奧地利納粹爭取權力，其他居民的反應並不一致。",
+    "impact": "奧地利被納入納粹國家與迫害機器，中歐力量平衡改變。",
+    "debate": "4 月公投在占領、排除與脅迫中進行，不能當成自由授權的證據。",
+    "primary": "對讀 3 月 13 日法律、影像與迫害者及受害者記錄。",
+    "counterfactual": "假設奧地利政府獲實質外援，合併或可阻擋；限制是外國當時並未承諾出兵。",
+    "causes": [],
+    "causalLinks": [],
+    "edges": [],
+    "mapNote": "維也納為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜二戰關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+      ],
+      [
+        "美國大屠殺紀念館｜1938 年十一月反猶暴行",
+        "https://encyclopedia.ushmm.org/content/en/article/kristallnacht"
+      ]
+    ]
+  },
+  {
+    "id": "munich",
+    "chapter": 2,
+    "date": "1938-09-30",
+    "title": "慕尼黑協定：以割讓換取暫時和平",
+    "place": "慕尼黑",
+    "point": [
+      11.58,
+      48.14
+    ],
+    "theaters": [
+      "west"
+    ],
+    "actors": [
+      "DE",
+      "IT",
+      "GB",
+      "FR",
+      "CS"
+    ],
+    "type": "peace",
+    "summary": "英法德義在 29 日會議後跨夜簽署協定，迫使捷克斯洛伐克割讓蘇臺德地區。",
+    "background": "德國以當地德語居民問題施壓，捷國防禦與同盟保障受到考驗。",
+    "trigger": "希特勒威脅動武，英法選擇以領土讓步避免眼前戰爭。",
+    "motives": "英法希望爭取和平及整軍時間；德國追求擴張；捷國未獲平等談判地位。",
+    "impact": "捷國失去要塞與工業區，德國在 1939 年繼續摧毀其獨立。",
+    "debate": "文本常標 9 月 29 日；依聯邦議院跨夜說明，本筆以 30 日簽署定位。",
+    "primary": "閱讀協定正文、撤離時程與捷方反應，勿只看張伯倫的返國演說。",
+    "counterfactual": "假設拒絕協定可能引發較早戰爭；限制是無法據此斷定傷亡必定較低。",
+    "causes": [
+      "anschluss"
+    ],
+    "causalLinks": [
+      {
+        "event": "anschluss",
+        "kind": "context",
+        "explanation": "奧地利被併入使中歐危機升高，與蘇臺德要求同屬德國擴張背景。",
+        "sources": [
+          "https://www.bundestag.de/resource/blob/194724/Muenchner_Abkommen.pdf"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "慕尼黑為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "德國聯邦議院研究處｜慕尼黑協定與捷克斯洛伐克解體",
+        "https://www.bundestag.de/resource/blob/194724/Muenchner_Abkommen.pdf"
+      ],
+      [
+        "美國大屠殺紀念館｜二戰關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+      ]
+    ]
+  },
+  {
+    "id": "guangzhou",
+    "chapter": 2,
+    "date": "1938-10-21",
+    "title": "廣州失陷，華南補給承壓",
+    "place": "廣州",
+    "point": [
+      113.27,
+      23.13
+    ],
+    "theaters": [
+      "china",
+      "southeast"
+    ],
+    "actors": [
+      "JP",
+      "CN",
+      "CIV"
+    ],
+    "type": "battle",
+    "summary": "日軍自大亞灣登陸後攻占廣州，使華南對外交通與軍需輸入受到更大壓力。",
+    "background": "中國沿海重要城市接連遭攻擊，內地仍需仰賴外來物資。",
+    "trigger": "日方在 10 月發動廣東作戰，守軍撤離廣州。",
+    "motives": "日本要切斷補給；中國轉用更迂迴的內地與邊境交通。",
+    "impact": "香港、廣西與西南通路的作用上升，占領與游擊活動擴展。",
+    "debate": "城市失陷不等於全廣東受有效控制；黨史年表需與外部軍史對讀。",
+    "primary": "中共 1938 年大事記記載 21 日；讀交通與地方抵抗檔案補足政黨敘述。",
+    "counterfactual": "假設港口保持開放，補給可能較容易；限制是海空封鎖仍會限制運量。",
+    "causes": [],
+    "causalLinks": [],
+    "edges": [],
+    "mapNote": "廣州為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "中國共產黨黨史資料｜1938 年大事記（政黨編纂）",
+        "https://cpc.people.com.cn/BIG5/64162/64164/4415987.html"
+      ],
+      [
+        "美國國務院史家辦公室｜中國、日本與通向珍珠港之路",
+        "https://history.state.gov/milestones/1937-1945/pearl-harbor"
+      ]
+    ]
+  },
+  {
+    "id": "wuhan",
+    "chapter": 2,
+    "date": "1938-10-27",
+    "title": "武漢三鎮被占領，戰爭轉向長期消耗",
+    "place": "武漢",
+    "point": [
+      114.3,
+      30.59
+    ],
+    "theaters": [
+      "china"
+    ],
+    "actors": [
+      "JP",
+      "CN",
+      "CCP",
+      "CIV"
+    ],
+    "type": "battle",
+    "summary": "日軍至 27 日控制武漢三鎮；中國主力與政治中心向內地轉移，戰爭未因此結束。",
+    "background": "1938 年夏秋的武漢會戰涉及長江與大別山廣大地區。",
+    "trigger": "日軍多路推進，中國軍隊為保存力量撤離。",
+    "motives": "日方希望以重要城市陷落迫使屈服；中方轉向持久作戰。",
+    "impact": "內地工廠、學校與難民遷移持續；滇緬與其他國際補給線更加重要。",
+    "debate": "中國年表常以 25 日概括武漢失陷，日本檔案解說列 27 日三鎮全被占領，本筆標的是後者。",
+    "primary": "對讀 JACAR 27 日說明與中國 25 日年表，區分漢口與三鎮控制。",
+    "counterfactual": "假設武漢守住更久，可能延緩推進；限制是保城與保存主力之間有代價。",
+    "causes": [
+      "shanghai"
+    ],
+    "causalLinks": [
+      {
+        "event": "shanghai",
+        "kind": "context",
+        "explanation": "沿江進攻與中國持久抵抗構成武漢會戰的軍事背景。",
+        "sources": [
+          "https://history.state.gov/milestones/1937-1945/pearl-harbor"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "武漢為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "日本亞洲歷史資料中心｜1938 年 10 月 27 日武漢三鎮占領",
+        "https://www.jacar.go.jp/exhibition/shuhou/nenpyo/nenpyo19381027.html"
+      ],
+      [
+        "中國共產黨黨史資料｜1938 年大事記（政黨編纂）",
+        "https://cpc.people.com.cn/BIG5/64162/64164/4415987.html"
+      ],
+      [
+        "美國國務院史家辦公室｜中國、日本與通向珍珠港之路",
+        "https://history.state.gov/milestones/1937-1945/pearl-harbor"
+      ]
+    ]
+  },
+  {
+    "id": "november-pogrom",
+    "chapter": 2,
+    "date": "1938-11-09",
+    "title": "十一月反猶暴行與難民困境",
+    "place": "柏林及德國、奧地利多地",
+    "point": [
+      13.4,
+      52.52
+    ],
+    "theaters": [
+      "west"
+    ],
+    "actors": [
+      "DE",
+      "JEW",
+      "CIV"
+    ],
+    "type": "attack",
+    "summary": "9 至 10 日納粹策動反猶暴行，焚毀會堂、破壞商店並大批逮捕猶太男性。",
+    "background": "歧視法律、財產剝奪與被迫移民已逐步升級。",
+    "trigger": "政權利用德國外交官遭刺殺死亡作為發動暴行的藉口。",
+    "motives": "納粹要加速排除猶太人；受害家庭尋求離境，但簽證與財產障礙巨大。",
+    "impact": "國家迫害公開激化，難民接納政策成為國際社會的考驗。",
+    "debate": "「水晶之夜」容易淡化殺害與拘禁；教材用反猶暴行描述實質。",
+    "primary": "讀警方指令、受害者證言與財產處分，分辨官方策動和地方參與。",
+    "counterfactual": "假設各國擴大接納，更多人可能逃離；限制是出境限制與家庭選擇仍影響生存。",
+    "causes": [
+      "nuremberg-laws"
+    ],
+    "causalLinks": [
+      {
+        "event": "nuremberg-laws",
+        "kind": "enabling",
+        "explanation": "制度化排斥便利後續暴力與財產剝奪。",
+        "sources": [
+          "https://encyclopedia.ushmm.org/content/en/article/kristallnacht"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "柏林及德國、奧地利多地為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜1938 年十一月反猶暴行",
+        "https://encyclopedia.ushmm.org/content/en/article/kristallnacht"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,471 @@
+[
+  {
+    "id": "mukden",
+    "chapter": 1,
+    "date": "1931-09-18",
+    "title": "九一八事變與東北侵略",
+    "place": "瀋陽，柳條湖",
+    "point": [
+      123.42,
+      41.84
+    ],
+    "theaters": [
+      "china"
+    ],
+    "actors": [
+      "JP",
+      "CN"
+    ],
+    "type": "attack",
+    "summary": "日本關東軍以自行製造的鐵路爆炸為藉口攻擊中國駐軍，進而占領東北。",
+    "background": "本章核心問題：為什麼多邊制度未能制止區域侵略？ 日本在南滿鐵路沿線已有駐軍與經濟利益，中國中央與東北地方的權力並不一致。",
+    "trigger": "關東軍軍官策動爆炸，將責任歸給中國軍隊。",
+    "motives": "關東軍要擴大控制；中國政府向國際聯盟申訴，並面對內戰與軍事劣勢。",
+    "impact": "局部軍事行動發展成長期占領，暴露條約體系執行力的不足。",
+    "debate": "1931 年可作亞洲長期戰爭的起點，但不是所有地區同步開戰的日期。",
+    "primary": "對讀當時外交電報與事後軍方調查；外交報告反映接報時的有限資訊。",
+    "counterfactual": "假設國際制裁及早加重，侵略成本可能提高；限制是列強利益分歧，無法保證撤軍。",
+    "causes": [],
+    "causalLinks": [],
+    "edges": [],
+    "mapNote": "瀋陽，柳條湖為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國務院史家辦公室｜九一八與不承認政策",
+        "https://history.state.gov/milestones/1921-1936/mukden-incident"
+      ]
+    ]
+  },
+  {
+    "id": "stimson",
+    "chapter": 1,
+    "date": "1932-01-07",
+    "title": "不承認政策與集體安全的限度",
+    "place": "華盛頓",
+    "point": [
+      -77.04,
+      38.9
+    ],
+    "theaters": [
+      "home",
+      "china"
+    ],
+    "actors": [
+      "US",
+      "CN",
+      "JP",
+      "LEAGUE"
+    ],
+    "type": "politics",
+    "summary": "美國宣布不承認武力造成、違反既有條約的中國領土與行政變動。",
+    "background": "華府重視在華商業與條約秩序，但不願以戰爭迫使日本撤退。",
+    "trigger": "東北占領持續，既有外交調停未阻止軍事擴張。",
+    "motives": "史汀生要保留法律立場；胡佛政府排斥強硬經濟制裁。",
+    "impact": "不承認與國聯調查留下國際記錄，卻未立即改變占領事實。",
+    "debate": "法律不承認、經濟制裁與軍事干預是不同措施，不能混稱為已制止侵略。",
+    "primary": "讀史汀生照會的適用條約與措辭；本頁為外交史整理。",
+    "counterfactual": "假設政策附帶廣泛制裁，可能改變計算；限制是美國沒有主導國聯的權限。",
+    "causes": [
+      "mukden"
+    ],
+    "causalLinks": [
+      {
+        "event": "mukden",
+        "kind": "direct",
+        "explanation": "東北侵略與調停失敗促成不承認照會。",
+        "sources": [
+          "https://history.state.gov/milestones/1921-1936/mukden-incident"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "華盛頓為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國務院史家辦公室｜九一八與不承認政策",
+        "https://history.state.gov/milestones/1921-1936/mukden-incident"
+      ]
+    ]
+  },
+  {
+    "id": "manchukuo",
+    "chapter": 1,
+    "date": "1932-03-01",
+    "title": "滿洲國成立：附庸政權與主權問題",
+    "place": "長春",
+    "point": [
+      125.32,
+      43.9
+    ],
+    "theaters": [
+      "china"
+    ],
+    "actors": [
+      "JP",
+      "CN",
+      "MAN"
+    ],
+    "type": "territory",
+    "summary": "日本控制下的滿洲國宣布成立，溥儀其後任執政，1934 年再稱帝。",
+    "background": "關東軍已控制東北主要城市與交通線。",
+    "trigger": "日本軍方要把軍事占領轉化為可運作的政治與經濟機構。",
+    "motives": "日方以「獨立」包裝控制；中國與多數國家拒絕接受其合法性。",
+    "impact": "附庸行政、移民與資源開發逐漸擴張，中國主權爭議持續。",
+    "debate": "政權宣布成立不等於獲普遍承認，也不等於日本直接吞併全部東北。",
+    "primary": "對讀國聯李頓報告與滿洲國建國宣言；報告區分地方訴求與日本軍事介入。",
+    "counterfactual": "假設沒有附庸政府，占領仍可能持續；限制是行政形式不決定軍事控制是否存在。",
+    "causes": [
+      "mukden"
+    ],
+    "causalLinks": [
+      {
+        "event": "mukden",
+        "kind": "enabling",
+        "explanation": "東北軍事占領提供成立附庸政權的條件。",
+        "sources": [
+          "https://history.state.gov/milestones/1921-1936/mukden-incident"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "長春為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國務院史家辦公室｜九一八與不承認政策",
+        "https://history.state.gov/milestones/1921-1936/mukden-incident"
+      ],
+      [
+        "聯合國日內瓦檔案｜國際聯盟年表",
+        "https://www.ungeneva.org/sites/default/files/2022-01/sdn_chronology_0.pdf"
+      ],
+      [
+        "日本亞洲歷史資料中心｜滿洲國及對外關係檔案解說",
+        "https://www.jacar.go.jp/english/newsletter/newsletter_029e/newsletter_029e.html"
+      ]
+    ]
+  },
+  {
+    "id": "hitler",
+    "chapter": 1,
+    "date": "1933-01-30",
+    "title": "希特勒獲任總理，獨裁尚在形成",
+    "place": "柏林",
+    "point": [
+      13.4,
+      52.52
+    ],
+    "theaters": [
+      "west"
+    ],
+    "actors": [
+      "DE",
+      "CIV"
+    ],
+    "type": "politics",
+    "summary": "興登堡任命希特勒為德國總理；納粹其後以緊急法令、鎮壓與立法摧毀民主制度。",
+    "background": "經濟危機與政治僵局擴大激進派支持，保守菁英以為能約束納粹。",
+    "trigger": "總統與保守派協商形成聯合內閣。",
+    "motives": "希特勒追求獨裁及種族帝國；盟友想排除左派並恢復權威。",
+    "impact": "政治對手、猶太人與其他群體的權利遭持續剝奪；重整軍備加速。",
+    "debate": "任命總理並非納粹在自由選舉中取得多數；3 月授權法是後續步驟。",
+    "primary": "讀任命、國會縱火法令與授權法，分辨法令形式和暴力脅迫。",
+    "counterfactual": "假設保守派拒絕任命，權力路徑可能改變；限制是威權危機仍然存在。",
+    "causes": [],
+    "causalLinks": [],
+    "edges": [],
+    "mapNote": "柏林為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜1933 年關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/1933-key-dates"
+      ]
+    ]
+  },
+  {
+    "id": "japan-league",
+    "chapter": 1,
+    "date": "1933-03-27",
+    "title": "日本提出退出國際聯盟通知",
+    "place": "東京",
+    "point": [
+      139.75,
+      35.68
+    ],
+    "theaters": [
+      "china",
+      "home"
+    ],
+    "actors": [
+      "JP",
+      "LEAGUE",
+      "CN"
+    ],
+    "type": "politics",
+    "summary": "日本正式通知退出國聯；通知與條約規定的兩年後生效須分開理解。",
+    "background": "國聯調查未接受日本關於滿洲國自發獨立的主張。",
+    "trigger": "國聯大會採納有關東北問題的報告，日本拒絕其結論。",
+    "motives": "日本政府維護占領成果；國聯試圖維持領土完整原則。",
+    "impact": "退出削弱多邊調停，也顯示國聯缺乏迫使大國服從的能力。",
+    "debate": "代表團 2 月離場、3 月通知與 1935 年退出生效不是同日。",
+    "primary": "聯合國日內瓦檔案年表列出 3 月 27 日通知；對讀國聯盟約退出條款。",
+    "counterfactual": "假設日本留在國聯可能保留溝通；限制是會員資格本身不能強迫撤軍。",
+    "causes": [
+      "manchukuo"
+    ],
+    "causalLinks": [
+      {
+        "event": "manchukuo",
+        "kind": "direct",
+        "explanation": "對滿洲國合法性的衝突，使日本拒絕國聯處理結果。",
+        "sources": [
+          "https://history.state.gov/milestones/1921-1936/mukden-incident"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "東京為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "聯合國日內瓦檔案｜國際聯盟年表",
+        "https://www.ungeneva.org/sites/default/files/2022-01/sdn_chronology_0.pdf"
+      ],
+      [
+        "美國國務院史家辦公室｜九一八與不承認政策",
+        "https://history.state.gov/milestones/1921-1936/mukden-incident"
+      ]
+    ]
+  },
+  {
+    "id": "rearmament",
+    "chapter": 1,
+    "date": "1935-03-16",
+    "title": "德國公開恢復徵兵與擴軍",
+    "place": "柏林",
+    "point": [
+      13.4,
+      52.52
+    ],
+    "theaters": [
+      "west"
+    ],
+    "actors": [
+      "DE",
+      "GB",
+      "FR"
+    ],
+    "type": "mobilize",
+    "summary": "德國恢復普遍兵役制，公開突破凡爾賽條約軍備限制。",
+    "background": "威瑪時代已有秘密軍事合作；納粹上臺後擴軍成為政策核心。",
+    "trigger": "政府在公開承認空軍後，進一步宣布徵兵與陸軍擴編。",
+    "motives": "希特勒要提高戰爭能力；英法在安全、外交與財政間權衡。",
+    "impact": "軍事實力成為改變歐洲秩序的手段，卻仍需工業、訓練及資源支撐。",
+    "debate": "不能將全部重整軍備歸於這一天；本筆標記公開政策轉折。",
+    "primary": "LeMO 引述軍隊建設法，並交代 1936 年役期延長。",
+    "counterfactual": "假設列強強力限制擴軍，速度可能下降；限制是執行需要持續協調。",
+    "causes": [
+      "hitler"
+    ],
+    "causalLinks": [
+      {
+        "event": "hitler",
+        "kind": "enabling",
+        "explanation": "納粹掌權後將擴軍納入國家核心政策。",
+        "sources": [
+          "https://www.dhm.de/lemo/kapitel/ns-regime/aussenpolitik/wehrpflicht-1935"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "柏林為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "德國歷史博物館 LeMO｜1935 年恢復徵兵",
+        "https://www.dhm.de/lemo/kapitel/ns-regime/aussenpolitik/wehrpflicht-1935"
+      ]
+    ]
+  },
+  {
+    "id": "nuremberg-laws",
+    "chapter": 1,
+    "date": "1935-09-15",
+    "title": "紐倫堡法將反猶歧視制度化",
+    "place": "紐倫堡",
+    "point": [
+      11.08,
+      49.45
+    ],
+    "theaters": [
+      "west"
+    ],
+    "actors": [
+      "DE",
+      "JEW",
+      "CIV"
+    ],
+    "type": "politics",
+    "summary": "納粹公布種族法，剝奪猶太人的完整公民身分並限制婚姻與性關係。",
+    "background": "1933 年以來，排斥就業與公共生活的措施已不斷累積。",
+    "trigger": "納粹領導人在黨代會期間把種族分類寫入國家法律。",
+    "motives": "政權追求以血統定義「民族共同體」；受迫害者努力保住家庭與生計。",
+    "impact": "法律分類使行政歧視擴展，成為後來驅逐與剝奪財產的工具。",
+    "debate": "猶太身分由納粹強加的血統規則界定，不能當作客觀生物分類。",
+    "primary": "閱讀帝國公民法與保護德國血統及榮譽法的條文和施行細則。",
+    "counterfactual": "假設沒有這組法律，迫害仍可能發展；限制是政黨暴力與其他行政措施已存在。",
+    "causes": [
+      "hitler"
+    ],
+    "causalLinks": [
+      {
+        "event": "hitler",
+        "kind": "enabling",
+        "explanation": "獨裁制度讓納粹可把種族意識形態化為法律。",
+        "sources": [
+          "https://encyclopedia.ushmm.org/content/en/article/nuremberg-laws"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "紐倫堡為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜紐倫堡法",
+        "https://encyclopedia.ushmm.org/content/en/article/nuremberg-laws"
+      ]
+    ]
+  },
+  {
+    "id": "ethiopia",
+    "chapter": 1,
+    "date": "1935-10-03",
+    "title": "義大利侵略衣索比亞",
+    "place": "阿杜瓦周邊",
+    "point": [
+      38.9,
+      14.17
+    ],
+    "theaters": [
+      "africa"
+    ],
+    "actors": [
+      "IT",
+      "ET",
+      "LEAGUE"
+    ],
+    "type": "attack",
+    "summary": "義軍由厄利垂亞等殖民地進攻衣索比亞；戰爭延續至 1936 年，占領與抵抗更久。",
+    "background": "衣索比亞是國聯會員，也是少數維持獨立的非洲國家。",
+    "trigger": "墨索里尼政府在長期集結後命令進攻，並以邊界衝突宣傳合理化。",
+    "motives": "義大利追求帝國威望；衣索比亞抵抗並向國聯求援。",
+    "impact": "有限制裁未阻止征服，化學武器與占領暴力重創平民。",
+    "debate": "部分二戰總年表寫 10 月 2 日；本筆依 10 月 4 日外交電報所記前日進攻公告採 3 日。",
+    "primary": "FRUS 駐義大使電報援引義方公報；公報是侵略方的公開說法。",
+    "counterfactual": "假設石油制裁更全面，義軍補給可能受限；限制是英法仍有避免戰爭的政策考量。",
+    "causes": [],
+    "causalLinks": [],
+    "edges": [],
+    "mapNote": "阿杜瓦周邊為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國外交文件 FRUS｜1935 年 10 月 4 日駐義大使電報",
+        "https://history.state.gov/historicaldocuments/frus1935v01/d666"
+      ],
+      [
+        "美國大屠殺紀念館｜二戰關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+      ]
+    ]
+  },
+  {
+    "id": "rhineland",
+    "chapter": 1,
+    "date": "1936-03-07",
+    "title": "德軍進入萊茵蘭非軍事區",
+    "place": "科隆",
+    "point": [
+      6.96,
+      50.94
+    ],
+    "theaters": [
+      "west"
+    ],
+    "actors": [
+      "DE",
+      "FR",
+      "GB"
+    ],
+    "type": "attack",
+    "summary": "德國將部隊開入萊茵蘭，違反非軍事化安排；此地原屬德國，並非新吞併國土。",
+    "background": "凡爾賽及羅加諾體系把非軍事區視為法國安全的重要保障。",
+    "trigger": "希特勒以法蘇條約為藉口，決定冒險改變軍事部署。",
+    "motives": "德方要恢復軍事自由；英法政府不願單為此冒全面戰爭風險。",
+    "impact": "既有安全安排失去實效，日後中東歐國家更難依賴法國支援。",
+    "debate": "未立即反擊不代表英法贊成侵略；當時政治與軍事判斷仍須分開分析。",
+    "primary": "對讀德方公告與英法外交記錄；館方年表提供行動日期。",
+    "counterfactual": "假設法軍介入可能迫使德軍退卻；限制是後來回憶不能證明希特勒必然倒臺。",
+    "causes": [
+      "rearmament"
+    ],
+    "causalLinks": [
+      {
+        "event": "rearmament",
+        "kind": "enabling",
+        "explanation": "擴軍提高德國改變安全安排的能力。",
+        "sources": [
+          "https://www.dhm.de/lemo/kapitel/ns-regime/aussenpolitik/wehrpflicht-1935"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "科隆為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜二戰關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+      ],
+      [
+        "德國歷史博物館 LeMO｜1935 年恢復徵兵",
+        "https://www.dhm.de/lemo/kapitel/ns-regime/aussenpolitik/wehrpflicht-1935"
+      ]
+    ]
+  },
+  {
+    "id": "spain",
+    "chapter": 1,
+    "date": "1936-07-17",
+    "title": "西班牙軍事叛亂演成國際介入的內戰",
+    "place": "梅利利亞",
+    "point": [
+      -2.94,
+      35.29
+    ],
+    "theaters": [
+      "west",
+      "africa"
+    ],
+    "actors": [
+      "ES",
+      "DE",
+      "IT",
+      "SU"
+    ],
+    "type": "attack",
+    "summary": "軍事叛亂由西屬摩洛哥爆發，翌日擴至本土，形成延續至 1939 年的內戰。",
+    "background": "共和國內部存在階級、宗教、土地與自治衝突。",
+    "trigger": "軍官集團發動政變，但未能迅速控制全國。",
+    "motives": "叛軍要推翻共和政府；共和陣營求生存且內部分歧，外國按自身利益介入。",
+    "impact": "德義援助叛軍、蘇聯援助共和方，志願者參戰；不干預政策未阻絕軍援。",
+    "debate": "西班牙有自身社會革命與內戰脈絡，不能只稱為大國武器試驗場。",
+    "primary": "華威大學年表連到工會檔案、宣傳及救援資料，可比較不同立場。",
+    "counterfactual": "假設不干預獲嚴格執行，外援規模或下降；限制是國內衝突不會自行消失。",
+    "causes": [],
+    "causalLinks": [],
+    "edges": [],
+    "mapNote": "梅利利亞為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "華威大學現代檔案中心｜西班牙內戰年表",
+        "https://warwick.ac.uk/services/library/mrc/collections/digital/scw/timeline2/"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,1020 @@
+[
+  {
+    "id": "un-charter",
+    "chapter": 10,
+    "date": "1945-06-26",
+    "title": "聯合國憲章簽署，生效仍待批准",
+    "place": "舊金山",
+    "point": [
+      -122.42,
+      37.78
+    ],
+    "theaters": [
+      "home",
+      "west",
+      "china"
+    ],
+    "actors": [
+      "UN",
+      "US",
+      "GB",
+      "SU",
+      "FR",
+      "CN"
+    ],
+    "type": "peace",
+    "summary": "舊金山會議與會代表簽署聯合國憲章，設計安理會、會員義務及國際合作架構。",
+    "background": "本章核心問題：停戰、投降、受降與戰後秩序的建立有何差別？ 國聯失敗、盟國戰爭合作與多次戰時協商形成新組織構想。",
+    "trigger": "與會國完成協商，決定把國際安全安排寫入憲章。",
+    "motives": "大國要維持協調及特權，小國爭取主權平等與合作保障；殖民人民多未能平等代表自己。",
+    "impact": "後續：憲章於 10 月 24 日生效，超出本教材主時間範圍；簽署當天日本仍未投降。",
+    "debate": "新秩序兼有普遍原則與大國否決權，不能說成立即消除戰爭或殖民統治。",
+    "primary": "讀憲章第 2、27、73 與 110 條，分辨原則、表決、非自治領土及生效程序。",
+    "counterfactual": "假設沒有大國特權可能更平等；限制是大國是否願參加和執行仍不確定。",
+    "causes": [
+      "united-nations-declaration"
+    ],
+    "causalLinks": [
+      {
+        "event": "united-nations-declaration",
+        "kind": "context",
+        "explanation": "戰時聯合國家合作提供組織名稱與政治基礎，1945 年憲章才建立新機構。",
+        "sources": [
+          "https://treaties-prod.un.org/doc/Publication/CTC/uncharter.pdf"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "舊金山為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "聯合國｜憲章原文及簽署、生效日期",
+        "https://www.un.org/en/about-us/un-charter"
+      ],
+      [
+        "聯合國條約處｜憲章與國際法院規約原文",
+        "https://treaties-prod.un.org/doc/Publication/CTC/uncharter.pdf"
+      ]
+    ]
+  },
+  {
+    "id": "trinity",
+    "chapter": 10,
+    "date": "1945-07-16",
+    "title": "三位一體試爆：科學動員與核武時代",
+    "place": "新墨西哥，三位一體試爆場",
+    "point": [
+      -106.48,
+      33.68
+    ],
+    "theaters": [
+      "home"
+    ],
+    "actors": [
+      "US",
+      "GB",
+      "WORK",
+      "CIV"
+    ],
+    "type": "mobilize",
+    "summary": "美國在新墨西哥試爆鈽內爆裝置，證明相關設計可行；當地居民未獲充分警告，承受落塵風險。",
+    "background": "曼哈頓計畫整合美英加科研、龐大工業、礦物和勞動，多數工作者只知局部任務。",
+    "trigger": "鈽武器設計需要實際測試，工程完成後安排試爆。",
+    "motives": "政府和研究者求取得可用武器；保密和軍事時程壓過周邊居民知情。",
+    "impact": "試驗結果傳至波茨坦，也將核武使用與戰後國際關係問題具體化。",
+    "debate": "試爆成功不等於使用於城市是唯一選擇；研究、製造與使用決策必須分開。",
+    "primary": "NPS 同時介紹試爆與下風處居民，對讀技術報告及當地證言。",
+    "counterfactual": "假設只作展示試爆而不轟炸城市可能改變外交；限制是展示能否促降及對手反應無法確定。",
+    "causes": [
+      "war-production-board"
+    ],
+    "causalLinks": [
+      {
+        "event": "war-production-board",
+        "kind": "context",
+        "explanation": "核計畫屬更廣的戰時工業與勞動動員，並非該委員會直接統一指揮所有科研。",
+        "sources": [
+          "https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2025-08-05/atomic-bombings-japan-and-end-world-war-ii-80-years-later"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "新墨西哥，三位一體試爆場為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國家公園署｜三位一體試爆與當地居民",
+        "https://home.nps.gov/mapr/learn/historyculture/trinity.htm"
+      ],
+      [
+        "喬治華盛頓大學國家安全檔案館｜終戰原始文件集",
+        "https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2025-08-05/atomic-bombings-japan-and-end-world-war-ii-80-years-later"
+      ]
+    ]
+  },
+  {
+    "id": "potsdam-conference",
+    "chapter": 10,
+    "date": "1945-07-17",
+    "title": "波茨坦會議與戰勝國的分歧",
+    "place": "波茨坦",
+    "point": [
+      13.07,
+      52.42
+    ],
+    "theaters": [
+      "west",
+      "east",
+      "pacific"
+    ],
+    "actors": [
+      "US",
+      "GB",
+      "SU",
+      "DE",
+      "PL"
+    ],
+    "type": "politics",
+    "summary": "杜魯門、邱吉爾與史達林開始會談，至 8 月 2 日；英國選舉後艾德禮接替邱吉爾。",
+    "background": "德國已投降，大國須處理占領、賠償、波蘭邊界與人口移動，日本戰爭仍未結束。",
+    "trigger": "戰勝國召集會議將原則化為占領和外交安排。",
+    "motives": "各方尋求安全和重建，也力圖保有勢力與資源。",
+    "impact": "確認德國分區占領方向，人口強迫遷移與東歐安排留下爭議，聯盟裂縫加深。",
+    "debate": "不是當天完成永久歐洲邊界和所有和約；占領區也不等於已成立新的主權國。",
+    "primary": "讀會議議定書與不同國家會議記錄，區分共同文字及各自意圖。",
+    "counterfactual": "假設賠償協調更一致，衝突或減少；限制是戰後安全與制度目標仍有根本差異。",
+    "causes": [
+      "ve-day"
+    ],
+    "causalLinks": [
+      {
+        "event": "ve-day",
+        "kind": "enabling",
+        "explanation": "德國戰敗使討論焦點轉為占領及戰後安排。",
+        "sources": [
+          "https://history.state.gov/milestones/1937-1945/potsdam-conf"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "波茨坦為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國務院史家辦公室｜波茨坦會議",
+        "https://history.state.gov/milestones/1937-1945/potsdam-conf"
+      ]
+    ]
+  },
+  {
+    "id": "potsdam-declaration",
+    "chapter": 10,
+    "date": "1945-07-26",
+    "title": "波茨坦公告要求日本投降",
+    "place": "波茨坦",
+    "point": [
+      13.07,
+      52.42
+    ],
+    "theaters": [
+      "pacific",
+      "china",
+      "west"
+    ],
+    "actors": [
+      "US",
+      "GB",
+      "CN",
+      "JP",
+      "SU"
+    ],
+    "type": "ultimatum",
+    "summary": "美英中公布對日條件，要求日軍無條件投降，並提出占領、解除武裝與實施開羅條件。",
+    "background": "對日封鎖、轟炸與登陸計畫持續；蘇聯此時尚與日本維持中立關係。",
+    "trigger": "盟國選擇公開最後要求，日本政府隨後未接受。",
+    "motives": "盟國要迫使日本停止戰爭；日本領導人對國體、占領及解除武裝等條件存在分歧。",
+    "impact": "公告成為日本接受投降條件及正式投降書的共同依據。",
+    "debate": "蘇聯不是最初署名方；公告未明言原子彈，也未直接保證天皇制度存續。",
+    "primary": "讀公告第 6 至 13 段，對照日方理解與後續外交照會。",
+    "counterfactual": "假設公告明確保證天皇地位或可改變談判；限制是軍方其他條件仍可能阻礙接受。",
+    "causes": [
+      "cairo-declaration"
+    ],
+    "causalLinks": [
+      {
+        "event": "cairo-declaration",
+        "kind": "context",
+        "explanation": "公告要求履行開羅條件，把先前戰爭目標帶入投降安排。",
+        "sources": [
+          "https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2025-08-05/atomic-bombings-japan-and-end-world-war-ii-80-years-later"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "波茨坦為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國務院史家辦公室｜波茨坦會議",
+        "https://history.state.gov/milestones/1937-1945/potsdam-conf"
+      ],
+      [
+        "喬治華盛頓大學國家安全檔案館｜終戰原始文件集",
+        "https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2025-08-05/atomic-bombings-japan-and-end-world-war-ii-80-years-later"
+      ]
+    ]
+  },
+  {
+    "id": "hiroshima",
+    "chapter": 10,
+    "date": "1945-08-06",
+    "title": "廣島原爆：瞬間毀滅與長期受害",
+    "place": "廣島",
+    "point": [
+      132.45,
+      34.39
+    ],
+    "theaters": [
+      "pacific"
+    ],
+    "actors": [
+      "US",
+      "JP",
+      "CIV",
+      "WORK"
+    ],
+    "type": "attack",
+    "summary": "美軍於當地 8 時 15 分在廣島投下原子彈，爆風、熱線與輻射造成毀滅性傷亡。",
+    "background": "美方核武準備完成，日本仍未接受投降條件，決策者希望促降並終結戰爭。",
+    "trigger": "既有核武使用命令與天候、目標選擇使廣島成為第一次實戰投彈地。",
+    "motives": "美軍追求重大心理與軍事衝擊；受害者包括平民、軍人、學生、殖民地勞動者與外國人。",
+    "impact": "災情傳到東京後，領導人逐步確認新武器，倖存者長期承受健康、家庭及社會困難。",
+    "debate": "廣島市估至 1945 年底約 14 萬死者，正負約 1 萬；不是當日精確死亡，也不等於所有後續輻射相關死亡。",
+    "primary": "城市統計說明資料焚毀與人口流動；對讀美方使用命令、日方決策記錄及被爆者證言。",
+    "counterfactual": "假設不投彈而等候其他壓力，可能改變終戰時程；限制是不能聲稱某日必會投降或精確預測入侵傷亡。",
+    "causes": [
+      "trinity",
+      "potsdam-declaration"
+    ],
+    "causalLinks": [
+      {
+        "event": "trinity",
+        "kind": "enabling",
+        "explanation": "核計畫已形成可用武器能力；廣島用鈾槍式設計，不是試爆的同一鈽裝置。",
+        "sources": [
+          "https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2025-08-05/atomic-bombings-japan-and-end-world-war-ii-80-years-later"
+        ]
+      },
+      {
+        "event": "potsdam-declaration",
+        "kind": "context",
+        "explanation": "日本未接受公告是使用武器的決策背景，但不證明原爆為唯一可行手段。",
+        "sources": [
+          "https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2025-08-05/atomic-bombings-japan-and-end-world-war-ii-80-years-later"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "廣島為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "廣島市｜原爆時間、受害者與統計限制",
+        "https://www.city.hiroshima.lg.jp/english/peace/1029920/1009857.html"
+      ],
+      [
+        "廣島市｜1945 年底死亡估計及正負一萬人",
+        "https://www.city.hiroshima.lg.jp/faq/hibakushaengo/1001593/1002276.html"
+      ],
+      [
+        "喬治華盛頓大學國家安全檔案館｜終戰原始文件集",
+        "https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2025-08-05/atomic-bombings-japan-and-end-world-war-ii-80-years-later"
+      ]
+    ]
+  },
+  {
+    "id": "soviet-war-declaration",
+    "chapter": 10,
+    "date": "1945-08-08",
+    "title": "蘇聯對日宣戰，東京的調停期待破裂",
+    "place": "莫斯科",
+    "point": [
+      37.62,
+      55.75
+    ],
+    "theaters": [
+      "east",
+      "china",
+      "pacific"
+    ],
+    "actors": [
+      "SU",
+      "JP",
+      "CN",
+      "MN"
+    ],
+    "type": "declare",
+    "summary": "莫洛托夫向日本大使通知，蘇聯自 9 日起與日本處於戰爭狀態；遠東攻勢即將展開。",
+    "background": "歐戰結束約三個月，蘇軍完成大規模遠東轉運，日本此前仍試圖經莫斯科促成和平。",
+    "trigger": "蘇聯決定履行對盟國承諾並實現自身遠東目標，通知日本大使。",
+    "motives": "蘇方追求參戰地位、安全與權益；東京失去期待中的中立調停管道。",
+    "impact": "宣戰和軍事進攻共同使日本戰略條件劇變，投降決策須放回這一連串衝擊分析。",
+    "debate": "4 月廢止中立約續約的通知不等於當日失效；蘇方參戰與條約義務的關係仍有法律及政治爭論。",
+    "primary": "對讀蘇方宣戰照會、雅爾達秘密協定和日本佐藤大使電報。",
+    "counterfactual": "假設蘇聯保持中立，日本調停希望或延續；限制是美方轟炸、封鎖與本土作戰準備仍在。",
+    "causes": [
+      "ve-day",
+      "yalta"
+    ],
+    "causalLinks": [
+      {
+        "event": "ve-day",
+        "kind": "enabling",
+        "explanation": "歐戰結束釋出兵力並形成約定的二至三個月時間基準。",
+        "sources": [
+          "https://history.state.gov/historicaldocuments/frus1945Malta/d503"
+        ]
+      },
+      {
+        "event": "yalta",
+        "kind": "direct",
+        "explanation": "雅爾達秘密協定具體約定蘇聯參戰條件和時程。",
+        "sources": [
+          "https://history.state.gov/historicaldocuments/frus1945Malta/d503"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "莫斯科為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "日本外務省｜日蘇中立條約及蘇方文件",
+        "https://www.mofa.go.jp/region/europe/russia/territory/edition92/period3.html"
+      ],
+      [
+        "美國外交文件 FRUS｜蘇聯對日參戰秘密協定",
+        "https://history.state.gov/historicaldocuments/frus1945Malta/d503"
+      ],
+      [
+        "喬治華盛頓大學國家安全檔案館｜終戰原始文件集",
+        "https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2025-08-05/atomic-bombings-japan-and-end-world-war-ii-80-years-later"
+      ]
+    ]
+  },
+  {
+    "id": "aug09a-soviet-offensive",
+    "chapter": 10,
+    "date": "1945-08-09",
+    "title": "蘇軍進攻滿洲，日軍陸上防線崩潰",
+    "place": "滿洲西部，海拉爾周邊",
+    "point": [
+      119.74,
+      49.21
+    ],
+    "theaters": [
+      "china",
+      "east",
+      "pacific"
+    ],
+    "actors": [
+      "SU",
+      "JP",
+      "MAN",
+      "MN",
+      "CIV"
+    ],
+    "type": "attack",
+    "summary": "蘇軍在遠東當地 9 日開始由多方向進攻滿洲，蒙古部隊亦參戰；戰事隨後擴及朝鮮北部、南樺太和千島。",
+    "background": "蘇軍已秘密集結，關東軍兵力和裝備受長期調出影響。",
+    "trigger": "依宣戰及作戰命令越境，快速突破日軍防禦。",
+    "motives": "蘇方爭取軍事與戰後地位；日軍應付突然擴大的戰線，居民面臨逃難與暴力。",
+    "impact": "日本在大陸上的軍事和政治安排崩解，滿洲國瓦解；15 日後部分地區仍有戰鬥。",
+    "debate": "日期採遠東戰區 9 日，莫斯科仍有 8 日時間；本筆與長崎同日並不表示長崎促成蘇軍出擊。",
+    "primary": "對讀蘇軍 7 日作戰指令、日軍與外交報告；核對命令先於長崎轟炸。",
+    "counterfactual": "假設蘇軍延後進攻，日本決策時間或改變；限制是不能據此抽離原爆和整體戰況判定單一原因。",
+    "causes": [
+      "soviet-war-declaration"
+    ],
+    "causalLinks": [
+      {
+        "event": "soviet-war-declaration",
+        "kind": "direct",
+        "explanation": "宣戰與既定作戰命令使遠東攻勢展開。",
+        "sources": [
+          "https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2025-08-05/atomic-bombings-japan-and-end-world-war-ii-80-years-later"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "滿洲西部，海拉爾周邊為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "喬治華盛頓大學國家安全檔案館｜終戰原始文件集",
+        "https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2025-08-05/atomic-bombings-japan-and-end-world-war-ii-80-years-later"
+      ],
+      [
+        "日本外務省｜日蘇中立條約及蘇方文件",
+        "https://www.mofa.go.jp/region/europe/russia/territory/edition92/period3.html"
+      ]
+    ]
+  },
+  {
+    "id": "aug09b-nagasaki",
+    "chapter": 10,
+    "date": "1945-08-09",
+    "title": "長崎原爆與同日的多重衝擊",
+    "place": "長崎，浦上",
+    "point": [
+      129.86,
+      32.77
+    ],
+    "theaters": [
+      "pacific"
+    ],
+    "actors": [
+      "US",
+      "JP",
+      "CIV",
+      "WORK"
+    ],
+    "type": "attack",
+    "summary": "美軍在小倉未能按計畫投彈後改向長崎，當地 11 時 02 分爆炸；鈽原爆摧毀浦上等地。",
+    "background": "核武使用依先前指令繼續，日本領導人當日也正應付蘇聯參戰消息。",
+    "trigger": "8 日美軍第 17 號野戰命令指定翌日出擊，天候與目標狀況影響轉向。",
+    "motives": "美方延續對日壓力；居民及被動員勞工無從選擇避開核武攻擊。",
+    "impact": "死亡、失所與長期健康影響持續，東京最高層仍對投降條件僵持。",
+    "debate": "長崎資料館引 1950 年調查，估至 1945 年 12 月死者 73,884；不是當日精確清點。後來估計不能直接當作當時東京已知資訊。",
+    "primary": "長崎市記錄與美軍命令、日方會議資料對讀；蘇軍進攻先於本次轟炸。",
+    "counterfactual": "假設杜魯門更早要求另行批准下一次使用，長崎可能免遭此炸；限制是無法確定其他作戰與投降時程。",
+    "causes": [
+      "hiroshima"
+    ],
+    "causalLinks": [
+      {
+        "event": "hiroshima",
+        "kind": "context",
+        "explanation": "兩次使用依既有政策進行，不把第二次投彈解釋為等待三天後重新完整審議的單獨決策。",
+        "sources": [
+          "https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2025-08-05/atomic-bombings-japan-and-end-world-war-ii-80-years-later"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "長崎，浦上為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "長崎市原爆資料館｜原爆投下經過",
+        "https://nagasakipeace.jp/en/search/record/"
+      ],
+      [
+        "長崎原爆資料館｜英文資料冊及死亡估計來源",
+        "https://nagasakipeace.jp/content/files/souki/leaflet/english.pdf"
+      ],
+      [
+        "喬治華盛頓大學國家安全檔案館｜終戰原始文件集",
+        "https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2025-08-05/atomic-bombings-japan-and-end-world-war-ii-80-years-later"
+      ]
+    ]
+  },
+  {
+    "id": "japan-offer",
+    "chapter": 10,
+    "date": "1945-08-10",
+    "title": "日本提出附天皇條件的接受意向",
+    "place": "東京",
+    "point": [
+      139.75,
+      35.68
+    ],
+    "theaters": [
+      "home",
+      "pacific",
+      "east"
+    ],
+    "actors": [
+      "JP",
+      "US",
+      "GB",
+      "SU",
+      "CN"
+    ],
+    "type": "peace",
+    "summary": "9 日夜至 10 日御前會議後，日本經中立國提出接受公告，但保留關於天皇主權權能的條件。",
+    "background": "原爆、蘇聯參戰與整體軍事敗局共同衝擊決策，最高戰爭指導會議仍分裂。",
+    "trigger": "天皇介入僵局，支持以維持國體為條件尋求終戰。",
+    "motives": "部分領袖要保存皇室並避免毀滅，軍方強硬派要求更多條件；盟國拒絕保留不受約束的主權。",
+    "impact": "盟國 11 日答覆天皇與政府須服從盟軍最高統帥，東京再度爭論。",
+    "debate": "此為附條件接受意向，並非 10 日已完成全面投降；「國體」在不同人心中也不完全相同。",
+    "primary": "NSA 文件集的 9 至 10 日會議、日方照會與 11 日答覆須連續閱讀。",
+    "counterfactual": "假設軍方要求被接受，可能減少交涉時間；限制是盟國對解除武裝與占領的目標不會因此消失。",
+    "causes": [
+      "hiroshima",
+      "soviet-war-declaration",
+      "aug09b-nagasaki"
+    ],
+    "causalLinks": [
+      {
+        "event": "hiroshima",
+        "kind": "enabling",
+        "explanation": "核武毀滅性衝擊改變領袖對繼續作戰的評估，但不足以獨自解釋全部決策。",
+        "sources": [
+          "https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2025-08-05/atomic-bombings-japan-and-end-world-war-ii-80-years-later"
+        ]
+      },
+      {
+        "event": "soviet-war-declaration",
+        "kind": "enabling",
+        "explanation": "蘇聯參戰破壞調停期待並增加大陸戰線壓力。",
+        "sources": [
+          "https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2025-08-05/atomic-bombings-japan-and-end-world-war-ii-80-years-later"
+        ]
+      },
+      {
+        "event": "aug09b-nagasaki",
+        "kind": "enabling",
+        "explanation": "第二次核攻擊加重當日已存在的危機，會議僵局與資訊到達時間仍須分辨。",
+        "sources": [
+          "https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2025-08-05/atomic-bombings-japan-and-end-world-war-ii-80-years-later"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "東京為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "喬治華盛頓大學國家安全檔案館｜終戰原始文件集",
+        "https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2025-08-05/atomic-bombings-japan-and-end-world-war-ii-80-years-later"
+      ],
+      [
+        "日本國立國會圖書館｜1945 年 8 月 14 日終戰詔書",
+        "https://www.ndl.go.jp/constitution/shiryo/01/017shoshi.html"
+      ]
+    ]
+  },
+  {
+    "id": "japan-final-decision",
+    "chapter": 10,
+    "date": "1945-08-14",
+    "title": "日本最終接受投降條件並製作詔書",
+    "place": "東京",
+    "point": [
+      139.75,
+      35.68
+    ],
+    "theaters": [
+      "home",
+      "pacific"
+    ],
+    "actors": [
+      "JP",
+      "US",
+      "GB",
+      "SU",
+      "CN"
+    ],
+    "type": "peace",
+    "summary": "天皇再次介入，日本決定接受盟國回覆並發出終戰詔書，錄製翌日廣播。",
+    "background": "對天皇地位與占領權力的解釋仍造成分裂，戰爭及轟炸繼續。",
+    "trigger": "領導層僵局由天皇裁決終結，政府通知盟國並安排公眾宣布。",
+    "motives": "決策者要保存國家與皇室、避免更多毀滅；部分軍官仍企圖阻止終戰。",
+    "impact": "政變企圖未成功，15 日廣播得以播出，實際停火和受降仍需各地執行。",
+    "debate": "已知的是多重衝擊、內部分裂和天皇介入；後來史家對原爆與蘇聯參戰何者更關鍵仍有分歧。",
+    "primary": "NDL 詔書原件標 14 日；和會議記錄對讀，公開詔書強調原爆，不足以單獨重建全部內部動機。",
+    "counterfactual": "假設天皇更早介入，可能減少末期死亡；限制是不能假定所有軍事機構立即服從。",
+    "causes": [
+      "japan-offer"
+    ],
+    "causalLinks": [
+      {
+        "event": "japan-offer",
+        "kind": "direct",
+        "explanation": "盟國回覆後對條件的爭論導向第二次天皇裁決與最終接受。",
+        "sources": [
+          "https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2025-08-05/atomic-bombings-japan-and-end-world-war-ii-80-years-later"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "東京為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "日本國立國會圖書館｜1945 年 8 月 14 日終戰詔書",
+        "https://www.ndl.go.jp/constitution/shiryo/01/017shoshi.html"
+      ],
+      [
+        "喬治華盛頓大學國家安全檔案館｜終戰原始文件集",
+        "https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2025-08-05/atomic-bombings-japan-and-end-world-war-ii-80-years-later"
+      ],
+      [
+        "日本國立國會圖書館｜近代日本年表",
+        "https://www.ndl.go.jp/modern/e/utility/chronology.html"
+      ]
+    ]
+  },
+  {
+    "id": "japan-broadcast",
+    "chapter": 10,
+    "date": "1945-08-15",
+    "title": "終戰廣播：宣布、停火與受降仍有時差",
+    "place": "東京",
+    "point": [
+      139.75,
+      35.68
+    ],
+    "theaters": [
+      "home",
+      "pacific",
+      "china",
+      "southeast"
+    ],
+    "actors": [
+      "JP",
+      "CIV",
+      "US",
+      "CN",
+      "SU"
+    ],
+    "type": "peace",
+    "summary": "日本時間正午播放天皇預錄的終戰詔書，向民眾宣布接受波茨坦條件；部分聽眾一時難以理解文言內容。",
+    "background": "政府前日已作最終決定，通訊與各戰區指揮仍需傳達命令。",
+    "trigger": "詔書製作與錄音完成，企圖阻止廣播的軍人未得逞。",
+    "motives": "政府要使軍民服從終戰；戰俘、被占領人民和日軍各自等待具體命令。",
+    "impact": "消息帶來慶祝、困惑及權力真空；滿洲、南樺太等處仍有戰鬥，戰俘釋放也非立即完成。",
+    "debate": "8 月 14 日美洲可先聞投降消息，15 日是日本廣播；兩者均不同於 9 月 2 日簽署。",
+    "primary": "NDL 年表、詔書與各地聽眾證言對讀，避免以公開措辭替代受害者經驗。",
+    "counterfactual": "假設命令傳達更快，局部戰鬥或較早停止；限制是各地通訊、政治與軍事條件差異很大。",
+    "causes": [
+      "japan-final-decision"
+    ],
+    "causalLinks": [
+      {
+        "event": "japan-final-decision",
+        "kind": "direct",
+        "explanation": "14 日最終決定及錄音準備使 15 日廣播成為可能。",
+        "sources": [
+          "https://www.ndl.go.jp/constitution/shiryo/01/017shoshi.html"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "東京為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "日本國立國會圖書館｜1945 年 8 月 14 日終戰詔書",
+        "https://www.ndl.go.jp/constitution/shiryo/01/017shoshi.html"
+      ],
+      [
+        "日本國立國會圖書館｜近代日本年表",
+        "https://www.ndl.go.jp/modern/e/utility/chronology.html"
+      ],
+      [
+        "英國國家陸軍博物館｜1945 年 9 月各地受降與占領",
+        "https://www.nam.ac.uk/explore/september-1945"
+      ]
+    ]
+  },
+  {
+    "id": "indonesia-independence",
+    "chapter": 10,
+    "date": "1945-08-17",
+    "title": "印尼宣布獨立，殖民秩序未隨日降自動恢復",
+    "place": "雅加達",
+    "point": [
+      106.83,
+      -6.18
+    ],
+    "theaters": [
+      "southeast",
+      "indian"
+    ],
+    "actors": [
+      "ID",
+      "NL",
+      "JP",
+      "GB",
+      "CIV"
+    ],
+    "type": "politics",
+    "summary": "蘇卡諾與哈達宣布印尼獨立；日本投降帶來政治空間，荷蘭則試圖恢復殖民統治。",
+    "background": "日占破壞荷蘭統治並動員本地組織，民族主義有更早歷史。",
+    "trigger": "日本終戰後青年與領袖就立即宣布獨立達成行動。",
+    "motives": "民族主義者追求主權；荷蘭主張恢復權力，盟軍優先處理受降與戰俘。",
+    "impact": "後續：1945–1949 年革命、戰爭與外交超出主時間軸；獨立宣告不是當天獲所有國家承認。",
+    "debate": "不能把獨立說成日本慷慨賜予；占領剝削和本地自主行動須同時辨認。",
+    "primary": "威爾遜中心研究交代 17 日與後續承認，應與印尼宣言文本對讀。",
+    "counterfactual": "假設盟國立即承認，衝突可能較少；限制是荷蘭、本地政治及軍事力量仍有分歧。",
+    "causes": [
+      "japan-broadcast"
+    ],
+    "causalLinks": [
+      {
+        "event": "japan-broadcast",
+        "kind": "enabling",
+        "explanation": "日本宣布終戰形成權力變動窗口，印尼獨立仍是本地政治選擇。",
+        "sources": [
+          "https://www.wilsoncenter.org/publication/soviet-policy-indonesia-during-the-liberal-democracy-period-1950-1959"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "雅加達為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "威爾遜中心｜印尼獨立、承認與去殖民化",
+        "https://www.wilsoncenter.org/publication/soviet-policy-indonesia-during-the-liberal-democracy-period-1950-1959"
+      ]
+    ]
+  },
+  {
+    "id": "japan-formal-surrender",
+    "chapter": 10,
+    "date": "1945-09-02",
+    "title": "東京灣正式簽署日本投降書",
+    "place": "東京灣，密蘇里號受降海域",
+    "point": [
+      139.76,
+      35.35
+    ],
+    "theaters": [
+      "pacific",
+      "china",
+      "southeast",
+      "home"
+    ],
+    "actors": [
+      "JP",
+      "US",
+      "CN",
+      "GB",
+      "SU",
+      "FR",
+      "AU",
+      "CA",
+      "NZ",
+      "NL"
+    ],
+    "type": "peace",
+    "summary": "日本代表在密蘇里號簽署投降書，盟軍代表簽字接受；日本軍政機構服從盟軍最高統帥的安排具體化。",
+    "background": "8 月已宣布接受條件，盟軍先遣與占領部隊陸續抵日。",
+    "trigger": "完成受降程序與代表集結後正式簽署。",
+    "motives": "盟國要確保解除武裝、戰俘釋放與命令執行；日方接受戰敗後的統治限制。",
+    "impact": "各戰區繼續受降及遣返；後續：紐倫堡審判 1945 年 11 月、東京審判 1946 年開庭，均在主時間軸之外。",
+    "debate": "正式軍事投降不是和平條約，也不代表所有領土法律問題、去殖民化或流離問題已解決。",
+    "primary": "NARA 原件與簽名順序可讀到代表身分、權力約束和立即釋放戰俘要求。",
+    "counterfactual": "假設只停在廣播而無執行協議，解除武裝或更混亂；限制是文件仍需現地軍隊落實。",
+    "causes": [
+      "japan-final-decision",
+      "japan-broadcast"
+    ],
+    "causalLinks": [
+      {
+        "event": "japan-final-decision",
+        "kind": "direct",
+        "explanation": "接受盟國條件形成簽署投降書的政治授權。",
+        "sources": [
+          "https://www.archives.gov/milestone-documents/surrender-of-japan"
+        ]
+      },
+      {
+        "event": "japan-broadcast",
+        "kind": "consequence",
+        "explanation": "公開宣布後需要占領接洽、集結與正式簽署以落實命令。",
+        "sources": [
+          "https://www.archives.gov/milestone-documents/surrender-of-japan"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "點位約示東京灣受降艦所在海域，精度約數公里，非今日碼頭或國界。兩圖比較可看地點與解說，不能看成完整戰後領土圖。",
+    "sources": [
+      [
+        "美國國家檔案館｜日本投降書原文",
+        "https://www.archives.gov/milestone-documents/surrender-of-japan"
+      ],
+      [
+        "英國國家陸軍博物館｜1945 年 9 月各地受降與占領",
+        "https://www.nam.ac.uk/explore/september-1945"
+      ]
+    ],
+    "comparison": "1945.09.02：日本正式簽署投降書；中國戰區 9 日、新加坡 12 日與香港 16 日另有受降，遣返與救濟尚未完成。殖民地獨立宣告及恢復殖民控制互相衝突。"
+  },
+  {
+    "id": "vietnam-independence",
+    "chapter": 10,
+    "date": "1945-09-02",
+    "title": "越南獨立宣言與未完成的去殖民化",
+    "place": "河內，巴亭廣場",
+    "point": [
+      105.84,
+      21.04
+    ],
+    "theaters": [
+      "southeast",
+      "china"
+    ],
+    "actors": [
+      "VN",
+      "FR",
+      "JP",
+      "CN",
+      "GB",
+      "CIV"
+    ],
+    "type": "politics",
+    "summary": "胡志明宣布越南民主共和國獨立，以美國及法國革命語言批判殖民統治。",
+    "background": "日本 3 月解除法國殖民軍武裝，投降後越盟在八月革命中取得多處權力。",
+    "trigger": "日占崩解與群眾動員讓民族主義者宣布新國家。",
+    "motives": "越盟爭取獨立與國際承認；法國要恢復殖民地；中英軍按受降分工進入南北。",
+    "impact": "後續：法國重返與 1946 年全面戰爭不在主時間範圍；1945 年勝利沒有為所有地區帶來和平。",
+    "debate": "宣言中的饑荒數字和自我形象屬當事人主張，需與人口及行政資料交叉查核，不能直接照錄為普查。",
+    "primary": "福坦莫大學收錄宣言譯文；比較其引用的自由平等原則和對殖民統治的指控。",
+    "counterfactual": "假設法國承認獨立，戰爭可能改道；限制是越南內部政治和大國安排仍複雜。",
+    "causes": [
+      "japan-broadcast"
+    ],
+    "causalLinks": [
+      {
+        "event": "japan-broadcast",
+        "kind": "enabling",
+        "explanation": "日本終戰削弱占領權力，為本地革命及宣布獨立提供窗口。",
+        "sources": [
+          "https://sourcebooks.fordham.edu/mod/1945vietnam.asp"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "河內，巴亭廣場為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "福坦莫大學史料庫｜1945 年越南獨立宣言",
+        "https://sourcebooks.fordham.edu/mod/1945vietnam.asp"
+      ],
+      [
+        "英國國家陸軍博物館｜1945 年 9 月各地受降與占領",
+        "https://www.nam.ac.uk/explore/september-1945"
+      ]
+    ]
+  },
+  {
+    "id": "china-surrender",
+    "chapter": 10,
+    "date": "1945-09-09",
+    "title": "南京中國戰區受降",
+    "place": "南京",
+    "point": [
+      118.8,
+      32.06
+    ],
+    "theaters": [
+      "china",
+      "southeast"
+    ],
+    "actors": [
+      "JP",
+      "CN",
+      "CCP",
+      "CIV"
+    ],
+    "type": "peace",
+    "summary": "岡村寧次向何應欽提交中國戰區降書，領受中國戰區最高統帥命令，開始更細部的解除武裝與接收。",
+    "background": "東京灣投降後，盟軍按戰區分派受降，交通及國共權力競爭影響接收。",
+    "trigger": "依盟軍與中國戰區命令舉行受降儀式。",
+    "motives": "國民政府主張代表權與控制接收；中共爭取地方影響；日軍接受命令等待處理。",
+    "impact": "戰俘、難民和被徵用者仍須返鄉；後續國共衝突未因對日勝利消失。",
+    "debate": "受降範圍含越南北緯 16 度以北等指定區域，不能把受降權直接當作領土主權。",
+    "primary": "臺灣檔案管理局列降書、第壹號命令與適用範圍，國史館亦典藏相關原件。",
+    "counterfactual": "假設接收有更廣政治協議，衝突可能減少；限制是國共戰後權力目標仍有根本分歧。",
+    "causes": [
+      "japan-formal-surrender"
+    ],
+    "causalLinks": [
+      {
+        "event": "japan-formal-surrender",
+        "kind": "direct",
+        "explanation": "正式投降與盟軍命令使中國戰區受降得以執行。",
+        "sources": [
+          "https://art.archives.gov.tw/tw/art/1778-15212.html"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "南京為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "臺灣檔案管理局｜日本投降文獻與中國戰區命令",
+        "https://art.archives.gov.tw/tw/art/1778-15212.html"
+      ],
+      [
+        "美國國家檔案館｜日本投降書原文",
+        "https://www.archives.gov/milestone-documents/surrender-of-japan"
+      ]
+    ]
+  },
+  {
+    "id": "singapore-surrender",
+    "chapter": 10,
+    "date": "1945-09-12",
+    "title": "新加坡受降與英國軍政統治回歸",
+    "place": "新加坡，市政廳",
+    "point": [
+      103.85,
+      1.29
+    ],
+    "theaters": [
+      "southeast",
+      "indian"
+    ],
+    "actors": [
+      "JP",
+      "GB",
+      "CN",
+      "CIV",
+      "IND"
+    ],
+    "type": "peace",
+    "summary": "日本代表在市政廳簽署東南亞受降文件，蒙巴頓代表盟軍接受；多國代表與居民見證。",
+    "background": "日本已在東京灣投降，盟軍陸續進入港口，戰俘救援與供應恢復迫切。",
+    "trigger": "盟軍按區域指揮安排舉行正式受降。",
+    "motives": "盟軍要解除日軍武裝並重建秩序；地方居民期待和平，卻仍面對糧食和政治前途問題。",
+    "impact": "英國軍事行政恢復，社會重建與反殖民運動繼續；受降不等於新加坡立即獨立。",
+    "debate": "本地受降日是 12 日，不能改寫成全球二戰直到此日才首次正式結束。",
+    "primary": "新加坡國家圖書館以中國代表馮義記錄、照片與其他受降史料對讀。",
+    "counterfactual": "假設地方代表更多參與接收，政治期待可能不同；限制是盟國受降權仍依軍事安排分配。",
+    "causes": [
+      "japan-formal-surrender"
+    ],
+    "causalLinks": [
+      {
+        "event": "japan-formal-surrender",
+        "kind": "direct",
+        "explanation": "日本總投降後，由東南亞盟軍指揮系統落實區域受降。",
+        "sources": [
+          "https://www.nam.ac.uk/explore/september-1945"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "新加坡，市政廳為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "新加坡國家圖書館 BiblioAsia｜1945 年受降見證",
+        "https://biblioasia.nlb.gov.sg/all-sections/vol-16-issue-1-apr-jun-2020-witness-to-history/"
+      ],
+      [
+        "英國國家陸軍博物館｜1945 年 9 月各地受降與占領",
+        "https://www.nam.ac.uk/explore/september-1945"
+      ]
+    ]
+  },
+  {
+    "id": "hong-kong-surrender",
+    "chapter": 10,
+    "date": "1945-09-16",
+    "title": "香港受降：停戰之後仍要追問誰重建秩序",
+    "place": "香港",
+    "point": [
+      114.17,
+      22.28
+    ],
+    "theaters": [
+      "china",
+      "southeast"
+    ],
+    "actors": [
+      "JP",
+      "GB",
+      "CN",
+      "CIV"
+    ],
+    "type": "peace",
+    "summary": "英國海軍少將夏慤正式接受香港日軍投降，英國恢復殖民控制；居民逐步重建生計。",
+    "background": "8 月底英軍已抵港，受降、救濟與行政接收分階段進行。",
+    "trigger": "依盟軍安排完成地方正式投降程序。",
+    "motives": "英方保有港口與帝國地位，中方對香港前途有主張；居民首先面對飢餓、創傷與家人離散。",
+    "impact": "結語：1945 年帶來軍事勝利及占領結束，也留下殖民統治、流離、審判與主權爭議；後續發展超出本時間軸。",
+    "debate": "受降權、實際控制與主權聲索須分開；多地戰後秩序並非單由居民決定。",
+    "primary": "英國陸軍博物館列 16 日正式受降，應與香港本地接收和救濟記錄對讀。",
+    "counterfactual": "假設戰後治理讓居民更充分參與，制度可能不同；限制是不能假定去殖民化會在同日無衝突完成。",
+    "causes": [
+      "japan-formal-surrender"
+    ],
+    "causalLinks": [
+      {
+        "event": "japan-formal-surrender",
+        "kind": "direct",
+        "explanation": "盟軍依總投降安排接收日軍，香港另於 16 日完成正式受降。",
+        "sources": [
+          "https://www.nam.ac.uk/explore/september-1945"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "香港為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "英國國家陸軍博物館｜1945 年 9 月各地受降與占領",
+        "https://www.nam.ac.uk/explore/september-1945"
+      ],
+      [
+        "加拿大戰爭博物館｜對日戰爭與香港",
+        "https://www.warmuseum.ca/war-against-japan/"
+      ]
+    ]
+  }
+]

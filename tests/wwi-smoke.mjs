@@ -131,6 +131,47 @@ function exercise(width,edition='world-war-i'){
   function setSelect(id,value){$(id).value=value;$(id).fire('change');}
   function range(i){$('track').value=i;$('track').fire('input');}
   const nowLayer=(k,on)=>{const n=node($('layerItems'),'[data-layer="'+k+'"]');n.checked=on;n.fire('change');};
+  if(edition==='world-war-ii'){
+    const at=id=>assert.equal(node($('article'),'.eventTitle').textContent,evt(id).title);
+    const jump=id=>{setSelect('theater','all');const e=evt(id);chapter(e.chapter);const g=realm.ATLAS_EVENTS.filter(x=>x.chapter===e.chapter);range(g.indexOf(e));at(id);};
+    at('poland');assert.equal($('view').value,'world');
+    for(let n=1;n<=10;n++){
+      chapter(n);const g=realm.ATLAS_EVENTS.filter(e=>e.chapter===n);
+      for(let i=0;i<g.length;i++){
+        range(i);at(g[i].id);assert.ok($('article').textContent.includes(g[i].theaters.map(t=>realm.ATLAS_CONFIG.theaters[t].label).join('、')));
+        node($('article'),'[data-tier="1"]').fire('click');assert.ok($('article').textContent.includes(g[i].trigger));
+        node($('article'),'[data-tier="2"]').fire('click');assert.equal($('article').querySelectorAll('.sourceLink').length,g[i].sources.length);
+      }
+    }
+    jump('germany-us');setSelect('theater','west');click('quickCause');
+    assert.ok($('dlgBody').textContent.includes('促成條件'));
+    node($('dlgBody'),'[data-event="pearl-harbor"]').fire('click');at('pearl-harbor');assert.equal($('theater').value,'all');
+    jump('pearl-harbor');setSelect('theater','pacific');click('prev');at('japan-war-decision');
+    // Within the chapter range, only Pacific events are available; next moves globally across chapters.
+    click('next');at('pearl-harbor');click('next');at('philippines-attack');
+    click('clearTheater');assert.equal($('theater').value,'all');
+    jump('aug09a-soviet-offensive');click('next');at('aug09b-nagasaki');click('prev');at('aug09a-soviet-offensive');
+    jump('saipan');setSelect('view','theater:pacific');
+    assert.equal($('map').querySelectorAll('.map-operation').length,3);
+    for(const p of $('map').querySelectorAll('.map-operation')){
+      const xy=p.getAttribute('d').match(/-?\d+(?:\.\d+)?/g).map(Number);
+      assert(Math.abs(xy[2]-xy[0])<width*.5,'route crossed the long way around the world');
+    }
+    realm.atlasZoom($('map'),1.35);realm.atlasZoom($('map'),0);
+    for(const view of ['world','theater','focus','theater:pacific','theater:africa']){
+      setSelect('view',view);assert.ok(!$('map').querySelectorAll('path').some(p=>/NaN|Infinity/.test(p.getAttribute('d')||'')));
+    }
+    click('baseline');at('poland');assert.equal($('view').value,'world');assert.equal($('theater').value,'all');
+    click('compareOpen');assert.equal($('selA').value,'poland');assert.equal($('selB').value,'japan-formal-surrender');
+    assert.ok($('noteB').textContent.includes('9 日'));setSelect('selA','ve-day');assert.ok($('noteA').textContent.includes('沖繩'));click('dlgClose');
+    click('helpOpen');assert.ok($('dlgBody').textContent.includes('多個起點'));
+    for(let i=0;i<4;i++){
+      if(i)click('helpOpen');node($('dlgBody'),'[data-compare="'+i+'"]').fire('click');
+      const task=realm.ATLAS_CONFIG.comparisonTasks[i];assert.equal($('selA').value,task.a);assert.equal($('selB').value,task.b);click('dlgClose');
+    }
+    click('methodOpen');assert.ok($('dlgBody').textContent.includes('公共領域'));click('dlgClose');
+    console.log('PASS — WWII '+width+' px, 139 events, 10 chapters, tiers, sources, filters, cross-theater causes, date line, zoom, presets and reset');return;
+  }
   if(edition==='german-reunification'){
     const title=()=>node($('article'),'.eventTitle').textContent;
     const at=id=>assert.equal(title(),evt(id).title);
@@ -221,6 +262,8 @@ function exercise(width,edition='world-war-i'){
   assert.equal($('layerItems').querySelectorAll('input').length,9);
   console.log('PASS — map width '+width+' px, controls, timeline, layers, sources, map clicks, dialogs, playback and comparison');
 }
-for(const width of [780,540,375])exercise(width);
+if(!process.argv[2]||!process.argv[2].includes('world-war-ii'))for(const width of [780,540,375])exercise(width);
 
 if(!process.argv[2])for(const width of [780,540,375])exercise(width,'german-reunification');
+
+if(!process.argv[2]||process.argv[2].includes('world-war-ii'))for(const width of [780,540,375])exercise(width,'world-war-ii');

@@ -1,0 +1,1095 @@
+[
+  {
+    "id": "lend-lease",
+    "chapter": 5,
+    "date": "1941-03-11",
+    "title": "租借法案：把美洲工業轉為盟軍資源",
+    "place": "華盛頓",
+    "point": [
+      -77.04,
+      38.9
+    ],
+    "theaters": [
+      "home",
+      "atlantic"
+    ],
+    "actors": [
+      "US",
+      "GB",
+      "CN",
+      "SU"
+    ],
+    "type": "support",
+    "summary": "美國通過租借法案，可向被認為攸關美國防衛的國家供應戰爭物資；援助對象其後擴大。",
+    "background": "本章核心問題：不同區域衝突透過哪些決策連成全球戰爭？ 英國資金耗竭，美國政府希望支持抗德而國內仍反對直接參戰。",
+    "trigger": "羅斯福提出以供應和延後清償取代現金採購的制度。",
+    "motives": "美方兼顧本國安全與盟軍生存；受援國要取得武器、糧食、車輛與原料。",
+    "impact": "法案擴大可用資源，但製造、裝船、護航和內陸配送仍決定實際作用。",
+    "debate": "法案授權日不等於每批援助到貨日，也不意味蘇聯從當日起已獲同等供應。",
+    "primary": "國家檔案館提供法案原文；比較總統裁量與後續協定、貨運記錄。",
+    "counterfactual": "假設沒有租借，盟軍更難取得物資；限制是不能把勝負歸於援助單一因素。",
+    "causes": [],
+    "causalLinks": [],
+    "edges": [
+      [
+        "US",
+        "GB",
+        "support"
+      ]
+    ],
+    "mapNote": "華盛頓為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國家檔案館｜租借法案原文",
+        "https://www.archives.gov/milestone-documents/lend-lease-act"
+      ],
+      [
+        "美國國務院史家辦公室｜租借援助與盟國",
+        "https://history.state.gov/milestones/1937-1945/lend-lease"
+      ]
+    ]
+  },
+  {
+    "id": "keren",
+    "chapter": 5,
+    "date": "1941-03-27",
+    "title": "克倫防線突破：殖民地兵員與東非戰爭",
+    "place": "克倫，厄利垂亞",
+    "point": [
+      38.45,
+      15.78
+    ],
+    "theaters": [
+      "africa"
+    ],
+    "actors": [
+      "GB",
+      "IND",
+      "FF",
+      "IT",
+      "ET"
+    ],
+    "type": "battle",
+    "summary": "英帝國部隊突破克倫，打開通往阿斯馬拉的道路；2 至 3 月的戰鬥包含印度、非洲和義大利殖民部隊。",
+    "background": "義屬東非與其他義方據點隔離，依賴有限存量，盟軍由蘇丹等地反攻。",
+    "trigger": "道路障礙和山地防線被突破，義軍後撤。",
+    "motives": "英方要控制紅海通道；義方保住殖民帝國；不同殖民兵的處境並不相同。",
+    "impact": "義屬東非逐步瓦解，衣索比亞恢復君主統治，抵抗及占領後果仍延續。",
+    "debate": "將戰役只寫成英義對決，會抹去印度、蘇丹、厄利垂亞與衣索比亞人的作用。",
+    "primary": "印度官方軍史第九章詳列 27 日進入克倫與追擊，可對照殖民部隊名單。",
+    "counterfactual": "假設山口守住更久，紅海交通或繼續承壓；限制是義屬東非補給孤立仍未解決。",
+    "causes": [
+      "italy-enters"
+    ],
+    "causalLinks": [
+      {
+        "event": "italy-enters",
+        "kind": "enabling",
+        "explanation": "參戰使既有殖民地邊界成為東非戰場。",
+        "sources": [
+          "https://www.ibiblio.org/hyperwar/UN/India/EAfrica/EAfrica-9.html"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "克倫，厄利垂亞為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "印度官方軍史（北卡羅來納大學 ibiblio 典藏）｜克倫至阿斯馬拉",
+        "https://www.ibiblio.org/hyperwar/UN/India/EAfrica/EAfrica-9.html"
+      ]
+    ]
+  },
+  {
+    "id": "balkans",
+    "chapter": 5,
+    "date": "1941-04-06",
+    "title": "軸心進攻南斯拉夫與希臘",
+    "place": "貝爾格勒",
+    "point": [
+      20.46,
+      44.81
+    ],
+    "theaters": [
+      "balkans",
+      "africa"
+    ],
+    "actors": [
+      "DE",
+      "IT",
+      "YU",
+      "GR",
+      "GB"
+    ],
+    "type": "attack",
+    "summary": "德軍等進攻南斯拉夫和希臘，轟炸城市並迅速擊破主要防線；占領後抵抗與內戰化暴力持續。",
+    "background": "義大利對希臘戰爭受挫，英軍援希，南斯拉夫政變又改變政治局勢。",
+    "trigger": "希特勒決定以軍事行動確保巴爾幹側翼。",
+    "motives": "軸心要控制交通和基地；希臘、南斯拉夫軍隊抵抗，英方維持東地中海位置。",
+    "impact": "盟軍撤向克里特島，後續占領引發抵抗、報復與合作政權。",
+    "debate": "不能把巴爾幹作戰直接當成德軍在莫斯科失敗的唯一原因。",
+    "primary": "對讀作戰命令、希臘與南斯拉夫的軍民記錄；國家解體不等於抵抗停止。",
+    "counterfactual": "假設英軍不援希或能保留北非兵力；限制是希臘仍面臨軸心進攻。",
+    "causes": [],
+    "causalLinks": [],
+    "edges": [],
+    "mapNote": "貝爾格勒為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜二戰關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+      ],
+      [
+        "紐西蘭文化與遺產部｜北非戰爭年表",
+        "https://nzhistory.govt.nz/war/the-north-african-campaign/timeline"
+      ]
+    ]
+  },
+  {
+    "id": "soviet-japan-neutrality",
+    "chapter": 5,
+    "date": "1941-04-13",
+    "title": "日蘇中立條約：暫時穩住遠東",
+    "place": "莫斯科",
+    "point": [
+      37.62,
+      55.75
+    ],
+    "theaters": [
+      "east",
+      "china",
+      "pacific"
+    ],
+    "actors": [
+      "JP",
+      "SU",
+      "MN",
+      "MAN"
+    ],
+    "type": "alliance",
+    "summary": "日蘇簽訂中立條約，另以聲明處理蒙古與滿洲國的領土完整及不可侵犯。",
+    "background": "邊境衝突後雙方都希望降低遠東風險，日本仍深陷中國戰爭。",
+    "trigger": "外交談判達成相互中立的安排。",
+    "motives": "蘇聯避免兩面威脅；日本保留戰略選擇並減少北方壓力。",
+    "impact": "條約有助雙方調整部署，但 1941 年德國侵蘇仍使東京重新評估北進。",
+    "debate": "此約不是日本加入蘇聯盟軍，也未要求日本停止侵華。",
+    "primary": "日本外務省頁收錄條約及後續蘇方照會；其戰後領土論述有政府立場。",
+    "counterfactual": "假設沒有中立約，蘇聯更難放心西調兵力；限制是實際調動還依靠情報與戰局。",
+    "causes": [
+      "nomonhan"
+    ],
+    "causalLinks": [
+      {
+        "event": "nomonhan",
+        "kind": "context",
+        "explanation": "邊境衝突經驗提高雙方穩定遠東的需求，並非唯一簽約原因。",
+        "sources": [
+          "https://www.mofa.go.jp/region/europe/russia/territory/edition92/period3.html"
+        ]
+      }
+    ],
+    "edges": [
+      [
+        "JP",
+        "SU",
+        "alliance"
+      ]
+    ],
+    "mapNote": "莫斯科為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "日本外務省｜日蘇中立條約及蘇方文件",
+        "https://www.mofa.go.jp/region/europe/russia/territory/edition92/period3.html"
+      ]
+    ],
+    "comparison": "1941.04：中國及歐洲、地中海戰爭並存；美國供應盟軍而尚未全面參戰，日蘇以中立降低遠東壓力。"
+  },
+  {
+    "id": "barbarossa",
+    "chapter": 5,
+    "date": "1941-06-22",
+    "title": "巴巴羅薩行動：德國侵蘇與滅絕戰爭",
+    "place": "布列斯特周邊",
+    "point": [
+      23.7,
+      52.1
+    ],
+    "theaters": [
+      "east"
+    ],
+    "actors": [
+      "DE",
+      "SU",
+      "FI",
+      "RO",
+      "JEW",
+      "CIV"
+    ],
+    "type": "attack",
+    "summary": "德國及其盟友大舉入侵蘇聯，東線形成極大規模的戰爭；屠殺、飢餓政策與戰俘迫害隨之升高。",
+    "background": "德蘇交易未消除納粹反共與種族殖民目標，德國早已準備進攻。",
+    "trigger": "希特勒下令撕毀互不侵犯安排並實施入侵計畫。",
+    "motives": "德方追求土地、糧食、石油與消滅被視為敵人的群體；蘇方保衛政權與國土。",
+    "impact": "蘇聯成為主要抗德力量，英美援蘇與全球資源協調逐步擴大。",
+    "debate": "「安全預防戰」說法不能取代納粹早有的侵略、掠奪及滅絕目標。",
+    "primary": "對讀巴巴羅薩命令、戰俘政策與受害者證言，不能僅看戰線進退。",
+    "counterfactual": "假設德國不侵蘇，戰爭格局可能不同；限制是納粹擴張目標與資源壓力仍在。",
+    "causes": [
+      "molotov-ribbentrop"
+    ],
+    "causalLinks": [
+      {
+        "event": "molotov-ribbentrop",
+        "kind": "context",
+        "explanation": "先前條約只造成暫時合作，未排除納粹侵蘇計畫。",
+        "sources": [
+          "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "布列斯特周邊為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜二戰關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+      ],
+      [
+        "美國大屠殺紀念館｜娘子谷大屠殺",
+        "https://encyclopedia.ushmm.org/content/en/article/kiev-and-babi-yar"
+      ]
+    ]
+  },
+  {
+    "id": "fair-employment",
+    "chapter": 5,
+    "date": "1941-06-25",
+    "title": "第 8802 號命令與戰時勞動平權抗爭",
+    "place": "華盛頓",
+    "point": [
+      -77.04,
+      38.9
+    ],
+    "theaters": [
+      "home"
+    ],
+    "actors": [
+      "US",
+      "WORK",
+      "CIV"
+    ],
+    "type": "politics",
+    "summary": "羅斯福下令國防工業和政府相關雇用不得按種族、信仰、膚色或出身歧視，設公平就業委員會。",
+    "background": "非裔勞動者在工業擴張中仍遭排除，A. 菲利普・倫道夫策劃華盛頓大遊行施壓。",
+    "trigger": "民權動員迫使政府在動員需求與歧視制度間作出讓步。",
+    "motives": "運動者要求工作權；政府要維持生產及政治支持；雇主和工會反應不一。",
+    "impact": "女性、非裔與移民勞動者的參與擴大，但薪資、職種與隔離仍有障礙。",
+    "debate": "命令沒有當天取消軍隊種族隔離，也未使工作場所立即平等。",
+    "primary": "讀行政命令全文及投訴資料，區分法定原則和執行成果。",
+    "counterfactual": "假設沒有群眾施壓，改革可能更慢；限制是無法把全部變化歸於一名領袖。",
+    "causes": [
+      "lend-lease"
+    ],
+    "causalLinks": [
+      {
+        "event": "lend-lease",
+        "kind": "context",
+        "explanation": "擴大的國防生產形成爭取就業權的重要背景，並非命令的直接法律原因。",
+        "sources": [
+          "https://www.archives.gov/milestone-documents/executive-order-8802"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "華盛頓為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國家檔案館｜第 8802 號行政命令原文",
+        "https://www.archives.gov/milestone-documents/executive-order-8802"
+      ]
+    ]
+  },
+  {
+    "id": "july-imperial-policy",
+    "chapter": 5,
+    "date": "1941-07-02",
+    "title": "御前會議並論南進與德蘇戰爭",
+    "place": "東京",
+    "point": [
+      139.75,
+      35.68
+    ],
+    "theaters": [
+      "home",
+      "southeast",
+      "east"
+    ],
+    "actors": [
+      "JP",
+      "SU",
+      "DE",
+      "US"
+    ],
+    "type": "politics",
+    "summary": "日本御前會議批准新國策，推進南部印支部署，同時討論德蘇戰爭與對蘇選項。",
+    "background": "南進方針已有醞釀，德國侵蘇又讓北進支持者看到機會。",
+    "trigger": "德蘇戰爭與日美談判使政府及大本營重新協調政策。",
+    "motives": "陸海軍、外務省各有盤算；資源取得與避免不利戰爭同時左右決策。",
+    "impact": "日本沒有跟隨德國立即侵蘇；南進準備與對蘇警戒並行。",
+    "debate": "德國侵蘇不是日本南進的單一直接原因，JACAR 會議資料顯示多項政策互相牽制。",
+    "primary": "杉山備忘錄與 7 月 2 日國策綱要可比較會議提問、回答和正式決定。",
+    "counterfactual": "假設東京決定北進，蘇聯可能承受更大壓力；限制是日軍後勤與蘇軍兵力不能忽略。",
+    "causes": [
+      "barbarossa",
+      "soviet-japan-neutrality"
+    ],
+    "causalLinks": [
+      {
+        "event": "barbarossa",
+        "kind": "context",
+        "explanation": "德國侵蘇觸發東京對北方機會與風險的重新評估，未自動決定南進。",
+        "sources": [
+          "https://www.jacar.go.jp/english/exhibition/nichibei/popup/pop_10.html"
+        ]
+      },
+      {
+        "event": "soviet-japan-neutrality",
+        "kind": "enabling",
+        "explanation": "中立約降低當下遠東壓力，卻沒有消除日本對蘇軍事準備。",
+        "sources": [
+          "https://www.jacar.go.jp/english/exhibition/nichibei/popup/pop_10.html"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "東京為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "日本亞洲歷史資料中心｜1941 年 7 月 2 日御前會議",
+        "https://www.jacar.go.jp/english/exhibition/nichibei/popup/pop_10.html"
+      ],
+      [
+        "日本外務省｜日蘇中立條約及蘇方文件",
+        "https://www.mofa.go.jp/region/europe/russia/territory/edition92/period3.html"
+      ]
+    ]
+  },
+  {
+    "id": "asset-freeze",
+    "chapter": 5,
+    "date": "1941-07-26",
+    "title": "美國凍結日本資產，石油貿易逐步中止",
+    "place": "華盛頓",
+    "point": [
+      -77.04,
+      38.9
+    ],
+    "theaters": [
+      "home",
+      "china",
+      "southeast"
+    ],
+    "actors": [
+      "US",
+      "JP",
+      "GB",
+      "NL",
+      "CN"
+    ],
+    "type": "tension",
+    "summary": "美國凍結日本資產，英荷也採限制；許可制度的執行使對日石油出口實際中斷。",
+    "background": "侵華戰爭與進駐印支使美方認為日本威脅更大，日方高度依賴進口油料。",
+    "trigger": "日本決定南部印支部署，引發經濟壓力升級。",
+    "motives": "美英荷要阻止擴張；日本領導人拒絕放棄中國占領利益，又擔心油料庫存。",
+    "impact": "外交談判與開戰準備並行；制裁是壓力條件，發動侵略仍是日方選擇。",
+    "debate": "資產凍結、許可政策和全面禁運效果是連續過程，不把 26 日寫成一紙同時生效的世界禁油令。",
+    "primary": "比較行政命令、出口許可與日方會議資料，分清政策設計與執行效果。",
+    "counterfactual": "假設油供維持，開戰急迫感可能下降；限制是侵華與地區霸權衝突仍在。",
+    "causes": [
+      "july-imperial-policy",
+      "marco-polo"
+    ],
+    "causalLinks": [
+      {
+        "event": "july-imperial-policy",
+        "kind": "direct",
+        "explanation": "南部印支部署決定促成美英荷升高經濟限制。",
+        "sources": [
+          "https://www.ndl.go.jp/modern/e/cha4/description13.html"
+        ]
+      },
+      {
+        "event": "marco-polo",
+        "kind": "context",
+        "explanation": "中國戰爭與拒絕撤軍構成日美衝突的長期背景。",
+        "sources": [
+          "https://history.state.gov/milestones/1937-1945/pearl-harbor"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "華盛頓為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國務院史家辦公室｜中國、日本與通向珍珠港之路",
+        "https://history.state.gov/milestones/1937-1945/pearl-harbor"
+      ],
+      [
+        "日本國立國會圖書館｜日美開戰的決策資料",
+        "https://www.ndl.go.jp/modern/e/cha4/description13.html"
+      ],
+      [
+        "紐西蘭文化與遺產部｜太平洋戰爭年表（須留意日期差異）",
+        "https://nzhistory.govt.nz/war/second-world-war/war-in-the-pacific/timeline"
+      ]
+    ]
+  },
+  {
+    "id": "south-indochina",
+    "chapter": 5,
+    "date": "1941-07-28",
+    "title": "日軍進駐南部印支，逼近南方資源區",
+    "place": "西貢",
+    "point": [
+      106.7,
+      10.78
+    ],
+    "theaters": [
+      "southeast",
+      "china"
+    ],
+    "actors": [
+      "JP",
+      "VICHY",
+      "US",
+      "GB",
+      "NL"
+    ],
+    "type": "mobilize",
+    "summary": "日軍開始進入南部法屬印度支那，取得接近馬來亞和荷屬東印度的基地。",
+    "background": "北部駐軍未滿足南進部署需要，法國殖民當局受到日本持續施壓。",
+    "trigger": "依御前會議政策及日法安排展開進駐。",
+    "motives": "日方要取得戰略基地與資源通路；維琪當局力保行政，日本軍事優勢限制其選擇。",
+    "impact": "英美荷認為其殖民地與基地更受威脅，談判僵局進一步加深。",
+    "debate": "7 月 26 日凍結資產早於 28 日實際進駐，是對部署決定的回應，不能倒置因果。",
+    "primary": "紐西蘭年表列 28 日，與 NDL 對國策和制裁的敘述對讀。",
+    "counterfactual": "假設進駐停止，談判空間可能較大；限制是中國撤軍問題仍未解決。",
+    "causes": [
+      "july-imperial-policy"
+    ],
+    "causalLinks": [
+      {
+        "event": "july-imperial-policy",
+        "kind": "direct",
+        "explanation": "7 月 2 日政策決定為南部進駐授權。",
+        "sources": [
+          "https://www.jacar.go.jp/english/exhibition/nichibei/popup/pop_10.html"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "西貢為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "紐西蘭文化與遺產部｜太平洋戰爭年表（須留意日期差異）",
+        "https://nzhistory.govt.nz/war/second-world-war/war-in-the-pacific/timeline"
+      ],
+      [
+        "日本國立國會圖書館｜日美開戰的決策資料",
+        "https://www.ndl.go.jp/modern/e/cha4/description13.html"
+      ],
+      [
+        "日本亞洲歷史資料中心｜1941 年 7 月 2 日御前會議",
+        "https://www.jacar.go.jp/english/exhibition/nichibei/popup/pop_10.html"
+      ]
+    ]
+  },
+  {
+    "id": "atlantic-charter",
+    "chapter": 5,
+    "date": "1941-08-14",
+    "title": "大西洋憲章與戰後秩序想像",
+    "place": "紐芬蘭，普拉森舍灣",
+    "point": [
+      -53.9,
+      47.3
+    ],
+    "theaters": [
+      "atlantic",
+      "home"
+    ],
+    "actors": [
+      "US",
+      "GB",
+      "CIV"
+    ],
+    "type": "peace",
+    "summary": "羅斯福與邱吉爾公布共同原則，談及反侵略、自由貿易、自決與戰後安全。",
+    "background": "英國希望美國更直接參戰，美方仍以援助和海上合作為主。",
+    "trigger": "大西洋會議在德國侵蘇後重新討論戰爭目標與合作。",
+    "motives": "兩國領袖要建立共同方向，對殖民地自決的適用卻有不同理解。",
+    "impact": "宣言成為盟國合作與戰後國際組織的思想資源，也被殖民地運動用來要求承諾。",
+    "debate": "這是原則宣言，並非立即解放殖民地或美國已正式對德宣戰的條約。",
+    "primary": "閱讀八項原則及邱吉爾對帝國的解釋，辨識普遍語言與實踐落差。",
+    "counterfactual": "假設自決原則當即適用殖民地，帝國秩序可能更快改變；限制是軍事占領及政治權力仍未消失。",
+    "causes": [],
+    "causalLinks": [],
+    "edges": [],
+    "mapNote": "紐芬蘭，普拉森舍灣為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國務院史家辦公室｜大西洋會議與憲章",
+        "https://history.state.gov/milestones/1937-1945/atlantic-conf"
+      ]
+    ]
+  },
+  {
+    "id": "iran-invasion",
+    "chapter": 5,
+    "date": "1941-08-25",
+    "title": "英蘇入侵伊朗：援蘇走廊與主權代價",
+    "place": "阿巴丹及伊朗南北邊界",
+    "point": [
+      48.3,
+      30.34
+    ],
+    "theaters": [
+      "indian",
+      "east"
+    ],
+    "actors": [
+      "GB",
+      "IND",
+      "SU",
+      "IR",
+      "US"
+    ],
+    "type": "attack",
+    "summary": "英蘇軍隊入侵伊朗，隨後迫使國王退位；波斯走廊逐漸成為援蘇的主要路線之一。",
+    "background": "德國侵蘇後盟軍需要穩定補給線，英國也關切伊朗石油與德國影響。",
+    "trigger": "英蘇決定以軍事力量控制通道和戰略設施。",
+    "motives": "盟軍追求供應和安全；伊朗政府及居民承擔占領、通膨和主權受損。",
+    "impact": "港口、鐵路與卡車運輸由盟軍擴建，物資經印度洋及伊朗運向蘇聯。",
+    "debate": "援蘇的重要性不能合理化侵略，也不能把 1941 年尚有限的運量寫成已達高峰。",
+    "primary": "美國陸軍官方軍史詳列入侵及運輸能力，可與伊朗民間經驗對讀。",
+    "counterfactual": "假設不入侵而協商通行，主權損害或較小；限制是不能假定戰時各方會接受同樣條件。",
+    "causes": [
+      "barbarossa",
+      "lend-lease"
+    ],
+    "causalLinks": [
+      {
+        "event": "barbarossa",
+        "kind": "enabling",
+        "explanation": "援蘇需求與油田安全促成盟軍控制伊朗的決定。",
+        "sources": [
+          "https://www.ibiblio.org/hyperwar/USA/USA-ME-Persia/index.html"
+        ]
+      },
+      {
+        "event": "lend-lease",
+        "kind": "enabling",
+        "explanation": "援助制度需靠海港、鐵路與車輛才能轉成前線供應。",
+        "sources": [
+          "https://www.ibiblio.org/hyperwar/USA/USA-ME-Persia/index.html"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "阿巴丹及伊朗南北邊界為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國陸軍官方軍史｜波斯走廊與援蘇（網頁典藏）",
+        "https://www.ibiblio.org/hyperwar/USA/USA-ME-Persia/index.html"
+      ]
+    ]
+  },
+  {
+    "id": "babyn-yar",
+    "chapter": 5,
+    "date": "1941-09-29",
+    "title": "娘子谷大屠殺與東線占領暴力",
+    "place": "基輔，娘子谷",
+    "point": [
+      30.45,
+      50.47
+    ],
+    "theaters": [
+      "east"
+    ],
+    "actors": [
+      "DE",
+      "JEW",
+      "SU",
+      "CIV"
+    ],
+    "type": "attack",
+    "summary": "29 至 30 日，德國黨衛隊、警察及其輔助人員在娘子谷槍殺大批猶太人；當地其後繼續成為殺戮場所。",
+    "background": "德軍占領基輔，隨侵蘇行動的機動殺戮隊把迫害擴大為系統性屠殺。",
+    "trigger": "占領者利用爆炸事件作藉口，命令猶太居民集合，再帶往峽谷殺害。",
+    "motives": "納粹執行種族滅絕；受害者在欺騙、武力和失去逃路下遭集中。",
+    "impact": "羅姆人、蘇聯戰俘及其他平民也在後續遭殺，記憶與證據的保存持續受到政治影響。",
+    "debate": "約 33,771 名兩日猶太死者出自德方殺戮報告；不是此地兩年全部受害者總數。",
+    "primary": "比較第 106 號行動報告與狄娜・普羅尼切娃證言，犯罪者統計與倖存者敘述互補。",
+    "counterfactual": "假設疏散更早或能救出部分居民；限制是迫害政策的責任不能轉嫁給未逃離者。",
+    "causes": [
+      "barbarossa"
+    ],
+    "causalLinks": [
+      {
+        "event": "barbarossa",
+        "kind": "enabling",
+        "explanation": "侵蘇與占領為機動殺戮隊擴大種族屠殺提供範圍與權力。",
+        "sources": [
+          "https://encyclopedia.ushmm.org/content/en/article/kiev-and-babi-yar"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "基輔，娘子谷為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜娘子谷大屠殺",
+        "https://encyclopedia.ushmm.org/content/en/article/kiev-and-babi-yar"
+      ]
+    ]
+  },
+  {
+    "id": "japan-war-decision",
+    "chapter": 5,
+    "date": "1941-12-01",
+    "title": "日本作出對美英開戰的最後決定",
+    "place": "東京",
+    "point": [
+      139.75,
+      35.68
+    ],
+    "theaters": [
+      "home",
+      "southeast",
+      "pacific"
+    ],
+    "actors": [
+      "JP",
+      "US",
+      "GB",
+      "CN"
+    ],
+    "type": "politics",
+    "summary": "御前會議最後確認對美英開戰；11 月 26 日赫爾照會加深僵局，但軍事準備早已進行。",
+    "background": "中國撤軍、印支部署與經濟限制交織，日方不願接受大幅撤退。",
+    "trigger": "領導人判定談判無望，選擇以戰爭取得資源並排除干預。",
+    "motives": "軍政領袖希望先重擊美英，建立可防守的資源圈；美方仍要求停止擴張。",
+    "impact": "南方作戰與珍珠港攻擊獲最後政治確認，多地攻勢即將同步展開。",
+    "debate": "赫爾照會不是有明確開戰期限的最後通牒；日本如何理解它，與文本法律性質不同。",
+    "primary": "NDL 決策資料與 NARA 對赫爾照會的研究交叉查核，注意艦隊已於 26 日出航。",
+    "counterfactual": "假設東京接受談判或延期，開戰可能避免或延後；限制是不能據此保證侵華戰爭停止。",
+    "causes": [
+      "asset-freeze",
+      "marco-polo"
+    ],
+    "causalLinks": [
+      {
+        "event": "asset-freeze",
+        "kind": "enabling",
+        "explanation": "油料與經濟壓力提高急迫感，但沒有迫使日本必須採取戰爭。",
+        "sources": [
+          "https://www.ndl.go.jp/modern/e/cha4/description13.html"
+        ]
+      },
+      {
+        "event": "marco-polo",
+        "kind": "context",
+        "explanation": "不願放棄在華占領利益使日美妥協更困難。",
+        "sources": [
+          "https://history.state.gov/milestones/1937-1945/pearl-harbor"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "東京為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "日本國立國會圖書館｜日美開戰的決策資料",
+        "https://www.ndl.go.jp/modern/e/cha4/description13.html"
+      ],
+      [
+        "美國國家檔案館 Prologue｜赫爾照會與開戰史料辨析",
+        "https://www.archives.gov/publications/prologue/1996/fall/butow.html"
+      ],
+      [
+        "美國國家公園署｜珍珠港攻擊的計畫與經過",
+        "https://www.nps.gov/articles/pearlattackww2.htm/index.htm"
+      ],
+      [
+        "美國國務院史家辦公室｜中國、日本與通向珍珠港之路",
+        "https://history.state.gov/milestones/1937-1945/pearl-harbor"
+      ]
+    ]
+  },
+  {
+    "id": "moscow",
+    "chapter": 5,
+    "date": "1941-12-05",
+    "title": "蘇軍在莫斯科附近開始反攻",
+    "place": "莫斯科西郊",
+    "point": [
+      36.7,
+      55.8
+    ],
+    "theaters": [
+      "east"
+    ],
+    "actors": [
+      "SU",
+      "DE"
+    ],
+    "type": "battle",
+    "summary": "蘇軍於 5 至 6 日分批發起冬季反攻，迫使德軍後撤；德國速勝蘇聯的計畫失敗。",
+    "background": "德軍推進過遠，補給、消耗與氣候惡化，蘇軍仍有動員與預備隊。",
+    "trigger": "德軍攻勢衰竭，蘇軍選擇反擊。",
+    "motives": "蘇方保衛首都與恢復主動；德方企圖維持戰線和威望。",
+    "impact": "東線轉為長期消耗戰，工業遷移、勞動與盟軍供應的重要性上升。",
+    "debate": "嚴寒影響雙方；不能用「冬將軍」抹去蘇軍抵抗、德軍後勤與決策失誤。",
+    "primary": "讀雙方日誌及蘇軍反攻命令；以 5 日表示加里寧方面軍開始，其他戰線 6 日投入。",
+    "counterfactual": "假設德軍補給較好，攻勢或能維持更久；限制是蘇聯仍有廣大資源與抵抗能力。",
+    "causes": [
+      "barbarossa"
+    ],
+    "causalLinks": [
+      {
+        "event": "barbarossa",
+        "kind": "consequence",
+        "explanation": "未能迅速摧毀蘇聯，加上兵力耗損，使蘇軍取得反攻機會。",
+        "sources": [
+          "https://www.nationalww2museum.org/war/articles/degrees-separation"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "莫斯科西郊為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜二戰關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+      ],
+      [
+        "美國國家二戰博物館｜1941 年 12 月蘇軍反攻與全球戰爭",
+        "https://www.nationalww2museum.org/war/articles/degrees-separation"
+      ]
+    ]
+  },
+  {
+    "id": "pearl-harbor",
+    "chapter": 5,
+    "date": "1941-12-07",
+    "title": "珍珠港：夏威夷 7 日，東亞已是 8 日",
+    "place": "夏威夷，珍珠港",
+    "point": [
+      -157.95,
+      21.36
+    ],
+    "theaters": [
+      "pacific",
+      "home"
+    ],
+    "actors": [
+      "JP",
+      "US",
+      "CIV"
+    ],
+    "type": "attack",
+    "summary": "日軍航艦機動部隊襲擊珍珠港，重創多艘戰艦與機場；美國航艦當時不在港內。",
+    "background": "日本計畫奪取南方資源區，擔心美國太平洋艦隊干預。",
+    "trigger": "最後開戰決定後，已出航的艦隊接令實施攻擊。",
+    "motives": "日方希望先削弱美軍並迫其接受既成事實；美方未掌握攻擊地點與時間。",
+    "impact": "美國 8 日對日宣戰；損失雖重，基地、修理能力及航艦讓美軍仍能反擊。",
+    "debate": "日期採夏威夷當地 7 日；東京、香港、馬來亞與菲律賓多已是 8 日。日級排序不表示精確的全球時刻先後。",
+    "primary": "國家公園署記載艦隊出航、命令與兩波攻擊，與日方紀錄比較。",
+    "counterfactual": "假設航艦在港，損失可能更重；限制是不能因此推定美國失去長期工業優勢。",
+    "causes": [
+      "japan-war-decision",
+      "south-indochina"
+    ],
+    "causalLinks": [
+      {
+        "event": "japan-war-decision",
+        "kind": "direct",
+        "explanation": "最後政治決定與執行命令促成珍珠港攻擊。",
+        "sources": [
+          "https://www.nps.gov/articles/pearlattackww2.htm/index.htm"
+        ]
+      },
+      {
+        "event": "south-indochina",
+        "kind": "context",
+        "explanation": "南方擴張與排除美軍干預屬同一戰略背景，非基地進駐直接造成空襲。",
+        "sources": [
+          "https://history.state.gov/milestones/1937-1945/pearl-harbor"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "夏威夷，珍珠港為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國家公園署｜珍珠港攻擊的計畫與經過",
+        "https://www.nps.gov/articles/pearlattackww2.htm/index.htm"
+      ],
+      [
+        "日本國立國會圖書館｜日美開戰的決策資料",
+        "https://www.ndl.go.jp/modern/e/cha4/description13.html"
+      ],
+      [
+        "美國國務院史家辦公室｜中國、日本與通向珍珠港之路",
+        "https://history.state.gov/milestones/1937-1945/pearl-harbor"
+      ]
+    ]
+  },
+  {
+    "id": "malaya",
+    "chapter": 5,
+    "date": "1941-12-08",
+    "title": "馬來亞與泰國：資源區攻勢同步展開",
+    "place": "哥打巴魯",
+    "point": [
+      102.28,
+      6.13
+    ],
+    "theaters": [
+      "southeast",
+      "indian"
+    ],
+    "actors": [
+      "JP",
+      "GB",
+      "IND",
+      "AU",
+      "TH",
+      "CIV"
+    ],
+    "type": "attack",
+    "summary": "日軍在馬來亞東北部與泰國沿岸登陸，並空襲新加坡；哥打巴魯登陸在絕對時間上早於珍珠港主要空襲。",
+    "background": "馬來亞橡膠、錫與新加坡基地具有資源和海運價值。",
+    "trigger": "南方作戰計畫要求多路快速攻擊，避免盟軍整合防禦。",
+    "motives": "日本求奪取資源與基地；守軍保衛殖民地；泰國在壓力下與日方合作。",
+    "impact": "攻勢向新加坡推進，地方居民面臨占領、徵用及暴力。",
+    "debate": "日期採馬來亞當地 8 日；不以時間軸前一筆珍珠港推論這次登陸是其結果。",
+    "primary": "對讀作戰時刻與地方時區，紐西蘭年表把登陸列為 7 至 8 日。",
+    "counterfactual": "假設守軍更早集中防禦，日軍速度或降低；限制是空中與海上優勢仍左右戰局。",
+    "causes": [
+      "japan-war-decision"
+    ],
+    "causalLinks": [
+      {
+        "event": "japan-war-decision",
+        "kind": "direct",
+        "explanation": "南方同步作戰由最後開戰決策及既定計畫啟動。",
+        "sources": [
+          "https://www.ndl.go.jp/modern/e/cha4/description13.html"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "哥打巴魯為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "紐西蘭文化與遺產部｜太平洋戰爭年表（須留意日期差異）",
+        "https://nzhistory.govt.nz/war/second-world-war/war-in-the-pacific/timeline"
+      ],
+      [
+        "日本國立國會圖書館｜日美開戰的決策資料",
+        "https://www.ndl.go.jp/modern/e/cha4/description13.html"
+      ]
+    ]
+  },
+  {
+    "id": "philippines-attack",
+    "chapter": 5,
+    "date": "1941-12-08",
+    "title": "菲律賓遭空襲，殖民防禦與本地部隊",
+    "place": "呂宋，克拉克機場",
+    "point": [
+      120.56,
+      15.19
+    ],
+    "theaters": [
+      "pacific",
+      "southeast"
+    ],
+    "actors": [
+      "JP",
+      "US",
+      "PH",
+      "CIV"
+    ],
+    "type": "attack",
+    "summary": "日軍空襲呂宋美菲基地，之後分批登陸；菲律賓自治邦仍在美國主權之下。",
+    "background": "美國正增強防禦，菲律賓軍被動員，但裝備、訓練和補給有限。",
+    "trigger": "日本南方作戰要排除位於交通線上的美菲軍力。",
+    "motives": "日方求控制海空基地；美菲部隊保衛群島，本地居民有各自政治與生存選擇。",
+    "impact": "聯軍退守巴丹與科雷希多，平民疏散及戰俘危機隨之加深。",
+    "debate": "8 日採菲律賓當地日期；22 日是主要登陸的一個節點，並非首次空襲或所有登陸起日。",
+    "primary": "比較美菲防禦報告與日本作戰記錄；國家公園署年表需與當地日期對照。",
+    "counterfactual": "假設飛機提早分散，損失或減少；限制是群島仍面對長期海空孤立。",
+    "causes": [
+      "japan-war-decision"
+    ],
+    "causalLinks": [
+      {
+        "event": "japan-war-decision",
+        "kind": "direct",
+        "explanation": "開戰決定啟動菲律賓攻勢，與夏威夷及馬來亞同屬預定作戰。",
+        "sources": [
+          "https://www.ndl.go.jp/modern/e/cha4/description13.html"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "呂宋，克拉克機場為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國家公園署｜珍珠港攻擊的計畫與經過",
+        "https://www.nps.gov/articles/pearlattackww2.htm/index.htm"
+      ],
+      [
+        "美國國家公園署｜太平洋主要戰事索引",
+        "https://home.nps.gov/perl/learn/historyculture/pacific-battles.htm"
+      ],
+      [
+        "紐西蘭文化與遺產部｜太平洋戰爭年表（須留意日期差異）",
+        "https://nzhistory.govt.nz/war/second-world-war/war-in-the-pacific/timeline"
+      ],
+      [
+        "日本國立國會圖書館｜日美開戰的決策資料",
+        "https://www.ndl.go.jp/modern/e/cha4/description13.html"
+      ]
+    ]
+  },
+  {
+    "id": "germany-us",
+    "chapter": 5,
+    "date": "1941-12-11",
+    "title": "德義對美宣戰，戰爭聯成全球體系",
+    "place": "柏林",
+    "point": [
+      13.4,
+      52.52
+    ],
+    "theaters": [
+      "west",
+      "home",
+      "atlantic"
+    ],
+    "actors": [
+      "DE",
+      "IT",
+      "US",
+      "JP"
+    ],
+    "type": "declare",
+    "summary": "德國與義大利對美國宣戰，美國國會同日回應；美軍正式同時投入對日與對德義戰爭。",
+    "background": "美德在大西洋已發生海上衝突，珍珠港後美國對日宣戰。中國國民政府於 12 月 9 日正式對日德義宣戰；這是法律宣告，與更早已發生的全面抗戰不同。",
+    "trigger": "希特勒與墨索里尼作出自己的宣戰決定。",
+    "motives": "德方期待日本牽制美國，也判斷美德衝突難以避免；美方建立跨洋聯盟。",
+    "impact": "盟軍需在歐洲優先、太平洋防禦及中國支援間分配運力與武器。",
+    "debate": "三國同盟不機械地強制德國因日本主動攻擊而宣戰；領導人的選擇仍重要。",
+    "primary": "對讀德國宣戰演說與美國國會聯合決議。",
+    "counterfactual": "假設希特勒不宣戰，美國對德參戰程序或不同；限制是大西洋交戰早已升級。",
+    "causes": [
+      "pearl-harbor",
+      "tripartite"
+    ],
+    "causalLinks": [
+      {
+        "event": "pearl-harbor",
+        "kind": "enabling",
+        "explanation": "珍珠港與美日開戰改變希特勒的判斷，但對美宣戰是德方另作的決策。",
+        "sources": [
+          "https://history.state.gov/milestones/1937-1945/pearl-harbor"
+        ]
+      },
+      {
+        "event": "tripartite",
+        "kind": "context",
+        "explanation": "三國政治聯結是宣戰背景，並非自動觸發條款。",
+        "sources": [
+          "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "柏林為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜二戰關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+      ],
+      [
+        "美國國務院史家辦公室｜中國、日本與通向珍珠港之路",
+        "https://history.state.gov/milestones/1937-1945/pearl-harbor"
+      ],
+      [
+        "國立故宮博物院｜外交史料特展：1941 年宣戰與盟國合作",
+        "https://www.npm.edu.tw/NewChineseArtDownload.ashx?bid=2533"
+      ]
+    ],
+    "comparison": "1941.12：美國同時對日與德義交戰，南方殖民地遭同步攻勢；蘇聯對德作戰，仍未對日宣戰。"
+  },
+  {
+    "id": "hong-kong",
+    "chapter": 5,
+    "date": "1941-12-25",
+    "title": "香港守軍投降，占領與戰俘經驗開始",
+    "place": "香港",
+    "point": [
+      114.17,
+      22.28
+    ],
+    "theaters": [
+      "china",
+      "southeast"
+    ],
+    "actors": [
+      "JP",
+      "GB",
+      "IND",
+      "CA",
+      "CIV"
+    ],
+    "type": "battle",
+    "summary": "自 8 日開始的香港戰事至 25 日守軍投降；英、加、印度等部隊和本地居民經歷戰鬥與占領。",
+    "background": "香港是英國殖民地，防禦資源有限，後方與中國沿岸戰局相連。",
+    "trigger": "日軍突破九龍及港島防線，守軍失去有效抵抗能力。",
+    "motives": "日方奪取港口與交通樞紐；守軍和平民在孤立中求生。",
+    "impact": "軍人淪為戰俘，居民遭徵用、飢餓與遷移；抵抗與情報網絡仍存在。",
+    "debate": "守軍投降不等於居民自願接受占領；不同群體遭遇不能只用英軍戰史概括。",
+    "primary": "加拿大戰爭博物館保留戰俘和參戰者記錄，可和香港本地口述對讀。",
+    "counterfactual": "假設增援更早到達，防守或可延長；限制是海空封鎖使持續補給困難。",
+    "causes": [
+      "japan-war-decision"
+    ],
+    "causalLinks": [
+      {
+        "event": "japan-war-decision",
+        "kind": "direct",
+        "explanation": "香港是日本對英同步攻勢的一部分，並非珍珠港後才臨時決定。",
+        "sources": [
+          "https://www.warmuseum.ca/war-against-japan/"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "香港為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "加拿大戰爭博物館｜對日戰爭與香港",
+        "https://www.warmuseum.ca/war-against-japan/"
+      ],
+      [
+        "紐西蘭文化與遺產部｜太平洋戰爭年表（須留意日期差異）",
+        "https://nzhistory.govt.nz/war/second-world-war/war-in-the-pacific/timeline"
+      ]
+    ]
+  }
+]

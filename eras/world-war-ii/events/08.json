@@ -1,0 +1,846 @@
+[
+  {
+    "id": "imphal",
+    "chapter": 8,
+    "date": "1944-03-08",
+    "title": "日軍進攻英帕爾，空運支撐印度邊境防禦",
+    "place": "英帕爾",
+    "point": [
+      93.94,
+      24.82
+    ],
+    "theaters": [
+      "southeast",
+      "indian",
+      "china"
+    ],
+    "actors": [
+      "JP",
+      "GB",
+      "IND",
+      "INA",
+      "CIV"
+    ],
+    "type": "battle",
+    "summary": "日軍向印度東北部發動烏號作戰，英帕爾及周邊戰鬥延至 7 月；盟軍以空中補給維持被圍部隊。",
+    "background": "本章核心問題：多戰區攻勢為何未能立即阻止屠殺與占領暴力？ 緬甸戰局與中國空運交通相連，印度既是後方也面臨進攻。",
+    "trigger": "日軍企圖先發攻擊、奪取補給基地並阻止盟軍重返緬甸。",
+    "motives": "日方希望扭轉戰局；印度國民軍追求反英獨立；英印軍保衛基地，當地居民利益不等同帝國。",
+    "impact": "日軍補給崩潰、病餓與戰敗削弱緬甸防線，盟軍轉入反攻。",
+    "debate": "英印軍內有不同族群和殖民身分；不能把印度人一概置於同一陣營。",
+    "primary": "陸軍博物館採 3 月 8 日至 7 月 18 日的整體分期，對讀空運量和日軍補給計畫。",
+    "counterfactual": "假設日軍不越山進攻，可能保存部隊；限制是盟軍重返緬甸的壓力仍在。",
+    "causes": [
+      "rangoon"
+    ],
+    "causalLinks": [
+      {
+        "event": "rangoon",
+        "kind": "context",
+        "explanation": "1942 年撤退後的基地重整和援華需求形成印緬戰場連動。",
+        "sources": [
+          "https://www.nam.ac.uk/explore/battle-imphal"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "英帕爾為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "英國國家陸軍博物館｜英帕爾與科希馬戰役",
+        "https://www.nam.ac.uk/explore/battle-imphal"
+      ],
+      [
+        "英國皇家軍械博物館｜英帕爾與科希馬",
+        "https://royalarmouries.org/objects-and-stories/stories/the-battles-of-imphal-and-kohima-1944"
+      ]
+    ]
+  },
+  {
+    "id": "kohima",
+    "chapter": 8,
+    "date": "1944-04-04",
+    "title": "科希馬遭圍，印度東北交通線受威脅",
+    "place": "科希馬",
+    "point": [
+      94.11,
+      25.67
+    ],
+    "theaters": [
+      "southeast",
+      "indian"
+    ],
+    "actors": [
+      "JP",
+      "GB",
+      "IND",
+      "CIV"
+    ],
+    "type": "battle",
+    "summary": "日軍圍攻科希馬，4 至 6 月持續激戰；控制此地關係到迪馬普爾至英帕爾道路。",
+    "background": "日軍主攻英帕爾時，以另一支部隊迂迴切斷其後方。",
+    "trigger": "先遣日軍抵達科希馬並圍攻守軍陣地。",
+    "motives": "日方要切斷道路；盟軍維持交通並救援駐軍；那加居民經歷疏散、徵用與破壞。",
+    "impact": "英印軍反攻與空運支援使圍困解除，整體烏號作戰失敗。",
+    "debate": "網球場近戰是戰役的一部分，不能代表整個印度邊境的作戰範圍。",
+    "primary": "皇家軍械與陸軍博物館對讀分期；4 日圍攻與 5 日後主要激戰可分別辨認。",
+    "counterfactual": "假設道路提早被完全切斷，盟軍壓力可能更大；限制是空運仍能部分彌補。",
+    "causes": [
+      "imphal"
+    ],
+    "causalLinks": [
+      {
+        "event": "imphal",
+        "kind": "enabling",
+        "explanation": "烏號作戰的迂迴計畫將科希馬與英帕爾置於同一補給戰。",
+        "sources": [
+          "https://www.nam.ac.uk/explore/battle-imphal"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "科希馬為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "英國皇家軍械博物館｜英帕爾與科希馬",
+        "https://royalarmouries.org/objects-and-stories/stories/the-battles-of-imphal-and-kohima-1944"
+      ],
+      [
+        "英國國家陸軍博物館｜英帕爾與科希馬戰役",
+        "https://www.nam.ac.uk/explore/battle-imphal"
+      ]
+    ]
+  },
+  {
+    "id": "ichi-go",
+    "chapter": 8,
+    "date": "1944-04-19",
+    "title": "一號作戰：中國大潰退與基地、鐵路爭奪",
+    "place": "河南，鄭州周邊",
+    "point": [
+      113.63,
+      34.75
+    ],
+    "theaters": [
+      "china",
+      "southeast",
+      "pacific"
+    ],
+    "actors": [
+      "JP",
+      "CN",
+      "US",
+      "CCP",
+      "CIV"
+    ],
+    "type": "attack",
+    "summary": "日軍大規模進攻河南，之後延向湖南、廣西，至年底奪取多處美中空軍基地與鐵路沿線。",
+    "background": "海運損失、盟軍空襲和中國戰場僵持，促使日軍尋求陸上交通與摧毀基地。",
+    "trigger": "日本按一號作戰計畫投入大量兵力，河南主攻展開。",
+    "motives": "日方要打通交通並消除空軍威脅；國民政府在緬甸作戰、國內防禦及政治競爭間分配兵力。",
+    "impact": "中國軍政信譽受重創，平民流離，盟軍對中國戰略爭議加深。",
+    "debate": "部分年表以 17 日前奏或渡河起算；本筆依美國陸軍軍史 19 日主攻定位，戰役持續至年底。",
+    "primary": "對讀美國陸軍 China Defensive 與 NPS 遠東情報史，留意美方對蔣中正的批評立場。",
+    "counterfactual": "假設更多援助轉給中國東部，防線或改善；限制是訓練、交通和政治問題不會只靠物資解決。",
+    "causes": [
+      "rangoon"
+    ],
+    "causalLinks": [
+      {
+        "event": "rangoon",
+        "kind": "context",
+        "explanation": "援華瓶頸與中緬兵力分配，是中國應付 1944 年攻勢的共同背景。",
+        "sources": [
+          "https://www.nps.gov/articles/oss-in-action-the-pacific-and-the-far-east.htm"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "河南，鄭州周邊為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國陸軍官方軍史｜中國防禦戰役",
+        "https://history.army.mil/Portals/143/Images/Publications/Publication%20By%20Title%20Images/C%20Img/campaigns-wwii/pdf/12.pdf"
+      ],
+      [
+        "美國國家公園署｜遠東戰爭、一號作戰與情報",
+        "https://www.nps.gov/articles/oss-in-action-the-pacific-and-the-far-east.htm"
+      ]
+    ]
+  },
+  {
+    "id": "hungarian-deportations",
+    "chapter": 8,
+    "date": "1944-05-15",
+    "title": "匈牙利猶太人大規模驅逐開始",
+    "place": "布達佩斯及各省鐵路集結處",
+    "point": [
+      19.04,
+      47.5
+    ],
+    "theaters": [
+      "east"
+    ],
+    "actors": [
+      "DE",
+      "HU",
+      "JEW",
+      "CIV"
+    ],
+    "type": "attack",
+    "summary": "在德軍 3 月占領匈牙利後，德國黨衛隊與匈牙利當局自 5 月中旬大規模驅逐猶太人，多送往奧斯威辛。",
+    "background": "匈牙利本已實行反猶政策，德軍占領使大規模驅逐迅速推進。",
+    "trigger": "占領後的政府、憲兵與鐵路系統配合納粹計畫。",
+    "motives": "德方追求滅絕與勞力；合作者執行分類、集中與運輸，救援者試圖阻止。",
+    "impact": "數十萬人短期內被送往殺戮中心，顯示盟軍推進時屠殺仍可能加速。",
+    "debate": "不把匈牙利人全體等同合作者，也不因德國主導而忽略本地機構責任。",
+    "primary": "讀驅逐列車、奧斯威辛記錄及外交救援文件；數字需標明 5 月至 7 月的範圍。",
+    "counterfactual": "假設匈方更早停止配合，更多人可能生還；限制是德軍占領與地方暴力仍是威脅。",
+    "causes": [
+      "wannsee"
+    ],
+    "causalLinks": [
+      {
+        "event": "wannsee",
+        "kind": "context",
+        "explanation": "跨國行政協作延伸滅絕體系，但匈牙利占領與驅逐另有 1944 年決策。",
+        "sources": [
+          "https://encyclopedia.ushmm.org/content/en/article/auschwitz-key-dates"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "布達佩斯及各省鐵路集結處為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜奧斯威辛關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/auschwitz-key-dates"
+      ],
+      [
+        "美國大屠殺紀念館｜二戰關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+      ]
+    ]
+  },
+  {
+    "id": "rome-liberated",
+    "chapter": 8,
+    "date": "1944-06-04",
+    "title": "盟軍進入羅馬，義大利戰爭仍未結束",
+    "place": "羅馬",
+    "point": [
+      12.5,
+      41.9
+    ],
+    "theaters": [
+      "west",
+      "africa"
+    ],
+    "actors": [
+      "US",
+      "GB",
+      "IT",
+      "DE",
+      "RES"
+    ],
+    "type": "battle",
+    "summary": "盟軍突破卡西諾和安齊奧局勢後進入羅馬，德軍向北撤退，義大利北部仍處戰爭和占領中。",
+    "background": "義大利戰役自 1943 年起陷入山地、河川與多道防線的消耗。",
+    "trigger": "德軍撤離羅馬，盟軍得以進城。",
+    "motives": "盟軍要推進並維護義大利政治安排；德方保留部隊、防守北方。",
+    "impact": "首都解放具有象徵意義，但北方抵抗、強迫勞動和內戰持續到 1945 年。",
+    "debate": "羅馬解放不能等同全義大利解放，也不意味德軍已被完全包圍殲滅。",
+    "primary": "對讀美英作戰報告、抵抗者記錄和義大利王國公告。",
+    "counterfactual": "假設盟軍更重視截斷撤軍，可能俘獲更多兵力；限制是地形與補給限制仍在。",
+    "causes": [
+      "italy-armistice-announced"
+    ],
+    "causalLinks": [
+      {
+        "event": "italy-armistice-announced",
+        "kind": "consequence",
+        "explanation": "停戰後德軍占領與盟軍登陸使半島成為延續多月的戰場。",
+        "sources": [
+          "https://www.nationalww2museum.org/war/articles/allied-campaign-italy-1943-45-timeline-part-one"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "羅馬為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜二戰關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+      ],
+      [
+        "美國國家二戰博物館｜義大利戰局年表，第一部分",
+        "https://www.nationalww2museum.org/war/articles/allied-campaign-italy-1943-45-timeline-part-one"
+      ]
+    ]
+  },
+  {
+    "id": "normandy",
+    "chapter": 8,
+    "date": "1944-06-06",
+    "title": "諾曼第登陸與西歐新戰場",
+    "place": "諾曼第，貝桑海岸",
+    "point": [
+      -0.7,
+      49.35
+    ],
+    "theaters": [
+      "west",
+      "atlantic"
+    ],
+    "actors": [
+      "US",
+      "GB",
+      "CA",
+      "FF",
+      "DE",
+      "RES",
+      "CIV"
+    ],
+    "type": "attack",
+    "summary": "盟軍海空登陸諾曼第，建立橋頭堡；諾曼第戰役延續至 8 月，法國平民也在轟炸和地面戰中傷亡。",
+    "background": "英國基地累積大量部隊，盟軍取得海空優勢並進行情資及欺敵準備。",
+    "trigger": "霸王行動在天候短暫改善後啟動，先空降再海上登陸。",
+    "motives": "盟軍要開西歐戰場；德方守住海岸；抵抗組織破壞交通和傳遞情報。",
+    "impact": "西線與蘇軍攻勢共同壓迫德國，港口和道路仍限制突破速度。",
+    "debate": "D 日是登陸日，並非當天已解放法國；東線此前一直承受主要陸戰壓力。",
+    "primary": "對讀登陸命令、海灘報告、抵抗及平民證詞，登陸成功不抹去代價。",
+    "counterfactual": "假設惡劣天候持續，登陸可能延期；限制是不能由延期直接推出德軍最終勝利。",
+    "causes": [
+      "tehran",
+      "atlantic-turn"
+    ],
+    "causalLinks": [
+      {
+        "event": "tehran",
+        "kind": "direct",
+        "explanation": "三國戰略協調承諾跨海峽攻勢並配合東線反攻。",
+        "sources": [
+          "https://history.state.gov/milestones/1937-1945/tehran-conf"
+        ]
+      },
+      {
+        "event": "atlantic-turn",
+        "kind": "enabling",
+        "explanation": "護航與運力使美洲人員物資能在英國大規模集結。",
+        "sources": [
+          "https://www.royalnavy.mod.uk/news/2021/may/24/20210524-battle-atlantic"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "諾曼第，貝桑海岸為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜二戰關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+      ],
+      [
+        "美國國務院史家辦公室｜德黑蘭會議",
+        "https://history.state.gov/milestones/1937-1945/tehran-conf"
+      ],
+      [
+        "英國皇家海軍｜1943 年 5 月護航戰局轉折",
+        "https://www.royalnavy.mod.uk/news/2021/may/24/20210524-battle-atlantic"
+      ]
+    ]
+  },
+  {
+    "id": "saipan",
+    "chapter": 8,
+    "date": "1944-06-15",
+    "title": "塞班登陸與跨太平洋基地網",
+    "place": "塞班島",
+    "point": [
+      145.75,
+      15.18
+    ],
+    "theaters": [
+      "pacific"
+    ],
+    "actors": [
+      "US",
+      "JP",
+      "CIV"
+    ],
+    "type": "attack",
+    "summary": "美軍登陸塞班，戰鬥延至 7 月 9 日宣布控制；日軍與平民遭重大傷亡，部分平民在恐懼、脅迫與戰火下死亡。",
+    "background": "中太平洋反攻推向馬里亞納，日本的基地圈受到直接威脅。",
+    "trigger": "美軍以艦隊和兩棲兵力進行覓食者行動。",
+    "motives": "美方要取得轟炸和後勤基地；日方保衛國防圈，殖民居民缺乏安全退出途徑。",
+    "impact": "馬里亞納成為 B-29 對日空襲基地，東京政府也遭政治衝擊。",
+    "debate": "控制宣布不等於所有零星抵抗停止；不能把平民死亡全解釋為自願自殺。",
+    "primary": "NOAA 研究與陸戰隊官方年表可對讀；運輸路線只作基地間方向示意。",
+    "counterfactual": "假設日方允許更早平民疏散，或能減少死亡；限制是航運受攻擊、可用船舶不足。",
+    "causes": [
+      "tarawa"
+    ],
+    "causalLinks": [
+      {
+        "event": "tarawa",
+        "kind": "enabling",
+        "explanation": "前進基地與兩棲經驗改善後續中太平洋攻勢條件。",
+        "sources": [
+          "https://oceanexplorer.noaa.gov/expedition-feature/22saipan-surveys-features-history/"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "島上點代表 6 月 15 日至 7 月 9 日的塞班戰役，精度約數公里。實線箭頭是夏威夷—埃尼威托克—塞班的部隊運送方向示意，非逐時航跡、主權邊界或控制線。",
+    "sources": [
+      [
+        "美國國家海洋暨大氣總署｜馬里亞納群島的戰略發展",
+        "https://oceanexplorer.noaa.gov/expedition-feature/22saipan-surveys-features-history/"
+      ],
+      [
+        "美國海軍陸戰隊官方軍史（ibiblio 典藏）｜塞班戰役第二附錄年表",
+        "https://ibiblio.org/hyperwar/USMC/USMC-M-Saipan/USMC-M-Saipan-II.html"
+      ]
+    ],
+    "overlays": [
+      {
+        "type": "attack",
+        "points": [
+          [
+            -157.95,
+            21.36
+          ],
+          [
+            162.3,
+            11.35
+          ],
+          [
+            145.75,
+            15.18
+          ]
+        ],
+        "label": "珍珠港—埃尼威托克—塞班：登陸部隊運送方向示意；非實際航跡",
+        "from": "1944-05-25",
+        "until": "1944-07-10",
+        "source": "https://ibiblio.org/hyperwar/USMC/USMC-M-Saipan/USMC-M-Saipan-II.html",
+        "license": "美國聯邦政府官方軍史為公共領域；本圖節點與連線為教材自行概化",
+        "precision": "僅連接已知集結基地與登陸島，海上折線不能用於還原航速、航道或作戰位置"
+      }
+    ]
+  },
+  {
+    "id": "philippine-sea",
+    "chapter": 8,
+    "date": "1944-06-19",
+    "title": "菲律賓海海戰削弱日本航艦航空兵",
+    "place": "馬里亞納以西海域",
+    "point": [
+      137.5,
+      15.5
+    ],
+    "theaters": [
+      "pacific"
+    ],
+    "actors": [
+      "US",
+      "JP"
+    ],
+    "type": "battle",
+    "summary": "19 至 20 日海空戰中，美軍擊敗日本航艦部隊，大量日軍飛機和受訓人員損失。",
+    "background": "日本艦隊試圖反擊盟軍在馬里亞納的登陸，美軍有更強雷達、訓練和兵力。",
+    "trigger": "日本發動阿號作戰，美軍掩護登陸與攔截來襲飛機。",
+    "motives": "日方希望扭轉基地圈崩潰；美方保住登陸艦隊並消耗對手。",
+    "impact": "日本航艦航空兵更難恢復，後續萊特灣作戰中部分航艦主要扮演誘餌。",
+    "debate": "戰役名稱不表示在菲律賓本土附近登陸；飛行員品質與航空燃油訓練也影響結果。",
+    "primary": "NPS 戰役索引列 19 至 20 日，對讀雙方出動與返航記錄。",
+    "counterfactual": "假設日軍保存航空隊，或可維持更多防禦能力；限制是美國工業及訓練優勢仍持續。",
+    "causes": [
+      "saipan"
+    ],
+    "causalLinks": [
+      {
+        "event": "saipan",
+        "kind": "direct",
+        "explanation": "馬里亞納登陸觸發日本艦隊的大規模反擊。",
+        "sources": [
+          "https://oceanexplorer.noaa.gov/expedition-feature/22saipan-surveys-features-history/"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "點位在馬里亞納以西的菲律賓海，約數百公里精度；代表廣域航艦空戰，並非菲律賓首都或單一沉船位置。",
+    "sources": [
+      [
+        "美國國家公園署｜太平洋主要戰事索引",
+        "https://home.nps.gov/perl/learn/historyculture/pacific-battles.htm"
+      ],
+      [
+        "美國國家海洋暨大氣總署｜馬里亞納群島的戰略發展",
+        "https://oceanexplorer.noaa.gov/expedition-feature/22saipan-surveys-features-history/"
+      ]
+    ]
+  },
+  {
+    "id": "bagration",
+    "chapter": 8,
+    "date": "1944-06-22",
+    "title": "巴格拉季昂：東線摧毀德軍中央集團",
+    "place": "白俄羅斯，維捷布斯周邊",
+    "point": [
+      30.2,
+      55.2
+    ],
+    "theaters": [
+      "east"
+    ],
+    "actors": [
+      "SU",
+      "DE",
+      "RES",
+      "CIV"
+    ],
+    "type": "attack",
+    "summary": "蘇軍在 22 日前導攻擊後於 23 日展開主要攻勢，至夏末重創德軍中央集團軍並向波蘭推進。",
+    "background": "蘇聯已有更強人力、軍工與作戰協同，德國在東西兩面承壓。",
+    "trigger": "蘇方集中兵力、欺敵與游擊破壞，按夏季攻勢計畫進攻。",
+    "motives": "蘇方要收復領土並進入東歐；德方固守命令和預備隊不足限制反應。",
+    "impact": "德軍失去大片占領區，蘇軍逼近華沙，戰後東歐權力問題更迫近。",
+    "debate": "22 日或 23 日分期差異取決於前導和主攻；不能把諾曼第當作唯一決定性反攻。",
+    "primary": "博物館訪談及德方年表對讀，注意不同戰區敘事的取捨。",
+    "counterfactual": "假設德軍提早撤退，或能減少包圍損失；限制是蘇軍兵力和後勤已明顯改善。",
+    "causes": [
+      "tehran"
+    ],
+    "causalLinks": [
+      {
+        "event": "tehran",
+        "kind": "enabling",
+        "explanation": "三國協調東西攻勢以分散德軍，但蘇軍作戰仍依自身計畫進行。",
+        "sources": [
+          "https://history.state.gov/milestones/1937-1945/tehran-conf"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "白俄羅斯，維捷布斯周邊為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國家二戰博物館｜東線戰爭與巴格拉季昂訪談",
+        "https://www.nationalww2museum.org/war/articles/immeasurable-brutality-nazi-soviet-war-1941-1945-interview-jeff-rutherford-phd"
+      ],
+      [
+        "德國歷史博物館 LeMO｜1944 年紀事",
+        "https://www.dhm.de/lemo/jahreschronik/1944"
+      ],
+      [
+        "美國國務院史家辦公室｜德黑蘭會議",
+        "https://history.state.gov/milestones/1937-1945/tehran-conf"
+      ]
+    ]
+  },
+  {
+    "id": "bretton-woods",
+    "chapter": 8,
+    "date": "1944-07-01",
+    "title": "布列頓森林會議設計戰後經濟制度",
+    "place": "新罕布夏州，布列頓森林",
+    "point": [
+      -71.44,
+      44.26
+    ],
+    "theaters": [
+      "home",
+      "atlantic",
+      "indian"
+    ],
+    "actors": [
+      "US",
+      "GB",
+      "CN",
+      "IND",
+      "WORK"
+    ],
+    "type": "politics",
+    "summary": "多國代表開會至 22 日，完成國際貨幣基金與國際復興開發銀行的制度文本。",
+    "background": "戰間期債務、貨幣不穩、保護主義與戰時資源動員促成改革討論。",
+    "trigger": "盟國希望在戰爭結束前設計金融穩定及重建安排。",
+    "motives": "美國、英國及其他代表在資金、表決權與債權問題上協商，殖民地代表地位不平等。",
+    "impact": "制度於 1945 年底經足夠國家接受後成立，美元及美國經濟實力更居核心。",
+    "debate": "7 月會議不是銀行已開業；戰後開放貿易與殖民地發展也不是各方完全同意的同一願景。",
+    "primary": "IMF 官方史記錄會議、印度關於戰時債務的提案與最後文件。",
+    "counterfactual": "假設較平等表決權或能提高小國影響；限制是資金提供者的權力差異仍在。",
+    "causes": [
+      "lend-lease"
+    ],
+    "causalLinks": [
+      {
+        "event": "lend-lease",
+        "kind": "context",
+        "explanation": "戰時供應與戰後貿易協商相互連結，形成設計經濟制度的背景。",
+        "sources": [
+          "https://history.state.gov/milestones/1937-1945/lend-lease"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "新罕布夏州，布列頓森林為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "國際貨幣基金官方史｜布列頓森林會議",
+        "https://www.elibrary.imf.org/display/book/9798400276132/ch005.xml"
+      ],
+      [
+        "美國國務院史家辦公室｜租借援助與盟國",
+        "https://history.state.gov/milestones/1937-1945/lend-lease"
+      ],
+      [
+        "美國國務院史家辦公室｜布列頓森林與戰後經濟談判",
+        "https://history.state.gov/milestones/1937-1945/bretton-woods"
+      ]
+    ]
+  },
+  {
+    "id": "warsaw-uprising",
+    "chapter": 8,
+    "date": "1944-08-01",
+    "title": "華沙起義與盟國間的政治裂縫",
+    "place": "華沙",
+    "point": [
+      21.01,
+      52.23
+    ],
+    "theaters": [
+      "east"
+    ],
+    "actors": [
+      "PL",
+      "RES",
+      "DE",
+      "SU",
+      "CIV"
+    ],
+    "type": "attack",
+    "summary": "波蘭家鄉軍發動起義，盼在蘇軍到達前解放首都；德軍至 10 月 2 日鎮壓，並大規模殺害、驅逐平民。",
+    "background": "蘇軍逼近，波蘭流亡政府與蘇支持政治機構爭奪戰後合法性。",
+    "trigger": "地下軍領導人判斷軍事與政治時機已到，決定起事。",
+    "motives": "起義者爭取自主解放；德軍要摧毀抵抗；蘇聯對波蘭政治有自身目標。",
+    "impact": "城市毀壞，民眾被送往勞役及集中營，波蘭戰後主權問題未獲解決。",
+    "debate": "蘇軍未有效救援涉及軍事困難與政治選擇的解釋爭論；不與 1943 年猶太區起義混同。",
+    "primary": "讀地下軍命令、空投記錄及德軍鎮壓文件，分清當時判斷與後見評價。",
+    "counterfactual": "假設等待蘇軍可能避免部分城市破壞；限制是自主政治空間也可能進一步縮小。",
+    "causes": [
+      "bagration"
+    ],
+    "causalLinks": [
+      {
+        "event": "bagration",
+        "kind": "enabling",
+        "explanation": "蘇軍逼近提高起義者認為時機成熟的判斷，並未命令家鄉軍起事。",
+        "sources": [
+          "https://encyclopedia.ushmm.org/content/en/article/the-warsaw-polish-uprising"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "華沙為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜1944 年華沙起義",
+        "https://encyclopedia.ushmm.org/content/en/article/the-warsaw-polish-uprising"
+      ]
+    ]
+  },
+  {
+    "id": "paris-liberation",
+    "chapter": 8,
+    "date": "1944-08-25",
+    "title": "巴黎解放與共和政府回歸",
+    "place": "巴黎",
+    "point": [
+      2.35,
+      48.86
+    ],
+    "theaters": [
+      "west"
+    ],
+    "actors": [
+      "FF",
+      "RES",
+      "US",
+      "DE",
+      "CIV"
+    ],
+    "type": "battle",
+    "summary": "巴黎起義後，法國第二裝甲師及美軍進城，德軍指揮官於 25 日投降；戴高樂確立臨時政府地位。",
+    "background": "諾曼第突破與德軍後撤，使抵抗組織和盟軍面臨是否立即入城的選擇。",
+    "trigger": "罷工、起義與軍事接近相結合，法軍取得進城命令。",
+    "motives": "抵抗者和自由法國要恢復共和與自主；盟軍兼顧軍事進程和首都安全。",
+    "impact": "維琪失去首都權力，但法國仍有沿海據點和東部戰事，清算與社會復原困難。",
+    "debate": "24 日已有包括西班牙共和派軍人的先遣隊入城；不能把解放全歸於單一領袖或民族。",
+    "primary": "法國國防部與巴黎博物館記錄投降、抵抗和不同部隊參與。",
+    "counterfactual": "假設盟軍繞過巴黎更久，供應負擔或減少；限制是起義者和平民可能面臨更高風險。",
+    "causes": [
+      "normandy"
+    ],
+    "causalLinks": [
+      {
+        "event": "normandy",
+        "kind": "enabling",
+        "explanation": "西線突破使盟軍接近巴黎並支援起義。",
+        "sources": [
+          "https://www.cheminsdememoire.gouv.fr/fr/revue/le-retour-la-republique"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "巴黎為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "法國國防部記憶與檔案｜共和回歸與巴黎解放",
+        "https://www.cheminsdememoire.gouv.fr/fr/revue/le-retour-la-republique"
+      ],
+      [
+        "德國歷史博物館 LeMO｜1944 年紀事",
+        "https://www.dhm.de/lemo/jahreschronik/1944"
+      ]
+    ]
+  },
+  {
+    "id": "auschwitz-revolt",
+    "chapter": 8,
+    "date": "1944-10-07",
+    "title": "奧斯威辛特遣隊反抗與女性囚犯的行動",
+    "place": "奧斯威辛—比克瑙",
+    "point": [
+      19.18,
+      50.04
+    ],
+    "theaters": [
+      "east"
+    ],
+    "actors": [
+      "JEW",
+      "DE",
+      "WORK",
+      "CIV"
+    ],
+    "type": "attack",
+    "summary": "被迫處理屍體的特遣隊囚犯起義，破壞一座焚屍設施；女性囚犯秘密運送炸藥支援。",
+    "background": "殺戮中心強迫部分囚犯參與處理死者，也定期殺害知情者。",
+    "trigger": "囚犯察覺自身即將被殺，將長期秘密準備轉為反抗。",
+    "motives": "反抗者想逃生並破壞殺戮設備；黨衛隊暴力鎮壓並追查協助者。",
+    "impact": "起義失敗，多人被殺，協助女性其後遭處決；證據顯示被迫服從與自主行動並存。",
+    "debate": "不能把受脅迫的特遣隊與犯罪者等同，也不能只用有無武裝起義衡量受害者抵抗。",
+    "primary": "對讀營區記錄、倖存者證言和秘密傳遞資料，注意極端處境下記錄難完整。",
+    "counterfactual": "假設起義協調更廣，逃生機會或增加；限制是營區封鎖和武器差距極大。",
+    "causes": [],
+    "causalLinks": [],
+    "edges": [],
+    "mapNote": "奧斯威辛—比克瑙為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜奧斯威辛關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/auschwitz-key-dates"
+      ]
+    ]
+  },
+  {
+    "id": "leyte",
+    "chapter": 8,
+    "date": "1944-10-20",
+    "title": "萊特登陸與菲律賓再征服",
+    "place": "萊特島，帕洛",
+    "point": [
+      125.01,
+      11.16
+    ],
+    "theaters": [
+      "pacific",
+      "southeast"
+    ],
+    "actors": [
+      "US",
+      "PH",
+      "JP",
+      "RES",
+      "CIV"
+    ],
+    "type": "attack",
+    "summary": "美軍在萊特登陸，菲律賓游擊隊提供情報及支援；23 至 26 日萊特灣廣域海戰隨之爆發。",
+    "background": "盟軍在新幾內亞與中太平洋推進，對菲律賓戰略路線曾有討論。",
+    "trigger": "盟軍選擇重返菲律賓，日本艦隊試圖打擊登陸運輸群。",
+    "motives": "美菲要收復群島；日方保住資源運輸線；地方居民期待解放並承受戰火。",
+    "impact": "日本海上連結更受壓，神風特攻擴大使用；群島戰爭仍延至 1945 年。",
+    "debate": "20 日是登陸，不是萊特灣海戰單日；麥克阿瑟回歸並不代表所有菲律賓人立場相同。",
+    "primary": "NPS 索引把海戰分為 23 至 26 日；對讀登陸和游擊記錄。",
+    "counterfactual": "假設盟軍繞過菲律賓，對日進程可能不同；限制是被占領居民與交通線代價不能省略。",
+    "causes": [
+      "philippine-sea"
+    ],
+    "causalLinks": [
+      {
+        "event": "philippine-sea",
+        "kind": "enabling",
+        "explanation": "日本航艦航空兵削弱，影響其掩護菲律賓防禦和海上反擊能力。",
+        "sources": [
+          "https://home.nps.gov/perl/learn/historyculture/pacific-battles.htm"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "萊特島，帕洛為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "紐西蘭文化與遺產部｜太平洋戰爭年表（須留意日期差異）",
+        "https://nzhistory.govt.nz/war/second-world-war/war-in-the-pacific/timeline"
+      ],
+      [
+        "美國國家公園署｜太平洋主要戰事索引",
+        "https://home.nps.gov/perl/learn/historyculture/pacific-battles.htm"
+      ]
+    ],
+    "comparison": "1944.10：盟軍在東西歐及太平洋反攻，日本資源航路受壓；中國一號作戰卻仍使國民政府遭重挫，不能用單一戰區概括全球。"
+  },
+  {
+    "id": "ardennes",
+    "chapter": 8,
+    "date": "1944-12-16",
+    "title": "阿登反攻：德國最後的大規模西線攻勢",
+    "place": "比利時，巴斯托涅周邊",
+    "point": [
+      5.72,
+      50
+    ],
+    "theaters": [
+      "west"
+    ],
+    "actors": [
+      "DE",
+      "US",
+      "GB",
+      "CIV"
+    ],
+    "type": "attack",
+    "summary": "德軍突襲阿登，造成突出部並包圍巴斯托涅；盟軍至 1945 年 1 月收復多數失地。",
+    "background": "德國在兩線敗退，希特勒希望打破西方盟軍協調並奪取安特衛普方向。",
+    "trigger": "利用惡劣天候與薄弱部署發動反攻。",
+    "motives": "德方追求政治和軍事逆轉；盟軍調動預備隊並維持補給。",
+    "impact": "攻勢失敗耗去德軍裝甲、燃油及精銳，平民與戰俘也遭暴行。",
+    "debate": "局部突然成功不等於德國已恢復長期生產和空中優勢。",
+    "primary": "德方 1944 年紀事與盟軍作戰記錄比較，燃油需求能解釋進攻限制。",
+    "counterfactual": "假設德軍改用兵力防守，或能延緩盟軍；限制是整體資源及戰略劣勢仍在。",
+    "causes": [],
+    "causalLinks": [],
+    "edges": [],
+    "mapNote": "比利時，巴斯托涅周邊為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "德國歷史博物館 LeMO｜1944 年紀事",
+        "https://www.dhm.de/lemo/jahreschronik/1944"
+      ],
+      [
+        "美國大屠殺紀念館｜二戰關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+      ]
+    ]
+  }
+]

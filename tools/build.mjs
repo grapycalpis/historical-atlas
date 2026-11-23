@@ -8,7 +8,7 @@ const app=join(root,'app'),template=await readFile(join(app,'reader.html'),'utf8
 const base=(meta,body,css)=>'<!doctype html><html lang="zh-Hant-TW"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'+metadata(meta)+'<link rel="stylesheet" href="'+css+'"></head><body><main class="catalog">'+body+'</main></body></html>';
 try{
   const assets=join(stage,'app');await mkdir(assets);
-  for(const f of ['reader.js','style.css','map.js','map.css','catalog.css','social-card.png'])await cp(join(app,f),join(assets,f));
+  for(const f of ['atlas-core.js','reader.js','style.css','map.js','map.css','catalog.css','social-card.png'])await cp(join(app,f),join(assets,f));
   await writeFile(join(assets,'land.js'),'window.ATLAS_LAND='+await readFile(join(app,'land.json'),'utf8')+';\n');
   const cards=[];
   for(const {c,events,geo,dir} of packs){
@@ -18,7 +18,7 @@ try{
     if(!events.length){
       await writeFile(join(dest,'index.html'),base(meta,'<a href="../index.html">時期目錄</a><h1>'+escape(c.title)+'</h1><p>教材草稿。請在 eras/'+escape(c.id)+'/ 填寫第一筆事件後重新建置。</p>','../app/catalog.css'));continue;
     }
-    const scripts=['edition.js'];
+    const scripts=['../app/atlas-core.js','edition.js'];
     await writeFile(join(dest,'edition.js'),'window.ATLAS_CONFIG='+JSON.stringify(c)+';\nwindow.ATLAS_EVENTS='+JSON.stringify(events)+';\n');
     if(c.mapEngine==='custom'){
       for(const [src,target] of [['gis/geo.js','geo.js'],['map.js','map.js'],['reader.js','editorial.js']]){

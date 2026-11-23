@@ -1,0 +1,1031 @@
+[
+  {
+    "id": "united-nations-declaration",
+    "chapter": 6,
+    "date": "1942-01-01",
+    "title": "聯合國家宣言：合作作戰，並非今日聯合國已成立",
+    "place": "華盛頓",
+    "point": [
+      -77.04,
+      38.9
+    ],
+    "theaters": [
+      "home",
+      "west",
+      "china"
+    ],
+    "actors": [
+      "US",
+      "GB",
+      "SU",
+      "CN",
+      "UN"
+    ],
+    "type": "alliance",
+    "summary": "美英蘇中代表先簽宣言，翌日另 22 國加入，共同承諾投入資源且不單獨媾和。",
+    "background": "本章核心問題：軍事擴張為何同時增加後勤與統治負擔？ 大西洋憲章提供原則，美國參戰使軍事協調更加迫切。",
+    "trigger": "對軸心的全球戰爭需要把政治承諾制度化。",
+    "motives": "各方要協同取勝，但保有不同政體、帝國利益與戰後目標。",
+    "impact": "「聯合國家」成為盟國稱呼，1945 年才簽署成立國際組織的憲章。",
+    "debate": "宣言寫明各國對自己已交戰的軸心成員作戰；蘇聯當時仍與日本中立。",
+    "primary": "比較宣言簽名和條文，不把 26 國全都放在同一日同一場簽署。",
+    "counterfactual": "假設缺少不單獨媾和承諾，互信或更弱；限制是承諾不能消除盟國利益衝突。",
+    "causes": [
+      "atlantic-charter",
+      "germany-us"
+    ],
+    "causalLinks": [
+      {
+        "event": "atlantic-charter",
+        "kind": "context",
+        "explanation": "宣言接受大西洋憲章原則，將原則連到戰爭合作。",
+        "sources": [
+          "https://treaties.un.org/doc/Publication/UNTS/LON/Volume%20204/v204.pdf#page=384"
+        ]
+      },
+      {
+        "event": "germany-us",
+        "kind": "enabling",
+        "explanation": "美國全面參戰擴大建立共同戰爭承諾的需求。",
+        "sources": [
+          "https://treaties.un.org/doc/Publication/UNTS/LON/Volume%20204/v204.pdf#page=384"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "華盛頓為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "聯合國｜1942 年聯合國家宣言與四國先簽程序",
+        "https://treaties.un.org/doc/Publication/UNTS/LON/Volume%20204/v204.pdf#page=384"
+      ]
+    ]
+  },
+  {
+    "id": "war-production-board",
+    "chapter": 6,
+    "date": "1942-01-16",
+    "title": "戰時生產委員會與勞動社會的轉型",
+    "place": "華盛頓",
+    "point": [
+      -77.04,
+      38.9
+    ],
+    "theaters": [
+      "home",
+      "atlantic",
+      "pacific"
+    ],
+    "actors": [
+      "US",
+      "WORK",
+      "CIV"
+    ],
+    "type": "mobilize",
+    "summary": "美國設戰時生產委員會，調整原料優先順序、工業用途及軍需生產。",
+    "background": "汽車、鋼鐵、造船和航空產業必須轉向大規模軍需，生產並非參戰後才從零開始。",
+    "trigger": "全面參戰使跨部門協調與稀缺物資分配更緊迫。",
+    "motives": "政府追求軍需產量；企業、工會與勞動者協商薪資、工時及工作機會。",
+    "impact": "女性與少數群體大量進入工廠，住房、托育與職業傷害成為動員的一部分。",
+    "debate": "生產增加仍要海運和受援國吸收能力；「兵工廠」不能只用總量掩蓋勞動差別。",
+    "primary": "國家檔案館 RG 179 列機構成立日與生產、勞動及原料檔案。",
+    "counterfactual": "假設協調較早完成，瓶頸或減少；限制是改廠、訓練與原料取得均需要時間。",
+    "causes": [
+      "lend-lease"
+    ],
+    "causalLinks": [
+      {
+        "event": "lend-lease",
+        "kind": "enabling",
+        "explanation": "租借及美軍需求擴大生產負荷，促成更集中協調。",
+        "sources": [
+          "https://www.archives.gov/research/guide-fed-records/groups/179.html"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "華盛頓為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國家檔案館｜戰時生產委員會檔案",
+        "https://www.archives.gov/research/guide-fed-records/groups/179.html"
+      ],
+      [
+        "美國國家檔案館｜第 8802 號行政命令原文",
+        "https://www.archives.gov/milestone-documents/executive-order-8802"
+      ]
+    ]
+  },
+  {
+    "id": "wannsee",
+    "chapter": 6,
+    "date": "1942-01-20",
+    "title": "萬湖會議：協調已展開的種族滅絕",
+    "place": "柏林，萬湖",
+    "point": [
+      13.17,
+      52.43
+    ],
+    "theaters": [
+      "west",
+      "east"
+    ],
+    "actors": [
+      "DE",
+      "JEW",
+      "CIV"
+    ],
+    "type": "politics",
+    "summary": "納粹高官在萬湖協調跨部門的驅逐與殺戮政策，以「最終解決」作委婉語。",
+    "background": "1941 年大規模槍殺已發生，毒氣殺害與向東驅逐也已展開。",
+    "trigger": "海德里希召集行政與黨衛隊代表，整合權責及範圍。",
+    "motives": "犯罪者要使全歐洲猶太人納入可執行的行政程序。",
+    "impact": "鐵路、占領政府、企業與警察共同構成滅絕體系，殺戮在 1942 年擴張。",
+    "debate": "萬湖不是第一次決定殺害猶太人的會議；不能用單日取代多年激進化。",
+    "primary": "比較萬湖會議記錄的分類與委婉語，以及先前殺戮報告和受害者證詞。",
+    "counterfactual": "假設部門拒絕合作可能增加阻力；限制是屠殺此前已由其他方式進行。",
+    "causes": [
+      "babyn-yar"
+    ],
+    "causalLinks": [
+      {
+        "event": "babyn-yar",
+        "kind": "context",
+        "explanation": "先前大規模殺戮顯示種族滅絕早於萬湖，會議處理擴大協調。",
+        "sources": [
+          "https://encyclopedia.ushmm.org/content/en/article/wannsee-conference-and-the-final-solution"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "柏林，萬湖為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜萬湖會議與最終解決",
+        "https://encyclopedia.ushmm.org/content/en/article/wannsee-conference-and-the-final-solution"
+      ]
+    ]
+  },
+  {
+    "id": "singapore",
+    "chapter": 6,
+    "date": "1942-02-15",
+    "title": "新加坡投降與帝國威信崩解",
+    "place": "新加坡",
+    "point": [
+      103.85,
+      1.29
+    ],
+    "theaters": [
+      "southeast",
+      "indian"
+    ],
+    "actors": [
+      "JP",
+      "GB",
+      "IND",
+      "AU",
+      "CIV"
+    ],
+    "type": "battle",
+    "summary": "英帝國守軍投降，馬來亞戰役結束；占領後的肅清、拘禁與強迫勞動使平民和戰俘持續受害。",
+    "background": "日軍沿馬來半島快速推進，英方失去空海掩護與部分補給。",
+    "trigger": "守軍防線及水源受到威脅，指揮官選擇投降。",
+    "motives": "日方奪取基地與資源中心；守軍在傷亡與抵抗可能間抉擇。",
+    "impact": "英帝國不可戰勝的形象受創，戰俘被送往各地勞役，占領暴力重塑族群經驗。",
+    "debate": "軍隊投降不等於殖民地人民支持日本；「解放亞洲」宣傳須與統治實況比較。",
+    "primary": "陸軍博物館戰役資料與戰俘及占領者文件對讀。",
+    "counterfactual": "假設防禦準備更充分，戰役或延長；限制是補給和空優仍是結構問題。",
+    "causes": [
+      "malaya"
+    ],
+    "causalLinks": [
+      {
+        "event": "malaya",
+        "kind": "direct",
+        "explanation": "馬來亞推進使守軍被壓縮至新加坡。",
+        "sources": [
+          "https://nzhistory.govt.nz/war/second-world-war/war-in-the-pacific/timeline"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "新加坡為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "英國國家陸軍博物館｜緬甸戰爭年表",
+        "https://www.nam.ac.uk/explore/timeline-burma-army"
+      ],
+      [
+        "紐西蘭文化與遺產部｜太平洋戰爭年表（須留意日期差異）",
+        "https://nzhistory.govt.nz/war/second-world-war/war-in-the-pacific/timeline"
+      ],
+      [
+        "巴黎政治學院｜日本戰爭暴力與受害者研究",
+        "https://www.sciencespo.fr/mass-violence-war-massacre-resistance/en/document/japanese-mass-violence-and-its-victims-fifteen-years-war-1931-45.html"
+      ]
+    ]
+  },
+  {
+    "id": "darwin",
+    "chapter": 6,
+    "date": "1942-02-19",
+    "title": "達爾文遭空襲，澳洲後方成為戰場",
+    "place": "達爾文",
+    "point": [
+      130.84,
+      -12.46
+    ],
+    "theaters": [
+      "pacific",
+      "southeast"
+    ],
+    "actors": [
+      "JP",
+      "AU",
+      "US",
+      "CIV"
+    ],
+    "type": "attack",
+    "summary": "日機轟炸達爾文港和機場，軍民與商船遭重大損失；澳洲北部其後仍多次遇襲。",
+    "background": "達爾文支援荷屬東印度防禦與北方海運。",
+    "trigger": "日本進攻資源區時要破壞盟軍增援和基地。",
+    "motives": "日方排除空海威脅；澳美維護交通線並加強本土防禦。",
+    "impact": "居民疏散、恐慌與軍事動員改變北澳生活，也顯示戰區後方界線不穩。",
+    "debate": "空襲不等於日本已決定全面入侵澳洲；兩種軍事行動需分別取證。",
+    "primary": "澳洲官方年表與襲擊、疏散調查對讀，區分當時審查與後來記憶。",
+    "counterfactual": "假設預警較好，部分人員或可避難；限制是不能假定能阻止全部轟炸。",
+    "causes": [],
+    "causalLinks": [],
+    "edges": [],
+    "mapNote": "達爾文為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "紐西蘭文化與遺產部｜太平洋戰爭年表（須留意日期差異）",
+        "https://nzhistory.govt.nz/war/second-world-war/war-in-the-pacific/timeline"
+      ],
+      [
+        "澳洲戰爭紀念館｜巴布亞戰役年表",
+        "https://www.awm.gov.au/papua-campaign/timeline"
+      ]
+    ]
+  },
+  {
+    "id": "japanese-american-incarceration",
+    "chapter": 6,
+    "date": "1942-02-19",
+    "title": "第 9066 號命令與日裔美國人的強迫遷移",
+    "place": "華盛頓",
+    "point": [
+      -77.04,
+      38.9
+    ],
+    "theaters": [
+      "home"
+    ],
+    "actors": [
+      "US",
+      "CIV"
+    ],
+    "type": "politics",
+    "summary": "羅斯福簽署授權劃設軍事區的命令，導致西岸大批日裔居民，包括美國公民，被逐出家園並拘禁。",
+    "background": "種族偏見、戰時恐懼和既有排斥政策疊加，並無個別罪證支撐集體拘禁。",
+    "trigger": "政府採取以族裔為實際核心的排除與遷移政策。",
+    "motives": "政府宣稱安全需要；被迫遷移者面對生計、財產和公民權損失，也採取不同抗爭方式。",
+    "impact": "家庭長期受損；後來政府調查和賠償承認政策不公。",
+    "debate": "命令沒有直接寫出「日裔」；必須連同行政執行，才能理解其歧視效果。",
+    "primary": "讀命令原文與排除令、拘禁者書信，勿用官方「安置」詞彙淡化強迫性。",
+    "counterfactual": "假設政府採個別調查，集體剝奪可避免；限制是當時恐慌與政治壓力仍強。",
+    "causes": [
+      "pearl-harbor"
+    ],
+    "causalLinks": [
+      {
+        "event": "pearl-harbor",
+        "kind": "context",
+        "explanation": "襲擊引發的恐慌與種族偏見共同形成政策背景，並不證明集體拘禁合理。",
+        "sources": [
+          "https://www.archives.gov/milestone-documents/executive-order-9066"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "華盛頓為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國家檔案館｜第 9066 號行政命令原文",
+        "https://www.archives.gov/milestone-documents/executive-order-9066"
+      ]
+    ]
+  },
+  {
+    "id": "java-sea",
+    "chapter": 6,
+    "date": "1942-02-27",
+    "title": "爪哇海海戰與荷屬東印度防線崩潰",
+    "place": "爪哇以北海域",
+    "point": [
+      112.3,
+      -6
+    ],
+    "theaters": [
+      "southeast",
+      "indian"
+    ],
+    "actors": [
+      "JP",
+      "NL",
+      "US",
+      "GB",
+      "AU"
+    ],
+    "type": "battle",
+    "summary": "27 至 28 日夜間的爪哇海戰中，多國盟軍艦隊遭重創，未能阻止日軍登陸爪哇。",
+    "background": "日本已進攻油田和島嶼，盟軍臨時建立美英荷澳聯合指揮。",
+    "trigger": "盟軍艦隊出航攔截日本運輸船團，與護衛部隊交戰。",
+    "motives": "日方要奪取石油與基地；盟軍保衛殖民地、供應和撤退道路。",
+    "impact": "荷屬東印度主要防禦瓦解，資源取得卻仍受油田破壞、運輸與潛艇戰限制。",
+    "debate": "爪哇海、巽他海峽和第二次爪哇海戰是相連但不同的交戰。",
+    "primary": "澳洲戰爭紀念館說明多國編組與時序，對讀各艦日誌。",
+    "counterfactual": "假設聯合通信和訓練更佳，損失或較小；限制是日方魚雷、兵力及空優仍重要。",
+    "causes": [
+      "japan-war-decision"
+    ],
+    "causalLinks": [
+      {
+        "event": "japan-war-decision",
+        "kind": "consequence",
+        "explanation": "奪取南方資源區的戰略在荷屬東印度具體化。",
+        "sources": [
+          "https://history.state.gov/milestones/1937-1945/pearl-harbor"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "爪哇北方海域為近似戰場點，約百公里精度；不代表沉艦座標，也未畫艦隊在 27 至 28 日的全部航跡。",
+    "sources": [
+      [
+        "澳洲戰爭紀念館｜爪哇海海戰",
+        "https://www.awm.gov.au/visit/exhibitions/alliesinadversity/japanese/java"
+      ],
+      [
+        "美國國務院史家辦公室｜中國、日本與通向珍珠港之路",
+        "https://history.state.gov/milestones/1937-1945/pearl-harbor"
+      ]
+    ]
+  },
+  {
+    "id": "rangoon",
+    "chapter": 6,
+    "date": "1942-03-08",
+    "title": "仰光失陷，援華陸路受阻",
+    "place": "仰光",
+    "point": [
+      96.16,
+      16.8
+    ],
+    "theaters": [
+      "southeast",
+      "china",
+      "indian"
+    ],
+    "actors": [
+      "JP",
+      "GB",
+      "IND",
+      "CN",
+      "CIV"
+    ],
+    "type": "battle",
+    "summary": "日軍占領撤退後的仰光，英中部隊其後向印度與中國撤離，滇緬公路補給來源遭截斷。",
+    "background": "緬甸是英國殖民地，也是盟國援華的重要交通節點。",
+    "trigger": "日本進軍、空襲與盟軍防線後撤使港口無法維持。",
+    "motives": "日方切斷援華並保護南方側翼；盟軍要保留部隊與補給通道。",
+    "impact": "難民與部隊在惡劣環境長途撤退，駝峰空運及新陸路計畫日益重要。",
+    "debate": "失去港口和切斷整條公路並非一瞬間；本筆定位仰光占領。",
+    "primary": "英國陸軍博物館與澳洲緬印戰史可對照撤退、地方政治和補給。",
+    "counterfactual": "假設港口守住，援華或較容易；限制是內陸道路和日軍空襲仍制約運量。",
+    "causes": [
+      "indochina"
+    ],
+    "causalLinks": [
+      {
+        "event": "indochina",
+        "kind": "context",
+        "explanation": "日本持續截斷援華交通，緬甸攻勢是更廣戰略的一環。",
+        "sources": [
+          "https://history.state.gov/milestones/1937-1945/pearl-harbor"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "仰光為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "英國國家陸軍博物館｜緬甸戰爭年表",
+        "https://www.nam.ac.uk/explore/timeline-burma-army"
+      ],
+      [
+        "美國國家公園署｜遠東戰爭、一號作戰與情報",
+        "https://www.nps.gov/articles/oss-in-action-the-pacific-and-the-far-east.htm"
+      ],
+      [
+        "美國國務院史家辦公室｜中國、日本與通向珍珠港之路",
+        "https://history.state.gov/milestones/1937-1945/pearl-harbor"
+      ]
+    ]
+  },
+  {
+    "id": "indian-ocean-raid",
+    "chapter": 6,
+    "date": "1942-04-05",
+    "title": "錫蘭空襲與印度洋航運的脆弱",
+    "place": "可倫坡",
+    "point": [
+      79.86,
+      6.93
+    ],
+    "theaters": [
+      "indian",
+      "southeast"
+    ],
+    "actors": [
+      "JP",
+      "GB",
+      "IND",
+      "AU",
+      "CIV"
+    ],
+    "type": "attack",
+    "summary": "日軍航艦飛機襲擊可倫坡，9 日再攻亭可馬里及海上目標；英國東方艦隊改變部署。",
+    "background": "新加坡與荷屬東印度敗戰後，盟軍在印度洋的基地和運輸線承受壓力。",
+    "trigger": "日本艦隊進入印度洋打擊英方海空力量。",
+    "motives": "日方要保護南方占領側翼；英方維持印度、東非、澳洲與中東間交通。",
+    "impact": "護航、分散與基地整備變得更重要，海軍力量必須在多海域分配。",
+    "debate": "空襲不等於日軍占領錫蘭；本筆用城市點，海戰和沉艦發生在外海不同位置。",
+    "primary": "澳洲戰爭紀念館及退伍軍人事務部整理攻勢與海運，須區分 5 日和 9 日。",
+    "counterfactual": "假設英艦留在可遭攻擊位置，損失可能更大；限制是不能以撤避等同永久放棄印度洋。",
+    "causes": [
+      "singapore"
+    ],
+    "causalLinks": [
+      {
+        "event": "singapore",
+        "kind": "enabling",
+        "explanation": "新加坡陷落及日本南方擴張改變印度洋力量平衡。",
+        "sources": [
+          "https://www.awmlondon.gov.au/battles/indian-ocean"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "可倫坡為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "澳洲戰爭紀念館｜印度洋海運與錫蘭空襲",
+        "https://www.awmlondon.gov.au/battles/indian-ocean"
+      ],
+      [
+        "英國國家陸軍博物館｜緬甸戰爭年表",
+        "https://www.nam.ac.uk/explore/timeline-burma-army"
+      ]
+    ]
+  },
+  {
+    "id": "bataan",
+    "chapter": 6,
+    "date": "1942-04-09",
+    "title": "巴丹投降與死亡行軍",
+    "place": "巴丹半島，馬里韋萊斯",
+    "point": [
+      120.5,
+      14.43
+    ],
+    "theaters": [
+      "pacific",
+      "southeast"
+    ],
+    "actors": [
+      "JP",
+      "US",
+      "PH",
+      "CIV"
+    ],
+    "type": "battle",
+    "summary": "巴丹美菲部隊投降後，日軍迫使戰俘在缺水缺糧與暴力下長途行軍；菲律賓人承受特別大的死亡代價。",
+    "background": "部隊長期孤立，疾病、饑餓和彈藥不足削弱抵抗。",
+    "trigger": "防線崩潰後大量軍人落入日軍手中，俘虜運送缺乏照料並伴隨殺害。",
+    "motives": "守軍企圖保住生命；日軍迅速移送戰俘且以暴力維持控制。",
+    "impact": "虐待、病死與強迫勞役延續至戰俘營，戰後成為審判內容。",
+    "debate": "死亡數受行軍、運輸與營內死亡範圍影響；本筆不提供未界定的單一總數。",
+    "primary": "博物館列美菲戰俘估計與路線，對讀倖存者記憶和日方命令。",
+    "counterfactual": "假設更充足給養與醫療可減少死亡；限制是虐待本身是行為選擇，不能以後勤不足免責。",
+    "causes": [
+      "philippines-attack"
+    ],
+    "causalLinks": [
+      {
+        "event": "philippines-attack",
+        "kind": "consequence",
+        "explanation": "群島攻勢與孤立造成巴丹敗局；戰俘虐待另有直接責任。",
+        "sources": [
+          "https://www.nationalww2museum.org/war/topics/battle-bataan-death-march"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "巴丹半島，馬里韋萊斯為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國家二戰博物館｜巴丹戰役與死亡行軍",
+        "https://www.nationalww2museum.org/war/topics/battle-bataan-death-march"
+      ]
+    ]
+  },
+  {
+    "id": "coral-sea",
+    "chapter": 6,
+    "date": "1942-05-04",
+    "title": "珊瑚海：航艦交戰阻擋海路進軍",
+    "place": "珊瑚海，新幾內亞東南外海",
+    "point": [
+      155.5,
+      -15
+    ],
+    "theaters": [
+      "pacific"
+    ],
+    "actors": [
+      "JP",
+      "US",
+      "AU"
+    ],
+    "type": "battle",
+    "summary": "4 至 8 日珊瑚海作戰中，航艦飛機交戰使日軍海路進攻莫士比港受阻，美軍也損失列星頓號。",
+    "background": "日本要控制新幾內亞南岸基地，盟軍保護澳洲周邊交通。",
+    "trigger": "日方莫號作戰與盟軍攔截造成海空接觸。",
+    "motives": "日方擴張防禦圈；美澳避免基地和補給線進一步受壓。",
+    "impact": "日方轉向陸路等方案，受損航艦也未能投入中途島主力。",
+    "debate": "戰術損失與戰略結果可以不同；不能只數沉艦判斷勝負。",
+    "primary": "國家公園署索引採 4 至 8 日；紐西蘭年表列 7 至 8 日主要航艦戰。",
+    "counterfactual": "假設美軍未攔截，莫士比港風險可能上升；限制是登陸成功仍取決於後續作戰。",
+    "causes": [],
+    "causalLinks": [],
+    "edges": [],
+    "mapNote": "點位在珊瑚海，約百公里精度，代表多日海空戰範圍；未將莫士比港城市當作海戰位置。",
+    "sources": [
+      [
+        "美國國家公園署｜太平洋主要戰事索引",
+        "https://home.nps.gov/perl/learn/historyculture/pacific-battles.htm"
+      ],
+      [
+        "紐西蘭文化與遺產部｜太平洋戰爭年表（須留意日期差異）",
+        "https://nzhistory.govt.nz/war/second-world-war/war-in-the-pacific/timeline"
+      ]
+    ]
+  },
+  {
+    "id": "midway",
+    "chapter": 6,
+    "date": "1942-06-04",
+    "title": "中途島：情報、航艦與高風險反擊",
+    "place": "中途島西北外海",
+    "point": [
+      -177,
+      30.5
+    ],
+    "theaters": [
+      "pacific"
+    ],
+    "actors": [
+      "JP",
+      "US"
+    ],
+    "type": "battle",
+    "summary": "4 至 7 日主要海空戰中，日本失去四艘航艦，美國約克鎮號也沉沒；日本在中太平洋的主動能力受重創。",
+    "background": "日方要引出並摧毀美軍航艦，美軍破譯部分通信並預置兵力。",
+    "trigger": "日方進攻中途島，美軍依情報集中攔截。",
+    "motives": "日本希望形成決戰；美軍保衛基地並以有限航艦冒險反擊。",
+    "impact": "中途島和瓜達康納爾等消耗共同改變主動權，勝利並未立刻結束日本擴張。",
+    "debate": "3 日已有偵察及初步攻擊；本筆以 4 日航艦決戰定位，不將情報描寫為全知。",
+    "primary": "NPS 教材與博物館對讀破譯、飛行和作戰記錄，留意參戰者回憶差異。",
+    "counterfactual": "假設美方未破譯目標，部署可能較不利；限制是天候、偵察與戰術偶然仍很重要。",
+    "causes": [
+      "coral-sea"
+    ],
+    "causalLinks": [
+      {
+        "event": "coral-sea",
+        "kind": "enabling",
+        "explanation": "珊瑚海造成日軍航艦損傷與航空隊消耗，影響中途島可用兵力。",
+        "sources": [
+          "https://www.nationalww2museum.org/war/topics/battle-of-midway"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "點位在中途島以北外海，精度約百公里；島嶼空襲與艦隊交戰分布廣，並非某艘航艦沉沒座標。",
+    "sources": [
+      [
+        "美國國家公園署｜中途島戰役與設施",
+        "https://www.nps.gov/articles/world-war-ii-facilities-at-midway.htm"
+      ],
+      [
+        "美國國家二戰博物館｜中途島戰役",
+        "https://www.nationalww2museum.org/war/topics/battle-of-midway"
+      ]
+    ],
+    "comparison": "1942.06：日本在東南亞及太平洋的擴張接近高峰，但補給、航空與艦艇已受損；德軍仍準備南方攻勢。"
+  },
+  {
+    "id": "kokoda",
+    "chapter": 6,
+    "date": "1942-07-21",
+    "title": "巴布亞登陸與科科達山徑戰役",
+    "place": "戈納，新幾內亞",
+    "point": [
+      147.29,
+      -8.64
+    ],
+    "theaters": [
+      "pacific"
+    ],
+    "actors": [
+      "JP",
+      "AU",
+      "US",
+      "PAP",
+      "CIV"
+    ],
+    "type": "battle",
+    "summary": "日軍在巴布亞北岸登陸，逐漸沿科科達山徑向莫士比港進軍；澳洲與巴布亞部隊抵抗，戰鬥延至 11 月。",
+    "background": "海路攻勢受阻後，日方評估跨山陸路，地方搬運、醫療與道路成為關鍵。",
+    "trigger": "登陸部隊偵察路線，接觸守軍後發展為全面推進。",
+    "motives": "日本要取得南岸基地；盟軍保護澳洲通道，巴布亞居民的勞動常受徵用。",
+    "impact": "日軍終究後撤；疾病、飢餓和搬運能力限制雙方軍事行動。",
+    "debate": "不把巴布亞人一概寫成自願的「天使」，須區分協助、徵用與殖民權力。",
+    "primary": "澳洲紀念館年表列 21 日登陸與 23 日接觸，區分登陸和山徑交戰。",
+    "counterfactual": "假設日軍補給更充分，推進或更遠；限制是崎嶇地形與盟軍空運也影響結果。",
+    "causes": [
+      "coral-sea"
+    ],
+    "causalLinks": [
+      {
+        "event": "coral-sea",
+        "kind": "context",
+        "explanation": "海路攻勢受阻使陸路方案更受重視，但登陸後的戰役逐步升級。",
+        "sources": [
+          "https://www.awm.gov.au/papua-campaign/timeline"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "戈納，新幾內亞為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "澳洲戰爭紀念館｜巴布亞戰役年表",
+        "https://www.awm.gov.au/papua-campaign/timeline"
+      ]
+    ]
+  },
+  {
+    "id": "guadalcanal",
+    "chapter": 6,
+    "date": "1942-08-07",
+    "title": "瓜達康納爾：機場、海運與消耗戰",
+    "place": "瓜達康納爾，倫加角",
+    "point": [
+      160.05,
+      -9.42
+    ],
+    "theaters": [
+      "pacific"
+    ],
+    "actors": [
+      "US",
+      "JP",
+      "AU",
+      "NZ",
+      "CIV"
+    ],
+    "type": "battle",
+    "summary": "美軍登陸瓜達康納爾及附近島嶼，爭奪機場與周邊海域至 1943 年 2 月日軍撤離。",
+    "background": "日軍建設機場威脅南太平洋交通，盟軍開始有限反攻。",
+    "trigger": "盟軍為控制機場發動登陸，日軍不斷增援反奪。",
+    "motives": "雙方要掌握空海控制與補給；島民在徵用、情報與流離中承擔風險。",
+    "impact": "多次海戰、航空消耗與船運損失使日本維持據點更困難。",
+    "debate": "8 月登陸、11 月大海戰與翌年撤離不同；勝負不能只歸於某一次海戰。",
+    "primary": "紐西蘭年表與 NPS 海戰索引交叉閱讀，補給日誌可解釋部隊飢餓。",
+    "counterfactual": "假設一方取得更穩定海運，戰役或縮短；限制是敵方航空、潛艇與天候仍會干擾。",
+    "causes": [
+      "midway"
+    ],
+    "causalLinks": [
+      {
+        "event": "midway",
+        "kind": "enabling",
+        "explanation": "日本航艦能力受挫增加盟軍有限反攻空間，但未消除日軍海空威脅。",
+        "sources": [
+          "https://www.nationalww2museum.org/war/topics/battle-of-midway"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "瓜達康納爾，倫加角為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "紐西蘭文化與遺產部｜太平洋戰爭年表（須留意日期差異）",
+        "https://nzhistory.govt.nz/war/second-world-war/war-in-the-pacific/timeline"
+      ],
+      [
+        "美國國家公園署｜太平洋主要戰事索引",
+        "https://home.nps.gov/perl/learn/historyculture/pacific-battles.htm"
+      ],
+      [
+        "美國國家二戰博物館｜中途島戰役",
+        "https://www.nationalww2museum.org/war/topics/battle-of-midway"
+      ]
+    ]
+  },
+  {
+    "id": "brazil-war",
+    "chapter": 6,
+    "date": "1942-08-22",
+    "title": "巴西承認與德義處於戰爭狀態",
+    "place": "里約熱內盧",
+    "point": [
+      -43.2,
+      -22.91
+    ],
+    "theaters": [
+      "home",
+      "atlantic",
+      "africa"
+    ],
+    "actors": [
+      "BR",
+      "DE",
+      "IT",
+      "US",
+      "WORK"
+    ],
+    "type": "declare",
+    "summary": "巴西宣布與德義存在戰爭狀態；30 日再以法令正式處理，之後投入護航與赴義大利的遠征軍。",
+    "background": "巴西原料、北東部空軍基地及南大西洋航路對盟國重要。",
+    "trigger": "軸心潛艇擊沉巴西商船，民眾抗議與政府政策轉向相結合。",
+    "motives": "政府尋求安全、軍備與工業援助；居民要求回應海上死亡。",
+    "impact": "美洲基地與資源協作更緊密，巴西成為有實際作戰投入的盟國。",
+    "debate": "22 日的戰爭狀態承認與 30 日法令不同；威權政府參與反法西斯聯盟也有政治張力。",
+    "primary": "FRUS 22 日電報直接記錄巴西通知，與巴西外交史材料比較。",
+    "counterfactual": "假設未發生商船襲擊，政策可能較慢轉向；限制是美巴合作此前已擴大。",
+    "causes": [
+      "germany-us"
+    ],
+    "causalLinks": [
+      {
+        "event": "germany-us",
+        "kind": "context",
+        "explanation": "美洲安全與南大西洋航運戰升級形成巴西選擇的背景。",
+        "sources": [
+          "https://history.state.gov/historicaldocuments/frus1942v05/d625"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "里約熱內盧為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國外交文件 FRUS｜1942 年 8 月 22 日巴西戰爭狀態",
+        "https://history.state.gov/historicaldocuments/frus1942v05/d625"
+      ]
+    ]
+  },
+  {
+    "id": "stalingrad",
+    "chapter": 6,
+    "date": "1942-08-23",
+    "title": "史達林格勒遭大轟炸，城市戰升級",
+    "place": "史達林格勒（今伏爾加格勒）",
+    "point": [
+      44.51,
+      48.71
+    ],
+    "theaters": [
+      "east"
+    ],
+    "actors": [
+      "DE",
+      "SU",
+      "RO",
+      "CIV"
+    ],
+    "type": "battle",
+    "summary": "德軍對史達林格勒大規模空襲並逼近伏爾加河，城市與工廠戰持續數月，平民困於火災與戰鬥。",
+    "background": "德國夏季攻勢分向高加索油田與伏爾加交通，戰線過度延伸。",
+    "trigger": "德軍抵達城市附近並試圖切斷河運與工業。",
+    "motives": "德方追求運輸節點及象徵勝利；蘇方保住交通、工廠與戰略支點。",
+    "impact": "市區消耗牽制德軍，蘇軍 11 月反攻包圍其第六軍團。",
+    "debate": "7 月已有區域戰鬥，本筆定位 8 月 23 日城市轟炸與攻勢升級，並非宣稱戰役僅此日起。",
+    "primary": "比較德蘇作戰紀錄與平民證詞，工廠既是生產空間也是戰場。",
+    "counterfactual": "假設德軍避免市區消耗，兵力或保存更多；限制是南方攻勢的補給問題仍在。",
+    "causes": [
+      "barbarossa"
+    ],
+    "causalLinks": [
+      {
+        "event": "barbarossa",
+        "kind": "consequence",
+        "explanation": "速勝失敗後的南方攻勢把資源與交通爭奪帶到伏爾加河。",
+        "sources": [
+          "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "史達林格勒（今伏爾加格勒）為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜二戰關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+      ]
+    ]
+  },
+  {
+    "id": "el-alamein",
+    "chapter": 6,
+    "date": "1942-10-23",
+    "title": "第二次阿拉曼戰役與補給的力量",
+    "place": "阿拉曼",
+    "point": [
+      28.95,
+      30.83
+    ],
+    "theaters": [
+      "africa",
+      "indian"
+    ],
+    "actors": [
+      "GB",
+      "IND",
+      "AU",
+      "NZ",
+      "DE",
+      "IT"
+    ],
+    "type": "battle",
+    "summary": "英國第八軍團發起攻勢，至 11 月初突破軸心防線，迫使其向利比亞撤退。",
+    "background": "蘇伊士與埃及受到威脅，但盟軍兵力、物資與空中支援逐步增強。",
+    "trigger": "蒙哥馬利集中砲兵與部隊，選擇以消耗和突破發動反攻。",
+    "motives": "盟軍要消除埃及威脅；軸心在漫長補給線上維持陣地。",
+    "impact": "與火炬行動形成東西夾擊，地中海海運的控制對陸戰結果尤其重要。",
+    "debate": "「一將定勝負」說法忽略多國部隊、地雷清除、船運與工業資源。",
+    "primary": "北非軍史和紐西蘭年表可核對 23 日至 11 月初進程。",
+    "counterfactual": "假設軸心得到更多燃油，撤退或較有序；限制是盟軍長期物資優勢不會因此消失。",
+    "causes": [
+      "lend-lease",
+      "compass"
+    ],
+    "causalLinks": [
+      {
+        "event": "lend-lease",
+        "kind": "enabling",
+        "explanation": "美洲軍需與運輸增強盟軍可用資源，仍需海運和現地後勤。",
+        "sources": [
+          "https://www.nam.ac.uk/explore/struggle-north-africa-1940-43"
+        ]
+      },
+      {
+        "event": "compass",
+        "kind": "context",
+        "explanation": "北非反覆拉鋸凸顯港口、油料及補給距離的結構限制。",
+        "sources": [
+          "https://www.nam.ac.uk/explore/struggle-north-africa-1940-43"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "阿拉曼為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "英國國家陸軍博物館｜北非戰爭 1940–1943",
+        "https://www.nam.ac.uk/explore/struggle-north-africa-1940-43"
+      ],
+      [
+        "紐西蘭文化與遺產部｜北非戰爭年表",
+        "https://nzhistory.govt.nz/war/the-north-african-campaign/timeline"
+      ]
+    ]
+  },
+  {
+    "id": "torch",
+    "chapter": 6,
+    "date": "1942-11-08",
+    "title": "火炬行動與法屬北非的政治交易",
+    "place": "阿爾及爾及卡薩布蘭加",
+    "point": [
+      3.06,
+      36.75
+    ],
+    "theaters": [
+      "africa",
+      "west",
+      "atlantic"
+    ],
+    "actors": [
+      "US",
+      "GB",
+      "VICHY",
+      "FF",
+      "DE",
+      "IT"
+    ],
+    "type": "attack",
+    "summary": "美英軍隊登陸法屬北非，初與維琪法軍交戰，再透過停火和政治交易控制港口。",
+    "background": "盟軍未能在 1942 年跨海峽大舉登陸法國，改在地中海建立進攻基地。",
+    "trigger": "盟軍實施火炬計畫，維琪地方軍政領袖的忠誠成為變數。",
+    "motives": "美英要消除北非軸心並開拓下一步；法方不同派別爭取權力與合法性。",
+    "impact": "德軍占領法國未占領區並增援突尼西亞；北非戰爭延續至 1943 年。",
+    "debate": "盟軍與達爾朗合作顯示軍事便利和政治正當性的衝突，並非當地全體立即「解放」。",
+    "primary": "對讀登陸命令、停火協議與自由法國抗議，區分海灘戰鬥和政治安排。",
+    "counterfactual": "假設1942 年改攻法國，或更早開第二戰場；限制是登陸艇、訓練與補給未必足夠。",
+    "causes": [
+      "el-alamein"
+    ],
+    "causalLinks": [
+      {
+        "event": "el-alamein",
+        "kind": "context",
+        "explanation": "兩場行動形成同一北非戰略的夾擊，但火炬早已規劃，並非阿拉曼後才臨時決定。",
+        "sources": [
+          "https://www.nam.ac.uk/explore/struggle-north-africa-1940-43"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "阿爾及爾及卡薩布蘭加為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "英國國家陸軍博物館｜北非戰爭 1940–1943",
+        "https://www.nam.ac.uk/explore/struggle-north-africa-1940-43"
+      ],
+      [
+        "紐西蘭文化與遺產部｜北非戰爭年表",
+        "https://nzhistory.govt.nz/war/the-north-african-campaign/timeline"
+      ],
+      [
+        "美國國務院史家辦公室｜戰時會議與開羅宣言",
+        "https://history.state.gov/milestones/1937-1945/war-time-conferences"
+      ]
+    ]
+  },
+  {
+    "id": "roma-deportation",
+    "chapter": 6,
+    "date": "1942-12-16",
+    "title": "羅姆與辛提人被下令驅逐至奧斯威辛",
+    "place": "柏林",
+    "point": [
+      13.4,
+      52.52
+    ],
+    "theaters": [
+      "west",
+      "east"
+    ],
+    "actors": [
+      "DE",
+      "ROMA",
+      "CIV"
+    ],
+    "type": "politics",
+    "summary": "希姆萊下令驅逐德國境內的羅姆與辛提人至奧斯威辛，1943 年起家庭大批被送入營區。",
+    "background": "納粹長期以種族分類、警察登記、拘禁和絕育迫害羅姆與辛提人。",
+    "trigger": "黨衛隊將迫害整合為集中驅逐政策，例外規定常遭忽略。",
+    "motives": "犯罪者追求種族排除；受害家庭試圖生存並維持彼此照顧。",
+    "impact": "營內疾病、強迫勞動與 1944 年毒氣殺害造成毀滅性後果。",
+    "debate": "不同受害群體遭迫害的法律和路徑有別；身心障礙者、男同性戀者、耶和華見證人等也受納粹迫害。",
+    "primary": "讀驅逐命令、營區記錄與倖存者證詞，避免採用納粹分類語彙作中立名稱。",
+    "counterfactual": "假設地方官員拒絕執行可救出部分人；限制是全國警察與黨衛隊機器仍在運作。",
+    "causes": [
+      "wannsee"
+    ],
+    "causalLinks": [
+      {
+        "event": "wannsee",
+        "kind": "context",
+        "explanation": "均屬納粹種族迫害體系，卻不能說羅姆驅逐是萬湖會議的同一決議。",
+        "sources": [
+          "https://encyclopedia.ushmm.org/content/en/timeline-event/holocaust/1942-1945/himmler-orders-deportation-of-roma-and-sinti-to-auschwitz"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "柏林為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜1942 年羅姆與辛提人驅逐命令",
+        "https://encyclopedia.ushmm.org/content/en/timeline-event/holocaust/1942-1945/himmler-orders-deportation-of-roma-and-sinti-to-auschwitz"
+      ]
+    ]
+  }
+]

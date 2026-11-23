@@ -1,0 +1,1270 @@
+{
+  "actors": {
+    "DE": {
+      "point": [
+        13.4,
+        52.52
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "until": "1933-01-30",
+          "stance": "威瑪共和國，尚非納粹政府",
+          "relations": "國際經濟和政治危機中的德國。",
+          "sources": [
+            "https://encyclopedia.ushmm.org/content/en/article/1933-key-dates"
+          ]
+        },
+        {
+          "from": "1933-01-30",
+          "until": "1939-09-01",
+          "stance": "納粹主導政府，逐步建立獨裁",
+          "relations": "侵略政策與種族迫害由國家機構推進；不代表所有德國人支持。",
+          "sources": [
+            "https://encyclopedia.ushmm.org/content/en/article/1933-key-dates",
+            "https://encyclopedia.ushmm.org/content/en/article/nuremberg-laws"
+          ]
+        },
+        {
+          "from": "1939-09-01",
+          "until": "1941-06-22",
+          "stance": "侵波並與英法等交戰的納粹德國",
+          "relations": "與蘇聯暫時交易，1941 年又侵蘇。",
+          "sources": [
+            "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+          ]
+        },
+        {
+          "from": "1941-06-22",
+          "until": "1945-05-08",
+          "stance": "對蘇侵略，擴大東線滅絕戰爭",
+          "relations": "12 月另向美國宣戰，日本並未同時侵蘇。",
+          "sources": [
+            "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+          ]
+        },
+        {
+          "from": "1945-05-08",
+          "stance": "軍事投降生效，進入盟軍占領",
+          "relations": "23:01 生效；日級面板概括當日轉折，不能表示當天所有時刻都已停戰。",
+          "sources": [
+            "https://www.archives.gov/milestone-documents/surrender-of-germany"
+          ]
+        }
+      ]
+    },
+    "FR": {
+      "point": [
+        2.35,
+        48.86
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "until": "1940-06-22",
+          "stance": "法蘭西第三共和國",
+          "relations": "維持殖民帝國；1939 年 9 月對德宣戰。",
+          "sources": [
+            "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+          ],
+          "name": "法蘭西第三共和國"
+        },
+        {
+          "from": "1940-06-22",
+          "until": "1940-07-11",
+          "stance": "停戰簽署中的第三共和國政府",
+          "relations": "25 日生效；7 月維琪體制形成，法國各軍政力量不能視為同一陣營。",
+          "sources": [
+            "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+          ],
+          "name": "停戰中的法國共和政府"
+        },
+        {
+          "from": "1940-07-11",
+          "until": "1944-06-03",
+          "stance": "共和主權與抵抗的歷史脈絡；另見維琪、自由法國",
+          "relations": "本條不再代表維琪政府；實際政治主體在各自條目。",
+          "sources": [
+            "https://www.cheminsdememoire.gouv.fr/fr/revue/le-retour-la-republique"
+          ],
+          "name": "共和法國的延續與抵抗（見另列政府）",
+          "showLabel": false
+        },
+        {
+          "from": "1944-06-03",
+          "stance": "法蘭西共和臨時政府與主權恢復",
+          "relations": "戴高樂領導的共和政府；8 月遷回巴黎，境內仍有戰事。",
+          "sources": [
+            "https://www.cheminsdememoire.gouv.fr/fr/revue/le-retour-la-republique"
+          ],
+          "name": "法蘭西共和臨時政府"
+        }
+      ]
+    },
+    "VICHY": {
+      "point": [
+        3.42,
+        46.13
+      ],
+      "states": [
+        {
+          "from": "1940-07-11",
+          "until": "1942-11-11",
+          "stance": "維琪法蘭西國，與德國合作的威權政府",
+          "relations": "本土部分遭德軍占領，殖民當局仍有行政；配合迫害，不等於所有法國人。",
+          "sources": [
+            "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates",
+            "https://www.jacar.go.jp/exhibition/shuhou/nenpyo/nenpyo19400330.html"
+          ],
+          "showLabel": false
+        },
+        {
+          "from": "1942-11-11",
+          "until": "1944-08-25",
+          "stance": "本土未占領區也遭軸心占領的合作政權",
+          "relations": "行政與軍事控制受更大限制；自由法國另有代表權主張。",
+          "sources": [
+            "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+          ],
+          "showLabel": false
+        },
+        {
+          "from": "1944-08-25",
+          "stance": "本土權力崩潰的維琪合作機構",
+          "relations": "領導人被移往德國，不能當作巴黎的現任共和政府。",
+          "sources": [
+            "https://www.cheminsdememoire.gouv.fr/fr/revue/le-retour-la-republique"
+          ],
+          "showLabel": false
+        }
+      ]
+    },
+    "FF": {
+      "point": [
+        -0.13,
+        51.51
+      ],
+      "states": [
+        {
+          "from": "1940-06-18",
+          "until": "1943-06-03",
+          "stance": "自由法國運動的形成期",
+          "relations": "戴高樂號召續戰，海外領地和部隊歸屬並不一致。",
+          "sources": [
+            "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates",
+            "https://www.cheminsdememoire.gouv.fr/fr/revue/le-retour-la-republique",
+            "https://www.archives-nationales.culture.gouv.fr/dossiers-thematiques/lappel-du-18-juin-1940"
+          ],
+          "name": "自由法國運動"
+        },
+        {
+          "from": "1943-06-03",
+          "until": "1944-06-03",
+          "stance": "法蘭西民族解放委員會",
+          "relations": "阿爾及爾的聯合機構，仍有領導權競爭。",
+          "sources": [
+            "https://www.cheminsdememoire.gouv.fr/fr/revue/le-retour-la-republique"
+          ],
+          "name": "法蘭西民族解放委員會"
+        },
+        {
+          "from": "1944-06-03",
+          "stance": "法蘭西共和臨時政府",
+          "relations": "法國主權恢復；不是維琪加入盟國的同一政府。",
+          "sources": [
+            "https://www.cheminsdememoire.gouv.fr/fr/revue/le-retour-la-republique"
+          ],
+          "name": "法蘭西共和臨時政府"
+        }
+      ]
+    },
+    "IT": {
+      "point": [
+        12.5,
+        41.9
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "until": "1940-06-10",
+          "stance": "義大利王國，墨索里尼法西斯政府",
+          "relations": "侵略衣索比亞並介入西班牙；1940 年參戰。",
+          "sources": [
+            "https://history.state.gov/historicaldocuments/frus1935v01/d666",
+            "https://warwick.ac.uk/services/library/mrc/collections/digital/scw/timeline2/"
+          ],
+          "name": "義大利王國（法西斯政府）"
+        },
+        {
+          "from": "1940-06-10",
+          "until": "1943-07-25",
+          "stance": "與英法交戰的軸心成員",
+          "relations": "北非、東非和地中海需要跨海供應。",
+          "sources": [
+            "https://www.nam.ac.uk/explore/struggle-north-africa-1940-43"
+          ],
+          "name": "義大利王國（法西斯政府）"
+        },
+        {
+          "from": "1943-07-25",
+          "until": "1943-09-08",
+          "stance": "國王與巴多格里奧政府",
+          "relations": "墨索里尼遭罷免，尚未公開退出戰爭。",
+          "sources": [
+            "https://www.nationalww2museum.org/war/articles/allied-campaign-italy-1943-45-timeline-part-one"
+          ],
+          "name": "義大利王國（巴多格里奧政府）"
+        },
+        {
+          "from": "1943-09-08",
+          "until": "1943-10-13",
+          "stance": "已公布停戰的王國政府",
+          "relations": "德軍占領、解除武裝；北方另有法西斯合作政權。",
+          "sources": [
+            "https://www.nationalww2museum.org/war/articles/allied-campaign-italy-1943-45-timeline-part-one"
+          ],
+          "name": "義大利王國（停戰後政府）"
+        },
+        {
+          "from": "1943-10-13",
+          "stance": "對德宣戰的共同交戰國",
+          "relations": "與盟軍共同作戰但不等同原有正式盟國地位，全境尚未解放。",
+          "sources": [
+            "https://www.nationalww2museum.org/war/articles/allied-campaign-italy-1943-45-timeline-part-one"
+          ],
+          "name": "義大利王國（對德共同交戰國）"
+        }
+      ]
+    },
+    "RSI": {
+      "point": [
+        10.52,
+        45.61
+      ],
+      "states": [
+        {
+          "from": "1943-09-23",
+          "until": "1945-04-28",
+          "stance": "德國保護下的義大利社會共和國",
+          "relations": "墨索里尼領導的法西斯合作政權；與王國、抵抗者並存對抗。",
+          "sources": [
+            "https://www.nationalww2museum.org/war/articles/allied-campaign-italy-1943-45-timeline-part-one"
+          ],
+          "showLabel": false
+        },
+        {
+          "from": "1945-04-28",
+          "stance": "瓦解中的法西斯合作政權",
+          "relations": "墨索里尼被抵抗者處決，北方解放和解除武裝進行中。",
+          "sources": [
+            "https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/kriegsverlauf/schlacht-um-berlin-1945"
+          ],
+          "showLabel": false
+        }
+      ]
+    },
+    "CN": {
+      "point": [
+        118.8,
+        32.06
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "until": "1937-09-22",
+          "stance": "中華民國國民政府，控制並不遍及全國",
+          "relations": "國民黨主導，與中共內戰且受地方軍政力量牽制。",
+          "sources": [
+            "https://history.state.gov/milestones/1921-1936/mukden-incident",
+            "https://art.archives.gov.tw/tw/art/1949.html"
+          ]
+        },
+        {
+          "from": "1937-09-22",
+          "until": "1938-10-27",
+          "stance": "公開國共合作下的抗日國民政府",
+          "relations": "領導主要正面戰場，合作不等於統一指揮和停止政治競爭。",
+          "sources": [
+            "https://art.archives.gov.tw/tw/art/1949.html"
+          ]
+        },
+        {
+          "from": "1938-10-27",
+          "until": "1941-12-09",
+          "stance": "以重慶為戰時政治中心的國民政府",
+          "relations": "遷移早已進行，本日代表武漢三鎮失守後的戰局；與汪政權不同。",
+          "sources": [
+            "https://www.jacar.go.jp/exhibition/shuhou/nenpyo/nenpyo19381027.html",
+            "https://www.jacar.go.jp/exhibition/shuhou/nenpyo/nenpyo19400330.html"
+          ]
+        },
+        {
+          "from": "1941-12-09",
+          "until": "1945-09-09",
+          "stance": "正式向日德義宣戰的盟國政府",
+          "relations": "對日全面作戰始於更早，宣戰法律時點與 1937 年開戰不同。",
+          "sources": [
+            "https://www.ndl.go.jp/modern/e/utility/chronology.html",
+            "https://history.state.gov/milestones/1937-1945/pearl-harbor",
+            "https://www.npm.edu.tw/NewChineseArtDownload.ashx?bid=2533"
+          ]
+        },
+        {
+          "from": "1945-09-09",
+          "stance": "中國戰區受降政府",
+          "relations": "受降與主權、實際接收不同；國共政治競爭仍在。",
+          "sources": [
+            "https://art.archives.gov.tw/tw/art/1778-15212.html"
+          ]
+        }
+      ]
+    },
+    "CCP": {
+      "point": [
+        109.49,
+        36.6
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "until": "1937-09-22",
+          "stance": "中國共產黨及其所領導軍政力量",
+          "relations": "與國民政府有內戰，擁有自身組織。",
+          "sources": [
+            "https://art.archives.gov.tw/tw/art/1949.html"
+          ],
+          "showLabel": false
+        },
+        {
+          "from": "1937-09-22",
+          "until": "1945-08-15",
+          "stance": "統一戰線中的中共與改編部隊",
+          "relations": "八路軍、新四軍等參與敵後抗戰，與國民政府既合作也摩擦。",
+          "sources": [
+            "https://art.archives.gov.tw/tw/art/1949.html"
+          ],
+          "showLabel": false
+        },
+        {
+          "from": "1945-08-15",
+          "stance": "擴大地方控制並爭取戰後權力的中共",
+          "relations": "對日勝利未解決國共競爭，不代表其與國民政府有完全相同的受降權。",
+          "sources": [
+            "https://art.archives.gov.tw/tw/art/1778-15212.html",
+            "https://art.archives.gov.tw/tw/art/1949.html"
+          ],
+          "showLabel": false
+        }
+      ]
+    },
+    "WANG": {
+      "point": [
+        118.8,
+        32.06
+      ],
+      "states": [
+        {
+          "from": "1940-03-30",
+          "until": "1945-08-15",
+          "stance": "日本支持的南京合作政權",
+          "relations": "自稱國民政府，實際受日軍控制；不等於重慶政府或全體中國人。",
+          "sources": [
+            "https://www.jacar.go.jp/exhibition/shuhou/nenpyo/nenpyo19400330.html"
+          ],
+          "showLabel": false
+        },
+        {
+          "from": "1945-08-15",
+          "stance": "隨日降瓦解的南京合作機構",
+          "relations": "占領行政及人員接收、追責仍需後續處理。",
+          "sources": [
+            "https://www.jacar.go.jp/exhibition/shuhou/nenpyo/nenpyo19400330.html",
+            "https://art.archives.gov.tw/tw/art/1778-15212.html"
+          ],
+          "showLabel": false
+        }
+      ]
+    },
+    "JP": {
+      "point": [
+        139.75,
+        35.68
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "until": "1941-12-08",
+          "stance": "大日本帝國，殖民與軍事擴張國家",
+          "relations": "在朝鮮、臺灣已有殖民統治，侵華與軍政決策逐步升級。",
+          "sources": [
+            "https://history.state.gov/milestones/1921-1936/mukden-incident",
+            "https://history.state.gov/milestones/1937-1945/pearl-harbor"
+          ]
+        },
+        {
+          "from": "1941-12-08",
+          "until": "1945-08-15",
+          "stance": "對美英等全面作戰的日本帝國",
+          "relations": "採東京日期；珍珠港在夏威夷為 7 日，並有多地同步攻勢。",
+          "sources": [
+            "https://www.ndl.go.jp/modern/e/cha4/description13.html",
+            "https://www.nps.gov/articles/pearlattackww2.htm/index.htm"
+          ]
+        },
+        {
+          "from": "1945-08-15",
+          "until": "1945-09-02",
+          "stance": "已宣布接受投降條件的日本政府",
+          "relations": "廣播後仍需傳達停戰、解除武裝與受降命令。",
+          "sources": [
+            "https://www.ndl.go.jp/constitution/shiryo/01/017shoshi.html"
+          ]
+        },
+        {
+          "from": "1945-09-02",
+          "stance": "已正式簽署投降書，受盟軍占領約束",
+          "relations": "日軍地方受降、戰俘釋放和遣返仍在執行。",
+          "sources": [
+            "https://www.archives.gov/milestone-documents/surrender-of-japan"
+          ]
+        }
+      ]
+    },
+    "SU": {
+      "point": [
+        37.62,
+        55.75
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "until": "1939-08-23",
+          "stance": "蘇聯",
+          "relations": "國家安全、意識形態與勢力需求共同影響外交。",
+          "sources": [
+            "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+          ]
+        },
+        {
+          "from": "1939-08-23",
+          "until": "1941-04-13",
+          "stance": "與德國暫時合作的蘇聯",
+          "relations": "秘密劃分勢力範圍，侵波及侵芬，尚非後來的抗德同盟身分。",
+          "sources": [
+            "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+          ]
+        },
+        {
+          "from": "1941-04-13",
+          "until": "1941-06-22",
+          "stance": "與日本簽有中立條約的蘇聯",
+          "relations": "德蘇互不侵犯仍存在，遠東暫時穩定。",
+          "sources": [
+            "https://www.mofa.go.jp/region/europe/russia/territory/edition92/period3.html"
+          ]
+        },
+        {
+          "from": "1941-06-22",
+          "until": "1945-08-08",
+          "stance": "抵抗德國侵略的盟國力量",
+          "relations": "英美援助逐步擴大，對日本仍未交戰。",
+          "sources": [
+            "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates",
+            "https://history.state.gov/milestones/1937-1945/lend-lease"
+          ]
+        },
+        {
+          "from": "1945-08-08",
+          "until": "1945-08-09",
+          "stance": "已宣布自 9 日起對日交戰的蘇聯",
+          "relations": "莫斯科宣布日與遠東當地進攻日不同。",
+          "sources": [
+            "https://www.mofa.go.jp/region/europe/russia/territory/edition92/period3.html"
+          ]
+        },
+        {
+          "from": "1945-08-09",
+          "stance": "對日進攻中的蘇聯",
+          "relations": "多方向攻入滿洲，15 日後部分地區仍交戰。",
+          "sources": [
+            "https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2025-08-05/atomic-bombings-japan-and-end-world-war-ii-80-years-later",
+            "https://www.mofa.go.jp/region/europe/russia/territory/edition92/period3.html"
+          ]
+        }
+      ]
+    },
+    "US": {
+      "point": [
+        -77.04,
+        38.9
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "until": "1941-03-11",
+          "stance": "美國，保有太平洋殖民地與領地",
+          "relations": "對侵略採不承認和有限措施，並未立即參戰。",
+          "sources": [
+            "https://history.state.gov/milestones/1921-1936/mukden-incident"
+          ]
+        },
+        {
+          "from": "1941-03-11",
+          "until": "1941-12-08",
+          "stance": "以租借支援盟國、尚未全面參戰的美國",
+          "relations": "法律中立與實際偏向盟國的援助並存。",
+          "sources": [
+            "https://www.archives.gov/milestone-documents/lend-lease-act"
+          ]
+        },
+        {
+          "from": "1941-12-08",
+          "until": "1941-12-11",
+          "stance": "對日宣戰的美國",
+          "relations": "夏威夷與美國本土宣布日期不同於亞洲各地，11 日再與德義交戰。",
+          "sources": [
+            "https://www.nps.gov/articles/pearlattackww2.htm/index.htm"
+          ]
+        },
+        {
+          "from": "1941-12-11",
+          "until": "1945-09-02",
+          "stance": "同時投入歐亞戰爭的美國",
+          "relations": "工業、商船、民權及拘禁政策呈現動員的多面性。",
+          "sources": [
+            "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates",
+            "https://www.archives.gov/milestone-documents/executive-order-8802",
+            "https://www.archives.gov/milestone-documents/executive-order-9066"
+          ]
+        },
+        {
+          "from": "1945-09-02",
+          "stance": "日本占領安排的主要執行者之一",
+          "relations": "其他盟國共同受降，各地政治前途並未因此一致。",
+          "sources": [
+            "https://www.archives.gov/milestone-documents/surrender-of-japan"
+          ]
+        }
+      ]
+    },
+    "UN": {
+      "point": [
+        -77.04,
+        38.9
+      ],
+      "states": [
+        {
+          "from": "1942-01-01",
+          "until": "1945-06-26",
+          "stance": "聯合國家：戰時盟國稱呼，非今日組織已成立",
+          "relations": "四國 1 日先簽、其他 22 國翌日加入；各自對已交戰軸心國投入資源。",
+          "sources": [
+            "https://treaties.un.org/doc/Publication/UNTS/LON/Volume%20204/v204.pdf#page=384"
+          ],
+          "showLabel": false
+        },
+        {
+          "from": "1945-06-26",
+          "stance": "聯合國憲章已簽署，尚未生效",
+          "relations": "後續：10 月 24 日生效，在本教材主時間範圍之外。",
+          "sources": [
+            "https://www.un.org/en/about-us/un-charter",
+            "https://treaties-prod.un.org/doc/Publication/CTC/uncharter.pdf"
+          ],
+          "showLabel": false
+        }
+      ]
+    },
+    "GB": {
+      "point": [
+        -0.13,
+        51.51
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "英國；帝國政府與不同地位的海外社會",
+          "relations": "殖民地、自治領和印度的參與不能當作同一法律或自願選擇。",
+          "sources": [
+            "https://www.nam.ac.uk/explore/struggle-north-africa-1940-43",
+            "https://nzhistory.govt.nz/war/second-world-war/war-in-the-pacific/timeline"
+          ]
+        }
+      ]
+    },
+    "PL": {
+      "point": [
+        21.01,
+        52.23
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "波蘭共和國及其政府、軍隊",
+          "relations": "1939 年後有流亡政府、地下軍及蘇支持機構，參看事件時點與不同政治主體。",
+          "sources": [
+            "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates",
+            "https://encyclopedia.ushmm.org/content/en/article/the-warsaw-polish-uprising"
+          ]
+        }
+      ]
+    },
+    "AT": {
+      "point": [
+        16.37,
+        48.21
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "奧地利；1938 年遭納粹吞併",
+          "relations": "吞併、軍事占領和民眾態度不同；1945 年重建國家仍受盟軍占領。",
+          "sources": [
+            "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+          ]
+        }
+      ]
+    },
+    "CS": {
+      "point": [
+        14.42,
+        50.08
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "捷克斯洛伐克及其流亡代表",
+          "relations": "1938 割地、1939 解體後各區政治形式不同，不表示人民停止抵抗。",
+          "sources": [
+            "https://www.bundestag.de/resource/blob/194724/Muenchner_Abkommen.pdf",
+            "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+          ]
+        }
+      ]
+    },
+    "ES": {
+      "point": [
+        -3.7,
+        40.42
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "共和陣營與民族派等多方西班牙人",
+          "relations": "不是單一對外立場的國家主體；1936–1939 年內戰及外國介入各有目標。",
+          "sources": [
+            "https://warwick.ac.uk/services/library/mrc/collections/digital/scw/timeline2/"
+          ]
+        }
+      ]
+    },
+    "ET": {
+      "point": [
+        38.75,
+        9.03
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "衣索比亞國家與抵抗力量",
+          "relations": "1935 遭義大利侵略，吞併主張不等於被侵略者同意；1941 年恢復君主統治。",
+          "sources": [
+            "https://history.state.gov/historicaldocuments/frus1935v01/d666",
+            "https://www.ibiblio.org/hyperwar/UN/India/EAfrica/EAfrica-9.html"
+          ]
+        }
+      ]
+    },
+    "LEAGUE": {
+      "point": [
+        6.15,
+        46.2
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "國際聯盟，政府間組織",
+          "relations": "制裁與調查依會員協作，並非有獨立全球軍力的政府。",
+          "sources": [
+            "https://www.ungeneva.org/sites/default/files/2022-01/sdn_chronology_0.pdf"
+          ]
+        }
+      ]
+    },
+    "AU": {
+      "point": [
+        149.13,
+        -35.28
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "澳洲，英聯邦自治領",
+          "relations": "對外參戰有自身政府程序；原住民族及不同群體經驗並不相同。",
+          "sources": [
+            "https://nzhistory.govt.nz/war/second-world-war/war-in-the-pacific/timeline",
+            "https://www.awm.gov.au/papua-campaign/timeline"
+          ]
+        }
+      ]
+    },
+    "NZ": {
+      "point": [
+        174.78,
+        -41.29
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "紐西蘭，英聯邦自治領",
+          "relations": "部隊與海軍人員投入地中海、北非、大西洋及太平洋。",
+          "sources": [
+            "https://nzhistory.govt.nz/war/second-world-war/war-in-the-pacific/timeline",
+            "https://nzhistory.govt.nz/page/battle-river-plate"
+          ]
+        }
+      ]
+    },
+    "CA": {
+      "point": [
+        -75.7,
+        45.42
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "加拿大，英聯邦自治領",
+          "relations": "自主宣戰程序與英國不同；香港、護航和日裔拘禁均屬戰時經驗。",
+          "sources": [
+            "https://www.warmuseum.ca/war-against-japan/",
+            "https://www.royalnavy.mod.uk/news/2021/may/24/20210524-battle-atlantic"
+          ]
+        }
+      ]
+    },
+    "IND": {
+      "point": [
+        77.21,
+        28.61
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "英屬印度及印度人多方政治選擇",
+          "relations": "英印軍由不同族群組成；民族主義者有參戰、抗英與支持印度國民軍等不同路徑。",
+          "sources": [
+            "https://www.nam.ac.uk/explore/battle-imphal",
+            "https://history.state.gov/historicaldocuments/frus1943v04/d337"
+          ]
+        }
+      ]
+    },
+    "INA": {
+      "point": [
+        103.85,
+        1.29
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "印度國民軍，非英印軍",
+          "relations": "在日本支持下抗英追求獨立，其參與不能代表全部印度人。",
+          "sources": [
+            "https://royalarmouries.org/objects-and-stories/stories/the-battles-of-imphal-and-kohima-1944",
+            "https://www.nam.ac.uk/explore/september-1945"
+          ],
+          "showLabel": false
+        }
+      ]
+    },
+    "NL": {
+      "point": [
+        4.3,
+        52.08
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "荷蘭政府及荷屬東印度殖民當局",
+          "relations": "本土 1940 遭占領，政府流亡；殖民地 1942 陷落後仍試圖重建權力。",
+          "sources": [
+            "https://www.awm.gov.au/visit/exhibitions/alliesinadversity/japanese/java",
+            "https://www.wilsoncenter.org/publication/soviet-policy-indonesia-during-the-liberal-democracy-period-1950-1959"
+          ]
+        }
+      ]
+    },
+    "BE": {
+      "point": [
+        4.35,
+        50.85
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "比利時及其流亡政府與殖民機構",
+          "relations": "1940 本土敗戰後抵抗、海外軍隊及剛果資源仍牽涉戰爭。",
+          "sources": [
+            "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+          ]
+        }
+      ]
+    },
+    "DK": {
+      "point": [
+        12.57,
+        55.68
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "丹麥政府、居民與抵抗力量",
+          "relations": "1940 遭侵略後初期保留部分行政，其後占領加深。",
+          "sources": [
+            "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+          ]
+        }
+      ]
+    },
+    "NO": {
+      "point": [
+        10.75,
+        59.91
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "挪威政府、流亡部隊與抵抗力量",
+          "relations": "本土占領不等於商船、海外部隊和政府停止支持盟軍。",
+          "sources": [
+            "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+          ]
+        }
+      ]
+    },
+    "FI": {
+      "point": [
+        24.94,
+        60.17
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "芬蘭共和國",
+          "relations": "冬季戰爭後 1941 年與德國共同對蘇作戰，1944 年停戰再逐德軍；非所有時期同一陣營。",
+          "sources": [
+            "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+          ]
+        }
+      ]
+    },
+    "GR": {
+      "point": [
+        23.73,
+        37.98
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "希臘政府、軍隊及不同抵抗力量",
+          "relations": "義德侵略與占領後有流亡政府及多派抵抗，後續內戰不在本軸詳述。",
+          "sources": [
+            "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+          ]
+        }
+      ]
+    },
+    "YU": {
+      "point": [
+        20.46,
+        44.81
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "南斯拉夫王國、游擊與不同政治軍事力量",
+          "relations": "占領後遭分割，王室派與共產游擊隊等既抵抗也互相衝突。",
+          "sources": [
+            "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+          ]
+        }
+      ]
+    },
+    "RO": {
+      "point": [
+        26.1,
+        44.43
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "羅馬尼亞",
+          "relations": "參與軸心侵蘇及迫害，1944 年 8 月政變後轉向對德；不能視為固定陣營。",
+          "sources": [
+            "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+          ]
+        }
+      ]
+    },
+    "HU": {
+      "point": [
+        19.04,
+        47.5
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "匈牙利",
+          "relations": "軸心盟國，1944 年又遭德國占領；本地反猶政策和機構責任需分辨。",
+          "sources": [
+            "https://encyclopedia.ushmm.org/content/en/article/auschwitz-key-dates",
+            "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+          ]
+        }
+      ]
+    },
+    "MN": {
+      "point": [
+        106.92,
+        47.92
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "蒙古人民共和國",
+          "relations": "蘇聯盟友，1939 年與蘇軍對日滿作戰，1945 年亦參與進攻。",
+          "sources": [
+            "https://www.jacar.go.jp/english/exhibition/shuhou-english/timeline/nenpyo19390512.html",
+            "https://www.mofa.go.jp/region/europe/russia/territory/edition92/period3.html"
+          ]
+        }
+      ]
+    },
+    "TH": {
+      "point": [
+        100.5,
+        13.75
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "泰國政府與不同政治網絡",
+          "relations": "日本 1941 年進入後政府與其合作，也有自由泰等反日力量。",
+          "sources": [
+            "https://nzhistory.govt.nz/war/second-world-war/war-in-the-pacific/timeline"
+          ]
+        }
+      ]
+    },
+    "IR": {
+      "point": [
+        51.39,
+        35.69
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "伊朗，1941 年起遭英蘇占領",
+          "relations": "補給線擴建伴隨主權、物價和民生代價；伊朗不是任由盟國使用的空白通道。",
+          "sources": [
+            "https://www.ibiblio.org/hyperwar/USA/USA-ME-Persia/index.html",
+            "https://history.state.gov/milestones/1937-1945/tehran-conf"
+          ]
+        }
+      ]
+    },
+    "PH": {
+      "point": [
+        120.98,
+        14.6
+      ],
+      "states": [
+        {
+          "until": "1941-12-08",
+          "name": "美國統治下的菲律賓",
+          "stance": "美國殖民主權下的菲律賓，本地政治立場多樣",
+          "relations": "1935 年建立自治邦；自治不等於已獨立，美國仍掌握對外及防務權力。",
+          "sources": [
+            "https://www.nationalww2museum.org/war/topics/battle-bataan-death-march",
+            "https://www.nationalww2museum.org/war/articles/liberation-of-philippines-cecilia-gaerlan"
+          ],
+          "from": "1931-01-01"
+        },
+        {
+          "until": "1942-04-09",
+          "name": "菲律賓自治邦與防禦部隊",
+          "stance": "美國主權下的自治邦，與美軍共同防禦",
+          "relations": "菲律賓軍人和平民參與抵抗；日軍攻勢逐步擴大占領。",
+          "sources": [
+            "https://www.nationalww2museum.org/war/topics/battle-bataan-death-march",
+            "https://www.nationalww2museum.org/war/articles/liberation-of-philippines-cecilia-gaerlan"
+          ],
+          "from": "1941-12-08"
+        },
+        {
+          "until": "1945-02-03",
+          "name": "日占菲律賓的多方力量",
+          "stance": "巴丹投降後持續陷入占領的菲律賓",
+          "relations": "流亡自治邦政府、游擊隊、平民和日本扶植的合作政府並存；本日不是全群島投降日。",
+          "sources": [
+            "https://www.nationalww2museum.org/war/topics/battle-bataan-death-march",
+            "https://www.nationalww2museum.org/war/articles/liberation-of-philippines-cecilia-gaerlan"
+          ],
+          "from": "1942-04-09"
+        },
+        {
+          "name": "盟軍反攻中的菲律賓自治邦",
+          "stance": "盟軍進入馬尼拉，日軍仍在多地作戰",
+          "relations": "城市解放、平民暴行與自治政府恢復同時發生；1945 年仍非主權獨立國。",
+          "sources": [
+            "https://www.nationalww2museum.org/war/topics/battle-bataan-death-march",
+            "https://www.nationalww2museum.org/war/articles/liberation-of-philippines-cecilia-gaerlan"
+          ],
+          "from": "1945-02-03"
+        }
+      ]
+    },
+    "BR": {
+      "point": [
+        -43.2,
+        -22.91
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "巴西，瓦加斯政府",
+          "relations": "威權政府先與各方交易，1942 年承認對德義戰爭狀態，並派軍赴義大利。",
+          "sources": [
+            "https://history.state.gov/historicaldocuments/frus1942v05/d625"
+          ]
+        }
+      ]
+    },
+    "CU": {
+      "point": [
+        -82.37,
+        23.11
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "古巴",
+          "relations": "移民與難民接納受本國政策、國內政治和美洲關係影響。",
+          "sources": [
+            "https://encyclopedia.ushmm.org/content/en/timeline-event/holocaust/1939-1941/st-louis-voyage"
+          ]
+        }
+      ]
+    },
+    "UY": {
+      "point": [
+        -56.16,
+        -34.9
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "烏拉圭",
+          "relations": "1939 年拉普拉塔海戰時維持中立，港口規則影響德艦處置。",
+          "sources": [
+            "https://nzhistory.govt.nz/page/battle-river-plate"
+          ]
+        }
+      ]
+    },
+    "ID": {
+      "point": [
+        106.83,
+        -6.18
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "印尼民族運動與多方本地組織",
+          "relations": "荷蘭殖民、日占與本地組織有不同利益；尚未宣布成立共和國。",
+          "sources": [
+            "https://www.wilsoncenter.org/publication/soviet-policy-indonesia-during-the-liberal-democracy-period-1950-1959"
+          ],
+          "showLabel": false,
+          "until": "1945-08-17",
+          "name": "印尼民族運動與多方本地組織"
+        },
+        {
+          "from": "1945-08-17",
+          "stance": "已宣布成立的印度尼西亞共和國",
+          "relations": "荷蘭殖民、日占及本地組織演變不同；宣布獨立不是立即獲全面承認。",
+          "sources": [
+            "https://www.wilsoncenter.org/publication/soviet-policy-indonesia-during-the-liberal-democracy-period-1950-1959"
+          ],
+          "showLabel": false,
+          "name": "已宣布成立的印度尼西亞共和國"
+        }
+      ]
+    },
+    "VN": {
+      "point": [
+        105.84,
+        21.04
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "越南民族運動及不同政治組織",
+          "relations": "法國殖民行政、日本軍事介入與本地政治力量交錯；越盟於 1941 年成立。",
+          "sources": [
+            "https://sourcebooks.fordham.edu/mod/1945vietnam.asp"
+          ],
+          "showLabel": false,
+          "until": "1945-09-02",
+          "name": "越南民族運動及不同政治組織"
+        },
+        {
+          "from": "1945-09-02",
+          "stance": "已宣布成立的越南民主共和國",
+          "relations": "日本、法國與盟國受降安排交錯，本地主權訴求未隨日降獲普遍承認。",
+          "sources": [
+            "https://sourcebooks.fordham.edu/mod/1945vietnam.asp"
+          ],
+          "showLabel": false,
+          "name": "已宣布成立的越南民主共和國"
+        }
+      ]
+    },
+    "PAP": {
+      "point": [
+        147.18,
+        -9.47
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "巴布亞居民、搬運者與步兵部隊",
+          "relations": "殖民體制下的徵用、合作、勞動與反抗不可全部視為自願。",
+          "sources": [
+            "https://www.awm.gov.au/papua-campaign/timeline"
+          ],
+          "showLabel": false
+        }
+      ]
+    },
+    "RES": {
+      "point": [
+        21.01,
+        52.23
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "各地抵抗組織，非單一跨國指揮",
+          "relations": "包含不同政黨、社區和軍事網絡；相關事件會交代本地組織。",
+          "sources": [
+            "https://encyclopedia.ushmm.org/content/en/article/the-warsaw-polish-uprising",
+            "https://www.cheminsdememoire.gouv.fr/fr/revue/le-retour-la-republique"
+          ],
+          "showLabel": false
+        }
+      ]
+    },
+    "JEW": {
+      "point": [
+        21.01,
+        52.25
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "多國猶太社群與個人，非國家或單一組織",
+          "relations": "承受納粹種族分類與滅絕；逃亡、救援、日常維持與武裝抵抗都屬經驗。",
+          "sources": [
+            "https://encyclopedia.ushmm.org/content/en/article/nuremberg-laws",
+            "https://encyclopedia.ushmm.org/content/en/timeline-event/holocaust/1942-1945/warsaw-ghetto-uprising"
+          ],
+          "showLabel": false
+        }
+      ]
+    },
+    "ROMA": {
+      "point": [
+        19.18,
+        50.04
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "羅姆與辛提社群，非單一組織",
+          "relations": "遭種族分類、拘禁、驅逐和屠殺；不同地區記錄有很大缺口。",
+          "sources": [
+            "https://encyclopedia.ushmm.org/content/en/timeline-event/holocaust/1942-1945/himmler-orders-deportation-of-roma-and-sinti-to-auschwitz"
+          ],
+          "showLabel": false
+        }
+      ]
+    },
+    "WORK": {
+      "point": [
+        -122.35,
+        37.93
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "女性及其他勞動者，非單一組織",
+          "relations": "軍工、農業、航運、照護和強迫勞動有不同權利條件；不將勞動者都當作自由雇員。",
+          "sources": [
+            "https://www.archives.gov/research/guide-fed-records/groups/179.html",
+            "https://www.archives.gov/milestone-documents/executive-order-8802",
+            "https://www.awm.gov.au/research/guide/pow-ww2-burma-thai"
+          ],
+          "showLabel": false
+        }
+      ]
+    },
+    "CIV": {
+      "point": [
+        114.3,
+        30.59
+      ],
+      "states": [
+        {
+          "from": "1931-01-01",
+          "stance": "平民、難民、戰俘與被強迫者，非國家",
+          "relations": "身分常交錯，並非全體有共同政治立場；軍民數字和責任需按事件範圍辨認。",
+          "sources": [
+            "https://adhoc.yalepages.org/Collections/Nanking/findingaid.html",
+            "https://www.sciencespo.fr/mass-violence-war-massacre-resistance/en/document/japanese-mass-violence-and-its-victims-fifteen-years-war-1931-45.html"
+          ],
+          "showLabel": false
+        }
+      ]
+    },
+    "MAN": {
+      "point": [
+        125.32,
+        43.9
+      ],
+      "states": [
+        {
+          "from": "1932-03-01",
+          "until": "1945-08-18",
+          "stance": "日本扶植的滿洲國",
+          "relations": "附庸政權，國際承認有限，不等於普遍承認的主權國家。",
+          "sources": [
+            "https://www.jacar.go.jp/english/newsletter/newsletter_029e/newsletter_029e.html"
+          ],
+          "showLabel": false
+        },
+        {
+          "from": "1945-08-18",
+          "stance": "隨日本戰敗瓦解的滿洲國機構",
+          "relations": "軍事占領、投降和居民返鄉仍需分階段處理。",
+          "sources": [
+            "https://www.mofa.go.jp/region/europe/russia/territory/edition92/period3.html",
+            "https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2025-08-05/atomic-bombings-japan-and-end-world-war-ii-80-years-later"
+          ],
+          "showLabel": false
+        }
+      ]
+    }
+  },
+  "boundaries": []
+}

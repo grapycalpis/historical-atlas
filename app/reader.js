@@ -28,18 +28,22 @@
   const editorial=window.ATLAS_EDITION_VIEW||{};
   const types = {tension:'外交衝突',support:'外交支持',alliance:'締結協定',mobilize:'軍事動員',ultimatum:'最後通牒',declare:'正式宣戰',attack:'軍事行動',battle:'重要戰役',front:'主要戰線',territory:'領土變動',politics:'政治事件',peace:'外交與和議'};
   const verbs = {tension:'發生矛盾',support:'提供支持',alliance:'結成協定',mobilize:'啟動動員',ultimatum:'提出最後通牒',declare:'正式宣戰',attack:'展開軍事行動',battle:'交戰',front:'形成戰線',territory:'領土關係變動',politics:'政治互動',peace:'進行交涉'};
-  const layers=Object.fromEntries(Object.keys(layersMeta).map(k=>[k,true]));
-  const all=window.ATLAS_EVENTS.slice().sort((a,b)=>a.chapter-b.chapter || a.date.localeCompare(b.date) || a.id.localeCompare(b.id));
+  const layers=Object.fromEntries(Object.keys(layersMeta).map(k=>[k,edition.initialLayers?.[k]!==false]));
+  const all=window.ATLAS_EVENTS.slice().sort((a,b)=>window.ATLAS_CORE.compareEvents(a,b));
   if(!all.length){$('article').textContent='事件資料未載入。請解壓縮完整專案後，從時期目錄重新開啟。';return;}
   const byId=new Map(all.map(e=>[e.id,e]));
   const grouped=chapters.map((_,i)=>all.filter(e=>e.chapter===i+1));
   const baseline=byId.get(edition.baseline)||all[0];
   let current=byId.get(location.hash.slice(1))||byId.get(edition.initial)||all[0];
-  let tier=0,country=null,timer=null,modal=null,view='region';
+  let tier=0,country=null,timer=null,modal=null,view=edition.defaultView||'region',theater='all';
+  const visible=()=>window.ATLAS_CORE.filterEvents(all,theater);
+  const chapterEvents=n=>visible().filter(e=>e.chapter===n);
+  const theaterLabel=e=>(e.theaters||[]).map(t=>edition.theaters?.[t]?.label||t).join('、');
+  function reset(){theater='all';$('theater').value=theater;view=edition.defaultView||'region';go(baseline);window.atlasZoom?.($('map'),0);}
   const fmt=d=>d.replaceAll('-','.');
   const pad=n=>String(n).padStart(2,'0');
   const eventType=e=>edition.eventLabels?.[e.id]||types[e.type]||'歷史事件';
-  const countryName=(code,e=current)=>names[code] || window.atlasCountry?.(code,e.date,code)?.name||code;
+  const countryName=(code,e=current)=>window.atlasCountry?.(code,e.date,names[code]||code)?.name||names[code]||code;
   const sourceLink=([label,url])=>/^https?:\/\//i.test(url)?'<a class="sourceLink" href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">'+icon('external')+esc(label)+'</a>':'';
   const sub=(title,content)=>content?'<h3>'+esc(title)+'</h3><p>'+esc(content)+'</p>':'';
   const eventRow=e=>'<button class="listRow" data-event="'+esc(e.id)+'" aria-current="'+(e.id===current.id)+'"><time>'+fmt(e.date)+'</time><span>'+esc(e.title)+'</span>'+icon('chev')+'</button>';
@@ -54,6 +58,7 @@
   function go(e,automatic=false){
     if(!e)return;
     if(!automatic)stop();
+    if(theater!=='all'&&!e.theaters?.includes(theater)){theater='all';$('theater').value='all';}
     current=e;country=null;tier=0;
     if(e.point && view!=='world' && outsideRegion(e.point))view='focus';
     else if(view==='focus' && go.autoFocus)view='region';
@@ -62,13 +67,13 @@
     try{history.replaceState(null,'','#'+encodeURIComponent(e.id));}catch{}
     render();
   }
-  function step(delta,auto=false){const n=all.indexOf(current)+delta;if(n<0||n>=all.length){stop();return;} go(all[n],auto);if(n===all.length-1)stop();}
+  function step(delta,auto=false){const list=visible(),n=list.indexOf(current)+delta;if(n<0||n>=list.length){stop();return;} go(list[n],auto);if(n===list.length-1)stop();}
   function playLabel(){const on=timer!==null;$('play').innerHTML=icon(on?'pause':'play')+(on?'暫停':'自動播放');$('play').setAttribute('aria-pressed',String(on));}
   function stop(){clearInterval(timer);timer=null;playLabel();}
-  function start(){stop();if(current===all.at(-1))go(all[0]);timer=setInterval(()=>step(1,true),8000/Number($('speed').value));playLabel();}
+  function start(){stop();if(current===visible().at(-1))go(visible()[0]);timer=setInterval(()=>step(1,true),8000/Number($('speed').value));playLabel();}
   function renderMap(){
     if(!window.drawAtlasMap)return;
-    window.drawAtlasMap($('map'),current,{layers,view,selectedCountry:country?.code,comparison:false,
+    window.drawAtlasMap($('map'),current,{layers,view,theater,selectedCountry:country?.code,comparison:false,
       onCountry:(code,name)=>inspectCountry(code,name),onEvent:id=>{stop();if(byId.has(id)&&id!==current.id)go(byId.get(id));country=null;tier=1;renderReader();$('article').scrollTop=0;}});
   }
   function inspectCountry(code,name,redraw=true){stop();country={code,name};renderReader();if(redraw)renderMap();$('article').scrollTop=0;}
@@ -76,18 +81,18 @@
     $('legend').innerHTML=editorial.legend?.(current,layers) || '<span class="legItem"><i class="key event"></i>目前事件</span><span class="legItem">'+esc(edition.legend||'地點與自然陸地輪廓')+'</span>';
   }
   function renderNav(){
-    $('chapters').innerHTML=chapters.map(([num,title,years],i)=>'<button data-ch="'+i+'" class="chapter '+(current.chapter===i+1?'active':'')+'" aria-current="'+(current.chapter===i+1)+'"><span class="roman">'+esc(num)+'</span><span><strong>'+esc(title)+'</strong><small>'+esc(years)+'</small></span></button>').join('');
-    $('chapters').querySelectorAll('button').forEach(b=>b.onclick=()=>go(grouped[Number(b.dataset.ch)][0]));
-    const g=grouped[current.chapter-1],i=g.indexOf(current);
+    $('chapters').innerHTML=chapters.map(([num,title,years],i)=>'<button '+(chapterEvents(i+1).length?'':'disabled')+' data-ch="'+i+'" class="chapter '+(current.chapter===i+1?'active':'')+'" aria-current="'+(current.chapter===i+1)+'"><span class="roman">'+esc(num)+'</span><span><strong>'+esc(title)+'</strong><small>'+esc(years)+'</small></span></button>').join('');
+    $('chapters').querySelectorAll('button').forEach(b=>b.onclick=()=>go(chapterEvents(Number(b.dataset.ch)+1)[0]));
+    const g=chapterEvents(current.chapter),i=g.indexOf(current);
     $('miniList').innerHTML=g.map(e=>'<button class="mini '+(e===current?'on':'')+'" title="'+esc(e.title)+'" data-event="'+esc(e.id)+'"><time>'+e.date.slice(5).replace('-','/')+'</time><span>'+esc(e.title)+'</span></button>').join('');
     connectEvents($('miniList'));
     const mini=$('miniList'),active=mini.querySelector('.on');if(active)mini.scrollTop=active.offsetTop-mini.firstElementChild.offsetTop-Math.floor(mini.clientHeight/3);
     $('readerList').textContent=pad(i+1)+' / '+pad(g.length);
-    $('partLabel').textContent='第'+current.chapter+'章 · '+g.length+' 個事件';
+    $('partLabel').textContent='第'+current.chapter+'章 · '+g.length+' 個事件'+(theater==='all'?'':' · 已篩選');
     $('track').max=g.length-1;$('track').value=i;$('track').setAttribute('aria-valuetext',current.date+' '+current.title);
     $('track').style.setProperty('--progress',(100*i/Math.max(1,g.length-1))+'%');
     $('notches').innerHTML=g.map(()=>'<i></i>').join('');$('startDate').textContent=fmt(g[0].date);$('endDate').textContent=fmt(g.at(-1).date);$('timelineDate').textContent=i===0||i===g.length-1?'':fmt(current.date);
-    $('prev').disabled=current===all[0];$('next').disabled=current===all.at(-1);playLabel();
+    $('prev').disabled=current===visible()[0];$('next').disabled=current===visible().at(-1);playLabel();
   }
   function storyText(e){
     const parts=String(e.summary).match(/[^。！？]+[。！？]?/g)||[e.summary];
@@ -107,7 +112,7 @@
       $('countryBack').onclick=()=>{country=null;renderReader();renderMap();};connectEvents($('article'));return;
     }
     const edges=(e.edges||[]).filter(x=>x.length>=3);
-    $('article').innerHTML='<div class="dateLine"><time>'+fmt(e.date)+'</time><span class="typeChip">'+esc(eventType(e))+'</span></div><h2 class="eventTitle">'+esc(e.title)+'</h2><div class="placeLine">'+icon('pin')+'<span>'+esc(e.place)+'</span></div><div class="tiers" role="tablist" aria-label="解說深度">'+['白話入門','深入解釋','進階研究'].map((s,i)=>'<button role="tab" data-tier="'+i+'" aria-selected="'+(tier===i)+'">'+s+'</button>').join('')+'</div>'+storyText(e)+
+    $('article').innerHTML='<div class="dateLine"><time>'+fmt(e.date)+'</time><span class="typeChip">'+esc(eventType(e))+'</span></div><h2 class="eventTitle">'+esc(e.title)+'</h2><div class="placeLine">'+icon('pin')+'<span>'+esc(e.place)+'</span></div>'+(e.theaters?.length?'<p class="theaterChip">戰區：'+esc(theaterLabel(e))+'</p>':'')+'<div class="tiers" role="tablist" aria-label="解說深度">'+['白話入門','深入解釋','進階研究'].map((s,i)=>'<button role="tab" data-tier="'+i+'" aria-selected="'+(tier===i)+'">'+s+'</button>').join('')+'</div>'+storyText(e)+
       '<div class="readerBlock"><h3>相關國家</h3><div class="tags">'+e.actors.map(c=>'<button class="tag" data-country="'+esc(c)+'">'+esc(countryName(c))+'</button>').join('')+'</div></div>'+
       '<div class="readerBlock"><h3>這一步，地圖怎麼讀？</h3><p class="evidence">'+esc(e.mapNote)+'</p>'+edges.map(([a,b,t])=>'<p class="edgeRow">'+esc(countryName(a))+' <span>'+esc(verbs[t]||types[t]||t)+'</span> '+(a===b?'':esc(countryName(b)))+'</p>').join('')+'</div>'+
       '<button class="causalLink" id="causeOpen">'+icon('branch')+'追蹤前因與後果</button>';
@@ -125,22 +130,25 @@
   function closeDialog(){if($('dialog').open)$('dialog').close();modal=null;}
   function openIndex(){
     showDialog('index','事件目錄','選擇閱讀位置','<label>歷史章節 <select id="chapterIndex" class="selectControl">'+chapters.map((c,i)=>'<option value="'+i+'" '+(current.chapter===i+1?'selected':'')+'>'+esc(c[0])+' · '+esc(c[1])+'</option>').join('')+'</select></label><div class="indexList" id="fullList"></div>');
-    const update=()=>{$('fullList').innerHTML=grouped[Number($('chapterIndex').value)].map(eventRow).join('');connectEvents($('fullList'));};
+    const update=()=>{$('fullList').innerHTML=chapterEvents(Number($('chapterIndex').value)+1).map(eventRow).join('');connectEvents($('fullList'));};
     $('chapterIndex').onchange=update;update();
   }
   function openCauses(){
     const e=current,parents=(e.causes||[]).map(id=>byId.get(id)).filter(Boolean),children=all.filter(x=>x.causes?.includes(e.id));
-    const cards=items=>items.map(x=>'<button class="causalCard" data-event="'+esc(x.id)+'"><time>'+fmt(x.date)+'</time><strong>'+esc(x.title)+'</strong><small>'+esc(x.impact)+'</small></button>').join('');
-    showDialog('causes','前因與後果',e.date+' · '+e.title,'<section class="dialogSection"><h3>哪些事件改變了當時的選擇？</h3>'+(cards(parents)||'<p>本教材從這個節點開始追溯。背景可見本事件的深入解釋。</p>')+'</section><section class="dialogSection"><h3>'+esc(e.title)+'</h3><p class="evidence">'+esc(e.trigger)+' '+esc(e.impact)+'</p></section><section class="dialogSection"><h3>哪些後續事件受到影響？</h3>'+(cards(children)||'<p>'+esc(e.impact)+'</p>')+'</section>');connectEvents($('dlgBody'));
+    const kinds={direct:'直接原因',enabling:'促成條件',context:'共同背景',consequence:'後續影響'};
+    const evidence=(x,parent)=>{const link=(parent?e:x).causalLinks?.find(l=>l.event===(parent?x:e).id);return link?'<p class="evidence">'+esc(kinds[link.kind])+'：'+esc(link.explanation)+'</p>'+link.sources.map(u=>sourceLink((parent?e:x).sources.find(s=>s[1]===u))).join(''):'';};
+    const cards=(items,parent)=>items.map(x=>'<button class="causalCard" data-event="'+esc(x.id)+'"><time>'+fmt(x.date)+'</time><strong>'+esc(x.title)+'</strong><small>'+esc(x.impact)+'</small></button>'+evidence(x,parent)).join('');
+    showDialog('causes','前因與後果',e.date+' · '+e.title,'<section class="dialogSection"><h3>哪些事件改變了當時的選擇？</h3>'+(cards(parents,true)||'<p>本教材從這個節點開始追溯。背景可見本事件的深入解釋。</p>')+'</section><section class="dialogSection"><h3>'+esc(e.title)+'</h3><p class="evidence">'+esc(e.trigger)+' '+esc(e.impact)+'</p></section><section class="dialogSection"><h3>哪些後續事件受到影響？</h3>'+(cards(children,false)||'<p>'+esc(e.impact)+'</p>')+'</section>');connectEvents($('dlgBody'));
   }
-  function openCompare(){
-    const first=baseline.id===current.id?(byId.get(edition.compare)||all.at(-1)):baseline;
+  function openCompare(pair){
+    const first=pair?byId.get(pair.a):edition.defaultComparison?baseline:baseline.id===current.id?(byId.get(edition.compare)||all.at(-1)):baseline;
+    const second=pair?byId.get(pair.b):edition.defaultComparison&&current===baseline?(byId.get(edition.compare)||all.at(-1)):current;
     const pane=(side,label,e)=>'<section class="cmpPane"><div class="cmpHeader"><label for="sel'+side+'">'+label+'</label><select class="selectControl" id="sel'+side+'" aria-label="'+label+'的日期與事件">'+eventOpts(e.id)+'</select></div><div class="cmpMap" id="cmp'+side+'"></div><div class="cmpText" id="note'+side+'"></div></section>';
-    showDialog('compare','兩個時點的地圖','並列比較','<div class="cmpGrid">'+pane('A','A',first)+pane('B','B',current)+'</div><p class="compareNotes">兩圖使用相同的初始視野與圖層設定。選擇事件可比較國界、外交關係與軍事行動，拖曳可分別移動視野。</p>');
+    showDialog('compare','兩個時點的地圖','並列比較','<div class="cmpGrid">'+pane('A','A',first)+pane('B','B',second)+'</div><p class="compareNotes">兩圖使用相同的初始視野與圖層設定。選擇事件可比較國界、外交關係與軍事行動，拖曳可分別移動視野。</p>');
     const draw=side=>{
       const e=byId.get($('sel'+side).value),host=$('cmp'+side),note=$('note'+side);
-      note.innerHTML='<strong>'+fmt(e.date)+'</strong>　'+esc(e.title)+'<br>'+esc(e.mapNote);
-      window.drawAtlasMap?.(host,e,{layers,view,comparison:true,selectedCountry:null,
+      note.innerHTML='<strong>'+fmt(e.date)+'</strong>　'+esc(e.title)+'<br>'+esc(e.comparison||e.summary)+'<br>'+esc(e.mapNote);
+      window.drawAtlasMap?.(host,e,{layers,view,theater:'all',comparison:true,selectedCountry:null,
         onCountry:(code,name)=>{const c=window.atlasCountry?.(code,e.date,name,e.id);if(c)note.innerHTML='<strong>'+esc(c.name)+'</strong>　'+fmt(e.date)+'<br>'+esc(c.stance)+'。'+esc(c.relations);},
         onEvent:id=>{const selected=byId.get(id)||e;note.innerHTML='<strong>'+esc(selected.title)+'</strong><br>'+esc(selected.summary);}});
     };
@@ -150,25 +158,26 @@
     if(editorial.method) return editorial.method({current,fmt,esc,sourceLink,showDialog});
     const body='<section class="dialogSection"><h3>地圖範圍與限制</h3><p>'+esc(edition.mapNote)+'</p></section>'
       +'<section class="dialogSection"><h3>地理資料來源</h3>'+(edition.mapSources||[]).map(sourceLink).join('')+'</section>';
-    showDialog('method','歷史國界怎麼讀？','製圖說明與授權',body);
+    showDialog('method','地圖與控制關係怎麼讀？','製圖說明與授權',body);
   }
   function openSources(){
     showDialog('sources','史料索引','依章查閱','<div class="dialogSection"><label>選擇章節 <select class="selectControl" id="sourceCh">'+chapters.map((c,i)=>'<option value="'+i+'" '+(i===current.chapter-1?'selected':'')+'>'+esc(c[0])+' · '+esc(c[1])+'</option>').join('')+'</select></label><div id="sourceList"></div></div><button class="toolBtn" id="sourceMethod">'+icon('map')+'製圖說明與資料授權</button>');
     const update=()=>{const refs=new Map();for(const e of grouped[Number($('sourceCh').value)])for(const s of e.sources||[])refs.set(s[1],s);$('sourceList').innerHTML=Array.from(refs.values()).map(sourceLink).join('');};$('sourceCh').onchange=update;$('sourceMethod').onclick=openMethod;update();
   }
   function openHelp(){
-    showDialog('help','使用指南','第一次閱讀','<section class="dialogSection"><h3>'+esc(edition.guideTitle||'閱讀本時期')+'</h3><p>'+esc(edition.guideText||edition.description)+'</p></section><section class="dialogSection"><h3>閱讀與操作</h3><p class="guideRow"><b>推進</b><span>按上一步、下一事件，或使用鍵盤左右鍵。拖曳時間軸依本章事件移動，刻度依事件等距排列。同日可有多個決策。</span></p><p class="guideRow"><b>播放</b><span>按自動播放或空白鍵切換暫停。1× 每 8 秒前進一步，讀細節時可調至 0.5×。</span></p><p class="guideRow"><b>讀圖</b><span>點擊國家查看當時立場。點事件標記或戰役可讀詳情。拖曳平移、用加減鍵縮放，亦可切換事件周邊或世界全圖。</span></p><p class="guideRow"><b>追溯</b><span>在事件檔案切換解說深度。「追蹤前因與後果」可直接跳到相關事件。「進階研究」附史料、學界討論，以及有條件的歷史假設。</span></p><p class="guideRow"><b>比較</b><span>按「時點比較」後分別選擇 A 與 B。可以比較同一日內不同的行動，或選擇本期首末兩個時點。</span></p></section><button class="toolBtn" id="helpReset">'+icon('reset') +esc(edition.reset)+'</button>');$('helpReset').onclick=()=>{closeDialog();go(baseline);};
+    showDialog('help','使用指南','第一次閱讀','<section class="dialogSection"><h3>'+esc(edition.guideTitle||'閱讀本時期')+'</h3><p>'+esc(edition.guideText||edition.description)+'</p></section>'+(edition.comparisonTasks?'<section class="dialogSection"><h3>比較任務</h3>'+edition.comparisonTasks.map((task,i)=>'<button class="causalCard" data-compare="'+i+'"><strong>'+esc(task.title)+'</strong><small>'+esc(task.prompt)+'</small></button>').join('')+'</section>':'')+'<section class="dialogSection"><h3>閱讀與操作</h3><p class="guideRow"><b>推進</b><span>按上一步、下一事件，或使用鍵盤左右鍵。拖曳時間軸依本章事件移動，刻度依事件等距排列。同日可有多個決策。</span></p><p class="guideRow"><b>播放</b><span>按自動播放或空白鍵切換暫停。1× 每 8 秒前進一步，讀細節時可調至 0.5×。</span></p><p class="guideRow"><b>讀圖</b><span>點擊國家查看當時立場。點事件標記或戰役可讀詳情。拖曳平移、用加減鍵縮放，亦可切換事件周邊或世界全圖。</span></p><p class="guideRow"><b>追溯</b><span>在事件檔案切換解說深度。「追蹤前因與後果」可直接跳到相關事件。「進階研究」附史料、學界討論，以及有條件的歷史假設。</span></p><p class="guideRow"><b>比較</b><span>按「時點比較」後分別選擇 A 與 B。可以比較同一日內不同的行動，或選擇本期首末兩個時點。</span></p></section><button class="toolBtn" id="helpReset">'+icon('reset') +esc(edition.reset)+'</button>');$('helpReset').onclick=()=>{closeDialog();reset();};
+    $('dlgBody').querySelectorAll('[data-compare]').forEach(b=>b.onclick=()=>openCompare(edition.comparisonTasks[Number(b.dataset.compare)]));
   }
-  $('layerItems').innerHTML=Object.entries(layersMeta).map(([key,[label,desc]])=>'<label class="layerRow"><input type="checkbox" checked data-layer="'+key+'"><span><strong>'+label+'</strong><small>'+desc+'</small></span></label>').join('');
+  $('layerItems').innerHTML=Object.entries(layersMeta).map(([key,[label,desc]])=>'<label class="layerRow"><input type="checkbox" '+(layers[key]?'checked':'')+' data-layer="'+key+'"><span><strong>'+label+'</strong><small>'+desc+'</small></span></label>').join('');
   $('layerItems').querySelectorAll('input').forEach(input=>input.onchange=()=>{layers[input.dataset.layer]=input.checked;renderMap();renderLegend();});
   const layerToggle=open=>{$('layerPanel').hidden=!open;$('layerOpen').setAttribute('aria-expanded',String(open));if(open)stop();};
   $('layerOpen').onclick=()=>layerToggle($('layerPanel').hidden);$('layerClose').onclick=()=>layerToggle(false);
-  $('track').oninput=()=>go(grouped[current.chapter-1][Number($('track').value)]);
+  $('track').oninput=()=>go(chapterEvents(current.chapter)[Number($('track').value)]);
   $('prev').onclick=()=>step(-1);$('next').onclick=()=>step(1);$('play').onclick=()=>timer?stop():start();$('speed').onchange=()=>{if(timer)start();};
   for(const id of ['eventListOpen','readerList','showTimeline'])$(id).onclick=openIndex;
-  $('quickCause').onclick=openCauses; $('compareOpen').onclick=openCompare;$('helpOpen').onclick=openHelp;$('methodOpen').onclick=openMethod;$('sourceOpen').onclick=openSources;
+  $('quickCause').onclick=openCauses; $('compareOpen').onclick=()=>openCompare();$('helpOpen').onclick=openHelp;$('methodOpen').onclick=openMethod;$('sourceOpen').onclick=openSources;
   $('mapCredit').onclick=openMethod;
-  $('baseline').onclick=()=>{view='region';go(baseline);window.atlasZoom?.($('map'),0);};
+  $('baseline').onclick=reset;
   $('dlgClose').onclick=closeDialog;$('dialog').addEventListener('close',()=>{modal=null;});$('dialog').onclick=e=>{if(e.target===$('dialog')){const r=$('dialog').getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)closeDialog();}};
   $('view').onchange=()=>{view=$('view').value;go.autoFocus=false;renderMap();};
   document.querySelectorAll('[data-zoom]').forEach(b=>b.onclick=()=>window.atlasZoom?.($('map'),Number(b.dataset.zoom)));
@@ -177,5 +186,17 @@
     if(e.code==='Space'&&!['BUTTON','A'].includes(e.target.tagName)){e.preventDefault();timer?stop():start();}
   });
   document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();});
+  window.addEventListener?.('hashchange',()=>{
+    const target=byId.get(location.hash.slice(1));
+    if(target&&target!==current){closeDialog();go(target);}
+  });
+  if(edition.theaters){
+    $('theaterControls').hidden=false;
+    $('theater').innerHTML='<option value="all">全球完整時間軸</option>'+Object.entries(edition.theaters).map(([id,t])=>'<option value="'+esc(id)+'">'+esc(t.label)+'</option>').join('');
+    $('theater').onchange=()=>{stop();theater=$('theater').value;const list=visible();if(!list.length){theater='all';$('theater').value='all';render();return;}go(list.includes(current)?current:(list.find(e=>e.date>=current.date)||list.at(-1)));};
+    $('clearTheater').onclick=()=>{theater='all';$('theater').value='all';render();};
+    $('view').innerHTML='<option value="region">'+esc(edition.region)+'</option><option value="world">世界全圖</option><option value="theater">目前事件戰區</option><option value="focus">事件周邊</option>'+Object.entries(edition.theaters).map(([id,t])=>'<option value="theater:'+esc(id)+'">'+esc(t.label)+'</option>').join('');
+  }
+  $('view').value=view;
   render();
 })();

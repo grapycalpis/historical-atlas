@@ -1,0 +1,625 @@
+[
+  {
+    "id": "wang-regime",
+    "chapter": 4,
+    "date": "1940-03-30",
+    "title": "汪精衛南京合作政權成立",
+    "place": "南京",
+    "point": [
+      118.8,
+      32.06
+    ],
+    "theaters": [
+      "china"
+    ],
+    "actors": [
+      "JP",
+      "WANG",
+      "CN",
+      "CCP"
+    ],
+    "type": "politics",
+    "summary": "汪精衛在日本支持下建立南京政權，與重慶國民政府競爭中國代表權。",
+    "background": "本章核心問題：帝國基地、殖民兵與軍事控制如何擴大戰爭？ 日方未能迫使蔣中正停戰，轉而扶植合作政府管理占領區。",
+    "trigger": "汪與日方談判後宣布「還都」，整合部分既有合作機構。",
+    "motives": "汪主張以合作換取和平與權力；日本要降低占領成本；重慶及中共均反對。",
+    "impact": "同稱國民政府的政治實體並存，但軍事控制與國際承認不同。",
+    "debate": "不能將南京政權、重慶政府與中共統稱為同一日期、同一立場的「中國」。",
+    "primary": "JACAR 收錄當時日本宣傳刊物，須把「和平」宣傳與實際控制分開。",
+    "counterfactual": "假設沒有合作政權，占領仍可能延續；限制是地方行政和生存策略仍會產生合作。",
+    "causes": [
+      "wuhan"
+    ],
+    "causalLinks": [
+      {
+        "event": "wuhan",
+        "kind": "context",
+        "explanation": "持久戰未迫使重慶屈服，構成扶植合作政權的背景。",
+        "sources": [
+          "https://www.jacar.go.jp/exhibition/shuhou/nenpyo/nenpyo19400330.html"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "南京為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "日本亞洲歷史資料中心｜1940 年 3 月 30 日汪政權成立",
+        "https://www.jacar.go.jp/exhibition/shuhou/nenpyo/nenpyo19400330.html"
+      ],
+      [
+        "巴黎政治學院｜日本戰爭暴力與受害者研究",
+        "https://www.sciencespo.fr/mass-violence-war-massacre-resistance/en/document/japanese-mass-violence-and-its-victims-fifteen-years-war-1931-45.html"
+      ]
+    ]
+  },
+  {
+    "id": "norway",
+    "chapter": 4,
+    "date": "1940-04-09",
+    "title": "德國進攻丹麥與挪威",
+    "place": "奧斯陸",
+    "point": [
+      10.75,
+      59.91
+    ],
+    "theaters": [
+      "north",
+      "west"
+    ],
+    "actors": [
+      "DE",
+      "NO",
+      "DK",
+      "GB",
+      "FR"
+    ],
+    "type": "attack",
+    "summary": "德軍入侵丹麥與挪威，丹麥迅速停戰，挪威與盟軍抵抗至 6 月。",
+    "background": "北海航路、瑞典鐵礦輸送和海軍基地具有戰略價值。",
+    "trigger": "德國執行威瑟演習行動，以突然襲擊奪取港口。",
+    "motives": "德方要確保資源與沿岸基地；盟軍試圖阻止其控制北方海域。",
+    "impact": "挪威政府流亡，海岸基地影響大西洋與北極海運。",
+    "debate": "首都失陷不等於國家停止抵抗，挪威商船隊和海外部隊仍服務盟軍。",
+    "primary": "對讀德國作戰命令與挪威政府、商船記錄；年表只作行動索引。",
+    "counterfactual": "假設盟軍更早控制港口，德軍行動可能受挫；限制是不能忽略德方空優。",
+    "causes": [],
+    "causalLinks": [],
+    "edges": [],
+    "mapNote": "奧斯陸為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜二戰關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+      ]
+    ]
+  },
+  {
+    "id": "western-offensive",
+    "chapter": 4,
+    "date": "1940-05-10",
+    "title": "德軍西進低地國家與法國",
+    "place": "色當周邊",
+    "point": [
+      4.94,
+      49.7
+    ],
+    "theaters": [
+      "west"
+    ],
+    "actors": [
+      "DE",
+      "FR",
+      "GB",
+      "BE",
+      "NL"
+    ],
+    "type": "attack",
+    "summary": "德軍進攻荷比盧與法國，經阿登與色當突破，切斷北方盟軍。",
+    "background": "英法準備在比利時迎戰，但未能及時因應德軍主攻。",
+    "trigger": "德國執行西線攻勢，以空地協同及裝甲集中突破。",
+    "motives": "德方求迅速擊敗西方敵國；盟軍要保衛法國並維持前線連結。",
+    "impact": "大量軍民撤退，英軍轉向敦克爾克，法國政府面臨存亡危機。",
+    "debate": "不宜以「閃電戰」一詞解釋所有結果；情報、指揮與交通共同影響失敗。",
+    "primary": "對讀雙方作戰日誌、命令傳達和難民記錄。",
+    "counterfactual": "假設盟軍及時反應色當突破，或可改變包圍；限制是部隊部署不能瞬間重整。",
+    "causes": [],
+    "causalLinks": [],
+    "edges": [],
+    "mapNote": "色當周邊為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜二戰關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+      ]
+    ]
+  },
+  {
+    "id": "dunkirk",
+    "chapter": 4,
+    "date": "1940-05-26",
+    "title": "敦克爾克撤離，保存部隊卻失去裝備",
+    "place": "敦克爾克",
+    "point": [
+      2.38,
+      51.04
+    ],
+    "theaters": [
+      "west"
+    ],
+    "actors": [
+      "GB",
+      "FR",
+      "DE",
+      "CIV"
+    ],
+    "type": "mobilize",
+    "summary": "發電機行動自 26 日至 6 月 4 日從港口與海灘撤走盟軍；英法軍人共同撤退和掩護。",
+    "background": "德軍突破使北方盟軍被壓縮在沿海地區。",
+    "trigger": "盟軍補給和退路受威脅，英國海軍接令組織大撤離。",
+    "motives": "英方要保存訓練部隊；法軍等維持防線；德方要殲滅被圍部隊。",
+    "impact": "英國保有繼續作戰的人力，但大量重武器遺失，法國戰事仍持續。",
+    "debate": "撤離是軍事敗局中的救援成功，不能直接說成西線勝利。",
+    "primary": "英格蘭遺產組織列行動日期與規模，對讀海軍記錄和法軍掩護經驗。",
+    "counterfactual": "假設撤離失敗，英國軍力或受重創；限制是不能推出英國必定媾和。",
+    "causes": [
+      "western-offensive"
+    ],
+    "causalLinks": [
+      {
+        "event": "western-offensive",
+        "kind": "direct",
+        "explanation": "西線突破與包圍迫使盟軍撤離。",
+        "sources": [
+          "https://www.english-heritage.org.uk/visit/places/dover-castle/history-and-stories/operation-dynamo-things-you-need-to-know/"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "敦克爾克為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "英格蘭遺產組織｜敦克爾克發電機行動",
+        "https://www.english-heritage.org.uk/visit/places/dover-castle/history-and-stories/operation-dynamo-things-you-need-to-know/"
+      ]
+    ]
+  },
+  {
+    "id": "italy-enters",
+    "chapter": 4,
+    "date": "1940-06-10",
+    "title": "義大利參戰，地中海與非洲戰爭擴大",
+    "place": "羅馬",
+    "point": [
+      12.5,
+      41.9
+    ],
+    "theaters": [
+      "africa",
+      "west"
+    ],
+    "actors": [
+      "IT",
+      "GB",
+      "FR",
+      "ET"
+    ],
+    "type": "declare",
+    "summary": "義大利對英法宣戰，歐洲、北非、東非與地中海航道連成更廣的帝國戰場。",
+    "background": "義大利占有利比亞、厄利垂亞、索馬利及衣索比亞，卻依賴脆弱海運。",
+    "trigger": "法國敗勢使墨索里尼判斷可以低成本取得戰果。",
+    "motives": "義方追求帝國擴張與談判地位；英法要保護基地及通往印度洋的交通。",
+    "impact": "殖民地兵員及勞動者被投入戰爭，蘇伊士與馬爾他重要性上升。",
+    "debate": "義軍能力與德軍不同；「軸心」並不代表統一的作戰計畫與資源。",
+    "primary": "讀宣戰演說並與北非、東非軍隊實際準備對照。",
+    "counterfactual": "假設義大利維持中立，英國海運壓力或較小；限制是德國仍可能介入地中海。",
+    "causes": [
+      "western-offensive"
+    ],
+    "causalLinks": [
+      {
+        "event": "western-offensive",
+        "kind": "enabling",
+        "explanation": "法國面臨敗局，使墨索里尼認為參戰時機有利。",
+        "sources": [
+          "https://www.nam.ac.uk/explore/struggle-north-africa-1940-43"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "羅馬為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "紐西蘭文化與遺產部｜太平洋戰爭年表（須留意日期差異）",
+        "https://nzhistory.govt.nz/war/second-world-war/war-in-the-pacific/timeline"
+      ],
+      [
+        "英國國家陸軍博物館｜北非戰爭 1940–1943",
+        "https://www.nam.ac.uk/explore/struggle-north-africa-1940-43"
+      ]
+    ]
+  },
+  {
+    "id": "free-france",
+    "chapter": 4,
+    "date": "1940-06-18",
+    "title": "戴高樂呼籲繼續抵抗，法國政治分裂",
+    "place": "倫敦",
+    "point": [
+      -0.13,
+      51.51
+    ],
+    "theaters": [
+      "west",
+      "africa"
+    ],
+    "actors": [
+      "FF",
+      "FR",
+      "GB"
+    ],
+    "type": "politics",
+    "summary": "戴高樂經 BBC 呼籲繼續戰爭；其組織逐步發展為自由法國，當時並未代表全部法國人。",
+    "background": "貝當已主導法國政府並尋求停戰，部分法軍與海外領地仍有其他選擇。",
+    "trigger": "戴高樂在英國支持下發出號召，拒絕把法國敗戰視為全球結局。",
+    "motives": "自由法國要維持戰爭及國家代表權；貝當政府追求停戰與自身統治。",
+    "impact": "法國本土占領、維琪政權、自由法國和殖民地出現分歧與對抗。",
+    "debate": "6 月 18 日原播音未留存；常見錄音及海報不是當日原件。",
+    "primary": "法國國家檔案館提供呼籲手稿；18 日廣播錄音未保存，不能將後來錄音或海報當作當晚的聲音原件。",
+    "counterfactual": "假設海外部隊全數服從停戰，自由法國可能更弱；限制是抵抗也可能在其他網絡形成。",
+    "causes": [],
+    "causalLinks": [],
+    "edges": [],
+    "mapNote": "倫敦為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜二戰關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+      ],
+      [
+        "美國國務院史家辦公室｜戰時會議與開羅宣言",
+        "https://history.state.gov/milestones/1937-1945/war-time-conferences"
+      ],
+      [
+        "法國國家檔案館｜6 月 18 日呼籲、手稿與自由法國",
+        "https://www.archives-nationales.culture.gouv.fr/dossiers-thematiques/lappel-du-18-juin-1940"
+      ]
+    ]
+  },
+  {
+    "id": "france-armistice",
+    "chapter": 4,
+    "date": "1940-06-22",
+    "title": "法德停戰簽署，25 日生效",
+    "place": "貢比涅",
+    "point": [
+      2.9,
+      49.43
+    ],
+    "theaters": [
+      "west",
+      "africa"
+    ],
+    "actors": [
+      "FR",
+      "DE",
+      "GB",
+      "FF"
+    ],
+    "type": "peace",
+    "summary": "法德停戰於 22 日簽署，在法義停戰後於 25 日生效；法國部分地區遭德軍占領。",
+    "background": "政府在重大軍事失敗與難民危機中選擇停戰。",
+    "trigger": "法國無法恢復完整防線，貝當政府接受德方條件。",
+    "motives": "德國要控制法國及沿海基地；停戰政府希望保留行政和殖民地，英方擔心艦隊與戰略後果。",
+    "impact": "7 月維琪體制成形，法國境內的占領與合作不等於法國全體改為軸心。",
+    "debate": "簽署、生效及 7 月政治體制改變分屬不同時點；未占領區也非完全自主。",
+    "primary": "讀停戰條款的占領、軍隊與行政規定，避免用現代國界色塊代替控制關係。",
+    "counterfactual": "假設政府轉往北非續戰，可能保存更多力量；限制是艦隊、殖民地忠誠和補給均不確定。",
+    "causes": [
+      "western-offensive"
+    ],
+    "causalLinks": [
+      {
+        "event": "western-offensive",
+        "kind": "direct",
+        "explanation": "德軍突破與法國軍事敗局促成停戰。",
+        "sources": [
+          "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "貢比涅為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜二戰關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+      ]
+    ]
+  },
+  {
+    "id": "battle-britain",
+    "chapter": 4,
+    "date": "1940-07-10",
+    "title": "不列顛戰役：制空權與入侵條件",
+    "place": "英吉利海峽",
+    "point": [
+      0.8,
+      50.5
+    ],
+    "theaters": [
+      "west"
+    ],
+    "actors": [
+      "DE",
+      "GB",
+      "CIV"
+    ],
+    "type": "battle",
+    "summary": "德英空戰進入英方定義的不列顛戰役期，至 10 月 31 日；德軍未取得入侵所需的制空優勢。",
+    "background": "法國敗戰使英國直接面對德國沿岸基地，英方有雷達和整合防空系統。",
+    "trigger": "德國以空襲削弱皇家空軍並壓迫英國。",
+    "motives": "德方想迫和或創造登陸條件；英方保存戰鬥機、人員及指揮網絡。",
+    "impact": "英國繼續作戰，成為後續盟軍集結與空戰基地。",
+    "debate": "戰役日期是英國官方分期；海運戰與城市轟炸超出此期間。",
+    "primary": "皇家空軍博物館說明分期，可對讀飛行紀錄與雷達指揮資料。",
+    "counterfactual": "假設防空系統失效，德軍威脅或上升；限制是制空優勢仍不等於成功跨海登陸。",
+    "causes": [
+      "france-armistice"
+    ],
+    "causalLinks": [
+      {
+        "event": "france-armistice",
+        "kind": "enabling",
+        "explanation": "法國敗戰使德國可由近岸基地集中攻英。",
+        "sources": [
+          "https://www.rafmuseum.org.uk/our-collection/supporting-research/online-exhibitions/introduction-to-the-phases-of-the-battle-of-britain/"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "海峽點代表英國南部與海峽上空的廣域空戰；非單次攔截位置，精度約百公里，未畫飛機航跡。",
+    "sources": [
+      [
+        "英國皇家空軍博物館｜不列顛戰役分期",
+        "https://www.rafmuseum.org.uk/our-collection/supporting-research/online-exhibitions/introduction-to-the-phases-of-the-battle-of-britain/"
+      ]
+    ]
+  },
+  {
+    "id": "blitz",
+    "chapter": 4,
+    "date": "1940-09-07",
+    "title": "倫敦大空襲與平民生活",
+    "place": "倫敦",
+    "point": [
+      -0.13,
+      51.51
+    ],
+    "theaters": [
+      "west"
+    ],
+    "actors": [
+      "DE",
+      "GB",
+      "CIV"
+    ],
+    "type": "attack",
+    "summary": "德軍對倫敦發動大規模轟炸，夜間城市空襲持續至 1941 年春；居民在警報、避難與工作間維持生活。",
+    "background": "對港口、機場和城市的攻擊已持續，空戰目標逐漸變動。",
+    "trigger": "德國空軍轉而集中打擊倫敦及其他城市。",
+    "motives": "德方要削弱工業與士氣；居民與地方組織進行防火、救援和避難。",
+    "impact": "城市破壞與疏散改變家庭經驗，也未使英國政府退出戰爭。",
+    "debate": "「全民團結」敘事不能遮蔽階級、住房和避難條件差異。",
+    "primary": "對讀防空日誌、家庭記錄和宣傳照片，宣傳中的正常生活有取景限制。",
+    "counterfactual": "假設只攻軍事設施或能減少平民死亡；限制是當時轟炸精度仍很有限。",
+    "causes": [
+      "battle-britain"
+    ],
+    "causalLinks": [
+      {
+        "event": "battle-britain",
+        "kind": "context",
+        "explanation": "城市轟炸和爭奪制空權部分重疊，並不是前者已結束才開始。",
+        "sources": [
+          "https://www.rafmuseum.org.uk/our-collection/supporting-research/online-exhibitions/introduction-to-the-phases-of-the-battle-of-britain/"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "倫敦為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "英國皇家空軍博物館｜不列顛戰役分期",
+        "https://www.rafmuseum.org.uk/our-collection/supporting-research/online-exhibitions/introduction-to-the-phases-of-the-battle-of-britain/"
+      ],
+      [
+        "美國大屠殺紀念館｜二戰關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+      ],
+      [
+        "倫敦博物館｜1940 年 9 月 7 日大空襲與碼頭區",
+        "https://www.londonmuseum.org.uk/collections/london-stories/black-saturday-first-day-blitz/"
+      ]
+    ]
+  },
+  {
+    "id": "indochina",
+    "chapter": 4,
+    "date": "1940-09-22",
+    "title": "日本進入北部法屬印度支那",
+    "place": "海防周邊",
+    "point": [
+      106.68,
+      20.86
+    ],
+    "theaters": [
+      "southeast",
+      "china"
+    ],
+    "actors": [
+      "JP",
+      "VICHY",
+      "CN",
+      "CIV"
+    ],
+    "type": "attack",
+    "summary": "日法達成北部印支駐軍安排，日軍同時以武力推進；法國殖民行政仍存在，但受日本軍事壓力約束。",
+    "background": "法國敗戰後，日本更有能力要求關閉援華交通並取得基地。",
+    "trigger": "日方要求使用機場和部署部隊，邊境交戰伴隨協議實施。",
+    "motives": "日本要截斷援華與擴大南進條件；維琪殖民當局設法保存行政控制。",
+    "impact": "日軍基地和資源政策向南延伸，美日緊張逐步升高。",
+    "debate": "1940 年北部進駐與 1941 年南部進駐不同；不能把印支直接畫作日本主權領土。",
+    "primary": "FRUS 河內領事 9 月 22 日電報記錄下午簽軍事協定及邊境入侵威脅；對讀日方年表，區分協議、海防部隊到達與諒山邊境交戰。",
+    "counterfactual": "假設援華通路未被封閉，運補或較容易；限制是海空封鎖與中國內部運輸仍有瓶頸。",
+    "causes": [
+      "france-armistice",
+      "wuhan"
+    ],
+    "causalLinks": [
+      {
+        "event": "france-armistice",
+        "kind": "enabling",
+        "explanation": "法國敗戰削弱殖民當局議價能力，便利日本要求基地。",
+        "sources": [
+          "https://history.state.gov/milestones/1937-1945/pearl-harbor"
+        ]
+      },
+      {
+        "event": "wuhan",
+        "kind": "context",
+        "explanation": "中國持續抵抗使切斷援華交通成為日本政策的一部分。",
+        "sources": [
+          "https://history.state.gov/milestones/1937-1945/pearl-harbor"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "海防周邊為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國務院史家辦公室｜中國、日本與通向珍珠港之路",
+        "https://history.state.gov/milestones/1937-1945/pearl-harbor"
+      ],
+      [
+        "日本國立國會圖書館｜近代日本年表",
+        "https://www.ndl.go.jp/modern/e/utility/chronology.html"
+      ],
+      [
+        "美國外交文件 FRUS｜1940 年 9 月 22 日河內領事電報",
+        "https://history.state.gov/historicaldocuments/frus1940v04/d169"
+      ]
+    ]
+  },
+  {
+    "id": "tripartite",
+    "chapter": 4,
+    "date": "1940-09-27",
+    "title": "三國同盟串連歐亞衝突",
+    "place": "柏林",
+    "point": [
+      13.4,
+      52.52
+    ],
+    "theaters": [
+      "west",
+      "china",
+      "pacific"
+    ],
+    "actors": [
+      "DE",
+      "IT",
+      "JP",
+      "US",
+      "SU"
+    ],
+    "type": "alliance",
+    "summary": "德義日簽訂三國同盟條約，宣示各自的歐洲與東亞秩序，並試圖嚇阻美國介入。",
+    "background": "三國已各自擴張，但戰略目標與對蘇關係並不完全一致。",
+    "trigger": "共同對抗英美的政治利益促成條約。",
+    "motives": "德義日希望以相互支持增加威懾；美國更警惕歐亞戰爭連動。",
+    "impact": "中國戰爭逐漸被納入反軸心的全球視野，卻仍沒有統一軸心指揮。",
+    "debate": "條約不是要求日本必須參與德國未來侵蘇的命令，也不自動解釋德國 1941 年對美宣戰。",
+    "primary": "讀條約對第三國攻擊與對蘇關係的條文，而非只看簽約照片。",
+    "counterfactual": "假設沒有三國同盟，美方威脅認知或不同；限制是侵華及資源問題仍未解決。",
+    "causes": [],
+    "causalLinks": [],
+    "edges": [
+      [
+        "DE",
+        "JP",
+        "alliance"
+      ],
+      [
+        "DE",
+        "IT",
+        "alliance"
+      ]
+    ],
+    "mapNote": "柏林為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國務院史家辦公室｜中國、日本與通向珍珠港之路",
+        "https://history.state.gov/milestones/1937-1945/pearl-harbor"
+      ],
+      [
+        "紐西蘭文化與遺產部｜太平洋戰爭年表（須留意日期差異）",
+        "https://nzhistory.govt.nz/war/second-world-war/war-in-the-pacific/timeline"
+      ]
+    ]
+  },
+  {
+    "id": "compass",
+    "chapter": 4,
+    "date": "1940-12-09",
+    "title": "羅盤行動：北非戰局與補給限制",
+    "place": "西迪巴拉尼",
+    "point": [
+      25.93,
+      31.61
+    ],
+    "theaters": [
+      "africa"
+    ],
+    "actors": [
+      "GB",
+      "IND",
+      "AU",
+      "IT"
+    ],
+    "type": "battle",
+    "summary": "英聯邦部隊反攻入侵埃及的義軍，行動延續至 1941 年初並向利比亞推進。",
+    "background": "義軍自利比亞進入埃及後，部隊、道路與物資分散在沙漠據點。",
+    "trigger": "英方以局部突襲發現可擴大的戰果。",
+    "motives": "英方要保護埃及與蘇伊士；義方維護殖民地和帝國威望。",
+    "impact": "義軍大敗促成德國援軍赴北非，雙方日後受港口與海上補給能力限制。",
+    "debate": "沙漠不是無人空間；埃及、利比亞居民與殖民部隊也承擔戰爭代價。",
+    "primary": "陸軍博物館及紐西蘭年表交代行動與後勤，應對照部隊日誌。",
+    "counterfactual": "假設義軍據點連結更強，英軍突破或較慢；限制是空中與機械化優勢也很重要。",
+    "causes": [
+      "italy-enters"
+    ],
+    "causalLinks": [
+      {
+        "event": "italy-enters",
+        "kind": "enabling",
+        "explanation": "義大利參戰將埃及與利比亞邊界變成戰區。",
+        "sources": [
+          "https://www.nam.ac.uk/explore/struggle-north-africa-1940-43"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "西迪巴拉尼為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "英國國家陸軍博物館｜北非戰爭 1940–1943",
+        "https://www.nam.ac.uk/explore/struggle-north-africa-1940-43"
+      ],
+      [
+        "紐西蘭文化與遺產部｜北非戰爭年表",
+        "https://nzhistory.govt.nz/war/the-north-african-campaign/timeline"
+      ]
+    ]
+  }
+]

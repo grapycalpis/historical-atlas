@@ -1,0 +1,651 @@
+[
+  {
+    "id": "auschwitz-liberation",
+    "chapter": 9,
+    "date": "1945-01-27",
+    "title": "奧斯威辛獲解放，倖存者危機未止",
+    "place": "奧斯威辛—比克瑙",
+    "point": [
+      19.18,
+      50.04
+    ],
+    "theaters": [
+      "east"
+    ],
+    "actors": [
+      "SU",
+      "DE",
+      "JEW",
+      "ROMA",
+      "CIV"
+    ],
+    "type": "battle",
+    "summary": "蘇軍抵達奧斯威辛營區，救出被留下的囚犯；更多人已在黨衛隊撤營時被迫死亡行軍。",
+    "background": "本章核心問題：為何歐洲的勝利不能代表所有地區同時和平？ 德軍後撤，納粹試圖清除證據並轉移囚犯與勞力。",
+    "trigger": "蘇軍維斯瓦—奧德河攻勢接近營區，守衛先行撤離。",
+    "motives": "解放者救援與取證；倖存者尋找醫療、家人和生存條件，犯罪者企圖逃避責任。",
+    "impact": "營區證據成為追責基礎，但歸鄉、流離及創傷不是隨軍事解放立即結束。",
+    "debate": "解放當日人數不能當作全營受害總數；未留在營內者的命運也須納入。",
+    "primary": "館方年表附轉移、殺害與解放資料，對讀倖存者及醫療記錄。",
+    "counterfactual": "假設蘇軍更早抵達，可能救出更多人；限制是不能精確推算被轉移囚犯的生還數。",
+    "causes": [
+      "bagration"
+    ],
+    "causalLinks": [
+      {
+        "event": "bagration",
+        "kind": "context",
+        "explanation": "東線反攻逐步瓦解德國占領，1945 年另有新的進攻計畫。",
+        "sources": [
+          "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "奧斯威辛—比克瑙為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國大屠殺紀念館｜奧斯威辛關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/auschwitz-key-dates"
+      ],
+      [
+        "美國大屠殺紀念館｜二戰關鍵日期",
+        "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-key-dates"
+      ]
+    ]
+  },
+  {
+    "id": "manila",
+    "chapter": 9,
+    "date": "1945-02-03",
+    "title": "馬尼拉戰役與平民屠殺",
+    "place": "馬尼拉",
+    "point": [
+      120.98,
+      14.6
+    ],
+    "theaters": [
+      "pacific",
+      "southeast"
+    ],
+    "actors": [
+      "US",
+      "PH",
+      "JP",
+      "RES",
+      "CIV"
+    ],
+    "type": "battle",
+    "summary": "美軍進入馬尼拉並救出部分被拘禁者，市區戰鬥至 3 月；日軍屠殺與盟軍砲火造成大量平民死亡。",
+    "background": "呂宋反攻逼近首都，日軍海軍守備部隊留守密集市區。",
+    "trigger": "美軍進城與日軍固守，使救援及街區作戰同時發生。",
+    "motives": "美菲要收復首都；日軍部分部隊選擇戰至最後；居民尋求安全卻常受困。",
+    "impact": "城市毀壞與暴行帶來深刻創傷，戰後審判涉及山下奉文指揮責任。",
+    "debate": "殺戮、交火和砲擊須分別辨認責任，不能用「解放」一詞抹去平民代價。",
+    "primary": "對讀倖存者證言、作戰報告和審判記錄；原始資料的指揮鏈證據並不一致。",
+    "counterfactual": "假設守備部隊撤出市區，死亡或減少；限制是無法把全部平民死因歸於同一選擇。",
+    "causes": [
+      "leyte"
+    ],
+    "causalLinks": [
+      {
+        "event": "leyte",
+        "kind": "enabling",
+        "explanation": "重返菲律賓的基地與後續呂宋攻勢使盟軍接近首都。",
+        "sources": [
+          "https://www.nationalww2museum.org/war/articles/liberation-of-philippines-cecilia-gaerlan"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "馬尼拉為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國家二戰博物館｜1945 年菲律賓解放與平民經驗",
+        "https://www.nationalww2museum.org/war/articles/liberation-of-philippines-cecilia-gaerlan"
+      ]
+    ]
+  },
+  {
+    "id": "yalta",
+    "chapter": 9,
+    "date": "1945-02-04",
+    "title": "雅爾達：歐洲安排與蘇聯對日參戰條件",
+    "place": "克里米亞，雅爾達",
+    "point": [
+      34.16,
+      44.5
+    ],
+    "theaters": [
+      "east",
+      "west",
+      "pacific",
+      "china"
+    ],
+    "actors": [
+      "US",
+      "GB",
+      "SU",
+      "CN"
+    ],
+    "type": "politics",
+    "summary": "三巨頭會談至 11 日，處理德國占領、波蘭、聯合國及蘇聯參與對日戰爭的條件。",
+    "background": "德國即將戰敗，但盟國對亞洲戰爭長度和戰後東歐有不同期待。",
+    "trigger": "軍事勝利接近使戰後安排和下一階段作戰迫切。",
+    "motives": "美英爭取蘇聯對日參戰；蘇方要求遠東權益與安全；中國並未在秘密協商現場。",
+    "impact": "11 日秘密協定載明德國投降及歐戰結束後二至三個月參戰，並涉及蒙古、滿洲及島嶼權益。",
+    "debate": "部分綜述誤寫六個月；本筆依原始協定「二或三個月」，也不把大國協議等同第三國同意。",
+    "primary": "FRUS d503 為秘密協定原文；與公開會議公報比較資訊層次。",
+    "counterfactual": "假設美英不爭取參戰，蘇方時程或不同；限制是蘇聯也有自主的遠東利益。",
+    "causes": [
+      "tehran"
+    ],
+    "causalLinks": [
+      {
+        "event": "tehran",
+        "kind": "consequence",
+        "explanation": "德黑蘭的原則承諾在雅爾達具體化為時程及條件。",
+        "sources": [
+          "https://history.state.gov/historicaldocuments/frus1945Malta/d503"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "克里米亞，雅爾達為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國務院史家辦公室｜雅爾達會議",
+        "https://history.state.gov/milestones/1937-1945/yalta-conf"
+      ],
+      [
+        "美國外交文件 FRUS｜蘇聯對日參戰秘密協定",
+        "https://history.state.gov/historicaldocuments/frus1945Malta/d503"
+      ]
+    ]
+  },
+  {
+    "id": "dresden",
+    "chapter": 9,
+    "date": "1945-02-13",
+    "title": "德勒斯登轟炸與戰爭末期的平民代價",
+    "place": "德勒斯登",
+    "point": [
+      13.74,
+      51.05
+    ],
+    "theaters": [
+      "west",
+      "east"
+    ],
+    "actors": [
+      "GB",
+      "US",
+      "DE",
+      "CIV"
+    ],
+    "type": "attack",
+    "summary": "13 至 15 日英美轟炸德勒斯登，火災與破壞造成大量死亡，避難者也在受害之列。",
+    "background": "盟軍戰略轟炸已持續多年，德國交通和工業城市仍遭打擊。",
+    "trigger": "盟軍選擇攻擊城市交通及相關區域，夜間燃燒彈與後續攻擊造成廣泛破壞。",
+    "motives": "盟軍追求削弱運輸和戰爭能力；居民與難民缺乏足夠防護。",
+    "impact": "戰後圍繞軍事效益、比例與道德展開爭論，極端政治也利用誇大死亡數。",
+    "debate": "市史學委員會結論為 13 至 15 日死亡至多約 25,000 人；不是常見六位數宣傳，估計仍有個案辨識限制。",
+    "primary": "委員會比對登記、墓地、司法宣告和其他記錄；對照轟炸命令及受害者經驗。",
+    "counterfactual": "假設選擇較窄目標，或能降低死亡；限制是當時夜間精準轟炸能力有限，不能據此免除選擇責任。",
+    "causes": [],
+    "causalLinks": [],
+    "edges": [],
+    "mapNote": "德勒斯登為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "德勒斯登市史學委員會｜轟炸死亡調查結論",
+        "https://www.dresden.de/media/pdf/stadtarchiv/Historikerkommission_Dresden1945_Abschlussbericht_V1_14a.pdf"
+      ],
+      [
+        "德國聯邦政治教育中心｜德勒斯登轟炸與死亡數研究",
+        "https://www.bpb.de/themen/deutschlandarchiv/518214/der-13-februar-1945-im-kollektiven-gedaechtnis-dresdens/"
+      ]
+    ]
+  },
+  {
+    "id": "iwo-jima",
+    "chapter": 9,
+    "date": "1945-02-19",
+    "title": "硫磺島登陸，地下防禦造成長期消耗",
+    "place": "硫磺島",
+    "point": [
+      141.32,
+      24.78
+    ],
+    "theaters": [
+      "pacific"
+    ],
+    "actors": [
+      "US",
+      "JP"
+    ],
+    "type": "battle",
+    "summary": "美軍登陸硫磺島，戰鬥至 3 月下旬；日軍地下工事使島嶼難以迅速控制。",
+    "background": "馬里亞納至日本的轟炸航線、預警和機場需求影響美軍目標選擇。",
+    "trigger": "美軍執行兩棲攻擊以奪取島嶼。",
+    "motives": "美方求航空支援基地；日方要以堅固防禦提高進攻代價。",
+    "impact": "高傷亡影響各方對本土作戰代價的預期，但後來不同用途及效益仍有爭論。",
+    "debate": "23 日升旗照片早於戰役結束，不能用圖像象徵代替實際時間。",
+    "primary": "NPS 列 2 月 19 日至 3 月 26 日，對讀地面作戰、航空用途與傷亡記錄。",
+    "counterfactual": "假設美軍繞過此島，能否達相同目標需另作假設；限制是航線安全與救援條件難直接比較。",
+    "causes": [
+      "saipan"
+    ],
+    "causalLinks": [
+      {
+        "event": "saipan",
+        "kind": "context",
+        "explanation": "馬里亞納航空基地改變美軍對通往日本航線和島嶼的評估。",
+        "sources": [
+          "https://oceanexplorer.noaa.gov/expedition-feature/22saipan-surveys-features-history/"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "硫磺島為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國家公園署｜太平洋主要戰事索引",
+        "https://home.nps.gov/perl/learn/historyculture/pacific-battles.htm"
+      ],
+      [
+        "美國國家海洋暨大氣總署｜馬里亞納群島的戰略發展",
+        "https://oceanexplorer.noaa.gov/expedition-feature/22saipan-surveys-features-history/"
+      ]
+    ]
+  },
+  {
+    "id": "tokyo-firebombing",
+    "chapter": 9,
+    "date": "1945-03-10",
+    "title": "東京大空襲：燃燒城市與平民生命",
+    "place": "東京，下町",
+    "point": [
+      139.8,
+      35.69
+    ],
+    "theaters": [
+      "pacific",
+      "home"
+    ],
+    "actors": [
+      "US",
+      "JP",
+      "CIV",
+      "WORK"
+    ],
+    "type": "attack",
+    "summary": "3 月 9 日起飛的美軍 B-29 於東京當地 10 日凌晨大規模投下燃燒彈，木造密集街區陷入火海。",
+    "background": "高空轟炸成效有限，美方改用低空夜間燃燒彈攻擊，軍需小工廠與民居混雜。",
+    "trigger": "美軍選定人口密集下町作目標，乾燥與強風放大火勢。",
+    "motives": "美方追求摧毀生產和戰爭能力；居民、工人和消防人員在不足防護下求生。",
+    "impact": "大量死亡、失所與持續空襲改變日本都市社會，對平民轟炸的爭議延續至今。",
+    "debate": "日期採東京受襲日；3 月 9 日是美軍出發與任務常用日期，兩者不可當作矛盾事件。",
+    "primary": "東京戰災資料中心的平民證言與美國博物館作戰敘述對讀。",
+    "counterfactual": "假設不採城市燃燒彈攻勢，平民損失可能較低；限制是不能自行斷定戰爭將何時結束。",
+    "causes": [
+      "saipan"
+    ],
+    "causalLinks": [
+      {
+        "event": "saipan",
+        "kind": "enabling",
+        "explanation": "馬里亞納基地提供可反覆攻擊日本城市的航空出發點。",
+        "sources": [
+          "https://tokyo-sensai.net/english"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "東京，下町為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "東京大空襲・戰災資料中心｜空襲與平民經驗",
+        "https://tokyo-sensai.net/english"
+      ],
+      [
+        "美國國家二戰博物館｜東京燃燒彈轟炸行動",
+        "https://www.nationalww2museum.org/war/articles/hellfire-earth-operation-meetinghouse"
+      ]
+    ]
+  },
+  {
+    "id": "okinawa",
+    "chapter": 9,
+    "date": "1945-04-01",
+    "title": "沖繩登陸與軍民被捲入的地面戰",
+    "place": "沖繩，讀谷海岸",
+    "point": [
+      127.72,
+      26.4
+    ],
+    "theaters": [
+      "pacific"
+    ],
+    "actors": [
+      "US",
+      "JP",
+      "CIV"
+    ],
+    "type": "battle",
+    "summary": "美軍登陸沖繩，主要戰鬥延至 6 月；平民陷於砲擊、地面戰、日軍強制與集體死亡。",
+    "background": "沖繩位於通往日本本土的基地位置，日本以持久防禦及特攻抵抗。",
+    "trigger": "美軍開始冰山行動，日本守軍轉入縱深防禦。",
+    "motives": "美方取得基地並削弱日軍；日軍提高進攻成本，平民的安全選擇受軍事控制限制。",
+    "impact": "巨大傷亡影響本土入侵及終戰討論，但不能直接推算未發生入侵的確定死亡。",
+    "debate": "主要戰鬥結束有 21 至 23 日不同標記；平民經驗須區分砲擊、軍方迫害與脅迫下死亡。",
+    "primary": "對讀 NPS 戰役分期、沖繩證言與作戰記錄，軍方數字未必包含全部平民。",
+    "counterfactual": "假設提早撤離居民或可減少死亡；限制是海上危險、軍事管制和運力嚴重約束。",
+    "causes": [],
+    "causalLinks": [],
+    "edges": [],
+    "mapNote": "沖繩，讀谷海岸為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國家公園署｜太平洋主要戰事索引",
+        "https://home.nps.gov/perl/learn/historyculture/pacific-battles.htm"
+      ],
+      [
+        "巴黎政治學院｜日本戰爭暴力與受害者研究",
+        "https://www.sciencespo.fr/mass-violence-war-massacre-resistance/en/document/japanese-mass-violence-and-its-victims-fifteen-years-war-1931-45.html"
+      ]
+    ]
+  },
+  {
+    "id": "berlin-battle",
+    "chapter": 9,
+    "date": "1945-04-16",
+    "title": "柏林戰役與納粹統治崩潰",
+    "place": "柏林東方，澤洛高地",
+    "point": [
+      14.38,
+      52.53
+    ],
+    "theaters": [
+      "east",
+      "west"
+    ],
+    "actors": [
+      "SU",
+      "DE",
+      "PL",
+      "CIV"
+    ],
+    "type": "battle",
+    "summary": "蘇軍從奧德河與尼斯河方向進攻，包圍柏林；巷戰延至 5 月 2 日守軍投降。",
+    "background": "德軍在東西兩線崩退，納粹仍強徵少年、老年人並懲處被指削弱抵抗者。",
+    "trigger": "蘇軍最後攻勢啟動，德方固守命令加深消耗。",
+    "motives": "蘇方要結束戰爭並控制首都；納粹領導人拒絕投降，居民求生。",
+    "impact": "軍事勝利結束納粹首都統治，平民也承受飢餓、逃難、性暴力及其他傷害。",
+    "debate": "解放與遭遇新暴力的經驗可同時存在；不能因德國侵略責任而否認平民受害。",
+    "primary": "德國歷史博物館對照作戰與末期處決；性暴力估計須交代範圍與資料限制。",
+    "counterfactual": "假設提早投降可減少末期死亡；限制是此假設需納粹領導人改變實際拒降政策。",
+    "causes": [
+      "bagration"
+    ],
+    "causalLinks": [
+      {
+        "event": "bagration",
+        "kind": "context",
+        "explanation": "東線連續敗退削弱德軍防禦，柏林攻勢仍依 1945 年計畫實施。",
+        "sources": [
+          "https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/kriegsverlauf/schlacht-um-berlin-1945"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "柏林東方，澤洛高地為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "德國歷史博物館 LeMO｜柏林戰役",
+        "https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/kriegsverlauf/schlacht-um-berlin-1945"
+      ]
+    ]
+  },
+  {
+    "id": "hitler-death",
+    "chapter": 9,
+    "date": "1945-04-30",
+    "title": "希特勒自殺，戰爭尚未停止",
+    "place": "柏林，帝國總理府",
+    "point": [
+      13.38,
+      52.51
+    ],
+    "theaters": [
+      "east",
+      "west"
+    ],
+    "actors": [
+      "DE",
+      "SU",
+      "CIV"
+    ],
+    "type": "politics",
+    "summary": "希特勒在地堡自殺，遺命由鄧尼茨繼任國家元首；德軍仍在多地繼續作戰。",
+    "background": "柏林遭包圍，救援失敗，納粹領導階層分裂並尋求逃生。",
+    "trigger": "軍事崩潰迫近地堡，希特勒選擇自殺。",
+    "motives": "鄧尼茨希望向西方局部投降並使更多人向西移動；盟軍要求全面投降。",
+    "impact": "元首死亡未自動終止指揮與戰鬥，數日後才完成全軍投降安排。",
+    "debate": "死亡、柏林守軍投降和德國全軍停戰是三個不同節點。",
+    "primary": "比較遺囑、鄧尼茨命令和後續盟軍交涉，勿以單一人物死亡替代制度崩潰。",
+    "counterfactual": "假設領導人活著投降，程序可能不同；限制是盟軍仍要求解除全部德軍武裝。",
+    "causes": [
+      "berlin-battle"
+    ],
+    "causalLinks": [
+      {
+        "event": "berlin-battle",
+        "kind": "direct",
+        "explanation": "包圍與軍事救援失敗使地堡領導人面臨立即崩潰。",
+        "sources": [
+          "https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/kriegsverlauf/schlacht-um-berlin-1945"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "柏林，帝國總理府為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "德國歷史博物館 LeMO｜柏林戰役",
+        "https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/kriegsverlauf/schlacht-um-berlin-1945"
+      ],
+      [
+        "美國國家檔案館｜德國軍事投降書原文",
+        "https://www.archives.gov/milestone-documents/surrender-of-germany"
+      ]
+    ]
+  },
+  {
+    "id": "rangoon-retaken",
+    "chapter": 9,
+    "date": "1945-05-03",
+    "title": "盟軍重返仰光，緬甸戰爭與政治仍在變動",
+    "place": "仰光",
+    "point": [
+      96.16,
+      16.8
+    ],
+    "theaters": [
+      "southeast",
+      "indian",
+      "china"
+    ],
+    "actors": [
+      "GB",
+      "IND",
+      "JP",
+      "RES",
+      "CIV"
+    ],
+    "type": "battle",
+    "summary": "盟軍在海空登陸與陸上反攻後重返日軍撤離的仰光，重新取得重要港口。",
+    "background": "英帕爾失敗後日軍退守，英印、非洲部隊及中國方向攻勢逐步削弱其補給。",
+    "trigger": "盟軍趕在雨季前爭取港口，日軍已撤出城市。",
+    "motives": "盟軍改善補給；緬甸民族主義者部分轉向反日，並要求戰後獨立。",
+    "impact": "部分日軍仍在緬甸作戰，英國重建殖民權力與地方獨立訴求發生張力。",
+    "debate": "占領首都不表示全境停戰；軍事解放也沒有立刻帶來緬甸主權獨立。",
+    "primary": "紐西蘭年表列 3 日，英國博物館緬甸年表補上政治與軍事背景。",
+    "counterfactual": "假設港口未在雨季前恢復，後勤可能更困難；限制是空運和其他通道仍可部分支援。",
+    "causes": [
+      "imphal"
+    ],
+    "causalLinks": [
+      {
+        "event": "imphal",
+        "kind": "enabling",
+        "explanation": "日軍印度邊境攻勢失敗削弱緬甸防禦，便利盟軍後續反攻。",
+        "sources": [
+          "https://www.nam.ac.uk/explore/battle-imphal"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "仰光為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "紐西蘭文化與遺產部｜太平洋戰爭年表（須留意日期差異）",
+        "https://nzhistory.govt.nz/war/second-world-war/war-in-the-pacific/timeline"
+      ],
+      [
+        "英國國家陸軍博物館｜緬甸戰爭年表",
+        "https://www.nam.ac.uk/explore/timeline-burma-army"
+      ],
+      [
+        "英國國家陸軍博物館｜英帕爾與科希馬戰役",
+        "https://www.nam.ac.uk/explore/battle-imphal"
+      ]
+    ]
+  },
+  {
+    "id": "reims-surrender",
+    "chapter": 9,
+    "date": "1945-05-07",
+    "title": "蘭斯簽署德國軍事投降書",
+    "place": "蘭斯",
+    "point": [
+      4.03,
+      49.26
+    ],
+    "theaters": [
+      "west",
+      "east"
+    ],
+    "actors": [
+      "DE",
+      "US",
+      "GB",
+      "SU",
+      "FR"
+    ],
+    "type": "peace",
+    "summary": "德國代表約德爾於 7 日凌晨 2 時 41 分在蘭斯簽署全軍投降書，規定 8 日歐洲中部時間 23 時 01 分停戰。",
+    "background": "盟軍拒絕只對西方投降而讓德軍繼續抗蘇的安排。",
+    "trigger": "德國已無續戰可能，鄧尼茨授權接受全面投降。",
+    "motives": "德方希望盡量讓軍民向西移動；盟軍堅持同時向西方與蘇軍投降。",
+    "impact": "盟軍安排廣播與命令執行，柏林 8 至 9 日另行正式確認。",
+    "debate": "簽署日不是生效日；法方是見證人，文字地位與其他簽署欄位須按原件理解。",
+    "primary": "NARA 投降書原文第 2 條寫明時區與生效時刻。",
+    "counterfactual": "假設只允許西線投降，可能延續東線死亡；限制是盟軍並未接受此安排。",
+    "causes": [
+      "berlin-battle"
+    ],
+    "causalLinks": [
+      {
+        "event": "berlin-battle",
+        "kind": "enabling",
+        "explanation": "首都陷落與整體軍事崩潰使全面投降無可迴避。",
+        "sources": [
+          "https://www.archives.gov/milestone-documents/surrender-of-germany"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "蘭斯為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國家檔案館｜德國軍事投降書原文",
+        "https://www.archives.gov/milestone-documents/surrender-of-germany"
+      ]
+    ]
+  },
+  {
+    "id": "ve-day",
+    "chapter": 9,
+    "date": "1945-05-08",
+    "title": "德國停戰生效，亞洲戰爭仍在繼續",
+    "place": "柏林",
+    "point": [
+      13.4,
+      52.52
+    ],
+    "theaters": [
+      "west",
+      "east",
+      "pacific",
+      "southeast"
+    ],
+    "actors": [
+      "DE",
+      "US",
+      "GB",
+      "SU",
+      "FR",
+      "JP",
+      "CN"
+    ],
+    "type": "peace",
+    "summary": "德軍全軍停戰依投降書於 8 日歐洲中部時間 23 時 01 分生效，莫斯科已是 9 日；東亞與太平洋仍在作戰。",
+    "background": "蘭斯已簽全面投降，盟軍要求正式確認與各地命令落實。",
+    "trigger": "投降書規定的停戰時刻到達。",
+    "motives": "盟軍解除德軍武裝並救援流離者；對日作戰各方仍承受戰爭。",
+    "impact": "歐洲進入占領與重建，蘇聯可準備遠東兵力；沖繩、中國、緬甸和其他亞洲地區未同時和平。",
+    "debate": "歐洲 8 日與蘇聯 9 日紀念反映時區及柏林確認程序；局部交火並未瞬間全部停止。",
+    "primary": "對讀投降書與柏林 8 至 9 日確認文本，注意軍事停戰不同於最終和平條約。",
+    "counterfactual": "假設德軍提早全面停戰，更多人可能生還；限制是各地命令與交通不可能完全同步。",
+    "causes": [
+      "reims-surrender",
+      "yalta"
+    ],
+    "causalLinks": [
+      {
+        "event": "reims-surrender",
+        "kind": "direct",
+        "explanation": "7 日投降書設定 8 日停戰生效時刻。",
+        "sources": [
+          "https://www.archives.gov/milestone-documents/surrender-of-germany"
+        ]
+      },
+      {
+        "event": "yalta",
+        "kind": "consequence",
+        "explanation": "歐戰結束啟動雅爾達所定對日參戰時程的基準，但仍需實際軍事準備。",
+        "sources": [
+          "https://history.state.gov/historicaldocuments/frus1945Malta/d503"
+        ]
+      }
+    ],
+    "edges": [],
+    "mapNote": "柏林為近似定位；城市與決策點約至 0.1 度，戰場點代表周邊範圍，不能解讀為控制區或傷亡集中點。",
+    "sources": [
+      [
+        "美國國家檔案館｜德國軍事投降書原文",
+        "https://www.archives.gov/milestone-documents/surrender-of-germany"
+      ],
+      [
+        "德國歷史博物館 LeMO｜柏林戰役",
+        "https://www.dhm.de/lemo/kapitel/der-zweite-weltkrieg/kriegsverlauf/schlacht-um-berlin-1945"
+      ],
+      [
+        "美國外交文件 FRUS｜蘇聯對日參戰秘密協定",
+        "https://history.state.gov/historicaldocuments/frus1945Malta/d503"
+      ]
+    ],
+    "comparison": "1945.05：德國軍事投降生效；沖繩戰事、對日空襲與中國等地戰爭仍持續，蘇聯也尚未對日宣戰。"
+  }
+]

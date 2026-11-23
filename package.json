@@ -9,7 +9,7 @@
   "scripts": {
     "build": "node tools/build.mjs",
     "new-era": "node tools/new-era.mjs",
-    "test": "node tools/build.mjs && node eras/world-war-i/gis/check-geography.mjs && node tests/wwi-smoke.mjs && node --test tests/editions.test.mjs",
+    "test": "node tools/build.mjs && node eras/world-war-i/gis/check-geography.mjs && node tests/wwi-smoke.mjs && node --test tests/*.test.mjs",
     "export": "node tools/build.mjs && node tools/export.mjs"
   }
 }
